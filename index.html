@@ -161,21 +161,21 @@ body.teamtheme #sharemenu .tv-title{color:var(--tc2)}
 #music-note{color:#cccccc;font-size:13px;text-align:center;padding:2px 14px 10px;line-height:1.5}
 /* ticker: top scrolling live-score strip */
 #ticker{overflow:hidden;background:#fff;border-bottom:1px solid #d4d4d4;padding:4px 0;position:fixed;top:0;left:0;right:0;z-index:65;color:#1a1a1a;display:flex;align-items:stretch}
-#ticker-track{flex:1;min-width:0;overflow:hidden;display:flex;gap:18px;width:max-content;animation:ticker-scroll 60s linear infinite;white-space:nowrap}
+#ticker-track{flex:1;min-width:0;overflow:hidden;display:flex;gap:18px;width:max-content;white-space:nowrap}
 #ticker-search-btn{flex:none;background:#fff;color:#1a1a1a;border:0;border-left:1px solid #d4d4d4;padding:0 14px;font-size:20px;line-height:1;cursor:pointer}
 #searchview{padding:0 12px}
 #neutralview{padding:0 12px}
 #searchview .search-input{width:100%;padding:12px;border-radius:10px;border:1px solid #555555;background:#333333;color:#fff;font-size:16px}
 @media (min-width:768px){#searchview{max-width:860px;margin-left:auto;margin-right:auto}}
-@keyframes ticker-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.ticker-item{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;cursor:pointer;color:#1a1a1a;padding:9px 2px}
+
+.ticker-item{flex:none;display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;cursor:pointer;color:#1a1a1a;padding:9px 2px}
 .ticker-item.ticker-static{cursor:default}
 .ticker-text{font-weight:600}
 .ticker-logo{height:26px;width:auto}
 .ticker-badge{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:30px;border-radius:50%;background:transparent;color:#333333;font-size:11px}
 .ticker-score{font-weight:900;color:#1a1a1a}
 .ticker-state{color:#555;font-weight:600;font-size:12px}
-.ticker-sep{color:#999}
+.ticker-sep{flex:none;color:#999}
 #ticker .cd{color:#555555}
 .cd{color:#ffffff;font-weight:800;font-size:13px}
 /* themed team views: team colors via --tc1/--tc2, Michigan unchanged */
@@ -227,6 +227,7 @@ body.teamtheme .tab-bar{border-bottom-color:var(--tc3)}
 .ban-sm{min-width:56px;font-size:9px;padding:5px 6px 6px}
 .ban-sm b{font-size:11px}
 .tv-music-btn{background:#ffffff;color:#262626;border:0;border-radius:999px;padding:8px 16px;font-weight:800;cursor:pointer;margin:6px 0}
+.tv-music-icon{font-size:26px;line-height:1;padding:8px 14px}
 /* v8: conference buttons, live stamps, music player, conference views */
 .conf-btn{background:transparent;color:#cccccc;border:1px solid #555555;border-radius:999px;padding:3px 10px;font-size:12px;font-weight:700;cursor:pointer}
 body.teamtheme #teamview .conf-btn,body.teamtheme #playerview .conf-btn{color:var(--tc2);border-color:var(--tc2)}
@@ -435,7 +436,7 @@ body.teamtheme #teamview button:focus-visible,body.teamtheme #teamview [role=but
   <button id="share-btn" type="button">Share</button>
   <button id="browser-btn" class="globe-btn" type="button" title="Open browser" aria-label="Open browser">🌐</button>
 </div>
-<div class="extras-sec" id="home-extras"><button class="extras-toggle" id="home-extras-toggle" type="button" aria-expanded="false">EXTRAS &#9656;</button><div class="extras-body" id="home-extras-body" hidden><button id="music-toggle" type="button">Fight song: Play</button><div id="banners" class="mich-brand"></div></div></div>
+<div class="extras-sec" id="home-extras"><button class="extras-toggle" id="home-extras-toggle" type="button" aria-expanded="false">EXTRAS &#9656;</button><div class="extras-body" id="home-extras-body" hidden><button id="music-toggle" data-music-icon="1" type="button" aria-label="Play team music: Hail to the Victors" title="Hail to the Victors — GOhioCasts, CC BY">&#9835;</button><div id="banners" class="mich-brand"></div></div></div>
 <div id="music-note" hidden>Tap Fight song to play Hail to the Victors, included in the app.</div>
 
 <div id="teamview" hidden></div>
