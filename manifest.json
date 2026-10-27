@@ -1,24 +1,18 @@
 {
- "version": "p2",
+ "version": "p4",
  "files": [
   {
    "name": "app.js",
-   "sha256": "f4e3ca4a56cbc40a73209175834f705e6b7ee3360ee6e26f740c91b2364bf7d3",
-   "size": 228954,
+   "sha256": "1b91495bd6f8a70b43262267265bd072434211c732785db6ebd7568945ec4b07",
+   "size": 241956,
    "url": "https://raw.githubusercontent.com/Sabretooth79/NCAAD1MH-updates/main/app.js"
   },
   {
-   "name": "schedules.js",
-   "sha256": "e3913a21dfb9176bfb9402d4d9618059d85e0ff9e3085e8619c8c61b776819c3",
-   "size": 254603,
-   "url": "https://raw.githubusercontent.com/Sabretooth79/NCAAD1MH-updates/main/schedules.js"
-  },
-  {
-   "name": "team-data.js",
-   "sha256": "fc643bd178749138ccfda2ac7dc8e1a9509b933e8b6adfab8561afdea4063dd2",
-   "size": 384842,
-   "url": "https://raw.githubusercontent.com/Sabretooth79/NCAAD1MH-updates/main/team-data.js"
+   "name": "index.html",
+   "sha256": "f74040965d366f1da053d756484b20aa5f98122aeba3ad5e63f042783c76bbdc",
+   "size": 38283,
+   "url": "https://raw.githubusercontent.com/Sabretooth79/NCAAD1MH-updates/main/index.html"
   }
  ],
- "signature": "MEQCICB43y3C9E4YkRoDas2yyBWt0l8QYkrU4/p274+GzW8kAiAHnikoMZaJ3PWwP4RJFunrj5Cdu8pNAT2NPUAdwwcefQ=="
+ "signature": "MEQCIGckeOt0i0DXrlgxgT17ic3b+9akCjHhnMnMU6R7wg0fAiBpaM/aqY75/pp+cxyP8SYBLm0wcusUQhfBjyUcIePXvA=="
 }
