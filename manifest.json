@@ -1,10 +1,10 @@
 {
- "version": "p1",
+ "version": "p2",
  "files": [
   {
    "name": "app.js",
-   "sha256": "c4843760f68e6dcc2babaf67d7f682dd9ccb371f0bdb7035fec5a70042bb434c",
-   "size": 226150,
+   "sha256": "f4e3ca4a56cbc40a73209175834f705e6b7ee3360ee6e26f740c91b2364bf7d3",
+   "size": 228954,
    "url": "https://raw.githubusercontent.com/Sabretooth79/NCAAD1MH-updates/main/app.js"
   },
   {
@@ -20,5 +20,5 @@
    "url": "https://raw.githubusercontent.com/Sabretooth79/NCAAD1MH-updates/main/team-data.js"
   }
  ],
- "signature": "MEYCIQDr5Ja4JpLbY50aAI38WOnZM4+7VgEaix59G/kLDGAVhwIhAKNDJwuChL55RKQkOGrGXauUltcNswDU6Lpce3D+jHxz"
+ "signature": "MEQCICB43y3C9E4YkRoDas2yyBWt0l8QYkrU4/p274+GzW8kAiAHnikoMZaJ3PWwP4RJFunrj5Cdu8pNAT2NPUAdwwcefQ=="
 }
