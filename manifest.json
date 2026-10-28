@@ -1,18 +1,5 @@
 {
- "version": "retest2",
- "files": [
-  {
-   "name": "app.js",
-   "sha256": "fbac99404514ef0ce09d1f9cd2c217abb96f3d4b6f6ca7f1beea0b0ac248df9c",
-   "size": 289207,
-   "url": "https://raw.githubusercontent.com/Sabretooth79/NCAAD1MH-updates/main/app.js"
-  },
-  {
-   "name": "index.html",
-   "sha256": "869668d99dee4dea5415563ac9a9f3990c2643f56da278e6a185585d9b965e74",
-   "size": 39399,
-   "url": "https://raw.githubusercontent.com/Sabretooth79/NCAAD1MH-updates/main/index.html"
-  }
- ],
- "signature": "MEUCIQD9k/2v+2SrY/0V968Qz8AkSHvU3hSmhJKU72rSMNSQ3AIgOCiIVE5mqBO3nf0xkH8N8TkmNxc4kPDI4QnhN2oxvOw="
+ "version": "none",
+ "files": [],
+ "signature": "MEUCIQDdM/xnAK1R7Aa6ttOmC23xAgePTjR/D2yzT3qXOHdhgAIgUS/MDpvqf1MwTwdZAzaMx6HDLSGYUwJsf9q8HV38ooM="
 }
