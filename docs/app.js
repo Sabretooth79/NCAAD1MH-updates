@@ -3291,8 +3291,10 @@ function installWebTeamNavButtons(){
   }
   var prev = mk("webTeamNavPrev", "\u25C0", "Previous team", "prev");
   var next = mk("webTeamNavNext", "\u25B6", "Next team", "next");
+  var mqFine = window.matchMedia ? window.matchMedia("(pointer: fine)") : null;
   function sync(){
-    var on = !!(typeof currentView !== "undefined" && currentView && currentView.kind === "team");
+    var pcLike = !!(mqFine && mqFine.matches);
+    var on = pcLike && !!(typeof currentView !== "undefined" && currentView && currentView.kind === "team");
     prev.style.display = on ? "block" : "none";
     next.style.display = on ? "block" : "none";
   }
