@@ -1,0 +1,5 @@
+// v32 goal-call clip availability, generated at build time from disk.
+// A variant is offered only when its clip ships; Yale school-name clip
+// pending (TTS backend failures) so Yale goals use mascot/scorer only.
+var GOAL_CLIP_TEAM = ["AF","ARMY","ASU","AUG","BC","BEM","BENT","BGSU","BRWN","BU","CAN","CC","CLAR","COLG","CONN","COR","DART","DEN","FSU","HAR","HC","LIN","LIU","LSS","MASS","ME","MIA","MICH","MINN","MNST","MRMK","MRVL","MSU","MTU","ND","NE","NIA","NMI","OMA","OSU","PRIN","PROV","PSU","QUIN","RIT","RMU","RPI","SCSU","SHU","SLU","STMN","STO","UAA","UAF","UMD","UML","UND","UNH","UNNY","UVM","WIS","WMU"];
+var GOAL_CLIP_MASCOT = ["AF","ARMY","ASU","AUG","BC","BEM","BENT","BGSU","BRWN","BU","CAN","CC","CLAR","COLG","CONN","COR","DART","DEN","FSU","HAR","HC","LIN","LIU","LSS","MASS","ME","MIA","MICH","MINN","MNST","MRMK","MRVL","MSU","MTU","ND","NE","NIA","NMI","OMA","OSU","PRIN","PROV","PSU","QUIN","RIT","RMU","RPI","SCSU","SHU","SLU","STMN","STO","UAA","UAF","UMD","UML","UND","UNH","UNNY","UVM","WIS","WMU","YALE"];
