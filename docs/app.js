@@ -3258,6 +3258,49 @@ installTeamSwipe();
 window.__vmaxTest.teamSwipeTarget = teamSwipeTarget;
 window.__vmaxTest.teamSwipeOrder = teamSwipeOrder;
 window.__vmaxTest.teamSwipeNav = teamSwipeNav;
+// ---------- web-only team nav buttons (Victor 2026-10-29) ----------
+// On the web version (no native bridge injected), team pages carry
+// fixed left/right buttons that do what the swipe does — tap targets
+// for touchscreens, clickable with a mouse: LEFT button -> PREVIOUS
+// team, RIGHT button -> NEXT team (standard carousel direction).
+// Navigation reuses teamSwipeNav, so ordering, wrapping, and the Back
+// stack behave exactly like the swipe. In the installed app the
+// buttons never render; the swipe is the app's gesture.
+function installWebTeamNavButtons(){
+  if (window.VMaxApp) return;
+  if (document.getElementById("webTeamNavStyle")) return;
+  var style = document.createElement("style");
+  style.id = "webTeamNavStyle";
+  style.textContent =
+    ".webTeamNav{position:fixed;top:50%;transform:translateY(-50%);z-index:900;" +
+    "width:46px;height:64px;border-radius:12px;border:1px solid rgba(255,255,255,0.35);" +
+    "background:rgba(0,0,0,0.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);" +
+    "color:#fff;font-size:22px;line-height:1;cursor:pointer;display:none;" +
+    "touch-action:manipulation;-webkit-tap-highlight-color:transparent;padding:0}" +
+    ".webTeamNav:active{background:rgba(0,0,0,0.55)}" +
+    "#webTeamNavPrev{left:6px}#webTeamNavNext{right:6px}";
+  document.head.appendChild(style);
+  function mk(id, glyph, label, dir){
+    var b = document.createElement("button");
+    b.id = id; b.type = "button"; b.className = "webTeamNav";
+    b.textContent = glyph; b.title = label; b.setAttribute("aria-label", label);
+    b.addEventListener("touchstart", function(e){ e.stopPropagation(); }, {passive: true});
+    b.addEventListener("click", function(){ teamSwipeNav(dir); });
+    document.body.appendChild(b);
+    return b;
+  }
+  var prev = mk("webTeamNavPrev", "\u25C0", "Previous team", "prev");
+  var next = mk("webTeamNavNext", "\u25B6", "Next team", "next");
+  function sync(){
+    var on = !!(typeof currentView !== "undefined" && currentView && currentView.kind === "team");
+    prev.style.display = on ? "block" : "none";
+    next.style.display = on ? "block" : "none";
+  }
+  setInterval(sync, 400);
+  sync();
+}
+if (document.body) installWebTeamNavButtons();
+else document.addEventListener("DOMContentLoaded", installWebTeamNavButtons);
 function backToMichigan(){
   currentTeamKey = null;
   navStack = [];
