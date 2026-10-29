@@ -3273,11 +3273,11 @@ function installWebTeamNavButtons(){
   style.id = "webTeamNavStyle";
   style.textContent =
     ".webTeamNav{position:fixed;top:50%;transform:translateY(-50%);z-index:900;" +
-    "width:46px;height:64px;border-radius:12px;border:1px solid rgba(255,255,255,0.35);" +
+    "width:40px;height:64px;opacity:.55;border-radius:12px;border:1px solid rgba(255,255,255,0.35);" +
     "background:rgba(0,0,0,0.35);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);" +
     "color:#fff;font-size:22px;line-height:1;cursor:pointer;display:none;" +
     "touch-action:manipulation;-webkit-tap-highlight-color:transparent;padding:0}" +
-    ".webTeamNav:active{background:rgba(0,0,0,0.55)}" +
+    ".webTeamNav:hover{opacity:1}.webTeamNav:active{background:rgba(0,0,0,0.55);opacity:1}" +
     "#webTeamNavPrev{left:6px}#webTeamNavNext{right:6px}";
   document.head.appendChild(style);
   function mk(id, glyph, label, dir){
