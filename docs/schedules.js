@@ -2217,3 +2217,29 @@ var SCHEDULES = {
     {d:"2027-02-27", ha:"A", opp:"Princeton", oppKey:"PRIN", timeCT:"6:00 PM", result:null, note:"time as listed (bare ET)"},
   ],
 };
+
+// v32.38: verified radio-broadcast recordings for completed games
+// (hunt 2026-10-29; ~/workspace/radio-replay/recordings.json). Keyed by
+// date + alphabetical team pair — the HIGHLIGHTS-style game key — so a
+// lookup hits from either team's schedule row. Every entry was
+// oEmbed-verified during the hunt as a public recording of that game's
+// own radio broadcast (WCBN Sports / BG Falcon Media Sports Network /
+// Redhawk Radio WMSR). Games NOT listed here have no verified public
+// recording and show no radio affordance once completed — never a
+// live-station link on a finished game (Victor directive 2026-10-29).
+var RADIO_REPLAY = {
+ "2026-10-02_BGSU-MICH": {url: "https://www.youtube.com/watch?v=eM-SHO7dLnU", source: "WCBN Sports"},
+ "2026-10-03_BGSU-MICH": {url: "https://www.youtube.com/watch?v=sPrnv6CDYg8", source: "BG Falcon Media (Falcon Media Sports Network)"},
+ "2026-10-09_BGSU-SHU": {url: "https://www.youtube.com/watch?v=A7Y34hZwDPs", source: "BG Falcon Media (Falcon Media Sports Network)"},
+ "2026-10-09_MICH-UAA": {url: "https://www.youtube.com/watch?v=twY702s5Pso", source: "WCBN Sports"},
+ "2026-10-10_BGSU-CONN": {url: "https://www.youtube.com/watch?v=GKN_kH6nXIo", source: "BG Falcon Media (Falcon Media Sports Network)"},
+ "2026-10-10_MICH-UAA": {url: "https://www.youtube.com/watch?v=-fOz37XO__8", source: "WCBN Sports"},
+ "2026-10-15_MIA-RMU": {url: "https://www.youtube.com/watch?v=66Xvp0TLneA", source: "Redhawk Radio (WMSR)"},
+ "2026-10-16_BGSU-NIA": {url: "https://www.youtube.com/watch?v=Vz_A-KaKzf4", source: "BG Falcon Media (Falcon Media Sports Network)"},
+ "2026-10-17_BGSU-NIA": {url: "https://www.youtube.com/watch?v=5a23DbFDIHc", source: "BG Falcon Media (Falcon Media Sports Network)"},
+ "2026-10-23_BGSU-LSS": {url: "https://www.youtube.com/watch?v=-yl7cy4LNnc", source: "BG Falcon Media (Falcon Media Sports Network)"},
+ "2026-10-23_MIA-UAA": {url: "https://www.youtube.com/watch?v=lxUrMcbw9vQ", source: "Redhawk Radio (WMSR)"},
+ "2026-10-23_MICH-WMU": {url: "https://www.youtube.com/watch?v=vunq0lWH6Fw", source: "WCBN Sports"},
+ "2026-10-24_BGSU-LSS": {url: "https://www.youtube.com/watch?v=oLAe59iSF_Y", source: "BG Falcon Media (Falcon Media Sports Network)"},
+ "2026-10-24_MIA-UAA": {url: "https://www.youtube.com/watch?v=rnIOZ1Aq_1k", source: "Redhawk Radio (WMSR)"}
+};
