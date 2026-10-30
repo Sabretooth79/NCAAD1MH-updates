@@ -193,6 +193,7 @@ body.teamtheme #sharemenu .tv-title{color:var(--tc2)}
 .cd{color:#ffffff;font-weight:800;font-size:13px}
 /* themed team views: team colors via --tc1/--tc2, Michigan unchanged */
 .tv.themed .tv-name{color:var(--tc2)}
+.tv.themed .tv-mascot{color:var(--tc2)}
 .tv.themed .tv-title{color:var(--tc2)}
 .tv.themed .tv-back{background:var(--tc2);color:var(--tc1)}
 /* v8: FULL team theming — a team view (and a team player page) wears that
@@ -285,6 +286,12 @@ button.tv-logo-item{background:none;border:0;padding:0;font:inherit;color:inheri
 .tv-back{background:#ffffff;color:#262626;border:0;border-radius:999px;padding:10px 20px;font-weight:800;font-size:15px;cursor:pointer;margin:12px 0}
 .tv-head{padding:6px 2px 12px}
 .tv-name{font-size:26px;font-weight:900;color:#ffffff;overflow-wrap:break-word}
+/* v32.39: mascot line under the school name in team page headers.
+   Font: Dancing Script (Bold 700), SIL Open Font License 1.1,
+   bundled locally as mascot-script.woff2 (latin subset) — used ONLY
+   by .tv-mascot; no runtime font fetching anywhere in the app. */
+@font-face{font-family:'Dancing Script';src:url('mascot-script.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+.tv-mascot{font-family:'Dancing Script',cursive;font-size:27px;font-weight:700;line-height:1.15;color:#ffffff;margin-top:1px;overflow-wrap:break-word}
 .tv-meta{color:#cccccc;font-size:15px;margin-top:4px;overflow-wrap:break-word}
 .tv-sec{margin:12px 0;padding:12px;background:#333333;border:1px solid #555555;border-radius:6px}
 .tv-title{color:#ffffff;font-weight:800;letter-spacing:1px;font-size:14px;margin-bottom:10px}
