@@ -115,6 +115,10 @@ button{font-family:inherit}
 .tv-logo-item.on-white{background:#fff;border-radius:8px;padding:4px}
 /* v32.40: thin white OUTLINE (halo) for measured low-contrast logos — the drop-shadow stack follows the art's alpha edges; no backing tile */
 img.logo-outline{filter:drop-shadow(1.5px 0 0 #fff) drop-shadow(-1.5px 0 0 #fff) drop-shadow(0 1.5px 0 #fff) drop-shadow(0 -1.5px 0 #fff) drop-shadow(1px 1px 0 #fff) drop-shadow(-1px -1px 0 #fff) drop-shadow(1px -1px 0 #fff) drop-shadow(-1px 1px 0 #fff)}
+/* v32.41: dark halo twin of the outline, for light scheme backgrounds —
+   the halo color is the scheme text color (--tc2), chosen per pairing
+   for contrast against the background. */
+img.logo-outline-d{filter:drop-shadow(1.5px 0 0 var(--tc2)) drop-shadow(-1.5px 0 0 var(--tc2)) drop-shadow(0 1.5px 0 var(--tc2)) drop-shadow(0 -1.5px 0 var(--tc2)) drop-shadow(1px 1px 0 var(--tc2)) drop-shadow(-1px -1px 0 var(--tc2)) drop-shadow(1px -1px 0 var(--tc2)) drop-shadow(-1px 1px 0 var(--tc2))}
 .br-game{border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:8px;margin:8px 0}
 .br-h2h{font-size:12px;color:#999999;margin:2px 0 4px}.tv-h2h{font-size:12px;color:#999999;padding:2px 2px 8px}.row-h2h{font-size:12px;color:#cccccc;opacity:.85}.dir-h2h{font-size:12px;color:#999999;flex-basis:100%}
 .br-row{display:flex;align-items:center;gap:8px;justify-content:space-between;flex-wrap:wrap}
@@ -221,6 +225,32 @@ body.teamtheme #teamview .pthumb,body.teamtheme #teamview .pthumbs,body.teamthem
 body.teamtheme #teamview .pinitial,body.teamtheme #playerview .pinitial{background:var(--tc1d);color:var(--tc2)}
 body.teamtheme #teamview .tv-badge{background:var(--tc1d);border-color:var(--tc2);color:var(--tc2)}
 body.teamtheme #teamview .tv-news-meta{color:var(--tc2)}
+/* v32.41 light (away) scheme: body text flips to the scheme text color;
+   sections ride a translucent white veil over the light background so
+   the pairing stays readable on white and on team-light colors alike. */
+body.teamtheme.themelight{color:var(--tc2)}
+body.teamtheme.themelight #teamview .tv-sec,body.teamtheme.themelight #playerview .tv-sec{background:rgba(255,255,255,0.45)}
+body.teamtheme.themelight #teamview .pinitial,body.teamtheme.themelight #playerview .pinitial,body.teamtheme.themelight #teamview .tv-badge,body.teamtheme.themelight #teamview .ban{background:rgba(255,255,255,0.55)}
+body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playerview .tv-meta,body.teamtheme.themelight #teamview .tv-note,body.teamtheme.themelight #playerview .tv-note{color:var(--tc2);opacity:0.85}
+body.teamtheme.themelight #gamedetail .vc-in,body.teamtheme.themelight #venuecard .vc-in,body.teamtheme.themelight #sharemenu .vc-in{background:rgba(255,255,255,0.92)}
+/* v32.41 per-team scheme swatches (shown only when the active scheme
+   has two verified color options). */
+.theme-swatches{display:flex;gap:10px;justify-content:center;padding:8px 0 2px}
+.theme-swatch{width:34px;height:34px;border-radius:50%;border:2px solid rgba(128,128,128,0.45);background:rgba(127,127,127,0.18);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
+.theme-swatch .ts-dot{width:20px;height:20px;border-radius:50%;border:2px solid #ffffff;display:block;box-sizing:border-box}
+.theme-swatch.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.4)}
+/* v32.41 Jersey background style: the shared CC0 sportswear-mesh
+   photograph (jersey-fabric.jpg, ambientCG Fabric070) soft-light
+   blended over the active scheme color, under fold shading and a soft
+   vignette. Team pages only — the league page and Settings frame are
+   not teamthemed and never take this class. */
+body.teamtheme.themejersey{background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric.jpg");background-size:100% 100%,100% 100%,235px;background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light}
+body.teamtheme.themejersey #teamview,body.teamtheme.themejersey #playerview{background:transparent}
+body.teamtheme.themejersey #teamview .tv-sec,body.teamtheme.themejersey #playerview .tv-sec{background:var(--tc1d);background:color-mix(in srgb,var(--tc1d) 84%,transparent)}
+body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themelight.themejersey #playerview .tv-sec{background:rgba(255,255,255,0.45);background:color-mix(in srgb,#ffffff 45%,transparent)}
+.jersey-patch{margin:10px auto 2px;width:104px;height:104px;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.16);border:2px dashed rgba(255,255,255,0.65);border-radius:12px;box-shadow:0 3px 10px rgba(0,0,0,0.45),inset 0 0 14px rgba(0,0,0,0.28)}
+.jersey-patch img{max-width:82%;max-height:82%;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.55))}
+body.teamtheme.themelight .jersey-patch{background:rgba(255,255,255,0.28);border-color:rgba(0,0,0,0.38);box-shadow:0 3px 10px rgba(0,0,0,0.25),inset 0 0 14px rgba(0,0,0,0.10)}
 /* v9 no-leak: player-page titles/subs and the overlays opened from a team
    view (game detail, venue card) must also theme — otherwise they would
    show Michigan maize on another team's page. */
