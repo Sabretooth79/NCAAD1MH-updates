@@ -52,10 +52,10 @@ button{font-family:inherit}
 .row-team{display:flex;flex-wrap:wrap;gap:8px;align-items:center;min-width:0;font-size:16px;font-weight:700}
 .row-team .team-name-btn{overflow-wrap:break-word;min-width:0}
 .row-score{margin-left:auto;padding-left:10px;font-weight:900;font-size:17px;white-space:nowrap}
-.wl-w{color:#22c55e;font-weight:900}
+.wl-w{color:var(--wlw, #22c55e);font-weight:900}
 .tv-roster-meta{font-size:13px;color:#cccccc}
-.wl-l{color:#ef4444;font-weight:900}
-.wl-t{color:#cccccc;font-weight:900}
+.wl-l{color:var(--wll, #ef4444);font-weight:900}
+.wl-t{color:var(--wlt, #cccccc);font-weight:900}
 .row-status{margin-left:auto;white-space:nowrap}
 #fav-home{padding:0 12px}
 .fav-star{background:none;border:0;color:#ffffff;font-size:20px;cursor:pointer;padding:2px 4px;flex-shrink:0;margin-left:auto}
@@ -118,7 +118,7 @@ img.logo-outline{filter:drop-shadow(1.5px 0 0 #fff) drop-shadow(-1.5px 0 0 #fff)
 /* v32.41: dark halo twin of the outline, for light scheme backgrounds —
    the halo color is the scheme text color (--tc2), chosen per pairing
    for contrast against the background. */
-img.logo-outline-d{filter:drop-shadow(1.5px 0 0 var(--tc2)) drop-shadow(-1.5px 0 0 var(--tc2)) drop-shadow(0 1.5px 0 var(--tc2)) drop-shadow(0 -1.5px 0 var(--tc2)) drop-shadow(1px 1px 0 var(--tc2)) drop-shadow(-1px -1px 0 var(--tc2)) drop-shadow(1px -1px 0 var(--tc2)) drop-shadow(-1px 1px 0 var(--tc2))}
+img.logo-outline-d{filter:drop-shadow(1.5px 0 0 var(--tc2a, var(--tc2))) drop-shadow(-1.5px 0 0 var(--tc2a, var(--tc2))) drop-shadow(0 1.5px 0 var(--tc2a, var(--tc2))) drop-shadow(0 -1.5px 0 var(--tc2a, var(--tc2))) drop-shadow(1px 1px 0 var(--tc2a, var(--tc2))) drop-shadow(-1px -1px 0 var(--tc2a, var(--tc2))) drop-shadow(1px -1px 0 var(--tc2a, var(--tc2))) drop-shadow(-1px 1px 0 var(--tc2a, var(--tc2)))}
 .br-game{border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:8px;margin:8px 0}
 .br-h2h{font-size:12px;color:#999999;margin:2px 0 4px}.tv-h2h{font-size:12px;color:#999999;padding:2px 2px 8px}.row-h2h{font-size:12px;color:#cccccc;opacity:.85}.dir-h2h{font-size:12px;color:#999999;flex-basis:100%}
 .br-row{display:flex;align-items:center;gap:8px;justify-content:space-between;flex-wrap:wrap}
@@ -222,8 +222,8 @@ body.teamtheme #teamview .tv-roster td:first-child{color:var(--tc2)}
 body.teamtheme #teamview .ban{background:var(--tc1d);border-color:var(--tc2)}
 body.teamtheme #teamview .ban b,body.teamtheme #teamview .ban-count-sm{color:var(--tc2)}
 body.teamtheme #teamview .pthumb,body.teamtheme #teamview .pthumbs,body.teamtheme #teamview .pphoto,body.teamtheme #playerview .pphoto{border-color:var(--tc2)}
-body.teamtheme #teamview .pinitial,body.teamtheme #playerview .pinitial{background:var(--tc1d);color:var(--tc2)}
-body.teamtheme #teamview .tv-badge{background:var(--tc1d);border-color:var(--tc2);color:var(--tc2)}
+body.teamtheme #teamview .pinitial,body.teamtheme #playerview .pinitial{background:var(--tc1d);color:var(--tc2c, var(--tc2))}
+body.teamtheme #teamview .tv-badge{background:var(--tc1d);border-color:var(--tc2);color:var(--tc2c, var(--tc2))}
 body.teamtheme #teamview .tv-news-meta{color:var(--tc2)}
 /* v32.41 light (away) scheme: body text flips to the scheme text color;
    sections ride a translucent white veil over the light background so
@@ -231,7 +231,7 @@ body.teamtheme #teamview .tv-news-meta{color:var(--tc2)}
 body.teamtheme.themelight{color:var(--tc2)}
 body.teamtheme.themelight #teamview .tv-sec,body.teamtheme.themelight #playerview .tv-sec{background:rgba(255,255,255,0.45)}
 body.teamtheme.themelight #teamview .pinitial,body.teamtheme.themelight #playerview .pinitial,body.teamtheme.themelight #teamview .tv-badge,body.teamtheme.themelight #teamview .ban{background:rgba(255,255,255,0.55)}
-body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playerview .tv-meta,body.teamtheme.themelight #teamview .tv-note,body.teamtheme.themelight #playerview .tv-note{color:var(--tc2);opacity:0.85}
+body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playerview .tv-meta,body.teamtheme.themelight #teamview .tv-note,body.teamtheme.themelight #playerview .tv-note{color:var(--tc2m)}
 body.teamtheme.themelight #gamedetail .vc-in,body.teamtheme.themelight #venuecard .vc-in,body.teamtheme.themelight #sharemenu .vc-in{background:rgba(255,255,255,0.92)}
 /* v32.41 per-team scheme swatches (shown only when the active scheme
    has two verified color options). */
@@ -246,7 +246,7 @@ body.teamtheme.themelight #gamedetail .vc-in,body.teamtheme.themelight #venuecar
    not teamthemed and never take this class. */
 body.teamtheme.themejersey{background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric.jpg");background-size:100% 100%,100% 100%,235px;background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light}
 body.teamtheme.themejersey #teamview,body.teamtheme.themejersey #playerview{background:transparent}
-body.teamtheme.themejersey #teamview .tv-sec,body.teamtheme.themejersey #playerview .tv-sec{background:var(--tc1d);background:color-mix(in srgb,var(--tc1d) 84%,transparent)}
+body.teamtheme.themejersey #teamview .tv-sec,body.teamtheme.themejersey #playerview .tv-sec{background:var(--tc1d);background:color-mix(in srgb,var(--tc1d) 10%,transparent)}
 body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themelight.themejersey #playerview .tv-sec{background:rgba(255,255,255,0.45);background:color-mix(in srgb,#ffffff 45%,transparent)}
 .jersey-patch{margin:10px auto 2px;width:104px;height:104px;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.16);border:2px dashed rgba(255,255,255,0.65);border-radius:12px;box-shadow:0 3px 10px rgba(0,0,0,0.45),inset 0 0 14px rgba(0,0,0,0.28)}
 .jersey-patch img{max-width:82%;max-height:82%;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.55))}
@@ -544,6 +544,39 @@ body.teamtheme #teamview .ban{background:color-mix(in srgb, var(--tc1d) 10%, tra
 .pick-tile .pick-logo{height:44px;width:auto;max-width:100%;object-fit:contain}
 .pick-tile .pick-logo.tv-badge{min-width:44px;height:44px;font-size:12px}
 .pick-name{font-size:12px;font-weight:700;text-align:center;line-height:1.2;overflow-wrap:break-word}
+/* v32.42: scheme-text routing (Victor 2026-10-30 — light background
+   needs dark text; the audit showed the same bypass in the dark
+   scheme and in pairings whose own text color fails the bar). --tc2
+   is now the FITTED scheme text color (app.js themeFitHex: the
+   pairing text, unchanged where it already clears 4.5, otherwise
+   mixed toward black/white until it does); --tc2m is its derived
+   muted variant (clears 3.05). Elements that bypassed the scheme
+   tokens with hardcoded light colors, or inherited the base white
+   because the dark scheme never set a body text color, are routed
+   through the tokens here. Unthemed views (neutral page, Michigan
+   home) have no teamtheme class and are untouched. */
+body.teamtheme{color:var(--tc2)}
+body.teamtheme #teamview .tv-game,body.teamtheme #teamview .row-head,body.teamtheme #playerview .row-head,body.teamtheme #gamedetail .row-head{color:var(--tc2)}
+body.teamtheme .gnum{color:var(--tc2)}
+body.teamtheme .upcoming{color:var(--tc2)}
+body.teamtheme .live-score{color:var(--tc2)}
+body.teamtheme #teamview .row-media-icon,body.teamtheme #playerview .row-media-icon,body.teamtheme #gamedetail .row-media-icon{color:var(--tc2p, var(--tc2))}
+body.teamtheme .tab-btn.active{color:var(--tc2t, var(--tc2))}
+body.teamtheme #teamview .ban{color:var(--tc2)}
+body.teamtheme #playerview .tv-roster td:first-child{color:var(--tc2)}
+body.teamtheme #teamview .tv-meta,body.teamtheme #playerview .tv-meta,body.teamtheme #teamview .tv-note,body.teamtheme #playerview .tv-note{color:var(--tc2m)}
+body.teamtheme .gdate{color:var(--tc2m)}
+body.teamtheme .vs{color:var(--tc2m)}
+body.teamtheme .row-h2h{color:var(--tc2m);opacity:1}
+body.teamtheme .tv-h2h{color:var(--tc2m)}
+body.teamtheme .tv-roster-pos{color:var(--tc2m)}
+body.teamtheme .tv-roster-meta{color:var(--tc2m)}
+body.teamtheme .tv-logo-label{color:var(--tc2m)}
+body.teamtheme .pp-meta{color:var(--tc2m)}
+body.teamtheme .final-tag{color:var(--tc2m)}
+body.teamtheme .team-fav-star{color:var(--tc2m)}
+body.teamtheme .tab-btn:not(.active){color:var(--tc2m);opacity:1}
+body.teamtheme #playerview .tv-news-meta{color:var(--tc2)}
 </style>
 </head>
 <body>
