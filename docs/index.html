@@ -113,6 +113,8 @@ button{font-family:inherit}
 .logo-btn.on-white{background:#fff}
 .tv-logo-lg.on-white,.tv-logo.on-white,.dir-logo.on-white{background:#fff;border-radius:8px;padding:3px}
 .tv-logo-item.on-white{background:#fff;border-radius:8px;padding:4px}
+/* v32.40: thin white OUTLINE (halo) for measured low-contrast logos — the drop-shadow stack follows the art's alpha edges; no backing tile */
+img.logo-outline{filter:drop-shadow(1.5px 0 0 #fff) drop-shadow(-1.5px 0 0 #fff) drop-shadow(0 1.5px 0 #fff) drop-shadow(0 -1.5px 0 #fff) drop-shadow(1px 1px 0 #fff) drop-shadow(-1px -1px 0 #fff) drop-shadow(1px -1px 0 #fff) drop-shadow(-1px 1px 0 #fff)}
 .br-game{border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:8px;margin:8px 0}
 .br-h2h{font-size:12px;color:#999999;margin:2px 0 4px}.tv-h2h{font-size:12px;color:#999999;padding:2px 2px 8px}.row-h2h{font-size:12px;color:#cccccc;opacity:.85}.dir-h2h{font-size:12px;color:#999999;flex-basis:100%}
 .br-row{display:flex;align-items:center;gap:8px;justify-content:space-between;flex-wrap:wrap}
