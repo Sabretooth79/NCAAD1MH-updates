@@ -1,0 +1,8 @@
+Anton font — Copyright 2020 The Anton Project Authors
+(https://github.com/googlefonts/AntonFont.git)
+
+Licensed under the SIL Open Font License, Version 1.1.
+Full license text: the OFL.txt file of the google/fonts repository,
+path ofl/anton/OFL.txt (verified from that source at build time;
+see v3246-build-report.md). The bundled cover-title.woff2 is a
+subset of Anton-Regular.ttf from the same repository.

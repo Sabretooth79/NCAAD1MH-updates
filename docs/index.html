@@ -247,13 +247,40 @@ body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playervi
    blended over the active scheme color, under fold shading and a soft
    vignette. Team pages only — the league page and Settings frame are
    not teamthemed and never take this class. */
-body.teamtheme.themejersey{background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric.jpg");background-size:100% 100%,100% 100%,235px;background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light}
+body.teamtheme.themejersey{background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric.jpg");background-size:100% 100%,100% 100%,470px;background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light}
 body.teamtheme.themejersey #teamview,body.teamtheme.themejersey #playerview{background:transparent}
-body.teamtheme.themejersey #teamview .tv-sec,body.teamtheme.themejersey #playerview .tv-sec{background:var(--tc1d);background:color-mix(in srgb,var(--tc1d) 10%,transparent)}
-body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themelight.themejersey #playerview .tv-sec{background:var(--tc1d);background:color-mix(in srgb,var(--tc1d) 10%,transparent)}
-.jersey-patch{margin:10px auto 2px;width:104px;height:104px;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.16);border:2px dashed rgba(255,255,255,0.65);border-radius:12px;box-shadow:0 3px 10px rgba(0,0,0,0.45),inset 0 0 14px rgba(0,0,0,0.28)}
-.jersey-patch img{max-width:82%;max-height:82%;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.55))}
-body.teamtheme.themelight .jersey-patch{background:rgba(0,0,0,0.16);border-color:rgba(0,0,0,0.38);box-shadow:0 3px 10px rgba(0,0,0,0.25),inset 0 0 14px rgba(0,0,0,0.10)}
+body.teamtheme.themejersey #teamview .tv-sec,body.teamtheme.themejersey #playerview .tv-sec{background:rgba(0,0,0,0)}
+body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themelight.themejersey #playerview .tv-sec{background:rgba(0,0,0,0)}
+/* v32.46: THE JERSEY IS THE BACKGROUND (Victor 2026-10-30 13:43 CDT).
+   The semi zoomed-in jersey view — mesh at zoom scale (body rule
+   above), the team's big crest, waist stripes, and the conference
+   patch where the real jersey wears one — is a fixed layer behind
+   the page content; every section scrolls on top of it. The small
+   dashed .jersey-patch badge of v32.41-v32.45 is removed. */
+.tv.themed{position:relative;z-index:0}
+.jersey-bg{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.jersey-crest{position:absolute;top:12vh;left:0;right:0;display:flex;justify-content:center}
+.jersey-crest img{width:min(88vw,540px);max-height:52vh;object-fit:contain;filter:drop-shadow(2px 0 0 rgba(0,0,0,0.35)) drop-shadow(-2px 0 0 rgba(0,0,0,0.35)) drop-shadow(0 2px 0 rgba(0,0,0,0.35)) drop-shadow(0 -2px 0 rgba(0,0,0,0.35)) drop-shadow(0 12px 20px rgba(0,0,0,0.40))}
+.jersey-confpatch{position:absolute;top:11vh;right:6vw;width:88px}
+.jersey-confpatch img{width:100%;filter:drop-shadow(1px 0 0 rgba(0,0,0,0.35)) drop-shadow(-1px 0 0 rgba(0,0,0,0.35)) drop-shadow(0 1px 0 rgba(0,0,0,0.35)) drop-shadow(0 -1px 0 rgba(0,0,0,0.35)) drop-shadow(0 6px 10px rgba(0,0,0,0.40))}
+.jersey-stripes{position:absolute;left:0;right:0;bottom:8vh}
+.jersey-stripes .js-band{height:26px}
+.jersey-stripes .js-pin{height:7px;margin-top:5px}
+/* v32.46: flat-background multi-logo layer (Part B Addendum 2) —
+   the user's per-team background logo set, behind the content,
+   never washing the page color. */
+.flat-bg{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;display:flex;flex-wrap:wrap;align-content:space-around;justify-content:space-around}
+.flat-bg img{width:36vw;max-width:300px;opacity:0.15;margin:3vh 4vw}
+/* v32.46 Part C: theme-picker marks — the team's simplest logo
+   rendered in each of its three directory colors (not dots). */
+.theme-marks{display:flex;gap:12px;justify-content:center;align-items:center;padding:10px 0 2px}
+.theme-mark{background:rgba(127,127,127,0.15);border:2px solid rgba(128,128,128,0.45);border-radius:12px;padding:5px 7px;cursor:pointer;line-height:0}
+.theme-mark img{height:38px;width:auto;max-width:64px;object-fit:contain;display:block}
+.theme-mark.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.4)}
+.theme-mark-state{text-align:center;font-size:12px;padding:2px 8px 0}
+.logo-bg-toggle{margin-left:6px;font-size:11px;padding:3px 7px;border-radius:8px;border:1px solid rgba(128,128,128,0.55);background:transparent;color:var(--tc2t);cursor:pointer}
+.logo-bg-toggle.on{border-color:var(--tc2);font-weight:700}
+.logo-bg-toggle.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.35)}
 /* v9 no-leak: player-page titles/subs and the overlays opened from a team
    view (game detail, venue card) must also theme — otherwise they would
    show Michigan maize on another team's page. */
@@ -326,6 +353,10 @@ button.tv-logo-item{background:none;border:0;padding:0;font:inherit;color:inheri
    bundled locally as mascot-script.woff2 (latin subset) — used ONLY
    by .tv-mascot; no runtime font fetching anywhere in the app. */
 @font-face{font-family:'Dancing Script';src:url('mascot-script.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+/* v32.46 Part D: cover-title display font — Anton (SIL Open Font
+   License 1.1; license text in cover-title-LICENSE.txt, subset
+   bundled locally as cover-title.woff2) — opening page title only. */
+@font-face{font-family:'CoverTitle';src:url('cover-title.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
 .tv-mascot{font-family:'Dancing Script',cursive;font-size:27px;font-weight:700;line-height:1.15;color:#ffffff;margin-top:1px;overflow-wrap:break-word}
 .tv-meta{color:#cccccc;font-size:15px;margin-top:4px;overflow-wrap:break-word}
 .tv-sec{margin:12px 0;padding:12px;background:#333333;border:1px solid #555555;border-radius:6px}
@@ -482,12 +513,12 @@ div.controls{display:block;padding:8px 12px}
    double-image ghosting). */
 body.neutral-glass{background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url('stick-puck-ncaa.jpg');background-size:cover;background-position:center;background-repeat:no-repeat;background-attachment:scroll}
 body.neutral-glass #neutralview{min-height:100vh;min-height:100dvh;padding-top:48px;padding-bottom:26px}
-body.neutral-glass .controls-icons button{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.25);box-shadow:0 2px 12px rgba(0,0,0,0.20)}
-body.neutral-glass #neutralview .tv-sec{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.25);box-shadow:0 2px 12px rgba(0,0,0,0.20);margin:22px 0;padding:22px 12px}
+body.neutral-glass .controls-icons button{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:1px solid rgba(255,255,255,0.30);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25),0 2px 12px rgba(0,0,0,0.20)}
+body.neutral-glass #neutralview .tv-sec{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:1px solid rgba(255,255,255,0.30);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25),0 2px 12px rgba(0,0,0,0.20);margin:22px 0;padding:22px 12px}
 body.neutral-glass #neutralview .tv-head{padding-bottom:26px}
 body.neutral-glass #neutralview,body.neutral-glass #neutralview .tv-meta,body.neutral-glass #neutralview .tv-title,body.neutral-glass #neutralview .tv-sub,body.neutral-glass #neutralview .tv-line,body.neutral-glass #neutralview .tv-note,body.neutral-glass #neutralview .dir-name,body.neutral-glass #neutralview .dir-meta{color:#ffffff}
 body.neutral-glass #neutralview .conf-btn{color:#ffffff;border-color:rgba(255,255,255,0.25)}
-body.neutral-glass #neutralview .tv-name{color:#8ecdf0;text-shadow:0 1px 6px rgba(0,0,0,0.7)}
+body.neutral-glass #neutralview .tv-name{color:#8ecdf0;font-family:'CoverTitle','Arial Narrow',sans-serif;font-size:40px;line-height:1.12;letter-spacing:0.015em;text-shadow:0 2px 0 #0b2a44,0 4px 0 rgba(6,24,40,0.9),0 0 22px rgba(142,205,240,0.32),0 6px 18px rgba(0,0,0,0.8)}
 body.neutral-glass #neutralview .tv-meta{text-shadow:0 1px 6px rgba(0,0,0,0.7)}
 body.neutral-glass #neutralview .tv-title,body.neutral-glass #neutralview .tv-line,body.neutral-glass #neutralview .tv-note,body.neutral-glass #neutralview .tv-sub,body.neutral-glass #neutralview .dir-name,body.neutral-glass #neutralview .dir-meta{text-shadow:0 1px 6px rgba(0,0,0,0.7)}
 /* v32.34: glass app-wide, almost fully transparent (Victor 2026-10-28
@@ -507,16 +538,16 @@ body.neutral-glass #neutralview .tv-title,body.neutral-glass #neutralview .tv-li
    ticker/radiobar strips stay solid deliberately: their dark-on-light
    and team-inverse text pairs would break on near-transparent dark
    glass. */
-.tv-sec{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.25);box-shadow:0 2px 12px rgba(0,0,0,0.20)}
-.controls-icons button{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.25);box-shadow:0 2px 12px rgba(0,0,0,0.20)}
-body.teamtheme #teamview .tv-sec,body.teamtheme #playerview .tv-sec{background:color-mix(in srgb, var(--tc1d) 10%, transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:var(--tc3);box-shadow:0 2px 12px rgba(0,0,0,0.20)}
-.conf-view .tv-sec{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.25);box-shadow:0 2px 12px rgba(0,0,0,0.20)}
-.tab-bar{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.25);border-radius:12px;padding:4px}
-.vc-in{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:2px solid rgba(255,255,255,0.25)}
-body.teamtheme #gamedetail .vc-in,body.teamtheme #venuecard .vc-in,body.teamtheme #sharemenu .vc-in{background:color-mix(in srgb, var(--tc1d) 10%, transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:var(--tc2)}
-.post{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px dashed rgba(255,255,255,0.25)}
-.ban{background:rgba(0,0,0,0.10);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:2px solid rgba(255,255,255,0.25);border-bottom:0}
-body.teamtheme #teamview .ban{background:color-mix(in srgb, var(--tc1d) 10%, transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:var(--tc2)}
+.tv-sec{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:1px solid rgba(255,255,255,0.30);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25),0 2px 12px rgba(0,0,0,0.20)}
+.controls-icons button{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:1px solid rgba(255,255,255,0.30);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25),0 2px 12px rgba(0,0,0,0.20)}
+body.teamtheme #teamview .tv-sec,body.teamtheme #playerview .tv-sec{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border-color:var(--tc3);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25),0 2px 12px rgba(0,0,0,0.20)}
+.conf-view .tv-sec{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:1px solid rgba(255,255,255,0.30);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25),0 2px 12px rgba(0,0,0,0.20)}
+.tab-bar{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:1px solid rgba(255,255,255,0.30);border-radius:12px;padding:4px;box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25)}
+.vc-in{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:2px solid rgba(255,255,255,0.30);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25)}
+body.teamtheme #gamedetail .vc-in,body.teamtheme #venuecard .vc-in,body.teamtheme #sharemenu .vc-in{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border-color:var(--tc2);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25)}
+.post{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:1px dashed rgba(255,255,255,0.30);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25)}
+.ban{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border:2px solid rgba(255,255,255,0.30);border-bottom:0;box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25)}
+body.teamtheme #teamview .ban{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border-color:var(--tc2);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25)}
 .dir-confs{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
 .dir-confs button{background:#333333;color:#fff;border:1px solid #555555;border-radius:4px;padding:9px 4px;cursor:pointer;font-size:13px;min-height:44px}
 .tv-back,.tv-music-btn,.vc-in button,#radiobar button,.vw-bar button,.addlink button,.extras-body button,.extras-toggle,.btn,.chip,.conf-btn{border-radius:4px}
@@ -666,6 +697,7 @@ body.teamtheme #playerview .tv-news-meta{color:var(--tc2)}
 <script src="players.js"></script>
 <script src="directory.js"></script>
 <script src="logos.js"></script>
+<script src="v3246data.js"></script>
 <script src="team-data.js"></script>
 <script src="brackets.js"></script>
 <script src="schedules.js"></script>
