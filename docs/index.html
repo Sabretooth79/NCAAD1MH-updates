@@ -611,9 +611,52 @@ body.teamtheme .final-tag{color:var(--tc2m)}
 body.teamtheme .team-fav-star{color:var(--tc2m)}
 body.teamtheme .tab-btn:not(.active){color:var(--tc2m);opacity:1}
 body.teamtheme #playerview .tv-news-meta{color:var(--tc2)}
+/* v32.47 Part 0: the jersey composition (crest + waist stripes +
+   conference patch) renders in the body-level #jerseybg layer — a
+   direct child of body, OUTSIDE #teamview/#playerview and every
+   scroll container — synced by syncJerseyBg() from jerseyBgHTML.
+   The .jersey-bg rules above (position:fixed, z-index:-1) now
+   apply to that static element. */
+/* v32.47 Part 0 Addendum (Victor 2026-10-31 09:55 CDT): text over
+   the jersey must be HIGHLY VISIBLE — bigger, bolder letters, and
+   an outline around the letters so background and foreground never
+   mash together. Jersey style only; flat rendering is unchanged.
+   The outline pole is fitted per team by applyTeamTheme (body
+   class tco-d = dark outline for light/colored fitted text, tco-l
+   = light outline for dark fitted text on light colorways),
+   measured with the app's own contrastRatio against the fitted
+   primary text color — added separation ON TOP of the fitted
+   colors; the measured contrast gates are unchanged. */
+body.teamtheme.themejersey .tv-name{font-size:30px}
+body.teamtheme.themejersey .pp-name{font-size:30px}
+body.teamtheme.themejersey .tv-mascot{font-size:30px;font-weight:800}
+body.teamtheme.themejersey .tv-title{font-size:16px}
+body.teamtheme.themejersey.tco-d .tv-name,body.teamtheme.themejersey.tco-d .pp-name,body.teamtheme.themejersey.tco-d .tv-mascot,body.teamtheme.themejersey.tco-d .tv-title{text-shadow:1px 0 0 #000,-1px 0 0 #000,0 1px 0 #000,0 -1px 0 #000,1px 1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000,0 3px 8px rgba(0,0,0,0.50)}
+body.teamtheme.themejersey.tco-l .tv-name,body.teamtheme.themejersey.tco-l .pp-name,body.teamtheme.themejersey.tco-l .tv-mascot,body.teamtheme.themejersey.tco-l .tv-title{text-shadow:1px 0 0 #fff,-1px 0 0 #fff,0 1px 0 #fff,0 -1px 0 #fff,1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff,0 3px 8px rgba(0,0,0,0.35)}
+body.teamtheme.themejersey.tco-d .tv-line,body.teamtheme.themejersey.tco-d .tv-meta,body.teamtheme.themejersey.tco-d .tv-note,body.teamtheme.themejersey.tco-d .tv-game,body.teamtheme.themejersey.tco-d .gdate{text-shadow:0 1px 3px rgba(0,0,0,0.60)}
+body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-meta,body.teamtheme.themejersey.tco-l .tv-note,body.teamtheme.themejersey.tco-l .tv-game,body.teamtheme.themejersey.tco-l .gdate{text-shadow:0 1px 3px rgba(255,255,255,0.65)}
+/* v32.47 Part 0 Addendum 2/3: crest backing plate (fitted in the
+   colorway's own text color) + the Jersey crest assignment toggle. */
+.jersey-plate{display:inline-flex;padding:22px 28px;border-radius:24px;box-shadow:0 10px 24px rgba(0,0,0,0.35)}
+.logo-crest-toggle{margin-left:6px;font-size:11px;padding:3px 7px;border-radius:8px;border:1px solid rgba(128,128,128,0.55);background:transparent;color:var(--tc2t);cursor:pointer}
+.logo-crest-toggle.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.35);font-weight:700}
+/* v32.47 Part B: conference filter chips (both directory renders).
+   A chip with a verified logo shows the logo; a conference without
+   one shows its name in the same slot (text chip) — never a drawn
+   or borrowed fake logo, never a white box. */
+.conf-chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:10px 0}
+.conf-chip{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:2px;min-width:70px;max-width:94px;padding:8px 6px 7px;background:#2b2b2b;color:#ffffff;border:1px solid #555555;border-radius:10px;cursor:pointer;font-family:inherit}
+.conf-chip-logo{display:flex;align-items:center;justify-content:center;height:34px;max-width:78px}
+.conf-chip-logo img{max-height:34px;max-width:78px;object-fit:contain}
+.conf-chip-textonly{font-size:12px;font-weight:800;letter-spacing:0.4px;text-align:center;line-height:1.15}
+.conf-chip-name{font-size:11px;font-weight:600;line-height:1.2;text-align:center}
+.conf-chip-n{font-size:10px;opacity:0.75;line-height:1.2}
+.conf-chip.on{background:#454545;border:2px solid #ffffff;padding:7px 5px 6px}
+.conf-chip.on .conf-chip-name{font-weight:800}
 </style>
 </head>
 <body>
+<div id="jerseybg" class="jersey-bg" aria-hidden="true" hidden></div>
 <div id="intro">
   <div class="i-logo i-brand">NCAAD1MH</div>
   <div class="i-go">NCAA Division 1 Men's Hockey</div>
@@ -625,7 +668,7 @@ body.teamtheme #playerview .tv-news-meta{color:var(--tc2)}
 <div class="title" id="static-title" hidden></div>
 <div class="controls">
   <div class="controls-row controls-icons">
-  <button id="refresh-btn" class="refresh-icon-btn" type="button" title="Refresh" aria-label="Refresh" onclick="location.reload()">↻</button>
+  <button id="refresh-btn" class="refresh-icon-btn" type="button" title="Refresh" aria-label="Refresh">↻</button>
   <button id="settings-btn" class="gear-btn" type="button" title="Settings" aria-label="Settings">⚙️</button>
   <button id="ticker-search-btn" class="search-btn" type="button" title="Search" aria-label="Search">🔍</button>
   <button id="share-btn" class="share-icon-btn" type="button" title="Share" aria-label="Share"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92S19.61 16.08 18 16.08z"/></svg></button>
@@ -657,7 +700,7 @@ body.teamtheme #playerview .tv-news-meta{color:var(--tc2)}
 <div id="directory">
   <h2>NCAA TEAMS DIRECTORY</h2>
   <div class="dir-search"><input id="dir-search" type="search" placeholder="Search teams and players&hellip;"></div>
-  <div class="dir-confs"><button data-dir-conf="All" type="button">All</button><button data-dir-conf="Big Ten" type="button">Big Ten</button><button data-dir-conf="NCHC" type="button">NCHC</button><button data-dir-conf="CCHA" type="button">CCHA</button><button data-dir-conf="Hockey East" type="button">Hockey East</button><button data-dir-conf="ECAC" type="button">ECAC</button><button data-dir-conf="AHA" type="button">AHA</button><button data-dir-conf="Independent" type="button">Independent</button></div>
+  <div class="dir-confs conf-chips"><button class="conf-chip" data-dir-conf="All" type="button" aria-pressed="false" aria-label="Show all 63 teams"><span class="conf-chip-logo conf-chip-textonly">ALL</span><span class="conf-chip-name">All</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Big Ten" type="button" aria-pressed="false" aria-label="Show Big Ten"><span class="conf-chip-logo"><img src="conf-B1G.png" alt=""></span><span class="conf-chip-name">Big Ten</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="NCHC" type="button" aria-pressed="false" aria-label="Show NCHC"><span class="conf-chip-logo conf-chip-textonly">NCHC</span><span class="conf-chip-name">NCHC</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="CCHA" type="button" aria-pressed="false" aria-label="Show CCHA"><span class="conf-chip-logo"><img src="conf-CCHA.png" alt=""></span><span class="conf-chip-name">CCHA</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Hockey East" type="button" aria-pressed="false" aria-label="Show Hockey East"><span class="conf-chip-logo conf-chip-textonly">Hockey East</span><span class="conf-chip-name">Hockey East</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="ECAC" type="button" aria-pressed="false" aria-label="Show ECAC"><span class="conf-chip-logo"><img src="conf-ECAC.png" alt=""></span><span class="conf-chip-name">ECAC</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="AHA" type="button" aria-pressed="false" aria-label="Show AHA"><span class="conf-chip-logo conf-chip-textonly">AHA</span><span class="conf-chip-name">AHA</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Independent" type="button" aria-pressed="false" aria-label="Show Independent"><span class="conf-chip-logo conf-chip-textonly">Independent</span><span class="conf-chip-name">Independent</span><span class="conf-chip-n"></span></button></div>
   <div id="dir-results"></div>
   <div id="dir-list"></div>
   <div class="tv-note">63 NCAA Division I men&rsquo;s programs, 2026&ndash;27 season (Wikipedia Division I list). Mercyhurst dropped its program after 2025&ndash;26; Maryville joined. Tap any team for its full view; your phone Back button returns you.</div>
@@ -698,6 +741,7 @@ body.teamtheme #playerview .tv-news-meta{color:var(--tc2)}
 <script src="directory.js"></script>
 <script src="logos.js"></script>
 <script src="v3246data.js"></script>
+<script src="v3247data.js"></script>
 <script src="team-data.js"></script>
 <script src="brackets.js"></script>
 <script src="schedules.js"></script>
