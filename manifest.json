@@ -1,13 +1,13 @@
 {
- "version": "1.76",
+ "version": "1.77",
  "files": [],
- "signature": "MEUCIQD8nbCXZmO/DDzUYz9+S0+5Sb/xifATQ492THpOQqwSZgIgaM/a7yTv+Gd2+8TFDjBuavXKuFjKH0ril8BKsVotGDI=",
+ "signature": "MEQCICxwwKMreWvhXTpf0uFHcoPL1dtbFFdLL8jOy1uuHmoiAiAB7hawx0N6WjP19Y8KUkGFfai5POnc49Ubntgb7h7KsA==",
  "apk": {
-  "version": "1.76",
-  "versionCode": 77,
+  "version": "1.77",
+  "versionCode": 78,
   "url": "https://sabretooth79.github.io/NCAAD1MH-updates/ncaamd1h.apk",
-  "sha256": "9db2947b9d251118cfd968ab905861896c01b5bd9f2e4d8ab68a3f3aacc01c58",
+  "sha256": "677baff669579b6187f3e13ea35cd72302c9246075ca5706ea0cdb514ffa746e",
   "size": 24657547
  },
- "apk_signature": "MEYCIQCwcOKV7lipWn8WoPEgmPg/k/+naypMirflW9MHKaiK1AIhAJuRs8TR8QRb8P5uPV1xS2sPQhfv9uMe2g7xsvme9ZAX"
+ "apk_signature": "MEUCIFMaHKYXt9511+qNquSmJDPfviKAJuAquRVTJJFrIKynAiEApg7v3b7zJwbaMdZfxk+TBTIRsKsRVU9vFAfdlBxQk80="
 }
