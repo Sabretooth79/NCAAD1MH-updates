@@ -274,8 +274,8 @@ body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themeligh
 .bg-present{display:block;text-align:center}
 .bg-present-mark{display:flex;justify-content:center;margin:0 0 8px}
 .tv-name-wm{display:flex;justify-content:center}
-.jersey-crest{position:absolute;top:12vh;left:0;right:0;display:flex;justify-content:center}
-.jersey-crest img{width:min(80vw,500px);max-height:50vh;object-fit:contain;display:block}
+.tv-crestband{display:flex;justify-content:center}
+.tv-crestband .sewn-patch-crest img{width:min(80vw,500px);max-height:50vh;object-fit:contain;display:block}
 .jersey-confpatch{position:absolute;top:10vh;right:5vw}
 .jersey-confpatch img{width:64px;display:block}
 .jersey-stripes{position:absolute;left:50%;transform:translateX(-50%);width:100vw;bottom:2.5vh}
@@ -375,15 +375,22 @@ button.tv-logo-item{background:none;border:0;padding:0;font:inherit;color:inheri
 @font-face{font-family:'CoverTitle';src:url('cover-title.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
 .tv-mascot{font-family:'Dancing Script',cursive;font-size:27px;font-weight:700;line-height:1.15;color:#ffffff;margin-top:1px;overflow-wrap:break-word}
 .tv-meta{color:#cccccc;font-size:15px;margin-top:4px;overflow-wrap:break-word}
-/* v32.49 header stack (Victor 2026-11-01): every team-page header
-   block in normal flow with real spacing — identity row,
-   presentation block, mascot line, info lines. No absolute
-   positioning and no negative margins anywhere in the stack. */
-#teamview .tv-head .tv-head-logo{margin:0 0 12px}
-#teamview .tv-head .bg-present{margin:0 0 12px}
-#teamview .tv-head .tv-mascot{margin:0 0 10px}
-#teamview .tv-head .tv-meta{margin:0 0 10px}
-#teamview .tv-head .tv-meta:last-child{margin-bottom:0}
+/* v32.50 art zone (Victor 2026-11-01 10:42 CST; supersedes the
+   v32.49 header-stack rules): the team page's artwork — identity
+   row, name presentation, mascot line, jersey crest — lives in
+   ONE dedicated in-flow block (.tv-artzone) at the top of the
+   page, with real spacing between its bands; the info lines
+   follow the zone as plain siblings. No absolute positioning,
+   no negative margins, nothing layered over the zone — the
+   page grows to fit the art. The presentation band reserves
+   the capped art height (min-height) so the band is a real
+   space of its own, never a slot the art overflows. */
+#teamview .tv-artzone{display:block;padding:6px 2px 2px}
+#teamview .tv-artzone .tv-head-logo{margin:0 0 12px}
+#teamview .tv-artzone .bg-present{margin:0 0 12px;min-height:92px}
+#teamview .tv-artzone .tv-mascot{margin:0 0 10px}
+#teamview .tv-artzone .tv-crestband{margin:6px 0 8px}
+#teamview .tv > .tv-meta{margin:0 0 10px}
 #teamview .head-confpatch{margin-left:auto}
 #teamview .head-confpatch .sewn-patch img{width:64px;height:auto;display:block}
 .tv-sec{margin:12px 0;padding:12px;background:#333333;border:1px solid #555555;border-radius:6px}
