@@ -1544,7 +1544,7 @@ var SCHEDULES = {
     {d:"2026-10-17", ha:"A", opp:"Sacred Heart", oppKey:"SHU", timeCT:"6:00 PM", result:"W 5-1", note:"bundled venue corrected: was listed as home game", hl:"https://youtu.be/eYyk0Ue4ouI", box:"https://www.collegehockeynews.com/box/final/20261017/osu/sac/"},
     {d:"2026-10-23", ha:"H", opp:"Augustana", oppKey:"AUG", timeCT:"", result:"L 2-3", note:"disputed time: 6:30 PM ET (Ohio State CHN) vs 5:30 PM ET (GoAugie event); possible CT/ET conversion difference \u2014 unresolved", hl:"https://www.youtube.com/watch?v=sGDjf3uRDJs", box:"https://www.collegehockeynews.com/box/final/20261023/aug/osu/"},
     {d:"2026-10-24", ha:"H", opp:"Augustana", oppKey:"AUG", timeCT:"", result:"L 3-4", note:"disputed time: 5:00 PM ET (Ohio State recap) vs 4:00 PM ET (GoAugie event)", hl:"https://www.youtube.com/watch?v=O7aI7oZEu5E", box:"https://www.collegehockeynews.com/box/final/20261024/aug/osu/"},
-    {d:"2026-10-31", ha:"H", opp:"Michigan", oppKey:"MICH", timeCT:"5:00 PM", result:null, note:""},
+    {d:"2026-10-31", ha:"H", opp:"Michigan", oppKey:"MICH", timeCT:"5:00 PM", result:"W 5-2", note:"", hl:"https://www.youtube.com/watch?v=OEkf7Cjne8k"},
     {d:"2026-11-01", ha:"H", opp:"Michigan", oppKey:"MICH", timeCT:"6:30 PM", result:null, note:""},
     {d:"2026-11-13", ha:"A", opp:"Wisconsin", oppKey:"WIS", timeCT:"7:00 PM", result:null, note:""},
     {d:"2026-11-14", ha:"A", opp:"Wisconsin", oppKey:"WIS", timeCT:"6:00 PM", result:null, note:""},
