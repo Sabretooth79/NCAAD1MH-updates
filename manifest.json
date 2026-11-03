@@ -1,13 +1,13 @@
 {
- "version": "1.79",
+ "version": "1.89",
  "files": [],
- "signature": "MEUCIQCrBSsfigaPbm0qZQyBKWL0XagpfgWoEUf/G8Pdkg4j4gIgPwrReZuczCvKj3jalCORfZeEMXDBBBCpxqhNmNtkg5E=",
+ "signature": "MEUCIQDx1Aqc0w210h0nf1Cx8Ls/Ez9bFcbBLDEnf4d91CQFqAIgbm6EHUEmhlfu8z6x2gHsqc3+W77O3lN2RmgO6Jg3DdI=",
  "apk": {
-  "version": "1.79",
-  "versionCode": 80,
-  "url": "https://sabretooth79.github.io/NCAAD1MH-updates/ncaamd1h.apk",
-  "sha256": "5039382d91b9644c65b0c3dba9302edee12d38ca9bc9df155ce523255a9af67b",
-  "size": 25453120
+  "version": "1.89",
+  "versionCode": 90,
+  "url": "https://github.com/Sabretooth79/NCAAD1MH-updates/releases/download/v1.89/ncaamd1h.apk",
+  "sha256": "278a4f46054607591bfa6078457f8829f6c605c618d103eacb2fd7bc7b02657c",
+  "size": 34170077
  },
- "apk_signature": "MEUCIQCc9cvX/WkxBXe+T6mRbnsjqkn80EQVeAV1+1hwRNH8OAIgKmX59ZNbhUWFAiHA1em3hddKcE6eck+DmZvOYHBzAwM="
+ "apk_signature": "MEQCIHs/6uz5ztB5JhaIkyQgSD3vV2nOM9sqMjgF4s14+xY1AiBYHlUkScL7Gqa1VCUWZDTQp89em9ag7y2VdgR32o9Cng=="
 }
