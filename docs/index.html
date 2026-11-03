@@ -6,6 +6,11 @@
 <title>NCAAD1MH</title>
 <style>
 *{box-sizing:border-box}
+/* v32.51: ONE fabric tile constant — every jersey-fabric reference
+   (page surface, crest panel, crest weave, patch grain) sizes from
+   this single definition. 2300px: the CC0 mesh texture measures a
+   16px pitch in its 1024px tile, so the pitch reads ~36px here. */
+html{--fabric-tile:940px}
 html,body{margin:0;padding:0;background:#262626;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
 html,body{overflow-x:hidden}
 body{padding-bottom:130px;padding-bottom:calc(130px + env(safe-area-inset-bottom, 0px));padding-top:56px}
@@ -168,8 +173,7 @@ body.teamtheme .extras-body button{background:var(--tc2);color:var(--tc1);border
 body.teamtheme .tab-btn{color:var(--tc2);opacity:.6}
 body.teamtheme .tab-btn.active{opacity:1;border-bottom-color:var(--tc2)}
 .tv-sec[hidden]{display:none}
-.team-watermark{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:-1}
-.team-watermark img{width:min(78vw,340px);opacity:.10}
+/* v32.48 model correction: the page-wide watermark is removed — no floating marks; identity/background marks render in the header zone only. */
 #share-copy-text{width:100%;min-height:64px;border-radius:8px;padding:8px;font-size:14px}
 body.teamtheme #sharemenu .vc-in{background:var(--tc1d);border-color:var(--tc2)}
 body.teamtheme #sharemenu .vc-in button{background:var(--tc2);color:var(--tc1)}
@@ -194,7 +198,7 @@ body.teamtheme #sharemenu .tv-title{color:var(--tc2)}
 .ticker-badge{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:30px;border-radius:50%;background:transparent;color:#333333;font-size:11px}
 .ticker-score{font-weight:900;color:#1a1a1a}
 .ticker-state{color:#555;font-weight:600;font-size:12px}
-.ticker-sep{flex:none;color:#999}
+.ticker-sep{flex:none;color:#595959}
 #ticker .cd{color:#555555}
 .cd{color:#ffffff;font-weight:800;font-size:13px}
 /* themed team views: team colors via --tc1/--tc2, Michigan unchanged */
@@ -235,7 +239,26 @@ body.teamtheme #teamview .tv-news-meta{color:var(--tc2)}
    page composites white over the scheme color. */
 body.teamtheme.themelight{color:var(--tc2)}
 body.teamtheme.themelight #teamview .tv-sec,body.teamtheme.themelight #playerview .tv-sec{background:var(--tc1)}
-body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playerview .tv-meta,body.teamtheme.themelight #teamview .tv-note,body.teamtheme.themelight #playerview .tv-note{color:var(--tc2m)}
+body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playerview .tv-meta,body.teamtheme.themelight #teamview .tv-note,body.teamtheme.themelight #playerview .tv-note{color:var(--tc2)}
+/* v32.55 Fix 5 (Victor 2026-11-02, 1.86 device review): NO GREY
+   LETTERING on team pages. The small/secondary text classes shipped
+   fixed greys (#999999 / #cccccc / ice #c7d6e6) that wash out on
+   team colors — the series line on Michigan's maize page rendered
+   #999999 at 12px weight 400, about 1.8:1. On a team page every one
+   of these classes now takes the scheme's FITTED team text color
+   (var(--tc2): the team's own color fitted to >= 5.0 by the v32.42
+   derivation; black/white only where no team color clears the bar)
+   at a weight that reads — 600 for the small classes. Grey survives
+   only where grey IS the fitted team color (Ohio State's gray,
+   fitted from its own palette). The muted token var(--tc2m) is NOT
+   used for this text: it is only fitted to 3.4, below the bar.
+   Neutral pages keep their existing scheme — the same greys measure
+   >= 5.3:1 on the #262626 neutral background. */
+body.teamtheme .tv-h2h,body.teamtheme .row-h2h,body.teamtheme .tv-meta,body.teamtheme .tv-note,body.teamtheme .tv-roster-pos,body.teamtheme .tv-roster-meta,body.teamtheme .pp-meta,body.teamtheme .tv-logo-label,body.teamtheme .vs,body.teamtheme .final-tag,body.teamtheme .score-time,body.teamtheme .run-score,body.teamtheme .sub-h,body.teamtheme .live-stamp,body.teamtheme .gdate,body.teamtheme .row-media-chan,body.teamtheme .upcoming,body.teamtheme .box-lines,body.teamtheme .box-note,body.teamtheme .boxscore th,body.teamtheme .per-head{color:var(--tc2)}
+body.teamtheme .tv-h2h,body.teamtheme .row-h2h,body.teamtheme .tv-meta,body.teamtheme .tv-roster-pos,body.teamtheme .tv-roster-meta,body.teamtheme .pp-meta,body.teamtheme .final-tag,body.teamtheme .score-time,body.teamtheme .run-score,body.teamtheme .live-stamp,body.teamtheme .gdate,body.teamtheme .row-media-chan,body.teamtheme .vs,body.teamtheme .tv-logo-label,body.teamtheme .box-lines{font-weight:600}
+body.teamtheme .row-h2h{opacity:1}
+body.teamtheme .tab-btn{opacity:1}
+body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playerview .tv-meta,body.teamtheme.themelight #teamview .tv-note,body.teamtheme.themelight #playerview .tv-note{color:var(--tc2)}
 /* v32.41 per-team scheme swatches (shown only when the active scheme
    has two verified color options). */
 .theme-swatches{display:flex;gap:10px;justify-content:center;padding:8px 0 2px}
@@ -243,11 +266,28 @@ body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playervi
 .theme-swatch .ts-dot{width:20px;height:20px;border-radius:50%;border:2px solid #ffffff;display:block;box-sizing:border-box}
 .theme-swatch.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.4)}
 /* v32.41 Jersey background style: the shared CC0 sportswear-mesh
-   photograph (jersey-fabric.jpg, ambientCG Fabric070) soft-light
+   photograph (jersey-fabric.jpg, 3DTextures.me "Fabric Mesh 001", CC0) soft-light
    blended over the active scheme color, under fold shading and a soft
    vignette. Team pages only — the league page and Settings frame are
    not teamthemed and never take this class. */
-body.teamtheme.themejersey{background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric.jpg");background-size:100% 100%,100% 100%,470px;background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light}
+/* v32.48 model correction: the jersey fabric no longer sits on body — it is the background of .jersey-surface INSIDE the scrolling team view, so fabric, crest and stripes move with the page. Body keeps the plain scheme color. */
+body.teamtheme.themejersey{background-color:var(--tc1)}
+/* v32.48 addendum (Victor 2026-10-31 14:10 + 14:12 CDT): Flat style
+   team pages wear the same photorealistic jersey fabric — the shared
+   CC0 sportswear-mesh photograph soft-light blended over the scheme
+   color under the same fold shading — so every team-page background
+   is jersey fabric in both styles; only the composition differs. */
+/* v32.55 Fix 1 (Victor 2026-11-02, 1.86 device review): the fabric
+   layer of the two DARK-scheme page stacks (this flat rule and
+   .jersey-surface below) uses the dark remap of the same mesh
+   (jersey-fabric-dark.jpg, luminance folded into a low band) with
+   SCREEN blending. Soft-light over a black base is mathematically
+   black — the Michigan State page rendered flat black with no
+   fabric under a black scheme pick. Screen always lifts the mesh
+   threads above the base, so the fabric renders on EVERY scheme
+   color, black included. The light-scheme overrides further down
+   (jersey-fabric-light.jpg + multiply) are untouched. */
+body.teamtheme:not(.themejersey){background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-size:100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,multiply}
 body.teamtheme.themejersey #teamview,body.teamtheme.themejersey #playerview{background:transparent}
 body.teamtheme.themejersey #teamview .tv-sec,body.teamtheme.themejersey #playerview .tv-sec{background:rgba(0,0,0,0)}
 body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themelight.themejersey #playerview .tv-sec{background:rgba(0,0,0,0)}
@@ -258,19 +298,40 @@ body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themeligh
    the page content; every section scrolls on top of it. The small
    dashed .jersey-patch badge of v32.41-v32.45 is removed. */
 .tv.themed{position:relative;z-index:0}
-.jersey-bg{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
-.jersey-crest{position:absolute;top:12vh;left:0;right:0;display:flex;justify-content:center}
-.jersey-crest img{width:min(88vw,540px);max-height:52vh;object-fit:contain;filter:drop-shadow(2px 0 0 rgba(0,0,0,0.35)) drop-shadow(-2px 0 0 rgba(0,0,0,0.35)) drop-shadow(0 2px 0 rgba(0,0,0,0.35)) drop-shadow(0 -2px 0 rgba(0,0,0,0.35)) drop-shadow(0 12px 20px rgba(0,0,0,0.40))}
-.jersey-confpatch{position:absolute;top:11vh;right:6vw;width:88px}
-.jersey-confpatch img{width:100%;filter:drop-shadow(1px 0 0 rgba(0,0,0,0.35)) drop-shadow(-1px 0 0 rgba(0,0,0,0.35)) drop-shadow(0 1px 0 rgba(0,0,0,0.35)) drop-shadow(0 -1px 0 rgba(0,0,0,0.35)) drop-shadow(0 6px 10px rgba(0,0,0,0.40))}
-.jersey-stripes{position:absolute;left:0;right:0;bottom:8vh}
-.jersey-stripes .js-band{height:26px}
-.jersey-stripes .js-pin{height:7px;margin-top:5px}
+/* v32.48: the scrolling jersey surface — one surface inside the
+   team view (and player view) carrying the fabric, the sewn crest
+   at chest height and the waist stripes toward its bottom; it is
+   in the view's document flow (absolute over the full view height,
+   behind the content), so scrolling the page scrolls the jersey. */
+.jersey-surface{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-size:100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,multiply}
+/* v32.56 fixes 6+7 (Victor 2026-11-02, unified): the page-background
+   fabric NEVER lightens the scheme color. Non-black schemes render
+   the light tile under multiply (darken-only shading); a black
+   scheme color (body.fabricblack, set by applyTeamTheme) renders
+   the re-folded true-black tile (field 0.05, holes 0.019) under
+   screen — over black, screen adds nothing beyond the tile, so
+   black stays black with darker-black holes. The pre-fix stack
+   screened a 0.30-luminance tile over every dark scheme: MSU green
+   washed to sage (shot 2666) and selected black rendered grey
+   (shot 2667). */
+body.teamtheme.fabricblack:not(.themejersey){background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-dark.jpg");background-blend-mode:soft-light,soft-light,screen}
+body.fabricblack .jersey-surface{background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-dark.jpg");background-blend-mode:soft-light,soft-light,screen}
+#playerview .pp{position:relative;z-index:0}
+.bg-present{display:block;text-align:center}
+.bg-present-row{display:flex;align-items:center;justify-content:center;gap:10px}
+.bg-present-mark{display:flex;justify-content:center;margin:0 0 8px}
+.tv-name-wm{display:flex;justify-content:center}
+.tv-crestband{display:flex;justify-content:center}
+.tv-crestband .sewn-patch-crest img{width:min(80vw,500px);max-height:50vh;object-fit:contain;display:block}
+.jersey-confpatch{position:absolute;top:10vh;right:5vw}
+.jersey-confpatch img{width:64px;display:block}
+.jersey-stripes{position:absolute;left:50%;transform:translateX(-50%);width:100vw;bottom:2.5vh}
+.jersey-stripes .js-band{height:8vh}
+.jersey-stripes .js-pin{height:3vh;margin-top:1.6vh}
 /* v32.46: flat-background multi-logo layer (Part B Addendum 2) —
    the user's per-team background logo set, behind the content,
    never washing the page color. */
-.flat-bg{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;display:flex;flex-wrap:wrap;align-content:space-around;justify-content:space-around}
-.flat-bg img{width:36vw;max-width:300px;opacity:0.15;margin:3vh 4vw}
+/* v32.48: the page-wide flat backdrop is removed — background marks render in the header zone (.bg-present) as sewn patches. */
 /* v32.46 Part C: theme-picker marks — the team's simplest logo
    rendered in each of its three directory colors (not dots). */
 .theme-marks{display:flex;gap:12px;justify-content:center;align-items:center;padding:10px 0 2px}
@@ -296,7 +357,7 @@ body.teamtheme #gamedetail a,body.teamtheme #venuecard a{color:var(--tc2)}
 body.teamtheme #teamview .tv-sec,body.teamtheme #playerview .tv-sec{background:color-mix(in srgb, var(--tc1d) 72%, transparent);border-color:var(--tc3)}
 body.teamtheme #teamview .tv-title{border-bottom:2px solid var(--tc3);padding-bottom:4px}
 body.teamtheme .tab-bar{border-bottom-color:var(--tc3)}
-.tv-logo-lg{height:72px;width:auto;max-width:220px;object-fit:contain}
+.tv-logo-lg{height:72px;width:auto;max-width:min(200px,52vw);object-fit:contain}
 .tv-logo{height:36px;width:auto;max-width:120px;object-fit:contain;vertical-align:middle}
 .tv-badge{display:inline-flex;align-items:center;justify-content:center;min-width:72px;height:72px;border-radius:50%;background:#333333;border:2px solid #555555;color:#FFFFFF;font-size:16px;font-weight:800}
 .ban-count-sm{color:#ffffff;font-weight:900;font-size:16px;margin-bottom:6px}
@@ -319,7 +380,7 @@ body.teamtheme #teamview .conf-btn,body.teamtheme #playerview .conf-btn{color:va
 .conf-view .tv-roster td{border-top-color:#334155}
 #confview,#settingsview{padding:0}
 #settingsview .settings-view{padding:0 12px 16px}
-.tv-head-logo{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:4px 2px 0;min-width:0}
+.tv-head-logo{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;padding:4px 2px 0;min-width:0}
 .tv-logos{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start}
 .tv-logo-item{display:inline-flex;flex-direction:column;align-items:center;gap:4px;max-width:120px}
 /* v32.35: TEAM LOGOS items are tappable buttons (select this team's
@@ -336,6 +397,8 @@ button.tv-logo-item{background:none;border:0;padding:0;font:inherit;color:inheri
 .dir-confs{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin:10px 0}
 .dir-confs button{background:#333333;color:#fff;border:1px solid #555555;border-radius:999px;padding:7px 13px;cursor:pointer;font-size:13px}
 .dir-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px 4px;border-bottom:1px solid #555555;cursor:pointer}
+.fav-live{padding:10px 12px;margin:2px 0 8px;border:1px solid #555555;border-left:4px solid #d43a2f;background:rgba(212,58,47,.08)}
+.fav-live-line{font-weight:700;font-size:15px}
 .dir-logo{height:38px;width:auto;max-width:120px;object-fit:contain}
 .dir-logo.tv-badge{min-width:38px;height:38px;font-size:11px}
 .dir-name{font-weight:800;font-size:15px;min-width:0;overflow-wrap:break-word}
@@ -357,8 +420,41 @@ button.tv-logo-item{background:none;border:0;padding:0;font:inherit;color:inheri
    License 1.1; license text in cover-title-LICENSE.txt, subset
    bundled locally as cover-title.woff2) — opening page title only. */
 @font-face{font-family:'CoverTitle';src:url('cover-title.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
-.tv-mascot{font-family:'Dancing Script',cursive;font-size:27px;font-weight:700;line-height:1.15;color:#ffffff;margin-top:1px;overflow-wrap:break-word}
+.tv-mascot{font-family:'Dancing Script',cursive;font-size:27px;font-weight:700;line-height:1.15;color:#ffffff;margin-top:1px;overflow-wrap:break-word;text-align:center}
 .tv-meta{color:#cccccc;font-size:15px;margin-top:4px;overflow-wrap:break-word}
+/* v32.50 art zone (Victor 2026-11-01 10:42 CST; supersedes the
+   v32.49 header-stack rules): the team page's artwork — identity
+   row, name presentation, mascot line, jersey crest — lives in
+   ONE dedicated in-flow block (.tv-artzone) at the top of the
+   page, with real spacing between its bands; the info lines
+   follow the zone as plain siblings. No absolute positioning,
+   no negative margins, nothing layered over the zone — the
+   page grows to fit the art. The presentation band reserves
+   the capped art height (min-height) so the band is a real
+   space of its own, never a slot the art overflows. */
+#teamview .tv-artzone{display:block;padding:6px 2px 2px}
+#teamview .tv-artzone .tv-head-logo{margin:0 0 12px}
+#teamview .tv-artzone .bg-present{margin:0 0 12px;min-height:92px}
+#teamview .tv-artzone .bg-present-row{margin:0 0 12px}
+#teamview .tv-artzone .bg-present-row .bg-present{margin:0}
+#teamview .tv-artzone .tv-mascot{margin:0 0 10px;font-size:clamp(30px,12.5vw,80px);font-weight:800;line-height:1.1}
+/* v32.55 Fix 2 (Victor 2026-11-02 15:50 CST): the art-zone name IS
+   the nickname — one rendering, the team's nickname only, set in
+   the bundled script face, spanning the full screen width
+   edge-to-edge in big lettering (the element is width:100% and
+   the renderer sizes the type per nickname length in vw units).
+   The school name no longer renders anywhere in the art zone:
+   v32.54 removed wordmark FILES from this slot, but the live
+   element on device was the .tv-name TEXT line — the nickname
+   now carries the .tv-name class itself (theme outlines/shadows
+   keyed to .tv-name still apply) plus .tv-nickname here. */
+#teamview .tv-artzone .tv-nickname{font-family:'Dancing Script',cursive;font-weight:800;width:100%;text-align:center;white-space:nowrap;line-height:1.1;display:block;overflow-wrap:normal}
+#teamview .tv-artzone img{max-width:100%}
+#teamview .tv-artzone img.tv-logo-lg{max-width:min(200px,52vw)}
+#teamview .tv-artzone .tv-crestband{margin:6px 0 8px}
+#teamview .tv > .tv-meta{margin:0 0 10px}
+#teamview .head-confpatch{margin-left:auto}
+#teamview .head-confpatch .sewn-patch img{width:64px;height:auto;display:block}
 .tv-sec{margin:12px 0;padding:12px;background:#333333;border:1px solid #555555;border-radius:6px}
 .tv-title{color:#ffffff;font-weight:800;letter-spacing:1px;font-size:14px;margin-bottom:10px}
 .tv-sub{color:#999999;font-weight:700;font-size:14px;margin:12px 0 6px;overflow-wrap:break-word}
@@ -598,18 +694,18 @@ body.teamtheme #teamview .row-media-icon,body.teamtheme #playerview .row-media-i
 body.teamtheme .tab-btn.active{color:var(--tc2t, var(--tc2))}
 body.teamtheme #teamview .ban{color:var(--tc2)}
 body.teamtheme #playerview .tv-roster td:first-child{color:var(--tc2)}
-body.teamtheme #teamview .tv-meta,body.teamtheme #playerview .tv-meta,body.teamtheme #teamview .tv-note,body.teamtheme #playerview .tv-note{color:var(--tc2m)}
-body.teamtheme .gdate{color:var(--tc2m)}
-body.teamtheme .vs{color:var(--tc2m)}
-body.teamtheme .row-h2h{color:var(--tc2m);opacity:1}
-body.teamtheme .tv-h2h{color:var(--tc2m)}
-body.teamtheme .tv-roster-pos{color:var(--tc2m)}
-body.teamtheme .tv-roster-meta{color:var(--tc2m)}
-body.teamtheme .tv-logo-label{color:var(--tc2m)}
-body.teamtheme .pp-meta{color:var(--tc2m)}
-body.teamtheme .final-tag{color:var(--tc2m)}
-body.teamtheme .team-fav-star{color:var(--tc2m)}
-body.teamtheme .tab-btn:not(.active){color:var(--tc2m);opacity:1}
+body.teamtheme #teamview .tv-meta,body.teamtheme #playerview .tv-meta,body.teamtheme #teamview .tv-note,body.teamtheme #playerview .tv-note{color:var(--tc2)}
+body.teamtheme .gdate{color:var(--tc2)}
+body.teamtheme .vs{color:var(--tc2)}
+body.teamtheme .row-h2h{color:var(--tc2);opacity:1}
+body.teamtheme .tv-h2h{color:var(--tc2)}
+body.teamtheme .tv-roster-pos{color:var(--tc2)}
+body.teamtheme .tv-roster-meta{color:var(--tc2)}
+body.teamtheme .tv-logo-label{color:var(--tc2)}
+body.teamtheme .pp-meta{color:var(--tc2)}
+body.teamtheme .final-tag{color:var(--tc2)}
+body.teamtheme .team-fav-star{color:var(--tc2)}
+body.teamtheme .tab-btn:not(.active){color:var(--tc2);opacity:1}
 body.teamtheme #playerview .tv-news-meta{color:var(--tc2)}
 /* v32.47 Part 0: the jersey composition (crest + waist stripes +
    conference patch) renders in the body-level #jerseybg layer — a
@@ -637,7 +733,89 @@ body.teamtheme.themejersey.tco-d .tv-line,body.teamtheme.themejersey.tco-d .tv-m
 body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-meta,body.teamtheme.themejersey.tco-l .tv-note,body.teamtheme.themejersey.tco-l .tv-game,body.teamtheme.themejersey.tco-l .gdate{text-shadow:0 1px 3px rgba(255,255,255,0.65)}
 /* v32.47 Part 0 Addendum 2/3: crest backing plate (fitted in the
    colorway's own text color) + the Jersey crest assignment toggle. */
-.jersey-plate{display:inline-flex;padding:22px 28px;border-radius:24px;box-shadow:0 10px 24px rgba(0,0,0,0.35)}
+/* v32.48: the sewn-patch system, DIE-CUT to the mark (Victor
+   2026-10-31 15:30 CDT). One component for every presentation
+   mark (jersey crest, conference patch, main-name presentation).
+   The mark's own alpha silhouette is the cutting die: .pp-panel
+   paints the fitted fabric color + the shared mesh photograph +
+   a directional sheen through a mask of the mark enlarged past
+   its edge (--pms); .pp-thread is the annulus between that edge
+   and a tighter silhouette (--tms, mask-composite exclude) — the
+   stitching ring tracing the mark's outline in the fitted thread
+   color; the grain layer (::before, masked to the same enlarged
+   silhouette) crosses the whole cut-out, art included; the
+   contact shadow is a drop-shadow on the composited patch, so
+   it follows the silhouette onto the fabric beneath. No border
+   radius, no box — the shape is the mark's. Full strength always
+   — no opacity wash on any part of a patch. Fine/detailed marks
+   (wordmarks) use tighter enlargements so thin letterforms stay
+   clean. */
+.sewn-patch{position:relative;display:inline-block;padding:30px 34px;--pms:calc(min(80vw,500px)*1.10);--tms:calc(min(80vw,500px)*1.045)}
+/* v32.54 (Victor 2026-11-02, 1.85 device review): NO offset shadow
+   on the patch — the drop-shadow filter painted offset ghost copies
+   of the whole patch OUTSIDE the crest silhouette (grey-blue at the
+   top-left, yellow/navy at the bottom, white notches at the edges
+   on his phone). The shadow now lives INSIDE the silhouette:
+   .pp-shade is masked by the same single mask (--pm) at the same
+   size as the panel (--pms), no larger, and darkens only the
+   silhouette's lower interior. No crest layer paints past the
+   patch silhouette. */
+.sewn-patch .pp-shade{position:absolute;inset:0;background-image:linear-gradient(163deg,rgba(0,0,0,0) 55%,rgba(0,0,0,0.28));pointer-events:none;z-index:0;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.sewn-patch .pp-panel{position:absolute;inset:0;background-color:var(--panel);background-image:linear-gradient(155deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 45%,rgba(0,0,0,0.18)),url("jersey-fabric.jpg");background-size:100% 100%,var(--fabric-tile);background-blend-mode:soft-light,soft-light;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;pointer-events:none}
+.sewn-patch .pp-paneltop{position:absolute;inset:0;background-color:var(--panel);background-image:linear-gradient(155deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 45%,rgba(0,0,0,0.18)),url("jersey-fabric.jpg");background-size:100% 100%,var(--fabric-tile);background-blend-mode:soft-light,soft-light;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--tms);mask-size:var(--tms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;pointer-events:none;z-index:2}
+.sewn-patch .pp-thread{position:absolute;inset:0;background-image:repeating-conic-gradient(from 0deg at 50% 50%,var(--thread) 0deg,var(--thread) calc(var(--sd,9deg)*0.55),transparent calc(var(--sd,9deg)*0.55),transparent var(--sd,9deg));-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;pointer-events:none;z-index:1}
+.sewn-patch::before{content:"";position:absolute;inset:0;background-image:url("jersey-fabric.jpg");background-size:var(--fabric-tile);opacity:.38;mix-blend-mode:soft-light;pointer-events:none;z-index:6;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.sewn-patch img{position:relative;z-index:2}
+.sewn-patch-conf{padding:12px 14px;--pms:calc(64px*1.22);--tms:calc(64px*1.10)}
+.sewn-patch-name{padding:16px 20px;--pms:calc(min(30vw,170px)*1.14);--tms:calc(min(30vw,170px)*1.06)}
+.sewn-patch-name img{width:auto;height:auto;max-width:min(30vw,78%,170px);max-height:92px;display:block}
+.sewn-patch-wm{padding:0;width:100%;box-sizing:border-box}
+.sewn-patch-wm img{width:100%;height:auto;max-width:100%;display:block}
+/* v32.51 photoreal crest (Victor 2026-11-01 15:15 + 15:23 CST): the
+   crest — and ONLY the crest — is a sewn jersey element. Its own
+   silhouette (--ems = the mark's exact capped width) clips a mesh
+   weave blended into the mark's colors, a directional light wash
+   matched to the page's 163deg light, and silhouette relief (a
+   light edge toward the light, a shade edge away). The crest
+   thread ring above carries the stitch dashes (period --sd).
+   Name-area marks render clean (.clean-mark): raw mark only. */
+.sewn-patch-crest{--ems:min(80vw,500px);--pms:calc(var(--ems)*1.03);--tms:calc(var(--ems)*1.015);--sd:5deg}
+.sewn-patch .pp-weave{position:absolute;inset:0;background-image:url("jersey-fabric.jpg");background-size:calc(var(--fabric-tile)/2);opacity:.5;mix-blend-mode:soft-light;pointer-events:none;z-index:3;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--ems);mask-size:var(--ems);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.sewn-patch .pp-light{position:absolute;inset:0;background-image:linear-gradient(163deg,rgba(255,255,255,0.30),rgba(255,255,255,0.05) 38%,rgba(0,0,0,0) 62%,rgba(0,0,0,0.20));pointer-events:none;z-index:4;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--ems);mask-size:var(--ems);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+/* v32.55 Fix 3 (Victor 2026-11-02, 1.86 device review): the rim
+   washes NO LONGER paint over the artwork. At z-index 5 masked to
+   the art's exact silhouette (--ems) they washed the whole mark
+   with two short-fade linear gradients — over the broad flat
+   stems of a block mark (the wolverine-over-M crest) the white
+   0.50->0-at-22% wash and the black 78%->0.50 shade read as two
+   translucent RECTANGLES, one light at the top-left, one dark at
+   the bottom-right (pixel-verified against his screenshot: the
+   light block is navy art + a white overlay at alpha ~0.37,
+   impossible for any layer behind the opaque art). The rims are
+   now true EDGE relief: masked at the panel silhouette (--pms)
+   and stacked at z-index 0 — under the paneltop (--tms) and the
+   mark itself — so they survive only in the panel ring outside
+   the artwork, light toward the light, shade away. No crest
+   layer above the artwork paints a gradient across it; the one
+   remaining over-art layer is .pp-light, the v32.51 directional
+   sheen, whose fades span most of the box (no hard stop lines). */
+.sewn-patch .pp-rim-hi{position:absolute;inset:0;background-image:linear-gradient(163deg,rgba(255,255,255,0.50),rgba(255,255,255,0) 22%);pointer-events:none;z-index:0;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.sewn-patch .pp-rim-lo{position:absolute;inset:0;background-image:linear-gradient(163deg,rgba(0,0,0,0) 78%,rgba(0,0,0,0.50));pointer-events:none;z-index:0;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+/* v32.53 Addendum 2 clarification 2 (Victor 2026-11-02 05:28 CST):
+   a team's WHITE (away/light) jersey must show the fabric too.
+   Soft-light over a near-white base mathematically cannot print a
+   texture, so the light scheme swaps every fabric layer to the
+   light tone variant of the same generated tile and blends it
+   with multiply — the holes read through light and shadow, as in
+   his white-fabric reference photo. */
+body.teamtheme.themelight:not(.themejersey){background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,soft-light,multiply}
+body.themelight .jersey-surface{background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,soft-light,multiply}
+body.themelight .sewn-patch .pp-panel{background-image:linear-gradient(155deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 45%,rgba(0,0,0,0.18)),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,multiply}
+body.themelight .sewn-patch .pp-paneltop{background-image:linear-gradient(155deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 45%,rgba(0,0,0,0.18)),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,multiply}
+body.themelight .sewn-patch::before{background-image:url("jersey-fabric-light.jpg");mix-blend-mode:multiply}
+body.themelight .sewn-patch .pp-weave{background-image:url("jersey-fabric-light.jpg");mix-blend-mode:multiply}
+.sewn-patch.clean-mark{filter:none}
+.sewn-patch.clean-mark::before{content:none}
 .logo-crest-toggle{margin-left:6px;font-size:11px;padding:3px 7px;border-radius:8px;border:1px solid rgba(128,128,128,0.55);background:transparent;color:var(--tc2t);cursor:pointer}
 .logo-crest-toggle.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.35);font-weight:700}
 /* v32.47 Part B: conference filter chips (both directory renders).
@@ -656,7 +834,7 @@ body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-m
 </style>
 </head>
 <body>
-<div id="jerseybg" class="jersey-bg" aria-hidden="true" hidden></div>
+<!-- v32.48: no body-level jersey layer — the jersey surface renders inside the team/player views (syncJerseyBg). -->
 <div id="intro">
   <div class="i-logo i-brand">NCAAD1MH</div>
   <div class="i-go">NCAA Division 1 Men's Hockey</div>
@@ -686,12 +864,12 @@ body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-m
 <div id="searchview" hidden></div>
 <div id="neutralview" hidden></div>
 <div id="venuecard" hidden><div class="vc-in"><button id="venue-close" type="button">Close</button><div id="venue-body"></div></div></div>
-<div id="gamedetail" hidden><div class="vc-in"><button id="gamedetail-close" type="button">Close</button><div id="gamedetail-body"></div></div></div><div id="team-zoom" hidden><div id="team-zoom-inner"></div></div><div id="fav-picker" hidden></div><div id="sharemenu" hidden><div class="vc-in"><button id="sharemenu-close" type="button">Close</button><div class="tv-title">SHARE THIS APP</div><div class="tv-note">Pick the audience. Android phone sends the app installer file itself. Android PC and iOS get the web version link — the same app, running in a browser. Facebook posts the web app address, so a tap opens the app running — never a download.</div><button class="tv-back" id="share-file-btn" type="button">Android phone — send the app file</button><button class="tv-back" id="share-pc-btn" type="button">Android PC — web version link</button><button class="tv-back" id="share-ios-btn" type="button">iOS — web version link</button><button class="tv-back" id="share-fb-btn" type="button">Facebook — post the web app</button><div class="tv-note" id="share-link-note"></div><div class="tv-note" id="share-status"></div><textarea id="share-copy-text" hidden readonly></textarea></div></div>
+<div id="gamedetail" hidden><div class="vc-in"><button id="gamedetail-close" type="button">Close</button><div id="gamedetail-body"></div></div></div><div id="team-zoom" hidden><div id="team-zoom-inner"></div></div><div id="fav-picker" hidden></div><div id="sharemenu" hidden><div class="vc-in"><button id="sharemenu-close" type="button">Close</button><div class="tv-title">SHARE THIS APP</div><div class="tv-note">Pick the audience. Android phone sends the app installer file itself. Android PC and iOS get the web version link — the same app, running in a browser. Facebook posts the web app address, so a tap opens the app running — never a download. Text message (SMS) sends the direct Android download link in a text message.</div><button class="tv-back" id="share-file-btn" type="button">Android phone — send the app file</button><button class="tv-back" id="share-sms-btn" type="button">Text message (SMS) — direct Android download</button><button class="tv-back" id="share-pc-btn" type="button">Android PC — web version link</button><button class="tv-back" id="share-ios-btn" type="button">iOS — web version link</button><button class="tv-back" id="share-fb-btn" type="button">Facebook — post the web app</button><div class="tv-note" id="share-link-note"></div><div class="tv-note" id="share-status"></div><textarea id="share-copy-text" hidden readonly></textarea></div></div>
 <div id="michview" hidden>
 <div id="fav-home"></div>
 <div id="spotlight" class="spot"></div>
 <div id="mich-live-stamp" class="live-stamp"></div>
-<div class="divider"><img src="mascot.jpg" alt="Wolverine"></div>
+<div class="divider"><img src="mascot.png" alt="Wolverine"></div>
 
 <div id="games"></div>
 
@@ -709,7 +887,7 @@ body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-m
 <div class="post">
   <h2>POSTSEASON</h2>
   <div class="rounds">Big Ten Championship &middot; NCAA Regionals &middot; Frozen Four &middot; National Championship</div>
-  <p>No postseason games scheduled yet. Each round appears here with the same rankings, broadcasts, Watch/Listen links, and game details when Michigan reaches it.</p>
+  <p>No postseason games scheduled yet. Each round appears here with the same rankings, broadcasts, Watch/Listen links, and game details when the matchups are set.</p>
 </div>
 
 </div>

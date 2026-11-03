@@ -203,7 +203,7 @@ const GAMES = [
   {per:2,team:"OSU",player:"Nathan McBrayer",min:2,off:"Interference",time:"16:53"},
   {per:3,team:"MICH",player:"Jack Nesbitt",min:2,off:"Interference",time:"1:10"}],
  box:"https://www.collegehockeynews.com/box/final/20261031/osu/mic/"},
-{n:9,date:"2026-11-01",dow:"Sun",opp:"Ohio State",short:"OSU",home:false,venue:"Schottenstein Center, Columbus",timeCT:"6:30 PM",tv:"BTN",watch:FOXSPORTS_URL,status:"upcoming",mich:null,oppScore:null,michRank:1,oppRank:null},
+{n:9,date:"2026-11-01",dow:"Sun",opp:"Ohio State",short:"OSU",home:false,venue:"Schottenstein Center, Columbus",timeCT:"6:30 PM",tv:"BTN",watch:FOXSPORTS_URL,status:"final",highlights:"https://www.youtube.com/watch?v=UDZz8-713iw",mich:5,oppScore:4,michRank:1,oppRank:null},
 {n:10,date:"2026-11-13",dow:"Fri",opp:"Penn State",short:"PSU",home:true,venue:"Yost Ice Arena, Ann Arbor",timeCT:"6:00 PM",tv:"B1G+",watch:BTNPLUS_URL,status:"upcoming",mich:null,oppScore:null,michRank:1,oppRank:null},
 {n:11,date:"2026-11-14",dow:"Sat",opp:"Penn State",short:"PSU",home:true,venue:"Yost Ice Arena, Ann Arbor",timeCT:"6:00 PM",tv:"B1G+",watch:BTNPLUS_URL,status:"upcoming",mich:null,oppScore:null,michRank:1,oppRank:null},
 {n:12,date:"2026-11-20",dow:"Fri",opp:"Michigan State",short:"MSU",home:true,venue:"Yost Ice Arena, Ann Arbor",timeCT:"6:00 PM",tv:"B1G+",watch:BTNPLUS_URL,status:"upcoming",mich:null,oppScore:null,michRank:1,oppRank:null},
