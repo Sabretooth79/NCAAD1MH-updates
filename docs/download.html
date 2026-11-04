@@ -100,5 +100,17 @@
     }
   }
 </script>
+<script>
+/* Download-page view counter (added 2026-11-04): same free CountAPI service as the web app counter, separate key so page views and web-app opens are reported separately. Counts a browser at most once per 24 hours. Key: ncaad1mh-download-page-2026-sabretooth79 - read with GET /api/v1/get/<key>. */
+(function(){try{
+  var KEY='ncaad1mh-download-page-2026-sabretooth79', LS='ncaad1mh-dl-counted-at';
+  var now=Date.now(), last=0;
+  try{ last=parseInt(localStorage.getItem(LS)||'0',10)||0; }catch(e){}
+  if(now-last>86400000){
+    try{ localStorage.setItem(LS,String(now)); }catch(e){}
+    fetch('https://countapi.mileshilliard.com/api/v1/hit/'+KEY).catch(function(){});
+  }
+}catch(e){}})();
+</script>
 </body>
 </html>
