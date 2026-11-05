@@ -83,8 +83,8 @@ var SCHEDULES = {
   UAA: [
     {d:"2026-10-02", ha:"H", opp:"Denver", oppKey:"DEN", timeCT:"10:00 PM", result:"L 2-6", note:"", hl:"https://www.youtube.com/watch?v=KP4hP_bfhD8", box:"https://www.collegehockeynews.com/box/final/20261002/den/aka/"},
     {d:"2026-10-03", ha:"H", opp:"Denver", oppKey:"DEN", timeCT:"8:00 PM", result:"L 1-4", note:"", hl:"https://www.youtube.com/watch?v=tLAhFdYcDSQ", box:"https://www.collegehockeynews.com/box/final/20261003/den/aka/"},
-    {d:"2026-10-09", ha:"A", opp:"Michigan", oppKey:"MICH", timeCT:"6:00 PM", result:"L 1-10", note:"time from Michigan data.js (mirror game)", box:"https://www.collegehockeynews.com/box/final/20261009/aka/mic/"},
-    {d:"2026-10-10", ha:"A", opp:"Michigan", oppKey:"MICH", timeCT:"6:00 PM", result:"L 2-7", note:"time from Michigan data.js (mirror game)", box:"https://www.collegehockeynews.com/box/final/20261010/aka/mic/"},
+    {d:"2026-10-09", ha:"A", opp:"Michigan", oppKey:"MICH", timeCT:"6:00 PM", result:"L 10-1", note:"time from Michigan data.js (mirror game)", box:"https://www.collegehockeynews.com/box/final/20261009/aka/mic/"},
+    {d:"2026-10-10", ha:"A", opp:"Michigan", oppKey:"MICH", timeCT:"6:00 PM", result:"L 7-2", note:"time from Michigan data.js (mirror game)", box:"https://www.collegehockeynews.com/box/final/20261010/aka/mic/"},
     {d:"2026-10-16", ha:"H", opp:"Lake Superior State", oppKey:"LSS", timeCT:"9:00 PM", result:"W 5-2", note:"", hl:"https://www.youtube.com/watch?v=B89IJzXI30Y", box:"https://www.collegehockeynews.com/box/final/20261016/lss/aka/"},
     {d:"2026-10-17", ha:"H", opp:"Lake Superior State", oppKey:"LSS", timeCT:"6:00 PM", result:"L 2-4", note:"time from LSS official-page Events block (flagged as unusual for Alaska on LSS's side)", box:"https://www.collegehockeynews.com/box/final/20261017/lss/aka/"},
     {d:"2026-10-23", ha:"A", opp:"Miami", oppKey:"MIA", timeCT:"6:05 PM", result:"L 1-5", note:"", hl:"https://nchchockey.com/tv/videos/10540", box:"https://www.collegehockeynews.com/box/final/20261023/aka/mia/"},

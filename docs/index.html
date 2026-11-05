@@ -15,11 +15,7 @@
    (page surface, crest panel, crest weave, patch grain) sizes from
    this single definition. 2300px: the CC0 mesh texture measures a
    16px pitch in its 1024px tile, so the pitch reads ~36px here. */
-/* v32.63 item 3 supersedes the 940px value: the fabric tiles are now
-   generated knit (528px image, rib pitch 6px, hole pitch 48/44px)
-   shown at 264px, so ribs read ~3px and pinholes ~24/22px apart —
-   the scale of Victor's real-jersey reference photos. */
-html{--fabric-tile:264px}
+html{--fabric-tile:940px}
 html,body{margin:0;padding:0;background:#262626;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
 html,body{overflow-x:hidden}
 body{padding-bottom:130px;padding-bottom:calc(130px + env(safe-area-inset-bottom, 0px));padding-top:56px}
@@ -193,10 +189,7 @@ body.teamtheme #sharemenu .tv-title{color:var(--tc2)}
 #music-note{color:#cccccc;font-size:13px;text-align:center;padding:2px 14px 10px;line-height:1.5}
 /* ticker: top scrolling live-score strip */
 #ticker{overflow:hidden;background:#fff;border-bottom:1px solid #cccccc;padding:4px 0;position:fixed;top:0;left:0;right:0;z-index:65;color:#1a1a1a}
-#ticker-track{display:flex;flex:none;gap:18px;width:max-content;white-space:nowrap;will-change:transform}
-/* v32.63: the ticker's motion is this compositor-driven keyframe animation (JS stepper removed — it froze and leapt with every main-thread stall on device). Duration and delay are set inline by the driver from the measured half width under the app's speed rules; the -50% endpoint is exactly one group width (the track holds two identical groups). */
-#ticker-track.ticker-anim{animation-name:ticker-scroll;animation-timing-function:linear;animation-iteration-count:infinite}
-@keyframes ticker-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+#ticker-track{display:flex;flex:none;gap:18px;width:max-content;white-space:nowrap}
 
 #searchview{padding:0 12px}
 #neutralview{padding:0 12px}
@@ -277,14 +270,6 @@ body.teamtheme.themelight #teamview .tv-meta,body.teamtheme.themelight #playervi
 .theme-swatch{width:34px;height:34px;border-radius:50%;border:2px solid rgba(128,128,128,0.45);background:rgba(127,127,127,0.18);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0}
 .theme-swatch .ts-dot{width:20px;height:20px;border-radius:50%;border:2px solid #ffffff;display:block;box-sizing:border-box}
 .theme-swatch.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.4)}
-/* v32.63 item 3 (Victor reference photos, 2026-11-05): the fabric
-   tiles are GENERATED to the real-jersey standard — fine vertical
-   knit, small dense pinholes in staggered rows, tonal depth, colors
-   true — replacing the CC0 Fabric Mesh 001 photograph Victor
-   device-rejected for reading as irregular blotches. Same three
-   shared tiles, same blend roles and luminance bands. Crest
-   interiors wear patch-twill.jpg (the patch's own material).
-   A soft fold-shading layer joins the surface stacks. */
 /* v32.41 Jersey background style: the shared CC0 sportswear-mesh
    photograph (jersey-fabric.jpg, 3DTextures.me "Fabric Mesh 001", CC0) soft-light
    blended over the active scheme color, under fold shading and a soft
@@ -307,7 +292,7 @@ body.teamtheme.themejersey{background-color:var(--tc1)}
    threads above the base, so the fabric renders on EVERY scheme
    color, black included. The light-scheme overrides further down
    (jersey-fabric-light.jpg + multiply) are untouched. */
-body.teamtheme:not(.themejersey){background-color:var(--tc1);background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-size:100% 100%,100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light,multiply}
+body.teamtheme:not(.themejersey){background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-size:100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,multiply}
 body.teamtheme.themejersey #teamview,body.teamtheme.themejersey #playerview{background:transparent}
 body.teamtheme.themejersey #teamview .tv-sec,body.teamtheme.themejersey #playerview .tv-sec{background:rgba(0,0,0,0)}
 body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themelight.themejersey #playerview .tv-sec{background:rgba(0,0,0,0)}
@@ -323,7 +308,7 @@ body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themeligh
    at chest height and the waist stripes toward its bottom; it is
    in the view's document flow (absolute over the full view height,
    behind the content), so scrolling the page scrolls the jersey. */
-.jersey-surface{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background-color:var(--tc1);background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-size:100% 100%,100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light,multiply}
+.jersey-surface{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background-color:var(--tc1);background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-size:100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,multiply}
 /* v32.56 fixes 6+7 (Victor 2026-11-02, unified): the page-background
    fabric NEVER lightens the scheme color. Non-black schemes render
    the light tile under multiply (darken-only shading); a black
@@ -334,8 +319,8 @@ body.teamtheme.themelight.themejersey #teamview .tv-sec,body.teamtheme.themeligh
    screened a 0.30-luminance tile over every dark scheme: MSU green
    washed to sage (shot 2666) and selected black rendered grey
    (shot 2667). */
-body.teamtheme.fabricblack:not(.themejersey){background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-dark.jpg");background-blend-mode:soft-light,soft-light,soft-light,screen}
-body.fabricblack .jersey-surface{background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-dark.jpg");background-blend-mode:soft-light,soft-light,soft-light,screen}
+body.teamtheme.fabricblack:not(.themejersey){background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-dark.jpg");background-blend-mode:soft-light,soft-light,screen}
+body.fabricblack .jersey-surface{background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-dark.jpg");background-blend-mode:soft-light,soft-light,screen}
 #playerview .pp{position:relative;z-index:0}
 .bg-present{display:block;text-align:center}
 .bg-present-row{display:flex;align-items:center;justify-content:center;gap:10px}
@@ -347,10 +332,7 @@ body.fabricblack .jersey-surface{background-image:radial-gradient(80% 55% at 72%
 .jersey-confpatch img{width:64px;display:block}
 .jersey-stripes{position:absolute;left:50%;transform:translateX(-50%);width:100vw;bottom:2.5vh}
 .jersey-stripes .js-band{height:8vh}
-/* v32.63 item 3: stitched-seam relief on the waist bands (separate rule — the v32.49 carrier pins the height rules byte-exact) */
-.jersey-stripes .js-band{box-shadow:inset 0 2px 3px rgba(255,255,255,0.16),inset 0 -4px 5px rgba(0,0,0,0.30)}
 .jersey-stripes .js-pin{height:3vh;margin-top:1.6vh}
-.jersey-stripes .js-pin{box-shadow:inset 0 1px 2px rgba(255,255,255,0.14),inset 0 -3px 4px rgba(0,0,0,0.28)}
 /* v32.46: flat-background multi-logo layer (Part B Addendum 2) —
    the user's per-team background logo set, behind the content,
    never washing the page color. */
@@ -404,11 +386,7 @@ body.teamtheme #teamview .conf-btn,body.teamtheme #playerview .conf-btn{color:va
 #confview,#settingsview{padding:0}
 #settingsview .settings-view{padding:0 12px 16px}
 .tv-head-logo{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;padding:4px 2px 0;min-width:0}
-.tv-logos{display:flex;flex-direction:column;gap:18px;align-items:stretch}
-/* v32.62 (Victor 2026-11-05): TEAM LOGOS uniform rows -- every variant row has the same structure and geometry on every team: art centered, label centered under it, Background / Jersey crest as a centered fixed pair. */
-.tv-logo-row{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%}
-.tv-logo-btns{display:flex;gap:8px;justify-content:center}
-.tv-logo-btns .logo-bg-toggle,.tv-logo-btns .logo-crest-toggle{margin-left:0;min-width:104px;text-align:center}
+.tv-logos{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start}
 .tv-logo-item{display:inline-flex;flex-direction:column;align-items:center;gap:4px;max-width:120px}
 /* v32.35: TEAM LOGOS items are tappable buttons (select this team's
    logo for their page); the selected variant carries the app's gold
@@ -777,7 +755,7 @@ body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-m
    — no opacity wash on any part of a patch. Fine/detailed marks
    (wordmarks) use tighter enlargements so thin letterforms stay
    clean. */
-.sewn-patch{position:relative;display:inline-block;padding:30px 34px;--pms:calc(min(80vw,500px)*1.0);--tms:calc(min(80vw,500px)*0.94)}
+.sewn-patch{position:relative;display:inline-block;padding:30px 34px;--pms:calc(min(80vw,500px)*1.10);--tms:calc(min(80vw,500px)*1.045)}
 /* v32.54 (Victor 2026-11-02, 1.85 device review): NO offset shadow
    on the patch — the drop-shadow filter painted offset ghost copies
    of the whole patch OUTSIDE the crest silhouette (grey-blue at the
@@ -791,10 +769,10 @@ body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-m
 .sewn-patch .pp-panel{position:absolute;inset:0;background-color:var(--panel);background-image:linear-gradient(155deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 45%,rgba(0,0,0,0.18)),url("jersey-fabric.jpg");background-size:100% 100%,var(--fabric-tile);background-blend-mode:soft-light,soft-light;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;pointer-events:none}
 .sewn-patch .pp-paneltop{position:absolute;inset:0;background-color:var(--panel);background-image:linear-gradient(155deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 45%,rgba(0,0,0,0.18)),url("jersey-fabric.jpg");background-size:100% 100%,var(--fabric-tile);background-blend-mode:soft-light,soft-light;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--tms);mask-size:var(--tms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;pointer-events:none;z-index:2}
 .sewn-patch .pp-thread{position:absolute;inset:0;background-image:repeating-conic-gradient(from 0deg at 50% 50%,var(--thread) 0deg,var(--thread) calc(var(--sd,9deg)*0.55),transparent calc(var(--sd,9deg)*0.55),transparent var(--sd,9deg));-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;pointer-events:none;z-index:1}
-.sewn-patch::before{content:"";position:absolute;inset:0;background-image:url("patch-twill.jpg");background-size:calc(var(--fabric-tile)/2);opacity:.38;mix-blend-mode:soft-light;pointer-events:none;z-index:6;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.sewn-patch::before{content:"";position:absolute;inset:0;background-image:url("jersey-fabric.jpg");background-size:var(--fabric-tile);opacity:.38;mix-blend-mode:soft-light;pointer-events:none;z-index:6;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--pms);mask-size:var(--pms);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
 .sewn-patch img{position:relative;z-index:2}
-.sewn-patch-conf{padding:12px 14px;--pms:calc(64px*1.0);--tms:calc(64px*0.94)}
-.sewn-patch-name{padding:16px 20px;--pms:calc(min(30vw,170px)*1.0);--tms:calc(min(30vw,170px)*0.94)}
+.sewn-patch-conf{padding:12px 14px;--pms:calc(64px*1.22);--tms:calc(64px*1.10)}
+.sewn-patch-name{padding:16px 20px;--pms:calc(min(30vw,170px)*1.14);--tms:calc(min(30vw,170px)*1.06)}
 .sewn-patch-name img{width:auto;height:auto;max-width:min(30vw,78%,170px);max-height:92px;display:block}
 .sewn-patch-wm{padding:0;width:100%;box-sizing:border-box}
 .sewn-patch-wm img{width:100%;height:auto;max-width:100%;display:block}
@@ -806,8 +784,8 @@ body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-m
    light edge toward the light, a shade edge away). The crest
    thread ring above carries the stitch dashes (period --sd).
    Name-area marks render clean (.clean-mark): raw mark only. */
-.sewn-patch-crest{--ems:min(80vw,500px);--pms:calc(var(--ems)*1.0);--tms:calc(var(--ems)*0.94);--sd:5deg}
-.sewn-patch .pp-weave{position:absolute;inset:0;background-image:url("patch-twill.jpg");background-size:calc(var(--fabric-tile)/2);opacity:.5;mix-blend-mode:soft-light;pointer-events:none;z-index:3;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--ems);mask-size:var(--ems);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.sewn-patch-crest{--ems:min(80vw,500px);--pms:calc(var(--ems)*1.03);--tms:calc(var(--ems)*1.015);--sd:5deg}
+.sewn-patch .pp-weave{position:absolute;inset:0;background-image:url("jersey-fabric.jpg");background-size:calc(var(--fabric-tile)/2);opacity:.5;mix-blend-mode:soft-light;pointer-events:none;z-index:3;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--ems);mask-size:var(--ems);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
 .sewn-patch .pp-light{position:absolute;inset:0;background-image:linear-gradient(163deg,rgba(255,255,255,0.30),rgba(255,255,255,0.05) 38%,rgba(0,0,0,0) 62%,rgba(0,0,0,0.20));pointer-events:none;z-index:4;-webkit-mask-image:var(--pm);mask-image:var(--pm);-webkit-mask-size:var(--ems);mask-size:var(--ems);-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
 /* v32.55 Fix 3 (Victor 2026-11-02, 1.86 device review): the rim
    washes NO LONGER paint over the artwork. At z-index 5 masked to
@@ -835,12 +813,12 @@ body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-m
    light tone variant of the same generated tile and blends it
    with multiply — the holes read through light and shadow, as in
    his white-fabric reference photo. */
-body.teamtheme.themelight:not(.themejersey){background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,soft-light,soft-light,multiply}
-body.themelight .jersey-surface{background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,soft-light,soft-light,multiply}
+body.teamtheme.themelight:not(.themejersey){background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,soft-light,multiply}
+body.themelight .jersey-surface{background-image:linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,soft-light,multiply}
 body.themelight .sewn-patch .pp-panel{background-image:linear-gradient(155deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 45%,rgba(0,0,0,0.18)),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,multiply}
 body.themelight .sewn-patch .pp-paneltop{background-image:linear-gradient(155deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 45%,rgba(0,0,0,0.18)),url("jersey-fabric-light.jpg");background-blend-mode:soft-light,multiply}
-body.themelight .sewn-patch::before{background-image:url("patch-twill.jpg");mix-blend-mode:multiply}
-body.themelight .sewn-patch .pp-weave{background-image:url("patch-twill.jpg");mix-blend-mode:multiply}
+body.themelight .sewn-patch::before{background-image:url("jersey-fabric-light.jpg");mix-blend-mode:multiply}
+body.themelight .sewn-patch .pp-weave{background-image:url("jersey-fabric-light.jpg");mix-blend-mode:multiply}
 .sewn-patch.clean-mark{filter:none}
 .sewn-patch.clean-mark::before{content:none}
 .logo-crest-toggle{margin-left:6px;font-size:11px;padding:3px 7px;border-radius:8px;border:1px solid rgba(128,128,128,0.55);background:transparent;color:var(--tc2t);cursor:pointer}
