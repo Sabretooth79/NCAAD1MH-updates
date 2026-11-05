@@ -4,15 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>NCAAD1MH — NCAA D1 Men's Hockey App</title>
-<meta name="description" content="NCAAD1MH — the all-in-one NCAA Division 1 men's hockey app. Live scores, schedules, rosters and news for all 63 teams. Open the web version free — no download needed.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="NCAAD1MH — NCAA D1 Men's Hockey App">
 <meta property="og:description" content="Live scores, schedules, rosters and news for all 63 NCAA Division 1 men's hockey teams. Open it free in your browser — Android users can also download the app.">
 <meta property="og:url" content="https://sabretooth79.github.io/NCAAD1MH-updates/">
 <meta property="og:image" content="https://sabretooth79.github.io/NCAAD1MH-updates/hockey-logo.png">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="NCAAD1MH — NCAA D1 Men's Hockey App">
-<meta name="twitter:description" content="Live scores, schedules, rosters and news for all 63 teams. Open the web version free.">
 <style>
 *{box-sizing:border-box}
 /* v32.51: ONE fabric tile constant — every jersey-fabric reference
@@ -840,6 +836,19 @@ body.themelight .sewn-patch .pp-weave{background-image:url("jersey-fabric-light.
 .conf-chip-n{font-size:10px;opacity:0.75;line-height:1.2}
 .conf-chip.on{background:#454545;border:2px solid #ffffff;padding:7px 5px 6px}
 .conf-chip.on .conf-chip-name{font-weight:800}
+
+/* v32.59 (1.91): conference standings on the neutral league page —
+   neutral frame colors only (black/white), no team colors here. */
+.standings-wrap{overflow-x:auto;}
+.standings-table{border-collapse:collapse;width:100%;font-size:13px;color:#111;background:#fff;}
+.standings-table th,.standings-table td{border:1px solid #999;padding:3px 5px;text-align:right;white-space:nowrap;font-weight:600;}
+.standings-table th{text-align:center;}
+.standings-table td:first-child,.standings-table th:first-child{text-align:left;}
+.standings-table thead th{background:#111;color:#fff;font-weight:700;}
+.standings-table .standings-group th{background:#fff;color:#111;border:none;text-align:center;font-weight:700;}
+.standings-row{cursor:pointer;}
+.standings-star{color:#7a5c00;font-weight:700;}
+.standings-table .dir-logo{width:20px;height:20px;vertical-align:-4px;margin-right:4px;}
 </style>
 </head>
 <body>
@@ -935,6 +944,7 @@ body.themelight .sewn-patch .pp-weave{background-image:url("jersey-fabric-light.
 <script src="h2h.js"></script>
 <script src="goal-files.js"></script>
 <script src="app.js"></script>
+<input type="file" id="backup-file-input" accept=".json,application/json" style="display:none">
 <script>
 /* NCAAD1MH web-usage counter (web copy only, added 2026-11-04, rev 2): counts this browser at most once per 24 hours via the free CountAPI service (no signup, no cookies, nothing displayed in the app). Silent on failure so a counter outage can never affect the app. Key: ncaad1mh-web-opens-2026-sabretooth79 - read with GET /api/v1/get/<key>, never hit it to check. NOTE for republishes: this block and the og: tags in <head> live only in this web copy and must be re-added if index.html is regenerated from the app build. */
 (function(){try{
