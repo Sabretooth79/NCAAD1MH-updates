@@ -73,29 +73,37 @@ var DIRECTORY = [
  {key:"WIS",name:"Wisconsin",nick:"Badgers",city:"Madison, Wisconsin",conf:"Big Ten",titles:[1973, 1977, 1981, 1983, 1990, 2006],espn:275,c1:"#C5050C",c2:"#FFFFFF",c3:"#000000"},
  {key:"YALE",name:"Yale",nick:"Bulldogs",city:"New Haven, Connecticut",conf:"ECAC",titles:[2013],espn:43,c1:"#00356B",c2:"#FFFFFF",c3:"#000000"},
 ];
-// USCHO Men's Poll, Week 4, Oct 19, 2026 (ESPN rankings feed, id 10624).
-// Records are as published in that poll; Michigan's 7th win (Oct 23) postdates it.
+// USCHO Men's Poll, Week 6, Nov 2, 2026 — the saved poll (POLL_META in
+// app.js carries the same week/date; the rankings feed replaces this
+// wholesale when fetched). v32.60 supersedes the stale Week 4 comment
+// above this block in earlier builds: the ranks below are the Nov 2
+// poll's. Each row now also carries the poll's published first-place
+// votes (fpv — present only for teams that received any), points (pts)
+// and record (pollRec), verified against the College Hockey Inc
+// republication of the Nov 2, 2026 poll — the same values the live
+// rankings feed carries. rec/prev stay null: displayed records come
+// from the app's computed records; pollRec is the fallback only.
 var USCHO_POLL = [
- {rank:1,key:"WIS",rec:null,prev:null},
- {rank:2,key:"MICH",rec:null,prev:null},
- {rank:3,key:"MSU",rec:null,prev:null},
- {rank:4,key:"DEN",rec:null,prev:null},
- {rank:5,key:"WMU",rec:null,prev:null},
- {rank:6,key:"UMD",rec:null,prev:null},
- {rank:6,key:"QUIN",rec:null,prev:null},
- {rank:8,key:"AUG",rec:null,prev:null},
- {rank:9,key:"PROV",rec:null,prev:null},
- {rank:10,key:"UND",rec:null,prev:null},
- {rank:11,key:"CC",rec:null,prev:null},
- {rank:12,key:"DART",rec:null,prev:null},
- {rank:13,key:"BU",rec:null,prev:null},
- {rank:14,key:"MTU",rec:null,prev:null},
- {rank:15,key:"MRMK",rec:null,prev:null},
- {rank:16,key:"COR",rec:null,prev:null},
- {rank:17,key:"UNNY",rec:null,prev:null},
- {rank:18,key:"MINN",rec:null,prev:null},
- {rank:19,key:"ARMY",rec:null,prev:null},
- {rank:20,key:"CONN",rec:null,prev:null},
+ {rank:1,key:"WIS",rec:null,prev:null,fpv:37,pts:979,pollRec:"6-0-0"},
+ {rank:2,key:"MICH",rec:null,prev:null,fpv:9,pts:922,pollRec:"8-1-0"},
+ {rank:3,key:"MSU",rec:null,prev:null,fpv:3,pts:897,pollRec:"5-1-0"},
+ {rank:4,key:"DEN",rec:null,prev:null,pts:830,pollRec:"5-2-1"},
+ {rank:5,key:"WMU",rec:null,prev:null,fpv:1,pts:785,pollRec:"6-1-0"},
+ {rank:6,key:"UMD",rec:null,prev:null,pts:681,pollRec:"6-2-2"},
+ {rank:6,key:"QUIN",rec:null,prev:null,pts:681,pollRec:"5-2-0"},
+ {rank:8,key:"AUG",rec:null,prev:null,pts:600,pollRec:"7-0-1"},
+ {rank:9,key:"PROV",rec:null,prev:null,pts:596,pollRec:"5-1-0"},
+ {rank:10,key:"UND",rec:null,prev:null,pts:542,pollRec:"4-3-0"},
+ {rank:11,key:"CC",rec:null,prev:null,pts:537,pollRec:"6-2-0"},
+ {rank:12,key:"DART",rec:null,prev:null,pts:477,pollRec:"2-0-0"},
+ {rank:13,key:"BU",rec:null,prev:null,pts:405,pollRec:"6-2-0"},
+ {rank:14,key:"MTU",rec:null,prev:null,pts:355,pollRec:"6-2-0"},
+ {rank:15,key:"MRMK",rec:null,prev:null,pts:310,pollRec:"5-1-2"},
+ {rank:16,key:"COR",rec:null,prev:null,pts:181,pollRec:"1-1-0"},
+ {rank:17,key:"UNNY",rec:null,prev:null,pts:126,pollRec:"5-2-0"},
+ {rank:18,key:"MINN",rec:null,prev:null,pts:121,pollRec:"3-3-2"},
+ {rank:19,key:"ARMY",rec:null,prev:null,pts:117,pollRec:"5-1-0"},
+ {rank:20,key:"CONN",rec:null,prev:null,pts:92,pollRec:"3-4-1"},
 ];
 
 // v32.41 schedule-aware team themes (Victor 2026-10-29): per-team verified

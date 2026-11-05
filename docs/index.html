@@ -837,6 +837,14 @@ body.themelight .sewn-patch .pp-weave{background-image:url("jersey-fabric-light.
 .conf-chip.on{background:#454545;border:2px solid #ffffff;padding:7px 5px 6px}
 .conf-chip.on .conf-chip-name{font-weight:800}
 
+/* v32.60 (1.92): TOP 20 rows on the neutral opening page — rank fixed
+   at the left of the logo, first-place votes beside the name, record
+   pushed to the right edge. Text inherits the section's colors (the
+   no-grey-lettering rule is untouched). */
+.t20-rank{min-width:28px;text-align:right;font-weight:800;font-size:17px;flex-shrink:0}
+.t20-fpv{font-weight:700;flex-shrink:0}
+.t20-rec{margin-left:auto;font-weight:800;flex-shrink:0;padding-left:10px}
+
 /* v32.59 (1.91): conference standings on the neutral league page —
    neutral frame colors only (black/white), no team colors here. */
 .standings-wrap{overflow-x:auto;}
