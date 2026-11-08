@@ -217,7 +217,6 @@ body.teamtheme #sharemenu .tv-title{color:var(--tc2)}
 .cd{color:#ffffff;font-weight:800;font-size:13px}
 /* themed team views: team colors via --tc1/--tc2, Michigan unchanged */
 .tv.themed .tv-name{color:var(--tc2)}
-.tv.themed .tv-mascot{color:var(--tc2)}
 .tv.themed .tv-title{color:var(--tc2)}
 .tv.themed .tv-back{background:var(--tc2);color:var(--tc1)}
 /* v8: FULL team theming — a team view (and a team player page) wears that
@@ -364,6 +363,13 @@ body.fabricblack .jersey-surface{background-image:radial-gradient(80% 55% at 72%
 .theme-mark img{height:38px;width:auto;max-width:64px;object-fit:contain;display:block}
 .theme-mark.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.4)}
 .theme-mark-state{text-align:center;font-size:12px;padding:2px 8px 0}
+/* v32.81 (2.12): the four-color teams' stripe third-color option, in the marks row with the team's other page picks. */
+.stripe-third-row{text-align:center;padding:5px 8px 0}
+.stripe-third-toggle{font-size:12px;padding:4px 12px;border-radius:999px;border:1px solid rgba(128,128,128,0.55);background:rgba(127,127,127,0.15);color:inherit;cursor:pointer;font-family:inherit}
+.stripe-third-toggle.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.35);font-weight:700}
+.fabric-pick-row{text-align:center;padding:5px 8px 0}
+.fabric-pick{font-size:12px;padding:4px 12px;border-radius:999px;border:1px solid rgba(128,128,128,0.55);background:transparent;color:inherit;cursor:pointer;font-family:inherit;margin:0 2px}
+.fabric-pick.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.35);font-weight:700}
 .logo-bg-toggle{margin-left:6px;font-size:11px;padding:3px 7px;border-radius:8px;border:1px solid rgba(128,128,128,0.55);background:transparent;color:var(--tc2t);cursor:pointer}
 .logo-bg-toggle.on{border-color:var(--tc2);font-weight:700}
 .logo-bg-toggle.on{border-color:#FFC800;box-shadow:0 0 0 2px rgba(255,200,0,0.35)}
@@ -440,16 +446,10 @@ button.tv-logo-item{background:none;border:0;padding:0;font:inherit;color:inheri
 .tv-back{background:#ffffff;color:#262626;border:0;border-radius:999px;padding:10px 20px;font-weight:800;font-size:15px;cursor:pointer;margin:12px 0}
 .tv-head{padding:6px 2px 12px}
 .tv-name{font-size:26px;font-weight:900;color:#ffffff;overflow-wrap:break-word}
-/* v32.39: mascot line under the school name in team page headers.
-   Font: Dancing Script (Bold 700), SIL Open Font License 1.1,
-   bundled locally as mascot-script.woff2 (latin subset) — used ONLY
-   by .tv-mascot; no runtime font fetching anywhere in the app. */
-@font-face{font-family:'Dancing Script';src:url('mascot-script.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
 /* v32.46 Part D: cover-title display font — Anton (SIL Open Font
    License 1.1; license text in cover-title-LICENSE.txt, subset
    bundled locally as cover-title.woff2) — opening page title only. */
 @font-face{font-family:'CoverTitle';src:url('cover-title.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
-.tv-mascot{font-family:'Dancing Script',cursive;font-size:27px;font-weight:700;line-height:1.15;color:#ffffff;margin-top:1px;overflow-wrap:break-word;text-align:center}
 .tv-meta{color:#cccccc;font-size:15px;margin-top:4px;overflow-wrap:break-word}
 /* v32.50 art zone (Victor 2026-11-01 10:42 CST; supersedes the
    v32.49 header-stack rules): the team page's artwork — identity
@@ -466,18 +466,14 @@ button.tv-logo-item{background:none;border:0;padding:0;font:inherit;color:inheri
 #teamview .tv-artzone .bg-present{margin:0 0 12px;min-height:92px}
 #teamview .tv-artzone .bg-present-row{margin:0 0 12px}
 #teamview .tv-artzone .bg-present-row .bg-present{margin:0}
-#teamview .tv-artzone .tv-mascot{margin:0 0 10px;font-size:clamp(30px,12.5vw,80px);font-weight:800;line-height:1.1}
-/* v32.55 Fix 2 (Victor 2026-11-02 15:50 CST): the art-zone name IS
-   the nickname — one rendering, the team's nickname only, set in
-   the bundled script face, spanning the full screen width
-   edge-to-edge in big lettering (the element is width:100% and
-   the renderer sizes the type per nickname length in vw units).
-   The school name no longer renders anywhere in the art zone:
-   v32.54 removed wordmark FILES from this slot, but the live
-   element on device was the .tv-name TEXT line — the nickname
-   now carries the .tv-name class itself (theme outlines/shadows
-   keyed to .tv-name still apply) plus .tv-nickname here. */
-#teamview .tv-artzone .tv-nickname{font-family:'Dancing Script',cursive;font-weight:800;width:100%;text-align:center;white-space:nowrap;line-height:1.1;display:block;overflow-wrap:normal}
+/* v32.83: an empty name band (no presentation pick, or a pick
+   that renders no art) takes no space — the art zone closes up. */
+#teamview .tv-artzone .bg-present:empty{min-height:0;margin:0}
+/* v32.83 (2.14, Victor 2026-11-07 20:11 CST): NO nickname text on
+   team pages — the v32.55 cursive nickname rule is REMOVED with
+   the element it styled; the art-zone name band renders only a
+   picked mark or a verified nickname-only wordmark as art, and
+   the empty band collapses (the .bg-present:empty rule above). */
 #teamview .tv-artzone img{max-width:100%}
 #teamview .tv-artzone img.tv-logo-lg{max-width:min(200px,52vw)}
 #teamview .tv-artzone .tv-crestband{margin:6px 0 8px}
@@ -754,10 +750,9 @@ body.teamtheme #playerview .tv-news-meta{color:var(--tc2)}
    colors; the measured contrast gates are unchanged. */
 body.teamtheme.themejersey .tv-name{font-size:30px}
 body.teamtheme.themejersey .pp-name{font-size:30px}
-body.teamtheme.themejersey .tv-mascot{font-size:30px;font-weight:800}
 body.teamtheme.themejersey .tv-title{font-size:16px}
-body.teamtheme.themejersey.tco-d .tv-name,body.teamtheme.themejersey.tco-d .pp-name,body.teamtheme.themejersey.tco-d .tv-mascot,body.teamtheme.themejersey.tco-d .tv-title{text-shadow:1px 0 0 #000,-1px 0 0 #000,0 1px 0 #000,0 -1px 0 #000,1px 1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000,0 3px 8px rgba(0,0,0,0.50)}
-body.teamtheme.themejersey.tco-l .tv-name,body.teamtheme.themejersey.tco-l .pp-name,body.teamtheme.themejersey.tco-l .tv-mascot,body.teamtheme.themejersey.tco-l .tv-title{text-shadow:1px 0 0 #fff,-1px 0 0 #fff,0 1px 0 #fff,0 -1px 0 #fff,1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff,0 3px 8px rgba(0,0,0,0.35)}
+body.teamtheme.themejersey.tco-d .tv-name,body.teamtheme.themejersey.tco-d .pp-name,body.teamtheme.themejersey.tco-d .tv-title{text-shadow:1px 0 0 #000,-1px 0 0 #000,0 1px 0 #000,0 -1px 0 #000,1px 1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000,0 3px 8px rgba(0,0,0,0.50)}
+body.teamtheme.themejersey.tco-l .tv-name,body.teamtheme.themejersey.tco-l .pp-name,body.teamtheme.themejersey.tco-l .tv-title{text-shadow:1px 0 0 #fff,-1px 0 0 #fff,0 1px 0 #fff,0 -1px 0 #fff,1px 1px 0 #fff,-1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff,0 3px 8px rgba(0,0,0,0.35)}
 body.teamtheme.themejersey.tco-d .tv-line,body.teamtheme.themejersey.tco-d .tv-meta,body.teamtheme.themejersey.tco-d .tv-note,body.teamtheme.themejersey.tco-d .tv-game,body.teamtheme.themejersey.tco-d .gdate{text-shadow:0 1px 3px rgba(0,0,0,0.60)}
 body.teamtheme.themejersey.tco-l .tv-line,body.teamtheme.themejersey.tco-l .tv-meta,body.teamtheme.themejersey.tco-l .tv-note,body.teamtheme.themejersey.tco-l .tv-game,body.teamtheme.themejersey.tco-l .gdate{text-shadow:0 1px 3px rgba(255,255,255,0.65)}
 /* v32.47 Part 0 Addendum 2/3: crest backing plate (fitted in the
@@ -879,16 +874,19 @@ body.fabric-firstmesh.teamtheme.themejersey{background-color:var(--tc1);backgrou
 body.fabric-firstmesh.teamtheme.fabricblack.themejersey{background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric-firstmesh.jpg");background-blend-mode:soft-light,soft-light,screen;}
 body.fabric-firstmesh.teamtheme.themelight.themejersey{background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric-firstmesh.jpg");background-blend-mode:soft-light,soft-light,soft-light;}
 .jersey-stripes{bottom:0vh}
-.jersey-stripes .jsl{background-image:url("jersey-fabric-light.jpg");background-size:var(--fabric-tile);background-repeat:repeat;background-blend-mode:multiply}
-.jersey-stripes .jsd{background-image:url("jersey-fabric-dark.jpg");background-size:var(--fabric-tile);background-repeat:repeat;background-blend-mode:screen}
-body.fabric-knit .jersey-stripes .jsl{background-image:url("jersey-fabric-knit-light.jpg")}
-body.fabric-knit .jersey-stripes .jsd{background-image:url("jersey-fabric-knit-dark.jpg")}
-body.fabric-mesh .jersey-stripes .jsl{background-image:url("jersey-fabric-mesh-light.jpg")}
-body.fabric-mesh .jersey-stripes .jsd{background-image:url("jersey-fabric-mesh-dark.jpg")}
-body.fabric-firstmesh .jersey-stripes .jsl{background-image:url("jersey-fabric-firstmesh.jpg")}
-body.fabric-firstmesh .jersey-stripes .jsd{background-image:url("jersey-fabric-firstmesh.jpg")}
-/* v32.79: the band-visibility edge — a thin separating ring in another of the team's own colors (--edge, set inline by jerseyBgHTML) for a stripe band that would otherwise vanish against its background or a neighbouring band; the seam-relief shadows of the band rules are repeated so the edge never costs a band its relief. */
-.jersey-stripes .js-edge{box-shadow:inset 0 2px 3px rgba(255,255,255,0.16),inset 0 -4px 5px rgba(0,0,0,0.30),inset 0 0 0 2px var(--edge)}
+/* v32.81 (2.12) SUPERSEDES the v32.76 band rules: a band is a region of the same jersey in another color, so it wears the surface's OWN layer stack for the selected fabric style — the soft-light shading gradients plus the style's carrier at the same tile scale — over the band's own color. jsl is the light-carrier stack (carrier blended multiply), jsd the black treatment (dark carrier, screen), split by jerseyFabricBlack exactly as the surface splits its schemes. The v32.76 single-layer blend left dark-but-not-black bands (navy, crimson) on the dark carrier, whose screen blend over a dark band is a near no-op: flat bands on a perforated page (Victor 2026-11-07 19:31 CST). */
+.jersey-stripes .jsl{background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-light.jpg");background-size:100% 100%,100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light,multiply}
+.jersey-stripes .jsd{background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-dark.jpg");background-size:100% 100%,100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light,screen}
+body.fabric-knit .jersey-stripes .jsl{background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-knit-light.jpg")}
+body.fabric-knit .jersey-stripes .jsd{background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-fabric-knit-dark.jpg")}
+body.fabric-mesh .jersey-stripes .jsl{background-image:linear-gradient(163deg, rgba(255,255,255,.20), rgba(255,255,255,0) 55%),radial-gradient(120% 90% at 50% 0%, rgba(255,255,255,.16), rgba(255,255,255,0) 60%),url("jersey-fabric-mesh-light.jpg");background-size:100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,multiply}
+body.fabric-mesh .jersey-stripes .jsd{background-image:linear-gradient(163deg, rgba(255,255,255,.16), rgba(255,255,255,0) 55%),radial-gradient(120% 90% at 50% 0%, rgba(255,255,255,.13), rgba(255,255,255,0) 60%),url("jersey-fabric-mesh-dark.jpg");background-size:100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,screen}
+/* First Mesh band exception, measured not waived: the hole-grid carrier blends MULTIPLY on jsl bands (screen on jsd) rather than the surface stack soft-light — soft-light over a pure-white band is mathematically invisible (the v32.81 first scoped run measured the white pin at pinHp 0.026, flat, H5/H7), while multiply prints the hole grid into white exactly as it did in the shipped v32.76 band rules; the surface shading gradients still ride on top in soft-light. */
+body.fabric-firstmesh .jersey-stripes .jsl{background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric-firstmesh.jpg");background-size:100% 100%,100% 100%,235px;background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,multiply}
+body.fabric-firstmesh .jersey-stripes .jsd{background-image:linear-gradient(163deg,rgba(255,255,255,0.22),rgba(255,255,255,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(255,255,255,0.13),rgba(0,0,0,0.20) 80%),url("jersey-fabric-firstmesh.jpg");background-size:100% 100%,100% 100%,235px;background-repeat:no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,screen}
+/* v32.79: the band-visibility edge — a thin separating line in another of the team's own colors (--edge, set inline by jerseyBgHTML) for a stripe band that would otherwise vanish against its background or a neighbouring band; the seam-relief shadows of the band rules are repeated so the edge never costs a band its relief. */
+/* v32.81 (2.12): the edge runs on the band's TOP and BOTTOM borders only — the sides where it meets the background or the neighbouring band. The v32.79 inset ring also drew the left/right sides, which on full-width bands read as a box outline around the stripe (Victor 2026-11-07 19:31 CST: "The line doesn't need an outline on the sides"). No frame, no box: two horizontal lines. */
+.jersey-stripes .js-edge{box-shadow:inset 0 2px 3px rgba(255,255,255,0.16),inset 0 -4px 5px rgba(0,0,0,0.30),inset 0 2px 0 var(--edge),inset 0 -2px 0 var(--edge)}
 /* v32.76: ice body positions re-asserted after the fabric-style rules (see part 6). */
 body.themeice.teamtheme:not(.themejersey){background-color:var(--tc1);background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-ice-light.jpg");background-size:100% 100%,100% 100%,100% 100%,var(--fabric-tile);background-repeat:no-repeat,no-repeat,no-repeat,repeat;background-blend-mode:soft-light,soft-light,soft-light,multiply}
 body.themeice.teamtheme.fabricblack:not(.themejersey){background-image:radial-gradient(80% 55% at 72% 78%,rgba(0,0,0,0.16),rgba(0,0,0,0) 60%),linear-gradient(163deg,rgba(0,0,0,0),rgba(0,0,0,0) 32%,rgba(0,0,0,0.14) 66%,rgba(0,0,0,0.34)),radial-gradient(125% 55% at 50% 0%,rgba(0,0,0,0),rgba(0,0,0,0.20) 80%),url("jersey-ice-dark.jpg");background-blend-mode:soft-light,soft-light,soft-light,screen}
