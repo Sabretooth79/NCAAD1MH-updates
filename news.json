@@ -460,7 +460,13 @@
   ],
   "COLG": [
    {
-    "title": "Men's Hockey Snatches Points Against No. 6 Quinnipiac",
+    "title": "Nagel Earns Forward of the Week Honors",
+    "source": "Colgate Athletics",
+    "date": "2026-11-09",
+    "url": "https://colgateathletics.com/news/2026/11/9/mens-ice-hockey-nagel-earns-forward-of-the-week-honors.aspx"
+   },
+   {
+    "title": "Men's Hockey Snatches Point Against No. 6 Quinnipiac",
     "source": "Colgate Athletics",
     "date": "2026-11-07",
     "url": "https://colgateathletics.com/news/2026/11/7/mens-ice-hockey-mens-hockey-snatches-points-against-no-6-quinnipiac.aspx"
@@ -500,12 +506,6 @@
     "source": "Colgate Athletics",
     "date": "2026-10-18",
     "url": "https://colgateathletics.com/news/2026/10/17/mens-ice-hockey-mens-hockey-drops-series-to-new-hampshire.aspx"
-   },
-   {
-    "title": "Men's Hockey Falls in Home Opener",
-    "source": "Colgate Athletics",
-    "date": "2026-10-17",
-    "url": "https://colgateathletics.com/news/2026/10/16/mens-ice-hockey-mens-hockey-falls-in-home-opener.aspx"
    }
   ],
   "CONN": [
@@ -609,6 +609,12 @@
    }
   ],
   "DART": [
+   {
+    "title": "Stewart Named ECAC Hockey Rookie of the Week After Three-Goal Weekend",
+    "source": "Dartmouth Athletics",
+    "date": "2026-11-09",
+    "url": "https://dartmouthsports.com/news/2026/11/9/mens-ice-hockey-stewart-named-ecac-hockey-rookie-of-the-week-after-three-goal-weekend"
+   },
    {
     "title": "Stewart\u2019s Pair, Power Play Lift Men\u2019s Hockey Past Yale, 3-2",
     "source": "Dartmouth Athletics",
@@ -842,7 +848,7 @@
    {
     "title": "Hockey: N\u00e4ss\u00e9n Scores and Assists In Series Finale With Falcons on Great Lake State Week",
     "source": "Lake Superior State Athletics",
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "url": "https://lssulakers.com/news/2026/10/24/mens-ice-hockey-hockey-n-ss-n-scores-and-assists-in-series-finale-with-falcons-on-great-lake-state-week.aspx"
    }
   ],
@@ -1226,6 +1232,12 @@
   ],
   "MTU": [
    {
+    "title": "CHN: Bartoszkiewicz Thriving With Stability at Michigan Tech",
+    "source": "Michigan Tech Athletics",
+    "date": "2026-11-09",
+    "url": "https://michigantechhuskies.com/news/2026/11/9/mens-ice-hockey-chn-bartoszkiewicz-thriving-with-stability-at-michigan-tech.aspx"
+   },
+   {
     "title": "Tech Hockey | Bill Muckalt Augustana Postgame | 11.07.26",
     "source": "Michigan Tech Athletics",
     "date": "2026-11-07",
@@ -1266,12 +1278,6 @@
     "source": "Michigan Tech Athletics",
     "date": "2026-11-05",
     "url": "https://michigantechhuskies.com/news/2026/11/5/mens-ice-hockey-14-huskies-host-8-augustana-at-the-mac.aspx"
-   },
-   {
-    "title": "Michigan Tech Hockey Radio Show",
-    "source": "Michigan Tech Athletics",
-    "date": "2026-11-04",
-    "url": "https://michigantechhuskies.com/news/2026/11/4/mens-ice-hockey-hockey-radio-show.aspx"
    }
   ],
   "ND": [
@@ -2557,6 +2563,6 @@
    }
   ]
  },
- "updated": "2026-11-09T14:13:33Z",
+ "updated": "2026-11-09T18:02:51Z",
  "version": 1
 }
