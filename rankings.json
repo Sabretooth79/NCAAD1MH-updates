@@ -1,1 +1,151 @@
-{"date":"Nov 2, 2026","ranks":[{"fpv":37,"key":"WIS","pollRec":"6-0-0","pts":979,"rank":1},{"fpv":9,"key":"MICH","pollRec":"8-1-0","pts":922,"rank":2},{"fpv":3,"key":"MSU","pollRec":"5-1-0","pts":897,"rank":3},{"key":"DEN","pollRec":"5-2-1","pts":830,"rank":4},{"fpv":1,"key":"WMU","pollRec":"6-1-0","pts":785,"rank":5},{"key":"UMD","pollRec":"6-2-2","pts":681,"rank":6},{"key":"QUIN","pollRec":"5-2-0","pts":681,"rank":6},{"key":"AUG","pollRec":"7-0-1","pts":600,"rank":8},{"key":"PROV","pollRec":"5-1-0","pts":596,"rank":9},{"key":"UND","pollRec":"4-3-0","pts":542,"rank":10},{"key":"CC","pollRec":"6-2-0","pts":537,"rank":11},{"key":"DART","pollRec":"2-0-0","pts":477,"rank":12},{"key":"BU","pollRec":"6-2-0","pts":405,"rank":13},{"key":"MTU","pollRec":"6-2-0","pts":355,"rank":14},{"key":"MRMK","pollRec":"5-1-2","pts":310,"rank":15},{"key":"COR","pollRec":"1-1-0","pts":181,"rank":16},{"key":"UNNY","pollRec":"5-2-0","pts":126,"rank":17},{"key":"MINN","pollRec":"3-3-2","pts":121,"rank":18},{"key":"ARMY","pollRec":"5-1-0","pts":117,"rank":19},{"key":"CONN","pollRec":"3-4-1","pts":92,"rank":20}],"receivingVotes":["OSU"],"source":"USCHO Men's Poll","updated":"2026-11-02","version":1,"week":"Week 6"}
+{
+ "date": "Nov 2, 2026",
+ "ranks": [
+  {
+   "fpv": 37,
+   "key": "WIS",
+   "pollRec": "6-0-0",
+   "pts": 979,
+   "rank": 1
+  },
+  {
+   "fpv": 9,
+   "key": "MICH",
+   "pollRec": "8-1-0",
+   "pts": 922,
+   "rank": 2
+  },
+  {
+   "fpv": 3,
+   "key": "MSU",
+   "pollRec": "5-1-0",
+   "pts": 897,
+   "rank": 3
+  },
+  {
+   "key": "DEN",
+   "pollRec": "5-2-1",
+   "pts": 830,
+   "rank": 4
+  },
+  {
+   "fpv": 1,
+   "key": "WMU",
+   "pollRec": "6-1-0",
+   "pts": 785,
+   "rank": 5
+  },
+  {
+   "key": "UMD",
+   "pollRec": "6-2-2",
+   "pts": 681,
+   "rank": 6
+  },
+  {
+   "key": "QUIN",
+   "pollRec": "5-2-0",
+   "pts": 681,
+   "rank": 6
+  },
+  {
+   "key": "AUG",
+   "pollRec": "7-0-1",
+   "pts": 600,
+   "rank": 8
+  },
+  {
+   "key": "PROV",
+   "pollRec": "5-1-0",
+   "pts": 596,
+   "rank": 9
+  },
+  {
+   "key": "UND",
+   "pollRec": "4-3-0",
+   "pts": 542,
+   "rank": 10
+  },
+  {
+   "key": "CC",
+   "pollRec": "6-2-0",
+   "pts": 537,
+   "rank": 11
+  },
+  {
+   "key": "DART",
+   "pollRec": "2-0-0",
+   "pts": 477,
+   "rank": 12
+  },
+  {
+   "key": "BU",
+   "pollRec": "6-2-0",
+   "pts": 405,
+   "rank": 13
+  },
+  {
+   "key": "MTU",
+   "pollRec": "6-2-0",
+   "pts": 355,
+   "rank": 14
+  },
+  {
+   "key": "MRMK",
+   "pollRec": "5-1-2",
+   "pts": 310,
+   "rank": 15
+  },
+  {
+   "key": "COR",
+   "pollRec": "1-1-0",
+   "pts": 181,
+   "rank": 16
+  },
+  {
+   "key": "UNNY",
+   "pollRec": "5-2-0",
+   "pts": 126,
+   "rank": 17
+  },
+  {
+   "key": "MINN",
+   "pollRec": "3-3-2",
+   "pts": 121,
+   "rank": 18
+  },
+  {
+   "key": "ARMY",
+   "pollRec": "5-1-0",
+   "pts": 117,
+   "rank": 19
+  },
+  {
+   "key": "CONN",
+   "pollRec": "3-4-1",
+   "pts": 92,
+   "rank": 20
+  }
+ ],
+ "receivingVotes": [
+  "MIA",
+  "NE",
+  "MASS",
+  "ME",
+  "OSU",
+  "BC",
+  "BGSU",
+  "ASU",
+  "UNH",
+  "SHU",
+  "PRIN",
+  "UVM",
+  "HAR",
+  "NIA",
+  "RPI",
+  "SCSU"
+ ],
+ "source": "USCHO Men's Poll",
+ "updated": "2026-11-09",
+ "version": 1,
+ "week": "Week 6"
+}
