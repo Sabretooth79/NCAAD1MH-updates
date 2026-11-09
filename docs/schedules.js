@@ -2219,7 +2219,7 @@ var SCHEDULES = {
 };
 
 // v32.38: verified radio-broadcast recordings for completed games
-// (hunt 2026-10-29; ~/workspace/radio-replay/recordings.json). Keyed by
+// (hunt 2026-10-29 + expansion 2026-11-09, 19 recordings; ~/workspace/radio-replay/recordings.json). Keyed by
 // date + alphabetical team pair — the HIGHLIGHTS-style game key — so a
 // lookup hits from either team's schedule row. Every entry was
 // oEmbed-verified during the hunt as a public recording of that game's
@@ -2241,5 +2241,10 @@ var RADIO_REPLAY = {
  "2026-10-23_MIA-UAA": {url: "https://www.youtube.com/watch?v=lxUrMcbw9vQ", source: "Redhawk Radio (WMSR)"},
  "2026-10-23_MICH-WMU": {url: "https://www.youtube.com/watch?v=vunq0lWH6Fw", source: "WCBN Sports"},
  "2026-10-24_BGSU-LSS": {url: "https://www.youtube.com/watch?v=oLAe59iSF_Y", source: "BG Falcon Media (Falcon Media Sports Network)"},
- "2026-10-24_MIA-UAA": {url: "https://www.youtube.com/watch?v=rnIOZ1Aq_1k", source: "Redhawk Radio (WMSR)"}
+ "2026-10-24_MIA-UAA": {url: "https://www.youtube.com/watch?v=rnIOZ1Aq_1k", source: "Redhawk Radio (WMSR)"},
+ "2026-10-30_MIA-STMN": {url: "https://www.youtube.com/watch?v=xQDYhd8zNps", source: "Redhawk Radio (WMSR)"},
+ "2026-10-31_MIA-STMN": {url: "https://www.youtube.com/watch?v=sfAFLvMV4so", source: "Redhawk Radio (WMSR)"},
+ "2026-11-06_ASU-DEN": {url: "https://www.youtube.com/watch?v=gxtyRyf4X-k", source: "Blaze Sports (Blaze Radio ASU)"},
+ "2026-11-06_BEM-BGSU": {url: "https://www.youtube.com/watch?v=sBokNZTjVK4", source: "BG Falcon Media (Falcon Media Sports Network)"},
+ "2026-11-07_BEM-BGSU": {url: "https://www.youtube.com/watch?v=pECUnPEi16s", source: "BG Falcon Media (Falcon Media Sports Network)"}
 };

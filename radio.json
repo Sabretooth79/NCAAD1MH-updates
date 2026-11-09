@@ -78,24 +78,146 @@
   {
    "team": "UND",
    "url": "https://stream.revma.ihrhls.com/zc1681/hls.m3u8",
-   "name": "KQHT 96.1 FM (96.1 The Fox) Grand Forks \u2014 Fighting Hawks Radio Network flagship"
+   "name": "KQHT 96.1 FM (96.1 The Fox) Grand Forks — Fighting Hawks Radio Network flagship"
   },
   {
    "team": "UNH",
    "url": "https://stream.revma.ihrhls.com/zc2752/hls.m3u8",
-   "name": "WGIR 610 AM Manchester \u2014 Wildcat Sports Radio Network flagship (also WQSO 96.7 FM, WPKX 930 AM)"
+   "name": "WGIR 610 AM Manchester — Wildcat Sports Radio Network flagship (also WQSO 96.7 FM, WPKX 930 AM)"
   },
   {
    "team": "WIS",
    "url": "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
-   "name": "WIBA 1310 AM Madison \u2014 Badger Radio Network"
+   "name": "WIBA 1310 AM Madison — Badger Radio Network"
   },
   {
    "team": "WMU",
    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WKZOAM.mp3",
-   "name": "WKZO 590 AM / 106.9 FM Kalamazoo \u2014 Bronco Radio Network flagship"
+   "name": "WKZO 590 AM / 106.9 FM Kalamazoo — Bronco Radio Network flagship"
   }
  ],
- "updated": "2026-11-09T13:58:11Z",
- "version": 1
+ "pages": [
+  {
+   "name": "WBNR 1260 AM, WLNA 1420 AM and WGHQ 920 AM / The Varsity Network",
+   "team": "ARMY",
+   "url": "https://thevarsitynetwork.com"
+  },
+  {
+   "name": "KGME Fox Sports 910 AM Phoenix",
+   "team": "ASU",
+   "url": "https://foxsports910.iheart.com/"
+  },
+  {
+   "name": "WEEI 850 AM Boston",
+   "team": "BC",
+   "url": "https://www.audacy.com/stations/850weei"
+  },
+  {
+   "name": "Terrier Sports Radio Network (GoTerriers.com/Listen)",
+   "team": "BU",
+   "url": "https://goterriers.com/listen"
+  },
+  {
+   "name": "ESPN 97.9 FM Hartford — UConn Sports Network from Learfield",
+   "team": "CONN",
+   "url": "https://thevarsitynetwork.com/feed/source/oas-1502"
+  },
+  {
+   "name": "Dartmouth live audio",
+   "team": "DART",
+   "url": "https://dartmouthsports.com/watch"
+  },
+  {
+   "name": "Denver Sports 104.3 The Fan HD3 (KKFN-HD3), Denver",
+   "team": "DEN",
+   "url": "https://denverfan.com"
+  },
+  {
+   "name": "Sunny 97.3 FM WDEE Reed City/Big Rapids — Bulldog Sports Network",
+   "team": "FSU",
+   "url": "https://portal.stretchinternet.com/ferrisstate/"
+  },
+  {
+   "name": "KCLC 89.1 FM St. Charles — Lindenwood Sports Network",
+   "team": "LIN",
+   "url": "https://www.lindenwood.edu/891-kclc/kclc-fm/"
+  },
+  {
+   "name": "WYSS 99.5 YES FM Sault Ste. Marie",
+   "team": "LSS",
+   "url": "https://yesfm.net/"
+  },
+  {
+   "name": "WHMP 101.5 FM & 1400 AM Northampton — UMass Sports Network",
+   "team": "MASS",
+   "url": "https://whmp.com/"
+  },
+  {
+   "name": "92.9 FM eastern Maine / 100.5 FM southern Maine — Black Bear Sports Network",
+   "team": "ME",
+   "url": "https://goblackbears.com/MIHRadio"
+  },
+  {
+   "name": "94.7 WCSX-FM Detroit (Michigan Sports Network from Learfield)",
+   "team": "MICH",
+   "url": "https://thevarsitynetwork.com/audioapplink/source/university-of-michigan:oas-1344"
+  },
+  {
+   "name": "KTLK AM 1130 / 103.5 FM Minneapolis (Twin Cities News Talk)",
+   "team": "MINN",
+   "url": "https://twincitiesnewstalk.iheart.com/"
+  },
+  {
+   "name": "WMCK Merrimack College Radio (online only)",
+   "team": "MRMK",
+   "url": "https://zeno.fm/radio/wmck-merrimack-college/"
+  },
+  {
+   "name": "WVFN 730 AM Lansing (Spartan Media Network)",
+   "team": "MSU",
+   "url": "https://msuspartans.com/watch"
+  },
+  {
+   "name": "WSBT 96.1 FM South Bend (SoFi Notre Dame Radio Network)",
+   "team": "ND",
+   "url": "https://fightingirish.com/radioaffiliates/"
+  },
+  {
+   "name": "WRBB 104.9 FM Boston",
+   "team": "NE",
+   "url": "https://wrbbsports.com/listen-live/"
+  },
+  {
+   "name": "WUPT 100.3 The Point Marquette",
+   "team": "NMI",
+   "url": "https://www.radioresultsnetwork.com/thepoint/"
+  },
+  {
+   "name": "1290 KOIL Omaha",
+   "team": "OMA",
+   "url": "https://thevarsitynetwork.com/"
+  },
+  {
+   "name": "WBNS 1460 AM Columbus, WBNS-FM-HD2",
+   "team": "OSU",
+   "url": "https://www.espncolumbus.com/"
+  },
+  {
+   "name": "Legends 104.3 FM - Penn State Sports Network",
+   "team": "PSU",
+   "url": "https://gopsu.us/PennStateLionVision"
+  },
+  {
+   "name": "WLFK 95.3 The Wolf / WQTK 92.7 FM Ogdensburg",
+   "team": "SLU",
+   "url": "https://cbogdensburg.com/thewolf/"
+  },
+  {
+   "name": "WVMT 620 AM / 96.3 FM Burlington",
+   "team": "UVM",
+   "url": "https://thevarsitynetwork.com/feed/source/oas-378"
+  }
+ ],
+ "updated": "2026-11-09T15:49:19Z",
+ "version": 2
 }
