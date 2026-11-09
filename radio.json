@@ -1,0 +1,101 @@
+{
+ "streams": [
+  {
+   "team": "AF",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCSFAM.mp3",
+   "name": "Xtra Sports 1300 AM (KCSF-AM) Colorado Springs"
+  },
+  {
+   "team": "BGSU",
+   "url": "https://dvstream3.bgsu.edu:8000/WBGUFM/_definst_/myStream/playlist.m3u8",
+   "name": "WBGU 88.1 FM Bowling Green"
+  },
+  {
+   "team": "CC",
+   "url": "https://ice6.securenetsystems.net/KRDO",
+   "name": "KRDO NewsRadio 105.5 FM and 1240 AM, Colorado Springs"
+  },
+  {
+   "team": "CLAR",
+   "url": "https://ice66.securenetsystems.net/WSNN",
+   "name": "B99.3 FM WSNN Potsdam"
+  },
+  {
+   "team": "HAR",
+   "url": "https://stream.whrb.org/whrb-mp3",
+   "name": "WHRB 95.3 FM Cambridge"
+  },
+  {
+   "team": "MNST",
+   "url": "https://ice24.securenetsystems.net/KTOE",
+   "name": "KTOE AM 1420 / 98.7 FM Mankato"
+  },
+  {
+   "team": "MTU",
+   "url": "https://stream.civicmedia.us/WKMJ",
+   "name": "Mix 93.5 FM WKMJ Houghton/Hancock"
+  },
+  {
+   "team": "PROV",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRVAMAAC.aac",
+   "name": "WPRV-AM 790 (790 The Score) Providence"
+  },
+  {
+   "team": "RIT",
+   "url": "https://streaming.witr.rit.edu/live-mp3",
+   "name": "WITR 89.7 FM or FOX Sports 1280 AM Rochester"
+  },
+  {
+   "team": "RPI",
+   "url": "https://stream.wrpi.org/mp3-320.mp3",
+   "name": "WRPI 91.5 FM Troy"
+  },
+  {
+   "team": "SCSU",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNSI.mp3",
+   "name": "KNSI 1450 AM / 99.3 FM St. Cloud"
+  },
+  {
+   "team": "STMN",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac",
+   "name": "ESPN 1500 (KSTP 1500 AM) St. Paul"
+  },
+  {
+   "team": "UAF",
+   "url": "https://stream.radio.co/se776fab22/listen",
+   "name": "KSUA 91.5 FM Fairbanks"
+  },
+  {
+   "team": "UMD",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDALAMAAC_SC",
+   "name": "KDAL 610 AM / 103.9 FM Duluth"
+  },
+  {
+   "team": "UML",
+   "url": "https://audio-edge-vqwx4.yyz.g.radiomast.io/a59bbcb6-0330-48e3-bf93-1f054ac27b5c",
+   "name": "WCAP 980 AM Lowell (River Hawk Network)"
+  },
+  {
+   "team": "UND",
+   "url": "https://stream.revma.ihrhls.com/zc1681/hls.m3u8",
+   "name": "KQHT 96.1 FM (96.1 The Fox) Grand Forks \u2014 Fighting Hawks Radio Network flagship"
+  },
+  {
+   "team": "UNH",
+   "url": "https://stream.revma.ihrhls.com/zc2752/hls.m3u8",
+   "name": "WGIR 610 AM Manchester \u2014 Wildcat Sports Radio Network flagship (also WQSO 96.7 FM, WPKX 930 AM)"
+  },
+  {
+   "team": "WIS",
+   "url": "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
+   "name": "WIBA 1310 AM Madison \u2014 Badger Radio Network"
+  },
+  {
+   "team": "WMU",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WKZOAM.mp3",
+   "name": "WKZO 590 AM / 106.9 FM Kalamazoo \u2014 Bronco Radio Network flagship"
+  }
+ ],
+ "updated": "2026-11-09T13:58:11Z",
+ "version": 1
+}
