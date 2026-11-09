@@ -1127,8 +1127,32 @@
       "tier": "official-conference",
       "title": "Long Island Univ. at RPI (10.17.26)",
       "url": "https://ecachockey.com/watch/default.aspx?Archive=1400&path=conf"
+    },
+    {
+      "away": "YALE",
+      "date": "2026-11-06",
+      "home": "DART",
+      "tier": "official-conference",
+      "title": "Yale at Dartmouth | NCAA Men’s Ice Hockey | Highlights - November 6, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=Ynk22u7Rmb8"
+    },
+    {
+      "away": "UAF",
+      "date": "2026-11-01",
+      "home": "DART",
+      "tier": "official-conference",
+      "title": "Alaska Fairbanks at Dartmouth | NCAA Men’s Ice Hockey | Highlights - November 1, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=7KqzbLdjUWw"
+    },
+    {
+      "away": "UAF",
+      "date": "2026-10-31",
+      "home": "DART",
+      "tier": "official-conference",
+      "title": "Alaska Fairbanks at Dartmouth | NCAA Men’s Ice Hockey | Highlights - October 31, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=zXpvOrbaeME"
     }
   ],
-  "updated": "2026-11-09T18:00:57Z",
+  "updated": "2026-11-09T19:57:24Z",
   "version": 1
 }
