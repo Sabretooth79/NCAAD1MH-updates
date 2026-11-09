@@ -1031,8 +1031,32 @@
       "tier": "official",
       "title": "Men's Hockey: Vermont vs. New Hampshire (10/31/26)",
       "url": "https://www.youtube.com/watch?v=3Fd8OEQyvZU"
+    },
+    {
+      "away": "UML",
+      "date": "2026-10-24",
+      "home": "PROV",
+      "tier": "aggregator",
+      "title": "Providence vs UMass Lowell | NCAA College Hockey Highlights | October 24, 2026",
+      "url": "https://www.youtube.com/watch?v=xJugfgrTRrw"
+    },
+    {
+      "away": "UND",
+      "date": "2026-10-22",
+      "home": "MINN",
+      "tier": "official",
+      "title": "UND Hockey | Highlights at Minnesota | 10.22.26",
+      "url": "https://www.youtube.com/watch?v=heGgQkQpWd0"
+    },
+    {
+      "away": "MINN",
+      "date": "2026-10-16",
+      "home": "UMD",
+      "tier": "official-conference",
+      "title": "10-16-26 Minnesota at Minnesota Duluth Highlights",
+      "url": "https://www.youtube.com/watch?v=sQfzfS6_UW4"
     }
   ],
-  "updated": "2026-11-09T13:54:18Z",
+  "updated": "2026-11-09T15:54:12Z",
   "version": 1
 }
