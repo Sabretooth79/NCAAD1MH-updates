@@ -1151,8 +1151,112 @@
       "tier": "official-conference",
       "title": "Alaska Fairbanks at Dartmouth | NCAA Men’s Ice Hockey | Highlights - October 31, 2026 | #ECACHockey",
       "url": "https://www.youtube.com/watch?v=zXpvOrbaeME"
+    },
+    {
+      "away": "PROV",
+      "date": "2026-10-31",
+      "home": "QUIN",
+      "tier": "official-conference",
+      "title": "Providence at Quinnipiac | NCAA Men’s Ice Hockey | Highlights - October 31, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=BzbriVqrcoY"
+    },
+    {
+      "away": "OMA",
+      "date": "2026-10-31",
+      "home": "DEN",
+      "tier": "official-conference",
+      "title": "10-31-26 Omaha at Denver Highlights",
+      "url": "https://www.youtube.com/watch?v=xVWPZLVZK-8"
+    },
+    {
+      "away": "AF",
+      "date": "2026-10-31",
+      "home": "RMU",
+      "tier": "official-conference",
+      "title": "Robert Morris 3, Air Force 2 - Oct. 31, 2026",
+      "url": "https://www.youtube.com/watch?v=FyiFdGtBYEM"
+    },
+    {
+      "away": "UMD",
+      "date": "2026-10-30",
+      "home": "CC",
+      "tier": "official-conference",
+      "title": "10/30/26 - Minnesota Duluth at Colorado College Highlights",
+      "url": "https://www.youtube.com/watch?v=r9yQWHqD3yw"
+    },
+    {
+      "away": "STMN",
+      "date": "2026-10-30",
+      "home": "MIA",
+      "tier": "official-conference",
+      "title": "10/30/26 - St. Thomas at Miami Highlights",
+      "url": "https://www.youtube.com/watch?v=2P1eDz46l9Q"
+    },
+    {
+      "away": "PRIN",
+      "date": "2026-10-30",
+      "home": "STO",
+      "tier": "official-conference",
+      "title": "Princeton at Stonehill | NCAA Men’s Ice Hockey | Highlights - October 30, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=2gMtgvriH-E"
+    },
+    {
+      "away": "NMI",
+      "date": "2026-10-30",
+      "home": "AUG",
+      "tier": "official-conference",
+      "title": "Northern Michigan at Augustana Highlights 10/30/2026",
+      "url": "https://www.youtube.com/watch?v=G7tI0-rbkWQ"
+    },
+    {
+      "away": "NE",
+      "date": "2026-10-30",
+      "home": "BC",
+      "tier": "aggregator",
+      "title": "Boston College vs Northeastern | NCAA College Hockey Highlights | October 30, 2026",
+      "url": "https://www.youtube.com/watch?v=o_QHCTUcDi0"
+    },
+    {
+      "away": "ME",
+      "date": "2026-10-30",
+      "home": "BU",
+      "tier": "official",
+      "title": "Highlights: Men's Ice Hockey vs. Maine (10/30/26)",
+      "url": "https://www.youtube.com/watch?v=1M3TOUOwIlg"
+    },
+    {
+      "away": "LSS",
+      "date": "2026-10-30",
+      "home": "MNST",
+      "tier": "official-conference",
+      "title": "Lake Superior State vs. Minnesota State Highlights 10/30/2026",
+      "url": "https://www.youtube.com/watch?v=s9zYxuXAgIc"
+    },
+    {
+      "away": "LIU",
+      "date": "2026-10-30",
+      "home": "WMU",
+      "tier": "official-conference",
+      "title": "10-30-26 Long Island at Western Michigan Highlights",
+      "url": "https://www.youtube.com/watch?v=soLgpfx8gGg"
+    },
+    {
+      "away": "MICH",
+      "date": "2026-10-16",
+      "home": "DEN",
+      "tier": "official-conference",
+      "title": "10/16/26 - Michigan at Denver Highlights",
+      "url": "https://www.youtube.com/watch?v=DxJ-hgrPaSo"
+    },
+    {
+      "away": "ASU",
+      "date": "2026-10-16",
+      "home": "UML",
+      "tier": "official",
+      "title": "Ice Hockey | UMass Lowell vs Arizona State Highlights (10.16.26)",
+      "url": "https://www.youtube.com/watch?v=e-lD9T_wQpI"
     }
   ],
-  "updated": "2026-11-09T19:57:24Z",
+  "updated": "2026-11-09T21:58:00Z",
   "version": 1
 }
