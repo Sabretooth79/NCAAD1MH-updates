@@ -1,1 +1,246 @@
-{"highlights":[{"away":"MICH","date":"2026-10-31","home":"OSU","tier":"official-conference","title":"Michigan at Ohio State | Extended Highlights | Big Ten Hockey | 10/31/2026","url":"https://www.youtube.com/watch?v=OEkf7Cjne8k"},{"away":"MICH","date":"2026-11-01","home":"OSU","tier":"aggregator","title":"Ohio State vs Michigan | What a Game | NCAA College Hockey | Highlights - November 01, 2026","url":"https://www.youtube.com/watch?v=UDZz8-713iw"},{"away":"BU","date":"2026-10-22","home":"CONN","tier":"aggregator","title":"Boston University vs UConn | What a game | NCAA College Hockey Highlights | October 22, 2026","url":"https://www.youtube.com/watch?v=amFYsKu4W6c"},{"away":"DEN","date":"2026-11-06","home":"ASU","tier":"aggregator","title":"Arizona State vs Denver | NCAA College Hockey | Highlights - November 06, 2026","url":"https://www.youtube.com/watch?v=zJzfBsIlpdY"},{"away":"DEN","date":"2026-11-08","home":"ASU","tier":"official-conference","title":"11-8-26 Denver at Arizona State Highlights","url":"https://www.youtube.com/watch?v=5zZGXi1bdC4"}],"updated":"2026-11-09T01:49:24Z","version":1}
+{
+ "highlights": [
+  {
+   "away": "MICH",
+   "date": "2026-10-31",
+   "home": "OSU",
+   "tier": "official-conference",
+   "title": "Michigan at Ohio State | Extended Highlights | Big Ten Hockey | 10/31/2026",
+   "url": "https://www.youtube.com/watch?v=OEkf7Cjne8k"
+  },
+  {
+   "away": "MICH",
+   "date": "2026-11-01",
+   "home": "OSU",
+   "tier": "aggregator",
+   "title": "Ohio State vs Michigan | What a Game | NCAA College Hockey | Highlights - November 01, 2026",
+   "url": "https://www.youtube.com/watch?v=UDZz8-713iw"
+  },
+  {
+   "away": "BU",
+   "date": "2026-10-22",
+   "home": "CONN",
+   "tier": "aggregator",
+   "title": "Boston University vs UConn | What a game | NCAA College Hockey Highlights | October 22, 2026",
+   "url": "https://www.youtube.com/watch?v=amFYsKu4W6c"
+  },
+  {
+   "away": "DEN",
+   "date": "2026-11-06",
+   "home": "ASU",
+   "tier": "aggregator",
+   "title": "Arizona State vs Denver | NCAA College Hockey | Highlights - November 06, 2026",
+   "url": "https://www.youtube.com/watch?v=zJzfBsIlpdY"
+  },
+  {
+   "away": "DEN",
+   "date": "2026-11-08",
+   "home": "ASU",
+   "tier": "official-conference",
+   "title": "11-8-26 Denver at Arizona State Highlights",
+   "url": "https://www.youtube.com/watch?v=5zZGXi1bdC4"
+  },
+  {
+   "away": "BU",
+   "date": "2026-11-07",
+   "home": "MSU",
+   "tier": "aggregator",
+   "title": "Michigan State vs Boston University | NCAA College Hockey | Highlights - November 07, 2026",
+   "url": "https://www.youtube.com/watch?v=A6RLCy7VH1o"
+  },
+  {
+   "away": "PROV",
+   "date": "2026-11-07",
+   "home": "CONN",
+   "tier": "official-conference",
+   "title": "PROVIDENCE at UCONN | Men's Game Highlights | 11.7.2026",
+   "url": "https://www.youtube.com/watch?v=2Vr8O4V9emc"
+  },
+  {
+   "away": "LIN",
+   "date": "2026-11-07",
+   "home": "CC",
+   "tier": "official-conference",
+   "title": "11/7/26 - Lindenwood at Colorado College Highlights",
+   "url": "https://www.youtube.com/watch?v=IPmjgyXI7Iw"
+  },
+  {
+   "away": "AUG",
+   "date": "2026-11-07",
+   "home": "MTU",
+   "tier": "official-conference",
+   "title": "Augustana at Michigan Tech Highlights 11/7/2026",
+   "url": "https://www.youtube.com/watch?v=xUWnCiScMco"
+  },
+  {
+   "away": "BEM",
+   "date": "2026-11-07",
+   "home": "BGSU",
+   "tier": "official-conference",
+   "title": "Bemidji State at Bowling Green Highlights 11/7/2026",
+   "url": "https://www.youtube.com/watch?v=DCFvup5L_u0"
+  },
+  {
+   "away": "MNST",
+   "date": "2026-11-07",
+   "home": "NMI",
+   "tier": "official-conference",
+   "title": "Minnesota State at Northern Michigan Highlights 11/7/2026",
+   "url": "https://www.youtube.com/watch?v=YXuWc-3KyR0"
+  },
+  {
+   "away": "UAA",
+   "date": "2026-11-07",
+   "home": "STMN",
+   "tier": "official-conference",
+   "title": "11-7-26 Alaska Anchorage at St. Thomas Highlights",
+   "url": "https://www.youtube.com/watch?v=td9HEGtwSDQ"
+  },
+  {
+   "away": "MASS",
+   "date": "2026-11-07",
+   "home": "ME",
+   "tier": "official-conference",
+   "title": "MASSACHUSETTS at MAINE | Men's Game Highlights | 11.7.2026",
+   "url": "https://www.youtube.com/watch?v=0ujjzyonbJ8"
+  },
+  {
+   "away": "UML",
+   "date": "2026-11-07",
+   "home": "UNH",
+   "tier": "official-conference",
+   "title": "UMASS LOWELL at NEW HAMPSHIRE | Men's Game Highlights | 11.7.2026",
+   "url": "https://www.youtube.com/watch?v=GMnzj2Y5reU"
+  },
+  {
+   "away": "YALE",
+   "date": "2026-11-07",
+   "home": "HAR",
+   "tier": "official",
+   "title": "Men's Hockey: Yale 4, Harvard 3 [OT] (Nov. 7, 2026)",
+   "url": "https://www.youtube.com/watch?v=hysTIhHLi-Q"
+  },
+  {
+   "away": "ND",
+   "date": "2026-11-07",
+   "home": "PSU",
+   "tier": "official-conference",
+   "title": "Notre Dame at Penn State | Extended Highlights | Big Ten Hockey | 11/07/2026",
+   "url": "https://www.youtube.com/watch?v=pD7IeumUcf8"
+  },
+  {
+   "away": "MIA",
+   "date": "2026-11-07",
+   "home": "UMD",
+   "tier": "aggregator",
+   "title": "Minnesota Duluth vs Miami | NCAA College Hockey | Highlights - November 07, 2026",
+   "url": "https://www.youtube.com/watch?v=hZG6wzwsb6c"
+  },
+  {
+   "away": "WMU",
+   "date": "2026-11-07",
+   "home": "UND",
+   "tier": "official-conference",
+   "title": "11-7-26 Western Michigan at North Dakota Highlights",
+   "url": "https://www.youtube.com/watch?v=xFnZw0vAtD0"
+  },
+  {
+   "away": "WIS",
+   "date": "2026-11-07",
+   "home": "MINN",
+   "tier": "aggregator",
+   "title": "Minnesota vs Wisconsin | NCAA College Hockey | Highlights - November 07, 2026",
+   "url": "https://www.youtube.com/watch?v=rJXaEPRdEoE"
+  },
+  {
+   "away": "MASS",
+   "date": "2026-11-06",
+   "home": "ME",
+   "tier": "official",
+   "title": "Maine Men's Hockey | Highlights vs UMass (11.6.26)",
+   "url": "https://www.youtube.com/watch?v=ItlC5aT3yO4"
+  },
+  {
+   "away": "QUIN",
+   "date": "2026-11-06",
+   "home": "COR",
+   "tier": "official",
+   "title": "Highlights: Cornell Men's Ice Hockey vs Quinnipiac - 11/06/2026",
+   "url": "https://www.youtube.com/watch?v=HPvx66yvvp0"
+  },
+  {
+   "away": "BRWN",
+   "date": "2026-11-06",
+   "home": "HAR",
+   "tier": "official",
+   "title": "Men's Hockey: Harvard 4, Brown 1 (Nov. 6, 2026)",
+   "url": "https://www.youtube.com/watch?v=yAXns47yVKI"
+  },
+  {
+   "away": "UNNY",
+   "date": "2026-11-06",
+   "home": "CLAR",
+   "tier": "official",
+   "title": "Clarkson vs Union Highlights | Clarkson Athletics",
+   "url": "https://www.youtube.com/watch?v=TRN2d4TWQ-0"
+  },
+  {
+   "away": "RPI",
+   "date": "2026-11-06",
+   "home": "SLU",
+   "tier": "official",
+   "title": "St. Lawrence 2, RPI 2 (SOW) (men's hockey)",
+   "url": "https://www.youtube.com/watch?v=0p4J5T0j30Y"
+  },
+  {
+   "away": "ND",
+   "date": "2026-11-06",
+   "home": "PSU",
+   "tier": "aggregator",
+   "title": "Penn State vs Notre Dame | What a Game | NCAA College Hockey | Highlights - November 06, 2026",
+   "url": "https://www.youtube.com/watch?v=XEMRI_nQc28"
+  },
+  {
+   "away": "MNST",
+   "date": "2026-11-06",
+   "home": "NMI",
+   "tier": "official-conference",
+   "title": "Minnesota State at Northern Michigan Highlights 11/6/2026",
+   "url": "https://www.youtube.com/watch?v=UxZXww0QASo"
+  },
+  {
+   "away": "MIA",
+   "date": "2026-11-06",
+   "home": "UMD",
+   "tier": "aggregator",
+   "title": "Minnesota Duluth vs Miami | NCAA College Hockey | Highlights - November 06, 2026",
+   "url": "https://www.youtube.com/watch?v=pVEhW2Mhhys"
+  },
+  {
+   "away": "WMU",
+   "date": "2026-11-06",
+   "home": "UND",
+   "tier": "aggregator",
+   "title": "North Dakota vs Western Michigan | NCAA College Hockey | Highlights - November 06, 2026",
+   "url": "https://www.youtube.com/watch?v=Ia94XaQ3V6k"
+  },
+  {
+   "away": "ARMY",
+   "date": "2026-11-06",
+   "home": "AF",
+   "tier": "official-conference",
+   "title": "Army West Point 4, Air Force 1 - Nov. 6, 2026",
+   "url": "https://www.youtube.com/watch?v=WOwDht-hMXo"
+  },
+  {
+   "away": "RMU",
+   "date": "2026-11-06",
+   "home": "LIU",
+   "tier": "official-conference",
+   "title": "Robert Morris 5, Long Island 2 - Nov. 6, 2026",
+   "url": "https://www.youtube.com/watch?v=jb5QnsFZus8"
+  }
+ ],
+ "updated": "2026-11-09T02:05:54Z",
+ "version": 1
+}
