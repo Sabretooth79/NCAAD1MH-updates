@@ -2,6 +2,12 @@
  "news": {
   "AF": [
    {
+    "title": "Falcons host Bentley, Nov. 12-13",
+    "source": "Air Force Athletics",
+    "date": "2026-11-10",
+    "url": "https://goairforcefalcons.com/news/2026/11/10/mens-ice-hockey-falcons-host-bentley-nov-12-13"
+   },
+   {
     "title": "Wasik blanks No. 19 Army in 2-0 victory in series finale",
     "source": "Air Force Athletics",
     "date": "2026-11-07",
@@ -504,7 +510,7 @@
    {
     "title": "Men's Hockey Falls to UMass Lowell",
     "source": "Colgate Athletics",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "url": "https://colgateathletics.com/news/2026/10/30/mens-ice-hockey-mens-hockey-falls-to-umass-lowell.aspx"
    },
    {
@@ -1286,6 +1292,18 @@
   ],
   "MTU": [
    {
+    "title": "Tech Hockey | Bill Muckalt Press Conference | 11.10.26",
+    "source": "Michigan Tech Athletics",
+    "date": "2026-11-10",
+    "url": "https://michigantechhuskies.com/news/2026/11/10/mens-ice-hockey-tech-hockey-bill-muckalt-press-conference-11-10-26.aspx"
+   },
+   {
+    "title": "Michigan Tech Hockey Radio Show",
+    "source": "Michigan Tech Athletics",
+    "date": "2026-11-10",
+    "url": "https://michigantechhuskies.com/news/2026/11/10/mens-ice-hockey-hockey-radio-show.aspx"
+   },
+   {
     "title": "Miller named CCHA Defenseman of the Week",
     "source": "Michigan Tech Athletics",
     "date": "2026-11-09",
@@ -1316,21 +1334,9 @@
     "url": "https://michigantechhuskies.com/news/2026/11/7/mens-ice-hockey-14-tech-and-8-augustana-tie-again-huskies-win-shootout.aspx"
    },
    {
-    "title": "Tech Hockey | Bill Muckalt Augustana Postgame | 11.06.26",
-    "source": "Michigan Tech Athletics",
-    "date": "2026-11-06",
-    "url": "https://michigantechhuskies.com/news/2026/11/6/mens-ice-hockey-tech-hockey-bill-muckalt-augustana-postgame-11-06-26.aspx"
-   },
-   {
-    "title": "Tech Hockey | Augustana Highlights | 11.06.26",
-    "source": "Michigan Tech Athletics",
-    "date": "2026-11-06",
-    "url": "https://michigantechhuskies.com/news/2026/11/6/mens-ice-hockey-tech-hockey-augustana-highlights-11-06-26.aspx"
-   },
-   {
     "title": "#14 Huskies and #8 Vikings tie Friday",
     "source": "Michigan Tech Athletics",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "url": "https://michigantechhuskies.com/news/2026/11/6/mens-ice-hockey-14-huskies-and-8-vikings-tie-friday.aspx"
    }
   ],
@@ -1914,7 +1920,13 @@
   ],
   "SCSU": [
    {
-    "title": "(RV) St. Cloud State Men\u2019s Hockey Drops Series Finale with Omaha",
+    "title": "St. Cloud State Men\u2019s Hockey and Kwik Trip Team Up for Military Appreciation Weekend",
+    "source": "St. Cloud State Athletics",
+    "date": "2026-11-10",
+    "url": "https://scsuhuskies.com/news/2026/11/10/mens-hockey-st-cloud-state-mens-hockey-and-kwik-trip-team-up-for-military-appreciation-weekend"
+   },
+   {
+    "title": "(RV) St. Cloud State Men\u2019s Hockey Drops Series Finale with Omaha MHOCKEY | November 7",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-07",
     "url": "https://scsuhuskies.com/news/2026/11/7/mens-hockey-rv-st-cloud-state-mens-hockey-drops-series-finale-with-omaha"
@@ -1938,7 +1950,7 @@
     "url": "https://scsuhuskies.com/news/2026/11/4/mens-hockey-the-nick-oliver-show-nov-2-2026-assistant-coach-spencer-meier-william-ahlrik-nolan-roed"
    },
    {
-    "title": "(RV) St. Cloud State Men\u2019s Hockey Earns First NCHC Win of 2026-27, Splits Series with (RV) Arizona State MHOCKEY | November 1",
+    "title": "(RV) St. Cloud State Men\u2019s Hockey Earns First NCHC Win of 2026-27, Splits Series with (RV) Arizona State MHOCKEY",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-01",
     "url": "https://scsuhuskies.com/news/2026/11/1/mens-hockey-rv-st-cloud-state-mens-hockey-earns-first-nchc-win-of-2026-27-splits-series-with-rv-arizona-state"
@@ -1954,12 +1966,6 @@
     "source": "St. Cloud State Athletics",
     "date": "2026-10-29",
     "url": "https://scsuhuskies.com/news/2026/10/29/mens-hockey-rv-st-cloud-state-opens-conference-play-at-home-against-rv-arizona-state"
-   },
-   {
-    "title": "The Nick Oliver Show, Oct. 19, 2026 | Head Coach Nick Oliver, Thor Byfuglien, Jamison Sluys MHOCKEY",
-    "source": "St. Cloud State Athletics",
-    "date": "2026-10-20",
-    "url": "https://scsuhuskies.com/news/2026/10/20/mens-hockey-the-nick-oliver-show-oct-19-2026-head-coach-nick-oliver-thor-byfuglien-jamison-sluys"
    }
   ],
   "SHU": [
@@ -2122,6 +2128,12 @@
   ],
   "UAA": [
    {
+    "title": "Hockey faces tough road series at Minnesota",
+    "source": "Alaska Anchorage Athletics",
+    "date": "2026-11-10",
+    "url": "https://goseawolves.com/news/2026/11/10/mens-ice-hockey-hockey-faces-tough-road-series-at-minnesota.aspx"
+   },
+   {
     "title": "Warrener and Terpstra combine for four goals in loss",
     "source": "Alaska Anchorage Athletics",
     "date": "2026-11-08",
@@ -2162,12 +2174,6 @@
     "source": "Alaska Anchorage Athletics",
     "date": "2026-10-24",
     "url": "https://goseawolves.com/news/2026/10/23/mens-ice-hockey-hockley-scores-first-goal-at-miami.aspx"
-   },
-   {
-    "title": "Hockey falls to Lakers Saturday",
-    "source": "Alaska Anchorage Athletics",
-    "date": "2026-10-18",
-    "url": "https://goseawolves.com/news/2026/10/17/mens-ice-hockey-hockey-falls-to-lakers-saturday.aspx"
    }
   ],
   "UAF": [
@@ -2498,7 +2504,7 @@
   ],
   "WIS": [
    {
-    "title": "Badgers 'Jacked', score six in shutout at Minnesota Junior Jack Phelan\u2019s first career goals sparks 6-0 win in Minneapolis November 7, 2026 / MHOCKEY 2d",
+    "title": "Badgers 'Jacked', score six in shutout at Minnesota Junior Jack Phelan\u2019s first career goals sparks 6-0 win in Minneapolis November 7, 2026 / MHOCKEY 3d",
     "source": "Wisconsin Athletics",
     "date": "2026-11-07",
     "url": "https://uwbadgers.com/news/2026/11/7/mens-hockey-no-1-wisconsin-dominates-border-battle-6-0"
@@ -2635,6 +2641,6 @@
    }
   ]
  },
- "updated": "2026-11-10T17:58:15Z",
+ "updated": "2026-11-10T22:01:13Z",
  "version": 1
 }
