@@ -121,6 +121,14 @@
       "url": "https://www.youtube.com/watch?v=amFYsKu4W6c"
     },
     {
+      "away": "AF",
+      "date": "2026-10-23",
+      "home": "CC",
+      "tier": "official-conference",
+      "title": "Colorado College 6, Air Force 2 - Oct. 23, 2026",
+      "url": "https://www.youtube.com/watch?v=wZeA-MDL6QQ"
+    },
+    {
       "away": "ARMY",
       "date": "2026-10-23",
       "home": "QUIN",
@@ -265,6 +273,14 @@
       "url": "https://www.youtube.com/watch?v=DPHg0YgWDhY"
     },
     {
+      "away": "CC",
+      "date": "2026-10-24",
+      "home": "AF",
+      "tier": "official-conference",
+      "title": "Colorado College 4, Air Force 0 - Oct. 24, 2026",
+      "url": "https://www.youtube.com/watch?v=tQ0txph6vyM"
+    },
+    {
       "away": "COLG",
       "date": "2026-10-24",
       "home": "ME",
@@ -273,12 +289,28 @@
       "url": "https://www.youtube.com/watch?v=PxhAtjXvoHU"
     },
     {
+      "away": "HC",
+      "date": "2026-10-24",
+      "home": "SHU",
+      "tier": "official-conference",
+      "title": "Sacred Heart 4, Holy Cross 3 - Oct. 24, 2026",
+      "url": "https://www.youtube.com/watch?v=cbKa8dljeoo"
+    },
+    {
       "away": "MTU",
       "date": "2026-10-24",
       "home": "FSU",
       "tier": "official",
       "title": "Tech Hockey | Ferris State | Highlights | 10.24.26",
       "url": "https://www.youtube.com/watch?v=tInDnqOTxQc"
+    },
+    {
+      "away": "RMU",
+      "date": "2026-10-24",
+      "home": "BENT",
+      "tier": "official-conference",
+      "title": "Bentley 5, Robert Morris 1 - Oct. 24, 2026",
+      "url": "https://www.youtube.com/watch?v=eu-1aaSDO5U"
     },
     {
       "away": "RPI",
@@ -295,6 +327,14 @@
       "tier": "official",
       "title": "Bemidji State Men's Hockey Highlights vs Minnesota Duluth | Oct. 24, 2026",
       "url": "https://www.youtube.com/watch?v=iAJpxNBx3Z4"
+    },
+    {
+      "away": "UNNY",
+      "date": "2026-10-24",
+      "home": "NIA",
+      "tier": "official-conference",
+      "title": "Niagara 5, Union 4 OT - Oct. 24, 2026",
+      "url": "https://www.youtube.com/watch?v=kSBVagipuVA"
     },
     {
       "away": "UVM",
@@ -1409,6 +1449,6 @@
       "url": "https://www.youtube.com/watch?v=xXBGKoZo7VM"
     }
   ],
-  "updated": "2026-11-10T04:10:03Z",
+  "updated": "2026-11-10T22:09:09Z",
   "version": 1
 }
