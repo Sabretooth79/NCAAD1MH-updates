@@ -1255,8 +1255,48 @@
       "tier": "official",
       "title": "Ice Hockey | UMass Lowell vs Arizona State Highlights (10.16.26)",
       "url": "https://www.youtube.com/watch?v=e-lD9T_wQpI"
+    },
+    {
+      "away": "LIN",
+      "date": "2026-10-15",
+      "home": "AF",
+      "tier": "official-conference",
+      "title": "Air Force 5, Lindenwood 2 - Oct. 15, 2026",
+      "url": "https://www.youtube.com/watch?v=sWjcwwNMGvY"
+    },
+    {
+      "away": "BU",
+      "date": "2026-10-16",
+      "home": "UVM",
+      "tier": "official",
+      "title": "Men's Hockey: Vermont vs. #11 Boston University (10/16/26)",
+      "url": "https://www.youtube.com/watch?v=JAtmfRu9oGo"
+    },
+    {
+      "away": "LIN",
+      "date": "2026-10-16",
+      "home": "AF",
+      "tier": "official-conference",
+      "title": "Lindenwood 7, Air Force 4 - Oct. 16, 2026",
+      "url": "https://www.youtube.com/watch?v=8Yllze7bOCs"
+    },
+    {
+      "away": "ND",
+      "date": "2026-10-16",
+      "home": "WMU",
+      "tier": "aggregator",
+      "title": "Western Michigan vs Notre Dame | NCAA College Hockey | Highlights - October 16, 2026",
+      "url": "https://www.youtube.com/watch?v=pa6Hn1GcW7c"
+    },
+    {
+      "away": "NIA",
+      "date": "2026-10-17",
+      "home": "BGSU",
+      "tier": "official-conference",
+      "title": "Niagara 2, Bowling Green 1 - Oct. 17, 2026",
+      "url": "https://www.youtube.com/watch?v=xqm-NmuSR00"
     }
   ],
-  "updated": "2026-11-09T21:58:00Z",
+  "updated": "2026-11-10T00:02:10Z",
   "version": 1
 }
