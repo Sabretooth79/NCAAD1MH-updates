@@ -2,6 +2,12 @@
  "news": {
   "AF": [
    {
+    "title": "Air Force-Bentley digital hockey game program available",
+    "source": "Air Force Athletics",
+    "date": "2026-11-11",
+    "url": "https://goairforcefalcons.com/news/2026/11/11/mens-ice-hockey-air-force-bentley-digital-hockey-game-program-available"
+   },
+   {
     "title": "Falcons host Bentley, Nov. 12-13",
     "source": "Air Force Athletics",
     "date": "2026-11-10",
@@ -106,6 +112,12 @@
   ],
   "BC": [
    {
+    "title": "Men\u2019s Hockey to Play UConn on ESPNU at Kelley Rink",
+    "source": "Boston College Athletics",
+    "date": "2026-11-11",
+    "url": "https://bceagles.com/news/2026/11/11/mens-hockey-to-play-uconn-on-espnu-at-kelley-rink"
+   },
+   {
     "title": "Men\u2019s Hockey Skates to 4-4 Tie Against Vermont",
     "source": "Boston College Athletics",
     "date": "2026-11-06",
@@ -146,12 +158,6 @@
     "source": "Boston College Athletics",
     "date": "2026-10-29",
     "url": "https://bceagles.com/news/2026/10/29/mens-hockey-opens-hockey-east-slate-against-northeastern"
-   },
-   {
-    "title": "No. 18 Eagles Overturn Two-Goal Deficit to Tie No. 4 Denver",
-    "source": "Boston College Athletics",
-    "date": "2026-10-25",
-    "url": "https://bceagles.com/news/2026/10/25/mens-hockey-no-18-eagles-overturn-two-goal-deficit-to-tie-no-4-denver"
    }
   ],
   "BEM": [
@@ -194,6 +200,12 @@
   ],
   "BENT": [
    {
+    "title": "Battle of Falcons in Colorado up next for hockey team",
+    "source": "Bentley Athletics",
+    "date": "2026-11-11",
+    "url": "https://bentleyfalcons.com/news/2026/11/11/mens-ice-hockey-battle-of-falcons-in-colorado-up-next-for-hockey-team.aspx"
+   },
+   {
     "title": "Late goals push RIT past Bentley 3-0",
     "source": "Bentley Athletics",
     "date": "2026-11-07",
@@ -220,7 +232,7 @@
    {
     "title": "Bentley drops series opener to Holy Cross 2-0",
     "source": "Bentley Athletics",
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "url": "https://bentleyfalcons.com/news/2026/10/30/mens-ice-hockey-bentley-drops-series-opener-to-holy-cross-2-0.aspx"
    },
    {
@@ -234,15 +246,15 @@
     "source": "Bentley Athletics",
     "date": "2026-10-24",
     "url": "https://bentleyfalcons.com/news/2026/10/23/mens-ice-hockey-gaspar-scores-twice-in-bentleys-5-0-shutout-of-robert-morris.aspx"
-   },
-   {
-    "title": "Bentley drops series finale at North Dakota",
-    "source": "Bentley Athletics",
-    "date": "2026-10-18",
-    "url": "https://bentleyfalcons.com/news/2026/10/17/mens-ice-hockey-bentley-drops-series-finale-at-north-dakota.aspx"
    }
   ],
   "BGSU": [
+   {
+    "title": "BG Falcon Hockey Looks To Extend Historic Conference Start This Weekend At Northern Michigan",
+    "source": "Bowling Green Athletics",
+    "date": "2026-11-11",
+    "url": "https://bgsufalcons.com/news/2026/11/11/ice-hockey-bg-falcon-hockey-looks-to-extend-historic-conference-start-this-weekend-at-northern-michigan"
+   },
    {
     "title": "Noah Morneau Named CCHA Forward Of The Week For Third Time This Season",
     "source": "Bowling Green Athletics",
@@ -1266,6 +1278,12 @@
   ],
   "MSU": [
    {
+    "title": "No. 4 Hockey Opens B1G Action at Notre Dame Thursday",
+    "source": "Michigan State Athletics",
+    "date": "2026-11-11",
+    "url": "https://msuspartans.com/news/2026/11/11/mens-ice-hockey-no-4-hockey-opens-b1g-action-at-notre-dame"
+   },
+   {
     "title": "Hockey\u2019s Cayden Lindstrom Named B1G Third Star of the Week",
     "source": "Michigan State Athletics",
     "date": "2026-11-10",
@@ -1306,15 +1324,15 @@
     "source": "Michigan State Athletics",
     "date": "2026-10-24",
     "url": "https://msuspartans.com/news/2026/10/24/mens-ice-hockey-no-2-hockey-bounces-back-in-2-1-road-win-over-new-hampshire"
-   },
-   {
-    "title": "Ravensbergen Makes 33 Saves in Series Opener at New Hampshire",
-    "source": "Michigan State Athletics",
-    "date": "2026-10-23",
-    "url": "https://msuspartans.com/news/2026/10/23/mens-ice-hockey-ravensbergen-makes-33-saves-in-series-opener-at-new-hampshire"
    }
   ],
   "MTU": [
+   {
+    "title": "#14 Huskies host LSSU Lakers for CCHA series",
+    "source": "Michigan Tech Athletics",
+    "date": "2026-11-11",
+    "url": "https://michigantechhuskies.com/news/2026/11/11/mens-ice-hockey-14-huskies-host-lssu-lakers-for-ccha-series.aspx"
+   },
    {
     "title": "Tech Hockey | Bill Muckalt Press Conference | 11.10.26",
     "source": "Michigan Tech Athletics",
@@ -1356,12 +1374,6 @@
     "source": "Michigan Tech Athletics",
     "date": "2026-11-07",
     "url": "https://michigantechhuskies.com/news/2026/11/7/mens-ice-hockey-14-tech-and-8-augustana-tie-again-huskies-win-shootout.aspx"
-   },
-   {
-    "title": "#14 Huskies and #8 Vikings tie Friday",
-    "source": "Michigan Tech Athletics",
-    "date": "2026-11-07",
-    "url": "https://michigantechhuskies.com/news/2026/11/6/mens-ice-hockey-14-huskies-and-8-vikings-tie-friday.aspx"
    }
   ],
   "ND": [
@@ -2098,6 +2110,12 @@
     "source": "St. Thomas Athletics",
     "date": "2026-11-07",
     "url": "https://tommiesports.com/news/2026/11/7/mens-hockey-lucas-van-vliet-nets-hat-trick-in-dominant-mens-hockey-victory"
+   },
+   {
+    "title": "Home sweet home: Men\u2019s Hockey hosts Alaska Anchorage",
+    "source": "St. Thomas Athletics",
+    "date": "2026-11-05",
+    "url": "https://tommiesports.com/news/2026/11/5/mens-hockey-home-sweet-home-mens-hockey-hosts-alaska-anchorage"
    }
   ],
   "STO": [
@@ -2665,6 +2683,6 @@
    }
   ]
  },
- "updated": "2026-11-11T13:59:39Z",
+ "updated": "2026-11-11T17:59:35Z",
  "version": 1
 }
