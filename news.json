@@ -326,6 +326,12 @@
   ],
   "BU": [
    {
+    "title": "No. 13/12 Terriers Edged by Harvard, 6-5",
+    "source": "Boston University Athletics",
+    "date": "2026-11-10",
+    "url": "https://goterriers.com/news/2026/11/10/mens-ice-hockey-no-13-12-terriers-edged-by-harvard-6-5"
+   },
+   {
     "title": "No. 13/12 Terriers to Host Harvard Tuesday at Agganis",
     "source": "Boston University Athletics",
     "date": "2026-11-09",
@@ -724,21 +730,39 @@
   ],
   "HAR": [
    {
-    "title": "Saturday Night Hardard-Yale Men's Hockey Game Postponed to 7:30 Start",
+    "title": "Harvard Knocks Off No. 13/12 BU in Wild Tuesday Tilt",
+    "source": "Harvard Athletics",
+    "date": "2026-11-11",
+    "url": "https://gocrimson.com/news/2026/11/10/mens-ice-hockey-harvard-bu-recap.aspx"
+   },
+   {
+    "title": "Morden Named ECAC Defender of the Week",
+    "source": "Harvard Athletics",
+    "date": "2026-11-09",
+    "url": "https://gocrimson.com/news/2026/11/9/mens-ice-hockey-morden-named-ecac-defender-of-the-week.aspx"
+   },
+   {
+    "title": "Crimson Set for Midweek Tilt at No. 13/12 BU",
+    "source": "Harvard Athletics",
+    "date": "2026-11-09",
+    "url": "https://gocrimson.com/news/2026/11/9/mens-ice-hockey-crimson-set-for-midweek-tilt-at-no-13-12-bu.aspx"
+   },
+   {
+    "title": "Harvard Men's Hockey Stung in Overtime",
+    "source": "Harvard Athletics",
+    "date": "2026-11-08",
+    "url": "https://gocrimson.com/news/2026/11/7/mens-ice-hockey-harvard-yale-hockey-recap.aspx"
+   },
+   {
+    "title": "Saturday Night Harvard-Yale Men's Hockey Game Postponed to 7:30 Start",
     "source": "Harvard Athletics",
     "date": "2026-11-07",
     "url": "https://gocrimson.com/news/2026/11/7/mens-ice-hockey-saturday-night-hardard-yale-mens-hockey-game-postponed-to-7-30-start.aspx"
    },
    {
-    "title": "Harvard Men's Hockey Stung in Overtime",
-    "source": "Harvard Athletics",
-    "date": "2026-11-07",
-    "url": "https://gocrimson.com/news/2026/11/7/mens-ice-hockey-harvard-yale-hockey-recap.aspx"
-   },
-   {
     "title": "Harvard Opens ECAC Play With Win Over Brown",
     "source": "Harvard Athletics",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "url": "https://gocrimson.com/news/2026/11/6/mens-ice-hockey-harvard-brown-recap.aspx"
    },
    {
@@ -748,10 +772,10 @@
     "url": "https://gocrimson.com/news/2026/11/5/mens-ice-hockey-ecac-slate-opens-for-harvard-with-brown-and-yale.aspx"
    },
    {
-    "title": "Crimson Start Rassey Era Thursday at Home vs. UMass",
+    "title": "Men's Hockey Splits Season-Opening Series with UMass",
     "source": "Harvard Athletics",
-    "date": "2026-10-28",
-    "url": "https://gocrimson.com/news/2026/10/28/mens-ice-hockey-crimson-start-rassey-era-thursday-at-home-vs-umass.aspx"
+    "date": "2026-10-31",
+    "url": "https://gocrimson.com/news/2026/10/30/mens-ice-hockey-harvard-umass-friday-recap.aspx"
    }
   ],
   "HC": [
@@ -1920,7 +1944,13 @@
   ],
   "SCSU": [
    {
-    "title": "St. Cloud State Men\u2019s Hockey and Kwik Trip Team Up for Military Appreciation Weekend",
+    "title": "The Nick Oliver Show, Nov. 9, 2026 | Head Coach Nick Oliver, Nolan Stevenson, Noah Urness",
+    "source": "St. Cloud State Athletics",
+    "date": "2026-11-10",
+    "url": "https://scsuhuskies.com/news/2026/11/10/mens-hockey-the-nick-oliver-show-nov-9-2026-head-coach-nick-oliver-nolan-stevenson-noah-urness"
+   },
+   {
+    "title": "St. Cloud State Men\u2019s Hockey and Kwik Trip Team Up for Military Appreciation Weekend MHOCKEY | November 10",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-10",
     "url": "https://scsuhuskies.com/news/2026/11/10/mens-hockey-st-cloud-state-mens-hockey-and-kwik-trip-team-up-for-military-appreciation-weekend"
@@ -1944,7 +1974,7 @@
     "url": "https://scsuhuskies.com/news/2026/11/5/road-trip-to-omaha-up-next-for-rv-st-cloud-state-mens-hockey"
    },
    {
-    "title": "The Nick Oliver Show, Nov. 2, 2026 | Assistant Coach Spencer Meier, William Ahlrik, Nolan Roed MHOCKEY | November 4",
+    "title": "The Nick Oliver Show, Nov. 2, 2026 | Assistant Coach Spencer Meier, William Ahlrik, Nolan Roed MHOCKEY",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-04",
     "url": "https://scsuhuskies.com/news/2026/11/4/mens-hockey-the-nick-oliver-show-nov-2-2026-assistant-coach-spencer-meier-william-ahlrik-nolan-roed"
@@ -1960,12 +1990,6 @@
     "source": "St. Cloud State Athletics",
     "date": "2026-10-31",
     "url": "https://scsuhuskies.com/news/2026/10/31/mens-hockey-rv-st-cloud-state-mens-hockey-drops-conference-opener-to-rv-arizona-state"
-   },
-   {
-    "title": "(RV) St. Cloud State Men's Hockey Opens Conference Play at Home Against (RV) Arizona State MHOCKEY",
-    "source": "St. Cloud State Athletics",
-    "date": "2026-10-29",
-    "url": "https://scsuhuskies.com/news/2026/10/29/mens-hockey-rv-st-cloud-state-opens-conference-play-at-home-against-rv-arizona-state"
    }
   ],
   "SHU": [
@@ -2641,6 +2665,6 @@
    }
   ]
  },
- "updated": "2026-11-11T01:58:50Z",
+ "updated": "2026-11-11T05:58:01Z",
  "version": 1
 }
