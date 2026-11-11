@@ -200,7 +200,7 @@
   ],
   "BENT": [
    {
-    "title": "Battle of Falcons in Colorado up next for hockey team",
+    "title": "Battle of Falcons at Air Force up next for Bentley",
     "source": "Bentley Athletics",
     "date": "2026-11-11",
     "url": "https://bentleyfalcons.com/news/2026/11/11/mens-ice-hockey-battle-of-falcons-in-colorado-up-next-for-hockey-team.aspx"
@@ -602,6 +602,12 @@
   ],
   "COR": [
    {
+    "title": "No. 16 Men's Hockey Begins Road Slate at Brown, Yale",
+    "source": "Cornell Athletics",
+    "date": "2026-11-11",
+    "url": "https://cornellbigred.com/news/2026/11/11/mens-ice-hockey-brown-yale-preview.aspx"
+   },
+   {
     "title": "Kraft Scores Twice as No. 16 Men\u2019s Hockey Rallies Past Princeton",
     "source": "Cornell Athletics",
     "date": "2026-11-07",
@@ -634,7 +640,7 @@
    {
     "title": "Walsh, Ryan Lead No. 15 Men\u2019s Hockey Past Sacred Heart in Season Opener",
     "source": "Cornell Athletics",
-    "date": "2026-10-30",
+    "date": "2026-10-29",
     "url": "https://cornellbigred.com/news/2026/10/30/mens-ice-hockey-sacred-heart-recap.aspx"
    },
    {
@@ -642,12 +648,6 @@
     "source": "Cornell Athletics",
     "date": "2026-10-28",
     "url": "https://cornellbigred.com/news/2026/10/28/mens-ice-hockey-sacred-heart-preview.aspx"
-   },
-   {
-    "title": "Men\u2019s Hockey Names Four Alternate Captains",
-    "source": "Cornell Athletics",
-    "date": "2026-10-26",
-    "url": "https://cornellbigred.com/news/2026/10/26/mens-ice-hockey-alternate-captain-release.aspx"
    }
   ],
   "DART": [
@@ -1014,6 +1014,12 @@
   ],
   "MIA": [
    {
+    "title": "No. 17 Miami Welcomes Omaha For Weekend Series",
+    "source": "Miami Athletics",
+    "date": "2026-11-11",
+    "url": "https://miamiredhawks.com/news/2026/11/11/hockey-no-17-miami-welcomes-omaha-for-weekend-series"
+   },
+   {
     "title": "Miami Hockey Moves into National Rankings at No. 17",
     "source": "Miami Athletics",
     "date": "2026-11-09",
@@ -1058,6 +1064,12 @@
   ],
   "MICH": [
    {
+    "title": "Michigan to Resume Play Against Penn State at Yost",
+    "source": "Michigan Athletics",
+    "date": "2026-11-11",
+    "url": "https://mgoblue.com/news/2026/11/11/ice-hockey-michigan-hockey-to-resume-play-against-penn-state-at-yost"
+   },
+   {
     "title": "Hage's Five-Point Night Powers Michigan Past Ohio State in Overtime",
     "source": "Michigan Athletics",
     "date": "2026-11-01",
@@ -1098,12 +1110,6 @@
     "source": "Michigan Athletics",
     "date": "2026-10-16",
     "url": "https://mgoblue.com/news/2026/10/16/ice-hockey-michigan-sets-early-tone-with-toppling-of-no-1-denver"
-   },
-   {
-    "title": "Hage, Perron to Play in Spengler Cup",
-    "source": "Michigan Athletics",
-    "date": "2026-10-15",
-    "url": "https://mgoblue.com/news/2026/10/15/ice-hockey-hage-and-perron-to-play-in-spengler-cup"
    }
   ],
   "MINN": [
@@ -2270,6 +2276,12 @@
   ],
   "UMD": [
    {
+    "title": "No. 7 Bulldogs will Hit the Road to Face NCHC Foe St. Cloud State this Weekend",
+    "source": "Minnesota Duluth Athletics",
+    "date": "2026-11-11",
+    "url": "https://umdbulldogs.com/news/2026/11/11/mens-hockey-no-7-bulldogs-will-hit-the-road-to-face-nchc-foe-st-cloud-this-weekend.aspx"
+   },
+   {
     "title": "Sandelin Gets Career Win No. 500 as No. 6/7 Bulldogs Defeat Miami 2-1",
     "source": "Minnesota Duluth Athletics",
     "date": "2026-11-08",
@@ -2310,12 +2322,6 @@
     "source": "Minnesota Duluth Athletics",
     "date": "2026-10-25",
     "url": "https://umdbulldogs.com/news/2026/10/24/mens-hockey-hanson-strikes-twice-axelsson-nabs-shutout-in-3-0-win-over-bemidji-state.aspx"
-   },
-   {
-    "title": "Offensive Third Period Boosts No. 9/8 Bulldogs Past Bemidji State in 4-1 Win",
-    "source": "Minnesota Duluth Athletics",
-    "date": "2026-10-24",
-    "url": "https://umdbulldogs.com/news/2026/10/23/mens-hockey-offensive-third-period-boosts-no-9-8-bulldogs-past-bemidji-state-in-4-1-win.aspx"
    }
   ],
   "UML": [
@@ -2546,7 +2552,7 @@
   ],
   "WIS": [
    {
-    "title": "Badgers 'Jacked', score six in shutout at Minnesota Junior Jack Phelan\u2019s first career goals sparks 6-0 win in Minneapolis November 7, 2026 / MHOCKEY 3d",
+    "title": "Badgers 'Jacked', score six in shutout at Minnesota Junior Jack Phelan\u2019s first career goals sparks 6-0 win in Minneapolis November 7, 2026 / MHOCKEY 4d",
     "source": "Wisconsin Athletics",
     "date": "2026-11-07",
     "url": "https://uwbadgers.com/news/2026/11/7/mens-hockey-no-1-wisconsin-dominates-border-battle-6-0"
@@ -2683,6 +2689,6 @@
    }
   ]
  },
- "updated": "2026-11-11T17:59:35Z",
+ "updated": "2026-11-11T21:59:07Z",
  "version": 1
 }
