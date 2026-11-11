@@ -1679,8 +1679,128 @@
       "tier": "official-conference",
       "title": "Holy Cross 2, Arizona State 1 - Oct. 9, 2026",
       "url": "https://www.youtube.com/watch?v=Bdp6j7r7p0Y"
+    },
+    {
+      "away": "HAR",
+      "date": "2026-11-10",
+      "home": "BU",
+      "tier": "official",
+      "title": "Men's Hockey: Harvard 6, BU 5 (Nov. 10, 2026)",
+      "url": "https://www.youtube.com/watch?v=hqOyWOysf0E"
+    },
+    {
+      "away": "CONN",
+      "date": "2026-10-30",
+      "home": "MRMK",
+      "tier": "official-conference",
+      "title": "UCONN at MERRIMACK | Men's Game Highlights | 10.30.2026",
+      "url": "https://www.youtube.com/watch?v=zo-zWnIeu3Q"
+    },
+    {
+      "away": "BENT",
+      "date": "2026-10-30",
+      "home": "HC",
+      "tier": "official-conference",
+      "title": "Holy Cross 2, Bentley 0 - Oct. 30, 2026",
+      "url": "https://www.youtube.com/watch?v=EVytEWqcX5U"
+    },
+    {
+      "away": "UAA",
+      "date": "2026-10-24",
+      "home": "MIA",
+      "tier": "official-conference",
+      "title": "10-24-26 Alaska Anchorage at Miami Highlights",
+      "url": "https://www.youtube.com/watch?v=12zm8oV1Q0Q"
+    },
+    {
+      "away": "STO",
+      "date": "2026-10-24",
+      "home": "MASS",
+      "tier": "official-conference",
+      "title": "Stonehill at MASSACHUSETTS | Men's Game Highlights | 10.24.2026",
+      "url": "https://www.youtube.com/watch?v=_EF2hCP3SRw"
+    },
+    {
+      "away": "STMN",
+      "date": "2026-10-24",
+      "home": "MNST",
+      "tier": "official-conference",
+      "title": "St. Thomas at Minnesota State Highlights 10/24/2026",
+      "url": "https://www.youtube.com/watch?v=rRyned2k0EU"
+    },
+    {
+      "away": "MSU",
+      "date": "2026-10-24",
+      "home": "UNH",
+      "tier": "official",
+      "title": "UNH Men's Hockey vs Michigan State Highlights 10-24-26",
+      "url": "https://www.youtube.com/watch?v=emh4c8dNXwo"
+    },
+    {
+      "away": "MRMK",
+      "date": "2026-10-24",
+      "home": "ND",
+      "tier": "official-conference",
+      "title": "Merrimack at Notre Dame | Highlights | Big Ten Hockey | 10/24/2026",
+      "url": "https://www.youtube.com/watch?v=VHGvD-DfVnc"
+    },
+    {
+      "away": "CONN",
+      "date": "2026-10-24",
+      "home": "BU",
+      "tier": "official-conference",
+      "title": "UCONN at BOSTON UNIVERSITY | Men's Game Highlights | 10.24.2026",
+      "url": "https://www.youtube.com/watch?v=_TaPNp4Ee9Y"
+    },
+    {
+      "away": "UNNY",
+      "date": "2026-10-23",
+      "home": "NIA",
+      "tier": "official-conference",
+      "title": "Union at Niagara | NCAA Men’s Ice Hockey | Highlights - October 23, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=KyHpEfa8PnA"
+    },
+    {
+      "away": "RPI",
+      "date": "2026-10-23",
+      "home": "RIT",
+      "tier": "official-conference",
+      "title": "RPI at RIT | NCAA Men’s Ice Hockey | Highlights - October 23, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=E_bL4YekNK4"
+    },
+    {
+      "away": "MNST",
+      "date": "2026-10-23",
+      "home": "STMN",
+      "tier": "official-conference",
+      "title": "10-23-26 Minnesota State at St. Thomas Highlights",
+      "url": "https://www.youtube.com/watch?v=7UyY7sJypNM"
+    },
+    {
+      "away": "CAN",
+      "date": "2026-10-23",
+      "home": "PSU",
+      "tier": "official-conference",
+      "title": "Canisius at Penn State | Extended Highlights | Big Ten Hockey | 10/23/2026",
+      "url": "https://www.youtube.com/watch?v=WfrfnuqDJcY"
+    },
+    {
+      "away": "BC",
+      "date": "2026-10-23",
+      "home": "DEN",
+      "tier": "official-conference",
+      "title": "10-23-26 Boston College at Denver Highlights",
+      "url": "https://www.youtube.com/watch?v=uRyMr-vYGWI"
+    },
+    {
+      "away": "STO",
+      "date": "2026-10-17",
+      "home": "NMI",
+      "tier": "official-conference",
+      "title": "Stonehill at Northern Michigan Highlights 10/17/2026",
+      "url": "https://www.youtube.com/watch?v=BJIQcX2sbWs"
     }
   ],
-  "updated": "2026-11-11T02:03:33Z",
+  "updated": "2026-11-11T04:01:27Z",
   "version": 1
 }
