@@ -926,6 +926,12 @@
   ],
   "MASS": [
    {
+    "title": "Boston College Home-And-Home Next Up For Massachusetts Hockey",
+    "source": "Massachusetts Athletics",
+    "date": "2026-11-10",
+    "url": "https://umassathletics.com/news/2026/11/10/hockey-minutemen-stay-in-state-for-home-and-home-meetings-with-boston-college"
+   },
+   {
     "title": "UMass' Eskit Named Hockey East Goaltender Of The Week",
     "source": "Massachusetts Athletics",
     "date": "2026-11-09",
@@ -1580,6 +1586,12 @@
   ],
   "OSU": [
    {
+    "title": "Men's Ice Hockey Buckeyes Back on the Road at No. 1 Wisconsin",
+    "source": "Ohio State Athletics",
+    "date": "2026-11-11",
+    "url": "https://ohiostatebuckeyes.com/news/2026/11/11/mens-ice-hockey-buckeyes-back-on-the-road-at-no-1-wisconsin"
+   },
+   {
     "title": "Men's Ice Hockey Buckeyes Battle, Fall in OT to No. 1 Wolverines, 5-4",
     "source": "Ohio State Athletics",
     "date": "2026-11-01",
@@ -1604,7 +1616,7 @@
     "url": "https://ohiostatebuckeyes.com/news/2026/10/29/mens-ice-hockey-buckeyes-begin-b1g-play-vs-no-1-wolverines"
    },
    {
-    "title": "Men's Ice Hockey Game Time Change for Saturday vs. Wolverines",
+    "title": "View More About Game Time Change for Saturday vs. Wolverines",
     "source": "Ohio State Athletics",
     "date": "2026-10-27",
     "url": "https://ohiostatebuckeyes.com/news/2026/10/27/mens-ice-hockey-game-time-change-for-saturday-vs-wolverines"
@@ -2689,6 +2701,6 @@
    }
   ]
  },
- "updated": "2026-11-11T21:59:07Z",
+ "updated": "2026-11-12T01:58:26Z",
  "version": 1
 }
