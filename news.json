@@ -2,6 +2,12 @@
  "news": {
   "AF": [
    {
+    "title": "Sajevic\u2019s overtime winner gives Air Force 4-3 win over Bentley",
+    "source": "Air Force Athletics",
+    "date": "2026-11-12",
+    "url": "https://goairforcefalcons.com/news/2026/11/12/mens-ice-hockey-sajevics-overtime-winner-gives-air-force-4-3-win-over-bentley"
+   },
+   {
     "title": "Air Force-Bentley digital hockey game program available",
     "source": "Air Force Athletics",
     "date": "2026-11-11",
@@ -212,6 +218,12 @@
   ],
   "BENT": [
    {
+    "title": "Air Force tops Bentley in overtime 4-3",
+    "source": "Bentley Athletics",
+    "date": "2026-11-12",
+    "url": "https://bentleyfalcons.com/news/2026/11/12/mens-ice-hockey-air-force-tops-bentley-in-overtime-4-3.aspx"
+   },
+   {
     "title": "Battle of Falcons at Air Force up next for Bentley",
     "source": "Bentley Athletics",
     "date": "2026-11-11",
@@ -238,7 +250,7 @@
    {
     "title": "Bentley earns series split with 4-3 win over Holy Cross",
     "source": "Bentley Athletics",
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "url": "https://bentleyfalcons.com/news/2026/10/31/mens-ice-hockey-bentley-earns-series-split-with-4-3-win-over-holy-cross.aspx"
    },
    {
@@ -252,12 +264,6 @@
     "source": "Bentley Athletics",
     "date": "2026-10-25",
     "url": "https://bentleyfalcons.com/news/2026/10/24/mens-ice-hockey-bentley-surges-in-third-period-for-5-1-win-and-sweep-of-robert-morris.aspx"
-   },
-   {
-    "title": "Gaspar scores twice in Bentley\u2019s 5-0 shutout of Robert Morris",
-    "source": "Bentley Athletics",
-    "date": "2026-10-24",
-    "url": "https://bentleyfalcons.com/news/2026/10/23/mens-ice-hockey-gaspar-scores-twice-in-bentleys-5-0-shutout-of-robert-morris.aspx"
    }
   ],
   "BGSU": [
@@ -1320,6 +1326,12 @@
   ],
   "MSU": [
    {
+    "title": "Vansaghi\u2019s Two Goals Lead No. 4 Hockey in B1G Opener at Notre Dame",
+    "source": "Michigan State Athletics",
+    "date": "2026-11-12",
+    "url": "https://msuspartans.com/news/2026/11/12/mens-ice-hockey-vansaghis-two-goals-lead-no-4-hockey-in-b1g-opener-at-notre-dame"
+   },
+   {
     "title": "No. 4 Hockey Opens B1G Action at Notre Dame Thursday",
     "source": "Michigan State Athletics",
     "date": "2026-11-11",
@@ -1360,12 +1372,6 @@
     "source": "Michigan State Athletics",
     "date": "2026-11-01",
     "url": "https://msuspartans.com/news/2026/11/1/mens-ice-hockey-no-4-hockey-handles-no-8-north-dakota-in-lone-star-state-5-3"
-   },
-   {
-    "title": "No. 2 Hockey Bounces Back in 2-1 Road Win over New Hampshire",
-    "source": "Michigan State Athletics",
-    "date": "2026-10-24",
-    "url": "https://msuspartans.com/news/2026/10/24/mens-ice-hockey-no-2-hockey-bounces-back-in-2-1-road-win-over-new-hampshire"
    }
   ],
   "MTU": [
@@ -2392,6 +2398,12 @@
   ],
   "UML": [
    {
+    "title": "River Hawks Set to Host Union and RPI",
+    "source": "UMass Lowell Athletics",
+    "date": "2026-11-12",
+    "url": "https://goriverhawks.com/news/2026/11/12/mens-ice-hockey-river-hawks-set-to-host-union-and-rpi"
+   },
+   {
     "title": "River Hawks Face Overtime Setback at New Hampshire",
     "source": "UMass Lowell Athletics",
     "date": "2026-11-07",
@@ -2755,6 +2767,6 @@
    }
   ]
  },
- "updated": "2026-11-13T01:58:52Z",
+ "updated": "2026-11-13T05:58:31Z",
  "version": 1
 }
