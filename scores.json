@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-12T23:27:50Z",
+ "updated": "2026-11-13T03:32:32Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); rebuilt from the live page each run",
  "finals": [
   {
@@ -2278,6 +2278,46 @@
         "abbreviation": "HARV"
        },
        "score": "6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-1604",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-12T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 4
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Compton Family Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "87",
+        "displayName": "Notre Dame Fighting Irish",
+        "abbreviation": "ND"
+       },
+       "score": "3"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "127",
+        "displayName": "Michigan State Spartans",
+        "abbreviation": "MSU"
+       },
+       "score": "2"
       }
      ]
     }
