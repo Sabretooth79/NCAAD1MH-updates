@@ -1,6 +1,718 @@
 {
   "highlights": [
     {
+      "away": "ASU",
+      "date": "2026-10-02",
+      "home": "LIN",
+      "tier": "aggregator",
+      "title": "Lindenwood vs Arizona State | NCAA College Hockey | Highlights - October 02, 2026",
+      "url": "https://www.youtube.com/watch?v=uwmR2iRYOPE"
+    },
+    {
+      "away": "BGSU",
+      "date": "2026-10-02",
+      "home": "MICH",
+      "tier": "official-conference",
+      "title": "Bowling Green vs. Michigan | Extended Highlights | Big Ten Men's Hockey | 10/02/26",
+      "url": "https://www.youtube.com/watch?v=QfXRQTf81cE"
+    },
+    {
+      "away": "BU",
+      "date": "2026-10-02",
+      "home": "UAF",
+      "tier": "aggregator",
+      "title": "Alaska Fairbanks vs Boston University | NCAA College Hockey | Highlights - October 02, 2026",
+      "url": "https://www.youtube.com/watch?v=PQ3y_nNI6eI"
+    },
+    {
+      "away": "DEN",
+      "date": "2026-10-02",
+      "home": "UAA",
+      "tier": "aggregator",
+      "title": "Alaska Anchorage vs Denver | NCAA College Hockey | Highlights - October 02, 2026",
+      "url": "https://www.youtube.com/watch?v=KP4hP_bfhD8"
+    },
+    {
+      "away": "FSU",
+      "date": "2026-10-02",
+      "home": "CAN",
+      "tier": "official-conference",
+      "title": "Canisius 4, Ferris State 0 - Oct. 2, 2026",
+      "url": "https://www.youtube.com/watch?v=ZLQcCBk2vG8"
+    },
+    {
+      "away": "LIU",
+      "date": "2026-10-02",
+      "home": "UMD",
+      "tier": "official-conference",
+      "title": "10-2-26 Long Island at Minnesota Duluth Highlights",
+      "url": "https://www.youtube.com/watch?v=sbEh9afDZyo"
+    },
+    {
+      "away": "MASS",
+      "date": "2026-10-02",
+      "home": "CC",
+      "tier": "official-conference",
+      "title": "10/2/26 - UMass at Colorado College Highlights",
+      "url": "https://www.youtube.com/watch?v=v963CO1Y-bY"
+    },
+    {
+      "away": "ME",
+      "date": "2026-10-02",
+      "home": "HC",
+      "tier": "official-conference",
+      "title": "Maine 4, Holy Cross 1 - Oct. 2, 2026",
+      "url": "https://www.youtube.com/watch?v=Ybw2BQMWAAI"
+    },
+    {
+      "away": "MIA",
+      "date": "2026-10-02",
+      "home": "NMI",
+      "tier": "official-conference",
+      "title": "Miami (OH) at Northern Michigan Highlights 10/2/2026",
+      "url": "https://www.youtube.com/watch?v=b_8UNFeof1o"
+    },
+    {
+      "away": "RIT",
+      "date": "2026-10-02",
+      "home": "NIA",
+      "tier": "official-conference",
+      "title": "Niagara 4, RIT 1 - Oct. 2, 2026",
+      "url": "https://www.youtube.com/watch?v=Ct7lu-9ppTs"
+    },
+    {
+      "away": "RMU",
+      "date": "2026-10-02",
+      "home": "WIS",
+      "tier": "official-conference",
+      "title": "Robert Morris vs. Wisconsin | Extended Highlights | Big Ten Hockey | 10/02/26",
+      "url": "https://www.youtube.com/watch?v=HN7ly6HcyT4"
+    },
+    {
+      "away": "UNH",
+      "date": "2026-10-02",
+      "home": "QUIN",
+      "tier": "official-conference",
+      "title": "New Hampshire at Quinnipiac | NCAA Men\u2019s Ice Hockey | Highlights - October 2, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=PrcfiZ5oqqk"
+    },
+    {
+      "away": "BU",
+      "date": "2026-10-03",
+      "home": "UAF",
+      "tier": "aggregator",
+      "title": "Alaska Fairbanks vs Boston University | NCAA College Hockey | Highlights - October 03, 2026",
+      "url": "https://www.youtube.com/watch?v=gETTyJ_ZWRQ"
+    },
+    {
+      "away": "DEN",
+      "date": "2026-10-03",
+      "home": "UAA",
+      "tier": "aggregator",
+      "title": "Alaska Anchorage vs Denver | NCAA College Hockey | Highlights - October 03, 2026",
+      "url": "https://www.youtube.com/watch?v=tLAhFdYcDSQ"
+    },
+    {
+      "away": "FSU",
+      "date": "2026-10-03",
+      "home": "CAN",
+      "tier": "official-conference",
+      "title": "Ferris State at Canisius Highlights 10/3/2026",
+      "url": "https://www.youtube.com/watch?v=egn8KwJy0vo"
+    },
+    {
+      "away": "LIU",
+      "date": "2026-10-03",
+      "home": "UMD",
+      "tier": "official-conference",
+      "title": "10-3-26 Long Island at Minnesota Duluth Highlights",
+      "url": "https://www.youtube.com/watch?v=jcl6QDLDU5w"
+    },
+    {
+      "away": "MASS",
+      "date": "2026-10-03",
+      "home": "CC",
+      "tier": "official-conference",
+      "title": "10/3/26 - UMass at Colorado College Highlights",
+      "url": "https://www.youtube.com/watch?v=T4qbmc-KWgo"
+    },
+    {
+      "away": "ME",
+      "date": "2026-10-03",
+      "home": "HC",
+      "tier": "official-conference",
+      "title": "Holy Cross 3, Maine 2 OT - Oct. 3, 2026",
+      "url": "https://www.youtube.com/watch?v=xXBGKoZo7VM"
+    },
+    {
+      "away": "MIA",
+      "date": "2026-10-03",
+      "home": "NMI",
+      "tier": "official-conference",
+      "title": "Miami (OH) at Northern Michigan Highlights 10/3/2026",
+      "url": "https://www.youtube.com/watch?v=bgpgK85TJco"
+    },
+    {
+      "away": "MICH",
+      "date": "2026-10-03",
+      "home": "BGSU",
+      "tier": "official-conference",
+      "title": "Michigan at Bowling Green Highlights 10/3/2026",
+      "url": "https://www.youtube.com/watch?v=zWwdXcYpOj8"
+    },
+    {
+      "away": "MINN",
+      "date": "2026-10-03",
+      "home": "MTU",
+      "tier": "official-conference",
+      "title": "Minnesota at Michigan Tech Highlights 10/3/2026",
+      "url": "https://www.youtube.com/watch?v=sY4qnbIL3sQ"
+    },
+    {
+      "away": "MRMK",
+      "date": "2026-10-03",
+      "home": "QUIN",
+      "tier": "official-conference",
+      "title": "Merrimack at Quinnipiac | NCAA Men\u2019s Ice Hockey | Highlights - October 3, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=-eRug7mhBaA"
+    },
+    {
+      "away": "NIA",
+      "date": "2026-10-03",
+      "home": "RIT",
+      "tier": "official",
+      "title": "Men's Hockey: RIT vs Niagara 10.3.26",
+      "url": "https://www.youtube.com/watch?v=FZcicalTevs"
+    },
+    {
+      "away": "RMU",
+      "date": "2026-10-03",
+      "home": "WIS",
+      "tier": "official-conference",
+      "title": "Robert Morris vs. Wisconsin | Extended Highlights | Big Ten Hockey | 10/03/26",
+      "url": "https://www.youtube.com/watch?v=op8MOHccDr0"
+    },
+    {
+      "away": "SCSU",
+      "date": "2026-10-03",
+      "home": "BEM",
+      "tier": "official-conference",
+      "title": "St. Cloud State at Bemidji State Highlights 10/3/2026",
+      "url": "https://www.youtube.com/watch?v=aZ4r5szjAXQ"
+    },
+    {
+      "away": "UNNY",
+      "date": "2026-10-03",
+      "home": "ARMY",
+      "tier": "official-conference",
+      "title": "Union at Army West Point | NCAA Men\u2019s Ice Hockey | Highlights - October 3, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=BwL_sB6-KhE"
+    },
+    {
+      "away": "MINN",
+      "date": "2026-10-04",
+      "home": "MTU",
+      "tier": "official-conference",
+      "title": "Minnesota at Michigan Tech Highlights 10/4/2026",
+      "url": "https://www.youtube.com/watch?v=hIpSf9jehU8"
+    },
+    {
+      "away": "FSU",
+      "date": "2026-10-08",
+      "home": "WMU",
+      "tier": "official-conference",
+      "title": "10/8/26 - Ferris State at Western Michigan Highlights",
+      "url": "https://www.youtube.com/watch?v=kM089prqagM"
+    },
+    {
+      "away": "NIA",
+      "date": "2026-10-08",
+      "home": "ND",
+      "tier": "official-conference",
+      "title": "Notre Dame 3, Niagara 1 - Oct. 8, 2026",
+      "url": "https://www.youtube.com/watch?v=qh_YXY45cZw"
+    },
+    {
+      "away": "UNH",
+      "date": "2026-10-08",
+      "home": "MRMK",
+      "tier": "official-conference",
+      "title": "NEW HAMPSHIRE at MERRIMACK | Men's Game Highlights | 10.8.2026",
+      "url": "https://www.youtube.com/watch?v=fFooXKFx3zs"
+    },
+    {
+      "away": "AF",
+      "date": "2026-10-09",
+      "home": "STMN",
+      "tier": "official-conference",
+      "title": "Air Force 5, St. Thomas 1 - Oct. 9, 2026",
+      "url": "https://www.youtube.com/watch?v=U_I0a46ZqTM"
+    },
+    {
+      "away": "BGSU",
+      "date": "2026-10-09",
+      "home": "SHU",
+      "tier": "official",
+      "title": "BGSU Hockey vs Sacred Heart Highlights | 10-9-2026",
+      "url": "https://www.youtube.com/watch?v=qiH5Xga3OwM"
+    },
+    {
+      "away": "CAN",
+      "date": "2026-10-09",
+      "home": "LIU",
+      "tier": "official-conference",
+      "title": "Canisius 3, Long Island 2 - Oct. 9, 2026",
+      "url": "https://www.youtube.com/watch?v=aMKp8v3S1fk"
+    },
+    {
+      "away": "CLAR",
+      "date": "2026-10-09",
+      "home": "UML",
+      "tier": "official-conference",
+      "title": "Clarkson at UMass Lowell | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=sn1iMcxO-S0"
+    },
+    {
+      "away": "COLG",
+      "date": "2026-10-09",
+      "home": "STO",
+      "tier": "official-conference",
+      "title": "Colgate at Stonehill | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=zEIu5va12Gk"
+    },
+    {
+      "away": "HC",
+      "date": "2026-10-09",
+      "home": "ASU",
+      "tier": "official-conference",
+      "title": "Holy Cross 2, Arizona State 1 - Oct. 9, 2026",
+      "url": "https://www.youtube.com/watch?v=Bdp6j7r7p0Y"
+    },
+    {
+      "away": "MTU",
+      "date": "2026-10-09",
+      "home": "SCSU",
+      "tier": "official",
+      "title": "Web Highlights: SCSU vs. Michigan Tech University (10/9/2026)",
+      "url": "https://www.youtube.com/watch?v=k3uXHVTMbu8"
+    },
+    {
+      "away": "NIA",
+      "date": "2026-10-09",
+      "home": "ND",
+      "tier": "official-conference",
+      "title": "Niagara vs. Notre Dame | Highlights | Big Ten Hockey | 10/09/26",
+      "url": "https://www.youtube.com/watch?v=k9p-Mi3vhv4"
+    },
+    {
+      "away": "NMI",
+      "date": "2026-10-09",
+      "home": "MSU",
+      "tier": "official-conference",
+      "title": "Northern Michigan at Michigan State | Extended Highlights | Big Ten Hockey | 10/09/2026",
+      "url": "https://www.youtube.com/watch?v=EIv5BzQYS6k"
+    },
+    {
+      "away": "OSU",
+      "date": "2026-10-09",
+      "home": "RPI",
+      "tier": "official-conference",
+      "title": "Ohio State at RPI | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=ruUFNT_fvy4"
+    },
+    {
+      "away": "PSU",
+      "date": "2026-10-09",
+      "home": "CONN",
+      "tier": "official-conference",
+      "title": "Penn State at UCONN | Men's Game Highlights | 10.9.2026",
+      "url": "https://www.youtube.com/watch?v=su3hH5ib32s"
+    },
+    {
+      "away": "QUIN",
+      "date": "2026-10-09",
+      "home": "ME",
+      "tier": "official-conference",
+      "title": "Quinnipiac at Maine | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=d6XugJ7PJSk"
+    },
+    {
+      "away": "RIT",
+      "date": "2026-10-09",
+      "home": "MASS",
+      "tier": "official-conference",
+      "title": "RIT 2, UMass 2 OT (RIT wins SO) - Oct. 9, 2026",
+      "url": "https://www.youtube.com/watch?v=uquwj1baZt4"
+    },
+    {
+      "away": "SLU",
+      "date": "2026-10-09",
+      "home": "PROV",
+      "tier": "official-conference",
+      "title": "St. Lawrence at Providence | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=zG6vqEEQg2k"
+    },
+    {
+      "away": "UAA",
+      "date": "2026-10-09",
+      "home": "MICH",
+      "tier": "official-conference",
+      "title": "Alaska Anchorage at Michigan | Extended Highlights | Big Ten Hockey | 10/09/2026",
+      "url": "https://www.youtube.com/watch?v=sYatXdCOwMs"
+    },
+    {
+      "away": "UMD",
+      "date": "2026-10-09",
+      "home": "AUG",
+      "tier": "official-conference",
+      "title": "Minnesota Duluth at Augustana Highlights 10/9/2026",
+      "url": "https://www.youtube.com/watch?v=hIXjHFHRC-8"
+    },
+    {
+      "away": "UND",
+      "date": "2026-10-09",
+      "home": "BEM",
+      "tier": "official-conference",
+      "title": "North Dakota at Bemidji State Highlights 10/9/2026",
+      "url": "https://www.youtube.com/watch?v=8tNlN1_Mthg"
+    },
+    {
+      "away": "UVM",
+      "date": "2026-10-09",
+      "home": "BENT",
+      "tier": "official-conference",
+      "title": "Bentley 3, Vermont 0 - Oct. 9, 2026",
+      "url": "https://www.youtube.com/watch?v=I4aOSzxyVuw"
+    },
+    {
+      "away": "WIS",
+      "date": "2026-10-09",
+      "home": "MNST",
+      "tier": "official-conference",
+      "title": "Wisconsin at Minnesota State Highlights 10/9/2026",
+      "url": "https://www.youtube.com/watch?v=r-DAnwrQmXo"
+    },
+    {
+      "away": "WMU",
+      "date": "2026-10-09",
+      "home": "FSU",
+      "tier": "official-conference",
+      "title": "Western Michigan at Ferris State Highlights 10/9/2026",
+      "url": "https://www.youtube.com/watch?v=KULqtW_Vcws"
+    },
+    {
+      "away": "AF",
+      "date": "2026-10-10",
+      "home": "STMN",
+      "tier": "official-conference",
+      "title": "St. Thomas 4, Air Force 2 - Oct. 10, 2026",
+      "url": "https://www.youtube.com/watch?v=T89eXthohFM"
+    },
+    {
+      "away": "BEM",
+      "date": "2026-10-10",
+      "home": "UND",
+      "tier": "official-conference",
+      "title": "10-10-26 Bemidji State at North Dakota Highlights",
+      "url": "https://www.youtube.com/watch?v=mt3fFy2Ej7o"
+    },
+    {
+      "away": "CLAR",
+      "date": "2026-10-10",
+      "home": "PROV",
+      "tier": "official-conference",
+      "title": "Clarkson at Providence | NCAA Men\u2019s Ice Hockey | Highlights - October 10, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=ZAuQVPL7Puo"
+    },
+    {
+      "away": "COLG",
+      "date": "2026-10-10",
+      "home": "STO",
+      "tier": "official-conference",
+      "title": "Colgate at Stonehill | NCAA Men\u2019s Ice Hockey | Highlights - October 10, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=tpXb4vXCzmo"
+    },
+    {
+      "away": "MTU",
+      "date": "2026-10-10",
+      "home": "SCSU",
+      "tier": "official",
+      "title": "Web Highlights: SCSU vs. Michigan Tech University (10/10/2026)",
+      "url": "https://www.youtube.com/watch?v=yWd4L7yr_Fc"
+    },
+    {
+      "away": "NE",
+      "date": "2026-10-10",
+      "home": "BENT",
+      "tier": "official-conference",
+      "title": "Northeastern 5, Bentley 1 - Oct. 10, 2026",
+      "url": "https://www.youtube.com/watch?v=vG0JlW1u2y0"
+    },
+    {
+      "away": "OSU",
+      "date": "2026-10-10",
+      "home": "RPI",
+      "tier": "official-conference",
+      "title": "Ohio State at RPI | NCAA Men\u2019s Ice Hockey | Highlights - October 10, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=l1UIuloB4xQ"
+    },
+    {
+      "away": "PSU",
+      "date": "2026-10-10",
+      "home": "SHU",
+      "tier": "official-conference",
+      "title": "Sacred Heart 6, Penn State 3 - Oct. 10, 2026",
+      "url": "https://www.youtube.com/watch?v=ekeqEMnr-Q8"
+    },
+    {
+      "away": "QUIN",
+      "date": "2026-10-10",
+      "home": "ME",
+      "tier": "official-conference",
+      "title": "Quinnipiac at Maine | NCAA Men\u2019s Ice Hockey | Highlights - Month Date, Year | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=OO-imSmS_e4"
+    },
+    {
+      "away": "RIT",
+      "date": "2026-10-10",
+      "home": "MASS",
+      "tier": "official-conference",
+      "title": "UMass 5, RIT 1 - Oct. 10, 2026",
+      "url": "https://www.youtube.com/watch?v=anYFznhE0dE"
+    },
+    {
+      "away": "SLU",
+      "date": "2026-10-10",
+      "home": "UML",
+      "tier": "official-conference",
+      "title": "St. Lawrence at UMass Lowell | NCAA Men\u2019s Ice Hockey | Highlights - October 10, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=YoCAtiv3cc4"
+    },
+    {
+      "away": "UAA",
+      "date": "2026-10-10",
+      "home": "MICH",
+      "tier": "official-conference",
+      "title": "Alaska Anchorage at Michigan | Extended Highlights | Big Ten Hockey | 10/10/2026",
+      "url": "https://www.youtube.com/watch?v=bCfv5nrnfes"
+    },
+    {
+      "away": "UAF",
+      "date": "2026-10-10",
+      "home": "UNNY",
+      "tier": "official",
+      "title": "Union College Men's Hockey vs Alaska Fairbanks (Oct. 10, 2026)",
+      "url": "https://www.youtube.com/watch?v=SFpWNUtdTE8"
+    },
+    {
+      "away": "UMD",
+      "date": "2026-10-10",
+      "home": "AUG",
+      "tier": "official-conference",
+      "title": "Minnesota Duluth at Augustana Highlights 10/10/26",
+      "url": "https://www.youtube.com/watch?v=9clYHr6hjbQ"
+    },
+    {
+      "away": "WIS",
+      "date": "2026-10-10",
+      "home": "MNST",
+      "tier": "official-conference",
+      "title": "Wisconsin at Minnesota State Highlights 10/10/26",
+      "url": "https://www.youtube.com/watch?v=q5dRbyrmUFA"
+    },
+    {
+      "away": "NMI",
+      "date": "2026-10-11",
+      "home": "MSU",
+      "tier": "aggregator",
+      "title": "Michigan State vs Northern Michigan | NCAA College Hockey | Highlights - October 11, 2026",
+      "url": "https://www.youtube.com/watch?v=Nbl2FZoVz2g"
+    },
+    {
+      "away": "LIN",
+      "date": "2026-10-15",
+      "home": "AF",
+      "tier": "official-conference",
+      "title": "Air Force 5, Lindenwood 2 - Oct. 15, 2026",
+      "url": "https://www.youtube.com/watch?v=sWjcwwNMGvY"
+    },
+    {
+      "away": "OMA",
+      "date": "2026-10-15",
+      "home": "AUG",
+      "tier": "official-conference",
+      "title": "Omaha at Augustana Highlights 10/15/26",
+      "url": "https://www.youtube.com/watch?v=0uDrPknfLeg"
+    },
+    {
+      "away": "RMU",
+      "date": "2026-10-15",
+      "home": "MIA",
+      "tier": "official-conference",
+      "title": "10-15-26 Robert Morris at Miami Highlights",
+      "url": "https://www.youtube.com/watch?v=-QMuDqKzv0w"
+    },
+    {
+      "away": "SCSU",
+      "date": "2026-10-15",
+      "home": "BC",
+      "tier": "official-conference",
+      "title": "St. Cloud State at BOSTON COLLEGE | Men's Game Highlights | 10.15.2026",
+      "url": "https://www.youtube.com/watch?v=_HFKHDUHxzE"
+    },
+    {
+      "away": "ASU",
+      "date": "2026-10-16",
+      "home": "UML",
+      "tier": "official",
+      "title": "Ice Hockey | UMass Lowell vs Arizona State Highlights (10.16.26)",
+      "url": "https://www.youtube.com/watch?v=e-lD9T_wQpI"
+    },
+    {
+      "away": "BENT",
+      "date": "2026-10-16",
+      "home": "UND",
+      "tier": "official-conference",
+      "title": "10/16/26 - Bentley at North Dakota Highlights",
+      "url": "https://www.youtube.com/watch?v=FC-enGwQ7w4"
+    },
+    {
+      "away": "BU",
+      "date": "2026-10-16",
+      "home": "UVM",
+      "tier": "official",
+      "title": "Men's Hockey: Vermont vs. #11 Boston University (10/16/26)",
+      "url": "https://www.youtube.com/watch?v=JAtmfRu9oGo"
+    },
+    {
+      "away": "CAN",
+      "date": "2026-10-16",
+      "home": "CLAR",
+      "tier": "official-conference",
+      "title": "Canisius at Clarkson (10.16.26)",
+      "url": "https://ecachockey.com/watch/?Archive=1376"
+    },
+    {
+      "away": "CC",
+      "date": "2026-10-16",
+      "home": "CONN",
+      "tier": "official",
+      "title": "UConn Men's Hockey wins an Overtime Thriller in their annual Mental Health Awareness game",
+      "url": "https://www.youtube.com/watch?v=W6R3XXiJ7to"
+    },
+    {
+      "away": "LIN",
+      "date": "2026-10-16",
+      "home": "AF",
+      "tier": "official-conference",
+      "title": "Lindenwood 7, Air Force 4 - Oct. 16, 2026",
+      "url": "https://www.youtube.com/watch?v=8Yllze7bOCs"
+    },
+    {
+      "away": "LIU",
+      "date": "2026-10-16",
+      "home": "RPI",
+      "tier": "official-conference",
+      "title": "Long Island Univ. at RPI (10.16.26)",
+      "url": "https://ecachockey.com/watch/?Archive=1374"
+    },
+    {
+      "away": "LSS",
+      "date": "2026-10-16",
+      "home": "UAA",
+      "tier": "full-game-fallback",
+      "title": "HKY: Lake Superior State at Alaska Anchorage",
+      "url": "https://www.youtube.com/watch?v=B89IJzXI30Y"
+    },
+    {
+      "away": "MICH",
+      "date": "2026-10-16",
+      "home": "DEN",
+      "tier": "official-conference",
+      "title": "10/16/26 - Michigan at Denver Highlights",
+      "url": "https://www.youtube.com/watch?v=DxJ-hgrPaSo"
+    },
+    {
+      "away": "MINN",
+      "date": "2026-10-16",
+      "home": "UMD",
+      "tier": "official-conference",
+      "title": "10-16-26 Minnesota at Minnesota Duluth Highlights",
+      "url": "https://www.youtube.com/watch?v=sQfzfS6_UW4"
+    },
+    {
+      "away": "ND",
+      "date": "2026-10-16",
+      "home": "WMU",
+      "tier": "aggregator",
+      "title": "Western Michigan vs Notre Dame | NCAA College Hockey | Highlights - October 16, 2026",
+      "url": "https://www.youtube.com/watch?v=pa6Hn1GcW7c"
+    },
+    {
+      "away": "NE",
+      "date": "2026-10-16",
+      "home": "MASS",
+      "tier": "official",
+      "title": "UMass IH | Broadcast Highlights vs Northeastern | 10.16.26",
+      "url": "https://www.youtube.com/watch?v=MrExLv6sD98"
+    },
+    {
+      "away": "NIA",
+      "date": "2026-10-16",
+      "home": "BGSU",
+      "tier": "official-conference",
+      "title": "Niagara at Bowling Green Highlights 10/16/2026",
+      "url": "https://www.youtube.com/watch?v=eeNiIiWyqc4"
+    },
+    {
+      "away": "OSU",
+      "date": "2026-10-16",
+      "home": "SHU",
+      "tier": "official-conference",
+      "title": "Sacred Heart 5, Ohio State 3 - Oct. 16, 2026",
+      "url": "https://www.youtube.com/watch?v=rIxMl9d002I"
+    },
+    {
+      "away": "PROV",
+      "date": "2026-10-16",
+      "home": "UNNY",
+      "tier": "official-conference",
+      "title": "Providence at Union (10.16.26)",
+      "url": "https://ecachockey.com/watch/?Archive=1371"
+    },
+    {
+      "away": "QUIN",
+      "date": "2026-10-16",
+      "home": "PSU",
+      "tier": "official-conference",
+      "title": "Quinnipiac at Penn State (10.16.26)",
+      "url": "https://ecachockey.com/watch/?Archive=1386"
+    },
+    {
+      "away": "STO",
+      "date": "2026-10-16",
+      "home": "NMI",
+      "tier": "official-conference",
+      "title": "Stonehill at Northern Michigan Highlights 10/16/2026",
+      "url": "https://www.youtube.com/watch?v=sQl2t_gGHbM"
+    },
+    {
+      "away": "UAF",
+      "date": "2026-10-16",
+      "home": "MTU",
+      "tier": "official-conference",
+      "title": "Alaska at Michigan Tech Highlights 10/16/2026",
+      "url": "https://www.youtube.com/watch?v=7a7lBOGMs7g"
+    },
+    {
+      "away": "UNH",
+      "date": "2026-10-16",
+      "home": "COLG",
+      "tier": "official-conference",
+      "title": "New Hampshire at Colgate | NCAA Men\u2019s Ice Hockey | Highlights - October 16, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=l9GXetc7t90"
+    },
+    {
       "away": "ARMY",
       "date": "2026-10-17",
       "home": "HC",
@@ -41,6 +753,14 @@
       "url": "https://www.youtube.com/watch?v=JmyiJ4pzfoY"
     },
     {
+      "away": "LIU",
+      "date": "2026-10-17",
+      "home": "RPI",
+      "tier": "official-conference",
+      "title": "Long Island Univ. at RPI (10.17.26)",
+      "url": "https://ecachockey.com/watch/default.aspx?Archive=1400&path=conf"
+    },
+    {
       "away": "MIA",
       "date": "2026-10-17",
       "home": "RMU",
@@ -65,12 +785,28 @@
       "url": "https://www.youtube.com/watch?v=kd6HHJvr8RM"
     },
     {
+      "away": "NIA",
+      "date": "2026-10-17",
+      "home": "BGSU",
+      "tier": "official-conference",
+      "title": "Niagara 2, Bowling Green 1 - Oct. 17, 2026",
+      "url": "https://www.youtube.com/watch?v=xqm-NmuSR00"
+    },
+    {
       "away": "OSU",
       "date": "2026-10-17",
       "home": "SHU",
       "tier": "official-conference",
       "title": "Ohio State 5, Sacred Heart 1 - Oct. 17, 2026",
       "url": "https://www.youtube.com/watch?v=eYyk0Ue4ouI"
+    },
+    {
+      "away": "STO",
+      "date": "2026-10-17",
+      "home": "NMI",
+      "tier": "official-conference",
+      "title": "Stonehill at Northern Michigan Highlights 10/17/2026",
+      "url": "https://www.youtube.com/watch?v=BJIQcX2sbWs"
     },
     {
       "away": "UAF",
@@ -97,6 +833,14 @@
       "url": "https://www.youtube.com/watch?v=sxtRMwYfzsM"
     },
     {
+      "away": "ARMY",
+      "date": "2026-10-18",
+      "home": "HC",
+      "tier": "official-conference",
+      "title": "Army West Point 3, Holy Cross 1 - Oct. 18, 2026",
+      "url": "https://www.youtube.com/watch?v=LHXhk72ISgc"
+    },
+    {
       "away": "LIU",
       "date": "2026-10-20",
       "home": "SLU",
@@ -119,6 +863,14 @@
       "tier": "aggregator",
       "title": "Boston University vs UConn | What a game | NCAA College Hockey Highlights | October 22, 2026",
       "url": "https://www.youtube.com/watch?v=amFYsKu4W6c"
+    },
+    {
+      "away": "UND",
+      "date": "2026-10-22",
+      "home": "MINN",
+      "tier": "official",
+      "title": "UND Hockey | Highlights at Minnesota | 10.22.26",
+      "url": "https://www.youtube.com/watch?v=heGgQkQpWd0"
     },
     {
       "away": "AF",
@@ -145,6 +897,14 @@
       "url": "https://www.youtube.com/watch?v=sGDjf3uRDJs"
     },
     {
+      "away": "BC",
+      "date": "2026-10-23",
+      "home": "DEN",
+      "tier": "official-conference",
+      "title": "10-23-26 Boston College at Denver Highlights",
+      "url": "https://www.youtube.com/watch?v=uRyMr-vYGWI"
+    },
+    {
       "away": "BEM",
       "date": "2026-10-23",
       "home": "UMD",
@@ -161,6 +921,14 @@
       "url": "https://www.youtube.com/watch?v=L2GzuuwbqIo"
     },
     {
+      "away": "CAN",
+      "date": "2026-10-23",
+      "home": "PSU",
+      "tier": "official-conference",
+      "title": "Canisius at Penn State | Extended Highlights | Big Ten Hockey | 10/23/2026",
+      "url": "https://www.youtube.com/watch?v=WfrfnuqDJcY"
+    },
+    {
       "away": "CLAR",
       "date": "2026-10-23",
       "home": "UVM",
@@ -175,6 +943,14 @@
       "tier": "official-conference",
       "title": "Colgate at Maine | NCAA Men\u2019s Ice Hockey | Highlights - October 23, 2026 | #ECACHockey",
       "url": "https://www.youtube.com/watch?v=9xa79QytDpc"
+    },
+    {
+      "away": "MNST",
+      "date": "2026-10-23",
+      "home": "STMN",
+      "tier": "official-conference",
+      "title": "10-23-26 Minnesota State at St. Thomas Highlights",
+      "url": "https://www.youtube.com/watch?v=7UyY7sJypNM"
     },
     {
       "away": "MRMK",
@@ -217,6 +993,14 @@
       "url": "https://www.youtube.com/watch?v=n6L1UOngmwE"
     },
     {
+      "away": "RPI",
+      "date": "2026-10-23",
+      "home": "RIT",
+      "tier": "official-conference",
+      "title": "RPI at RIT | NCAA Men\u2019s Ice Hockey | Highlights - October 23, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=E_bL4YekNK4"
+    },
+    {
       "away": "UAA",
       "date": "2026-10-23",
       "home": "MIA",
@@ -231,6 +1015,14 @@
       "tier": "official-conference",
       "title": "North Dakota at Minnesota | Extended Highlights | Big Ten Hockey | 10/23/2026",
       "url": "https://www.youtube.com/watch?v=g8QPISiaapE"
+    },
+    {
+      "away": "UNNY",
+      "date": "2026-10-23",
+      "home": "NIA",
+      "tier": "official-conference",
+      "title": "Union at Niagara | NCAA Men\u2019s Ice Hockey | Highlights - October 23, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=KyHpEfa8PnA"
     },
     {
       "away": "WMU",
@@ -289,12 +1081,36 @@
       "url": "https://www.youtube.com/watch?v=PxhAtjXvoHU"
     },
     {
+      "away": "CONN",
+      "date": "2026-10-24",
+      "home": "BU",
+      "tier": "official-conference",
+      "title": "UCONN at BOSTON UNIVERSITY | Men's Game Highlights | 10.24.2026",
+      "url": "https://www.youtube.com/watch?v=_TaPNp4Ee9Y"
+    },
+    {
       "away": "HC",
       "date": "2026-10-24",
       "home": "SHU",
       "tier": "official-conference",
       "title": "Sacred Heart 4, Holy Cross 3 - Oct. 24, 2026",
       "url": "https://www.youtube.com/watch?v=cbKa8dljeoo"
+    },
+    {
+      "away": "MRMK",
+      "date": "2026-10-24",
+      "home": "ND",
+      "tier": "official-conference",
+      "title": "Merrimack at Notre Dame | Highlights | Big Ten Hockey | 10/24/2026",
+      "url": "https://www.youtube.com/watch?v=VHGvD-DfVnc"
+    },
+    {
+      "away": "MSU",
+      "date": "2026-10-24",
+      "home": "UNH",
+      "tier": "official",
+      "title": "UNH Men's Hockey vs Michigan State Highlights 10-24-26",
+      "url": "https://www.youtube.com/watch?v=emh4c8dNXwo"
     },
     {
       "away": "MTU",
@@ -321,12 +1137,44 @@
       "url": "https://www.youtube.com/watch?v=Fe7RLsmbGZA"
     },
     {
+      "away": "STMN",
+      "date": "2026-10-24",
+      "home": "MNST",
+      "tier": "official-conference",
+      "title": "St. Thomas at Minnesota State Highlights 10/24/2026",
+      "url": "https://www.youtube.com/watch?v=rRyned2k0EU"
+    },
+    {
+      "away": "STO",
+      "date": "2026-10-24",
+      "home": "MASS",
+      "tier": "official-conference",
+      "title": "Stonehill at MASSACHUSETTS | Men's Game Highlights | 10.24.2026",
+      "url": "https://www.youtube.com/watch?v=_EF2hCP3SRw"
+    },
+    {
+      "away": "UAA",
+      "date": "2026-10-24",
+      "home": "MIA",
+      "tier": "official-conference",
+      "title": "10-24-26 Alaska Anchorage at Miami Highlights",
+      "url": "https://www.youtube.com/watch?v=12zm8oV1Q0Q"
+    },
+    {
       "away": "UMD",
       "date": "2026-10-24",
       "home": "BEM",
       "tier": "official",
       "title": "Bemidji State Men's Hockey Highlights vs Minnesota Duluth | Oct. 24, 2026",
       "url": "https://www.youtube.com/watch?v=iAJpxNBx3Z4"
+    },
+    {
+      "away": "UML",
+      "date": "2026-10-24",
+      "home": "PROV",
+      "tier": "aggregator",
+      "title": "Providence vs UMass Lowell | NCAA College Hockey Highlights | October 24, 2026",
+      "url": "https://www.youtube.com/watch?v=xJugfgrTRrw"
     },
     {
       "away": "UNNY",
@@ -377,12 +1225,28 @@
       "url": "https://www.youtube.com/watch?v=R9R5ifPDR84"
     },
     {
+      "away": "BENT",
+      "date": "2026-10-30",
+      "home": "HC",
+      "tier": "official-conference",
+      "title": "Holy Cross 2, Bentley 0 - Oct. 30, 2026",
+      "url": "https://www.youtube.com/watch?v=EVytEWqcX5U"
+    },
+    {
       "away": "BRWN",
       "date": "2026-10-30",
       "home": "YALE",
       "tier": "official-conference",
       "title": "Brown at Yale | NCAA Men\u2019s Ice Hockey | Highlights - October 30, 2026 | #ECACHockey",
       "url": "https://www.youtube.com/watch?v=a_3Q1_k7qw4"
+    },
+    {
+      "away": "CONN",
+      "date": "2026-10-30",
+      "home": "MRMK",
+      "tier": "official-conference",
+      "title": "UCONN at MERRIMACK | Men's Game Highlights | 10.30.2026",
+      "url": "https://www.youtube.com/watch?v=zo-zWnIeu3Q"
     },
     {
       "away": "FSU",
@@ -401,12 +1265,44 @@
       "url": "https://www.youtube.com/watch?v=pSGLx60gWc4"
     },
     {
+      "away": "LIU",
+      "date": "2026-10-30",
+      "home": "WMU",
+      "tier": "official-conference",
+      "title": "10-30-26 Long Island at Western Michigan Highlights",
+      "url": "https://www.youtube.com/watch?v=soLgpfx8gGg"
+    },
+    {
+      "away": "LSS",
+      "date": "2026-10-30",
+      "home": "MNST",
+      "tier": "official-conference",
+      "title": "Lake Superior State vs. Minnesota State Highlights 10/30/2026",
+      "url": "https://www.youtube.com/watch?v=s9zYxuXAgIc"
+    },
+    {
+      "away": "ME",
+      "date": "2026-10-30",
+      "home": "BU",
+      "tier": "official",
+      "title": "Highlights: Men's Ice Hockey vs. Maine (10/30/26)",
+      "url": "https://www.youtube.com/watch?v=1M3TOUOwIlg"
+    },
+    {
       "away": "ND",
       "date": "2026-10-30",
       "home": "WIS",
       "tier": "aggregator",
       "title": "Wisconsin vs Notre Dame | NCAA College Hockey | Highlights - October 30, 2026",
       "url": "https://www.youtube.com/watch?v=jLKvBlnKypA"
+    },
+    {
+      "away": "NE",
+      "date": "2026-10-30",
+      "home": "BC",
+      "tier": "aggregator",
+      "title": "Boston College vs Northeastern | NCAA College Hockey Highlights | October 30, 2026",
+      "url": "https://www.youtube.com/watch?v=o_QHCTUcDi0"
     },
     {
       "away": "NIA",
@@ -417,12 +1313,28 @@
       "url": "https://www.youtube.com/watch?v=-FjlGLyHIIs"
     },
     {
+      "away": "NMI",
+      "date": "2026-10-30",
+      "home": "AUG",
+      "tier": "official-conference",
+      "title": "Northern Michigan at Augustana Highlights 10/30/2026",
+      "url": "https://www.youtube.com/watch?v=G7tI0-rbkWQ"
+    },
+    {
       "away": "OMA",
       "date": "2026-10-30",
       "home": "DEN",
       "tier": "aggregator",
       "title": "Denver vs Omaha | NCAA College Hockey | Highlights - October 30, 2026",
       "url": "https://www.youtube.com/watch?v=neya0MwuDTg"
+    },
+    {
+      "away": "PRIN",
+      "date": "2026-10-30",
+      "home": "STO",
+      "tier": "official-conference",
+      "title": "Princeton at Stonehill | NCAA Men\u2019s Ice Hockey | Highlights - October 30, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=2gMtgvriH-E"
     },
     {
       "away": "PSU",
@@ -449,6 +1361,22 @@
       "url": "https://www.youtube.com/watch?v=L92Pka6NR-I"
     },
     {
+      "away": "STMN",
+      "date": "2026-10-30",
+      "home": "MIA",
+      "tier": "official-conference",
+      "title": "10/30/26 - St. Thomas at Miami Highlights",
+      "url": "https://www.youtube.com/watch?v=2P1eDz46l9Q"
+    },
+    {
+      "away": "UMD",
+      "date": "2026-10-30",
+      "home": "CC",
+      "tier": "official-conference",
+      "title": "10/30/26 - Minnesota Duluth at Colorado College Highlights",
+      "url": "https://www.youtube.com/watch?v=r9yQWHqD3yw"
+    },
+    {
       "away": "UML",
       "date": "2026-10-30",
       "home": "COLG",
@@ -471,6 +1399,14 @@
       "tier": "official-conference",
       "title": "Union at RPI | NCAA Men's Ice Hockey | Highlights - October 30, 2026 | #ECACHockey",
       "url": "https://www.youtube.com/watch?v=1GNJOnr3D5E"
+    },
+    {
+      "away": "AF",
+      "date": "2026-10-31",
+      "home": "RMU",
+      "tier": "official-conference",
+      "title": "Robert Morris 3, Air Force 2 - Oct. 31, 2026",
+      "url": "https://www.youtube.com/watch?v=FyiFdGtBYEM"
     },
     {
       "away": "ASU",
@@ -569,12 +1505,28 @@
       "url": "https://www.youtube.com/watch?v=4hr3cj6sHXk"
     },
     {
+      "away": "OMA",
+      "date": "2026-10-31",
+      "home": "DEN",
+      "tier": "official-conference",
+      "title": "10-31-26 Omaha at Denver Highlights",
+      "url": "https://www.youtube.com/watch?v=xVWPZLVZK-8"
+    },
+    {
       "away": "PRIN",
       "date": "2026-10-31",
       "home": "STO",
       "tier": "official-conference",
       "title": "Princeton at Stonehill | NCAA Men\u2019s Ice Hockey | Highlights - October 31, 2026 | #ECACHockey",
       "url": "https://www.youtube.com/watch?v=cyG2EOsD37o"
+    },
+    {
+      "away": "PROV",
+      "date": "2026-10-31",
+      "home": "QUIN",
+      "tier": "official-conference",
+      "title": "Providence at Quinnipiac | NCAA Men\u2019s Ice Hockey | Highlights - October 31, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=BzbriVqrcoY"
     },
     {
       "away": "PSU",
@@ -617,6 +1569,14 @@
       "url": "https://www.youtube.com/watch?v=IvqrIuzujVo"
     },
     {
+      "away": "UAF",
+      "date": "2026-10-31",
+      "home": "DART",
+      "tier": "official-conference",
+      "title": "Alaska Fairbanks at Dartmouth | NCAA Men\u2019s Ice Hockey | Highlights - October 31, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=zXpvOrbaeME"
+    },
+    {
       "away": "UMD",
       "date": "2026-10-31",
       "home": "CC",
@@ -633,12 +1593,28 @@
       "url": "https://www.youtube.com/watch?v=meUmdWbMuvM"
     },
     {
+      "away": "UNH",
+      "date": "2026-10-31",
+      "home": "UVM",
+      "tier": "official",
+      "title": "Men's Hockey: Vermont vs. New Hampshire (10/31/26)",
+      "url": "https://www.youtube.com/watch?v=3Fd8OEQyvZU"
+    },
+    {
       "away": "MICH",
       "date": "2026-11-01",
       "home": "OSU",
       "tier": "aggregator",
       "title": "Ohio State vs Michigan | What a Game | NCAA College Hockey | Highlights - November 01, 2026",
       "url": "https://www.youtube.com/watch?v=UDZz8-713iw"
+    },
+    {
+      "away": "UAF",
+      "date": "2026-11-01",
+      "home": "DART",
+      "tier": "official-conference",
+      "title": "Alaska Fairbanks at Dartmouth | NCAA Men\u2019s Ice Hockey | Highlights - November 1, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=7KqzbLdjUWw"
     },
     {
       "away": "CONN",
@@ -825,6 +1801,14 @@
       "url": "https://www.youtube.com/watch?v=3l8bCUQdvQ0"
     },
     {
+      "away": "UAF",
+      "date": "2026-11-06",
+      "home": "STO",
+      "tier": "full-game-fallback",
+      "title": "Alaska-Fairbanks at Stonehill",
+      "url": "https://necfrontrow.com/game/16676"
+    },
+    {
       "away": "UNH",
       "date": "2026-11-06",
       "home": "UML",
@@ -855,6 +1839,14 @@
       "tier": "official-conference",
       "title": "11-6-26 Western Michigan at North Dakota Highlights",
       "url": "https://www.youtube.com/watch?v=_zheKstsrIk"
+    },
+    {
+      "away": "YALE",
+      "date": "2026-11-06",
+      "home": "DART",
+      "tier": "official-conference",
+      "title": "Yale at Dartmouth | NCAA Men\u2019s Ice Hockey | Highlights - November 6, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=Ynk22u7Rmb8"
     },
     {
       "away": "ARMY",
@@ -1017,6 +2009,14 @@
       "url": "https://www.youtube.com/watch?v=td9HEGtwSDQ"
     },
     {
+      "away": "UAF",
+      "date": "2026-11-07",
+      "home": "STO",
+      "tier": "full-game-fallback",
+      "title": "Alaska-Fairbanks at Stonehill",
+      "url": "https://necfrontrow.com/game/16679"
+    },
+    {
       "away": "UML",
       "date": "2026-11-07",
       "home": "UNH",
@@ -1065,622 +2065,6 @@
       "url": "https://www.youtube.com/watch?v=5zZGXi1bdC4"
     },
     {
-      "away": "UNH",
-      "date": "2026-10-31",
-      "home": "UVM",
-      "tier": "official",
-      "title": "Men's Hockey: Vermont vs. New Hampshire (10/31/26)",
-      "url": "https://www.youtube.com/watch?v=3Fd8OEQyvZU"
-    },
-    {
-      "away": "UML",
-      "date": "2026-10-24",
-      "home": "PROV",
-      "tier": "aggregator",
-      "title": "Providence vs UMass Lowell | NCAA College Hockey Highlights | October 24, 2026",
-      "url": "https://www.youtube.com/watch?v=xJugfgrTRrw"
-    },
-    {
-      "away": "UND",
-      "date": "2026-10-22",
-      "home": "MINN",
-      "tier": "official",
-      "title": "UND Hockey | Highlights at Minnesota | 10.22.26",
-      "url": "https://www.youtube.com/watch?v=heGgQkQpWd0"
-    },
-    {
-      "away": "MINN",
-      "date": "2026-10-16",
-      "home": "UMD",
-      "tier": "official-conference",
-      "title": "10-16-26 Minnesota at Minnesota Duluth Highlights",
-      "url": "https://www.youtube.com/watch?v=sQfzfS6_UW4"
-    },
-    {
-      "away": "RMU",
-      "date": "2026-10-15",
-      "home": "MIA",
-      "tier": "official-conference",
-      "title": "10-15-26 Robert Morris at Miami Highlights",
-      "url": "https://www.youtube.com/watch?v=-QMuDqKzv0w"
-    },
-    {
-      "away": "CC",
-      "date": "2026-10-16",
-      "home": "CONN",
-      "tier": "official",
-      "title": "UConn Men's Hockey wins an Overtime Thriller in their annual Mental Health Awareness game",
-      "url": "https://www.youtube.com/watch?v=W6R3XXiJ7to"
-    },
-    {
-      "away": "LSS",
-      "date": "2026-10-16",
-      "home": "UAA",
-      "tier": "full-game-fallback",
-      "title": "HKY: Lake Superior State at Alaska Anchorage",
-      "url": "https://www.youtube.com/watch?v=B89IJzXI30Y"
-    },
-    {
-      "away": "UNH",
-      "date": "2026-10-16",
-      "home": "COLG",
-      "tier": "official-conference",
-      "title": "New Hampshire at Colgate | NCAA Men\u2019s Ice Hockey | Highlights - October 16, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=l9GXetc7t90"
-    },
-    {
-      "away": "CAN",
-      "date": "2026-10-16",
-      "home": "CLAR",
-      "tier": "official-conference",
-      "title": "Canisius at Clarkson (10.16.26)",
-      "url": "https://ecachockey.com/watch/?Archive=1376"
-    },
-    {
-      "away": "QUIN",
-      "date": "2026-10-16",
-      "home": "PSU",
-      "tier": "official-conference",
-      "title": "Quinnipiac at Penn State (10.16.26)",
-      "url": "https://ecachockey.com/watch/?Archive=1386"
-    },
-    {
-      "away": "PROV",
-      "date": "2026-10-16",
-      "home": "UNNY",
-      "tier": "official-conference",
-      "title": "Providence at Union (10.16.26)",
-      "url": "https://ecachockey.com/watch/?Archive=1371"
-    },
-    {
-      "away": "LIU",
-      "date": "2026-10-16",
-      "home": "RPI",
-      "tier": "official-conference",
-      "title": "Long Island Univ. at RPI (10.16.26)",
-      "url": "https://ecachockey.com/watch/?Archive=1374"
-    },
-    {
-      "away": "LIU",
-      "date": "2026-10-17",
-      "home": "RPI",
-      "tier": "official-conference",
-      "title": "Long Island Univ. at RPI (10.17.26)",
-      "url": "https://ecachockey.com/watch/default.aspx?Archive=1400&path=conf"
-    },
-    {
-      "away": "YALE",
-      "date": "2026-11-06",
-      "home": "DART",
-      "tier": "official-conference",
-      "title": "Yale at Dartmouth | NCAA Men\u2019s Ice Hockey | Highlights - November 6, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=Ynk22u7Rmb8"
-    },
-    {
-      "away": "UAF",
-      "date": "2026-11-01",
-      "home": "DART",
-      "tier": "official-conference",
-      "title": "Alaska Fairbanks at Dartmouth | NCAA Men\u2019s Ice Hockey | Highlights - November 1, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=7KqzbLdjUWw"
-    },
-    {
-      "away": "UAF",
-      "date": "2026-10-31",
-      "home": "DART",
-      "tier": "official-conference",
-      "title": "Alaska Fairbanks at Dartmouth | NCAA Men\u2019s Ice Hockey | Highlights - October 31, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=zXpvOrbaeME"
-    },
-    {
-      "away": "PROV",
-      "date": "2026-10-31",
-      "home": "QUIN",
-      "tier": "official-conference",
-      "title": "Providence at Quinnipiac | NCAA Men\u2019s Ice Hockey | Highlights - October 31, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=BzbriVqrcoY"
-    },
-    {
-      "away": "OMA",
-      "date": "2026-10-31",
-      "home": "DEN",
-      "tier": "official-conference",
-      "title": "10-31-26 Omaha at Denver Highlights",
-      "url": "https://www.youtube.com/watch?v=xVWPZLVZK-8"
-    },
-    {
-      "away": "AF",
-      "date": "2026-10-31",
-      "home": "RMU",
-      "tier": "official-conference",
-      "title": "Robert Morris 3, Air Force 2 - Oct. 31, 2026",
-      "url": "https://www.youtube.com/watch?v=FyiFdGtBYEM"
-    },
-    {
-      "away": "UMD",
-      "date": "2026-10-30",
-      "home": "CC",
-      "tier": "official-conference",
-      "title": "10/30/26 - Minnesota Duluth at Colorado College Highlights",
-      "url": "https://www.youtube.com/watch?v=r9yQWHqD3yw"
-    },
-    {
-      "away": "STMN",
-      "date": "2026-10-30",
-      "home": "MIA",
-      "tier": "official-conference",
-      "title": "10/30/26 - St. Thomas at Miami Highlights",
-      "url": "https://www.youtube.com/watch?v=2P1eDz46l9Q"
-    },
-    {
-      "away": "PRIN",
-      "date": "2026-10-30",
-      "home": "STO",
-      "tier": "official-conference",
-      "title": "Princeton at Stonehill | NCAA Men\u2019s Ice Hockey | Highlights - October 30, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=2gMtgvriH-E"
-    },
-    {
-      "away": "NMI",
-      "date": "2026-10-30",
-      "home": "AUG",
-      "tier": "official-conference",
-      "title": "Northern Michigan at Augustana Highlights 10/30/2026",
-      "url": "https://www.youtube.com/watch?v=G7tI0-rbkWQ"
-    },
-    {
-      "away": "NE",
-      "date": "2026-10-30",
-      "home": "BC",
-      "tier": "aggregator",
-      "title": "Boston College vs Northeastern | NCAA College Hockey Highlights | October 30, 2026",
-      "url": "https://www.youtube.com/watch?v=o_QHCTUcDi0"
-    },
-    {
-      "away": "ME",
-      "date": "2026-10-30",
-      "home": "BU",
-      "tier": "official",
-      "title": "Highlights: Men's Ice Hockey vs. Maine (10/30/26)",
-      "url": "https://www.youtube.com/watch?v=1M3TOUOwIlg"
-    },
-    {
-      "away": "LSS",
-      "date": "2026-10-30",
-      "home": "MNST",
-      "tier": "official-conference",
-      "title": "Lake Superior State vs. Minnesota State Highlights 10/30/2026",
-      "url": "https://www.youtube.com/watch?v=s9zYxuXAgIc"
-    },
-    {
-      "away": "LIU",
-      "date": "2026-10-30",
-      "home": "WMU",
-      "tier": "official-conference",
-      "title": "10-30-26 Long Island at Western Michigan Highlights",
-      "url": "https://www.youtube.com/watch?v=soLgpfx8gGg"
-    },
-    {
-      "away": "MICH",
-      "date": "2026-10-16",
-      "home": "DEN",
-      "tier": "official-conference",
-      "title": "10/16/26 - Michigan at Denver Highlights",
-      "url": "https://www.youtube.com/watch?v=DxJ-hgrPaSo"
-    },
-    {
-      "away": "ASU",
-      "date": "2026-10-16",
-      "home": "UML",
-      "tier": "official",
-      "title": "Ice Hockey | UMass Lowell vs Arizona State Highlights (10.16.26)",
-      "url": "https://www.youtube.com/watch?v=e-lD9T_wQpI"
-    },
-    {
-      "away": "LIN",
-      "date": "2026-10-15",
-      "home": "AF",
-      "tier": "official-conference",
-      "title": "Air Force 5, Lindenwood 2 - Oct. 15, 2026",
-      "url": "https://www.youtube.com/watch?v=sWjcwwNMGvY"
-    },
-    {
-      "away": "BU",
-      "date": "2026-10-16",
-      "home": "UVM",
-      "tier": "official",
-      "title": "Men's Hockey: Vermont vs. #11 Boston University (10/16/26)",
-      "url": "https://www.youtube.com/watch?v=JAtmfRu9oGo"
-    },
-    {
-      "away": "LIN",
-      "date": "2026-10-16",
-      "home": "AF",
-      "tier": "official-conference",
-      "title": "Lindenwood 7, Air Force 4 - Oct. 16, 2026",
-      "url": "https://www.youtube.com/watch?v=8Yllze7bOCs"
-    },
-    {
-      "away": "ND",
-      "date": "2026-10-16",
-      "home": "WMU",
-      "tier": "aggregator",
-      "title": "Western Michigan vs Notre Dame | NCAA College Hockey | Highlights - October 16, 2026",
-      "url": "https://www.youtube.com/watch?v=pa6Hn1GcW7c"
-    },
-    {
-      "away": "NIA",
-      "date": "2026-10-17",
-      "home": "BGSU",
-      "tier": "official-conference",
-      "title": "Niagara 2, Bowling Green 1 - Oct. 17, 2026",
-      "url": "https://www.youtube.com/watch?v=xqm-NmuSR00"
-    },
-    {
-      "away": "NIA",
-      "date": "2026-10-08",
-      "home": "ND",
-      "tier": "official-conference",
-      "title": "Notre Dame 3, Niagara 1 - Oct. 8, 2026",
-      "url": "https://www.youtube.com/watch?v=qh_YXY45cZw"
-    },
-    {
-      "away": "BGSU",
-      "date": "2026-10-09",
-      "home": "SHU",
-      "tier": "official",
-      "title": "BGSU Hockey vs Sacred Heart Highlights | 10-9-2026",
-      "url": "https://www.youtube.com/watch?v=qiH5Xga3OwM"
-    },
-    {
-      "away": "MTU",
-      "date": "2026-10-09",
-      "home": "SCSU",
-      "tier": "official",
-      "title": "Web Highlights: SCSU vs. Michigan Tech University (10/9/2026)",
-      "url": "https://www.youtube.com/watch?v=k3uXHVTMbu8"
-    },
-    {
-      "away": "UAA",
-      "date": "2026-10-09",
-      "home": "MICH",
-      "tier": "official-conference",
-      "title": "Alaska Anchorage at Michigan | Extended Highlights | Big Ten Hockey | 10/09/2026",
-      "url": "https://www.youtube.com/watch?v=sYatXdCOwMs"
-    },
-    {
-      "away": "MTU",
-      "date": "2026-10-10",
-      "home": "SCSU",
-      "tier": "official",
-      "title": "Web Highlights: SCSU vs. Michigan Tech University (10/10/2026)",
-      "url": "https://www.youtube.com/watch?v=yWd4L7yr_Fc"
-    },
-    {
-      "away": "QUIN",
-      "date": "2026-10-10",
-      "home": "ME",
-      "tier": "official-conference",
-      "title": "Quinnipiac at Maine | NCAA Men\u2019s Ice Hockey | Highlights - Month Date, Year | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=OO-imSmS_e4"
-    },
-    {
-      "away": "UAF",
-      "date": "2026-10-10",
-      "home": "UNNY",
-      "tier": "official",
-      "title": "Union College Men's Hockey vs Alaska Fairbanks (Oct. 10, 2026)",
-      "url": "https://www.youtube.com/watch?v=SFpWNUtdTE8"
-    },
-    {
-      "away": "AF",
-      "date": "2026-10-10",
-      "home": "STMN",
-      "tier": "official-conference",
-      "title": "St. Thomas 4, Air Force 2 - Oct. 10, 2026",
-      "url": "https://www.youtube.com/watch?v=T89eXthohFM"
-    },
-    {
-      "away": "RIT",
-      "date": "2026-10-10",
-      "home": "MASS",
-      "tier": "official-conference",
-      "title": "UMass 5, RIT 1 - Oct. 10, 2026",
-      "url": "https://www.youtube.com/watch?v=anYFznhE0dE"
-    },
-    {
-      "away": "NMI",
-      "date": "2026-10-11",
-      "home": "MSU",
-      "tier": "aggregator",
-      "title": "Michigan State vs Northern Michigan | NCAA College Hockey | Highlights - October 11, 2026",
-      "url": "https://www.youtube.com/watch?v=Nbl2FZoVz2g"
-    },
-    {
-      "away": "ARMY",
-      "date": "2026-10-18",
-      "home": "HC",
-      "tier": "official-conference",
-      "title": "Army West Point 3, Holy Cross 1 - Oct. 18, 2026",
-      "url": "https://www.youtube.com/watch?v=LHXhk72ISgc"
-    },
-    {
-      "away": "FSU",
-      "date": "2026-10-02",
-      "home": "CAN",
-      "tier": "official-conference",
-      "title": "Canisius 4, Ferris State 0 - Oct. 2, 2026",
-      "url": "https://www.youtube.com/watch?v=ZLQcCBk2vG8"
-    },
-    {
-      "away": "RIT",
-      "date": "2026-10-02",
-      "home": "NIA",
-      "tier": "official-conference",
-      "title": "Niagara 4, RIT 1 - Oct. 2, 2026",
-      "url": "https://www.youtube.com/watch?v=Ct7lu-9ppTs"
-    },
-    {
-      "away": "ME",
-      "date": "2026-10-03",
-      "home": "HC",
-      "tier": "official-conference",
-      "title": "Holy Cross 3, Maine 2 OT - Oct. 3, 2026",
-      "url": "https://www.youtube.com/watch?v=xXBGKoZo7VM"
-    },
-    {
-      "away": "SCSU",
-      "date": "2026-10-15",
-      "home": "BC",
-      "tier": "official-conference",
-      "title": "St. Cloud State at BOSTON COLLEGE | Men's Game Highlights | 10.15.2026",
-      "url": "https://www.youtube.com/watch?v=_HFKHDUHxzE"
-    },
-    {
-      "away": "OMA",
-      "date": "2026-10-15",
-      "home": "AUG",
-      "tier": "official-conference",
-      "title": "Omaha at Augustana Highlights 10/15/26",
-      "url": "https://www.youtube.com/watch?v=0uDrPknfLeg"
-    },
-    {
-      "away": "OSU",
-      "date": "2026-10-16",
-      "home": "SHU",
-      "tier": "official-conference",
-      "title": "Sacred Heart 5, Ohio State 3 - Oct. 16, 2026",
-      "url": "https://www.youtube.com/watch?v=rIxMl9d002I"
-    },
-    {
-      "away": "NE",
-      "date": "2026-10-16",
-      "home": "MASS",
-      "tier": "official",
-      "title": "UMass IH | Broadcast Highlights vs Northeastern | 10.16.26",
-      "url": "https://www.youtube.com/watch?v=MrExLv6sD98"
-    },
-    {
-      "away": "NIA",
-      "date": "2026-10-16",
-      "home": "BGSU",
-      "tier": "official-conference",
-      "title": "Niagara at Bowling Green Highlights 10/16/2026",
-      "url": "https://www.youtube.com/watch?v=eeNiIiWyqc4"
-    },
-    {
-      "away": "UAF",
-      "date": "2026-10-16",
-      "home": "MTU",
-      "tier": "official-conference",
-      "title": "Alaska at Michigan Tech Highlights 10/16/2026",
-      "url": "https://www.youtube.com/watch?v=7a7lBOGMs7g"
-    },
-    {
-      "away": "STO",
-      "date": "2026-10-16",
-      "home": "NMI",
-      "tier": "official-conference",
-      "title": "Stonehill at Northern Michigan Highlights 10/16/2026",
-      "url": "https://www.youtube.com/watch?v=sQl2t_gGHbM"
-    },
-    {
-      "away": "BENT",
-      "date": "2026-10-16",
-      "home": "UND",
-      "tier": "official-conference",
-      "title": "10/16/26 - Bentley at North Dakota Highlights",
-      "url": "https://www.youtube.com/watch?v=FC-enGwQ7w4"
-    },
-    {
-      "away": "UAA",
-      "date": "2026-10-10",
-      "home": "MICH",
-      "tier": "official-conference",
-      "title": "Alaska Anchorage at Michigan | Extended Highlights | Big Ten Hockey | 10/10/2026",
-      "url": "https://www.youtube.com/watch?v=bCfv5nrnfes"
-    },
-    {
-      "away": "CLAR",
-      "date": "2026-10-10",
-      "home": "PROV",
-      "tier": "official-conference",
-      "title": "Clarkson at Providence | NCAA Men\u2019s Ice Hockey | Highlights - October 10, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=ZAuQVPL7Puo"
-    },
-    {
-      "away": "PSU",
-      "date": "2026-10-10",
-      "home": "SHU",
-      "tier": "official-conference",
-      "title": "Sacred Heart 6, Penn State 3 - Oct. 10, 2026",
-      "url": "https://www.youtube.com/watch?v=ekeqEMnr-Q8"
-    },
-    {
-      "away": "UMD",
-      "date": "2026-10-10",
-      "home": "AUG",
-      "tier": "official-conference",
-      "title": "Minnesota Duluth at Augustana Highlights 10/10/26",
-      "url": "https://www.youtube.com/watch?v=9clYHr6hjbQ"
-    },
-    {
-      "away": "NIA",
-      "date": "2026-10-09",
-      "home": "ND",
-      "tier": "official-conference",
-      "title": "Niagara vs. Notre Dame | Highlights | Big Ten Hockey | 10/09/26",
-      "url": "https://www.youtube.com/watch?v=k9p-Mi3vhv4"
-    },
-    {
-      "away": "UVM",
-      "date": "2026-10-09",
-      "home": "BENT",
-      "tier": "official-conference",
-      "title": "Bentley 3, Vermont 0 - Oct. 9, 2026",
-      "url": "https://www.youtube.com/watch?v=I4aOSzxyVuw"
-    },
-    {
-      "away": "QUIN",
-      "date": "2026-10-09",
-      "home": "ME",
-      "tier": "official-conference",
-      "title": "Quinnipiac at Maine | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=d6XugJ7PJSk"
-    },
-    {
-      "away": "SLU",
-      "date": "2026-10-09",
-      "home": "PROV",
-      "tier": "official-conference",
-      "title": "St. Lawrence at Providence | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=zG6vqEEQg2k"
-    },
-    {
-      "away": "COLG",
-      "date": "2026-10-09",
-      "home": "STO",
-      "tier": "official-conference",
-      "title": "Colgate at Stonehill | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=zEIu5va12Gk"
-    },
-    {
-      "away": "OSU",
-      "date": "2026-10-09",
-      "home": "RPI",
-      "tier": "official-conference",
-      "title": "Ohio State at RPI | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=ruUFNT_fvy4"
-    },
-    {
-      "away": "PSU",
-      "date": "2026-10-09",
-      "home": "CONN",
-      "tier": "official-conference",
-      "title": "Penn State at UCONN | Men's Game Highlights | 10.9.2026",
-      "url": "https://www.youtube.com/watch?v=su3hH5ib32s"
-    },
-    {
-      "away": "WMU",
-      "date": "2026-10-09",
-      "home": "FSU",
-      "tier": "official-conference",
-      "title": "Western Michigan at Ferris State Highlights 10/9/2026",
-      "url": "https://www.youtube.com/watch?v=KULqtW_Vcws"
-    },
-    {
-      "away": "CLAR",
-      "date": "2026-10-09",
-      "home": "UML",
-      "tier": "official-conference",
-      "title": "Clarkson at UMass Lowell | NCAA Men\u2019s Ice Hockey | Highlights - October 9, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=sn1iMcxO-S0"
-    },
-    {
-      "away": "CAN",
-      "date": "2026-10-09",
-      "home": "LIU",
-      "tier": "official-conference",
-      "title": "Canisius 3, Long Island 2 - Oct. 9, 2026",
-      "url": "https://www.youtube.com/watch?v=aMKp8v3S1fk"
-    },
-    {
-      "away": "RIT",
-      "date": "2026-10-09",
-      "home": "MASS",
-      "tier": "official-conference",
-      "title": "RIT 2, UMass 2 OT (RIT wins SO) - Oct. 9, 2026",
-      "url": "https://www.youtube.com/watch?v=uquwj1baZt4"
-    },
-    {
-      "away": "NMI",
-      "date": "2026-10-09",
-      "home": "MSU",
-      "tier": "official-conference",
-      "title": "Northern Michigan at Michigan State | Extended Highlights | Big Ten Hockey | 10/09/2026",
-      "url": "https://www.youtube.com/watch?v=EIv5BzQYS6k"
-    },
-    {
-      "away": "AF",
-      "date": "2026-10-09",
-      "home": "STMN",
-      "tier": "official-conference",
-      "title": "Air Force 5, St. Thomas 1 - Oct. 9, 2026",
-      "url": "https://www.youtube.com/watch?v=U_I0a46ZqTM"
-    },
-    {
-      "away": "UMD",
-      "date": "2026-10-09",
-      "home": "AUG",
-      "tier": "official-conference",
-      "title": "Minnesota Duluth at Augustana Highlights 10/9/2026",
-      "url": "https://www.youtube.com/watch?v=hIXjHFHRC-8"
-    },
-    {
-      "away": "UND",
-      "date": "2026-10-09",
-      "home": "BEM",
-      "tier": "official-conference",
-      "title": "North Dakota at Bemidji State Highlights 10/9/2026",
-      "url": "https://www.youtube.com/watch?v=8tNlN1_Mthg"
-    },
-    {
-      "away": "WIS",
-      "date": "2026-10-09",
-      "home": "MNST",
-      "tier": "official-conference",
-      "title": "Wisconsin at Minnesota State Highlights 10/9/2026",
-      "url": "https://www.youtube.com/watch?v=r-DAnwrQmXo"
-    },
-    {
-      "away": "HC",
-      "date": "2026-10-09",
-      "home": "ASU",
-      "tier": "official-conference",
-      "title": "Holy Cross 2, Arizona State 1 - Oct. 9, 2026",
-      "url": "https://www.youtube.com/watch?v=Bdp6j7r7p0Y"
-    },
-    {
       "away": "HAR",
       "date": "2026-11-10",
       "home": "BU",
@@ -1689,372 +2073,12 @@
       "url": "https://www.youtube.com/watch?v=hqOyWOysf0E"
     },
     {
-      "away": "CONN",
-      "date": "2026-10-30",
-      "home": "MRMK",
-      "tier": "official-conference",
-      "title": "UCONN at MERRIMACK | Men's Game Highlights | 10.30.2026",
-      "url": "https://www.youtube.com/watch?v=zo-zWnIeu3Q"
-    },
-    {
       "away": "BENT",
-      "date": "2026-10-30",
-      "home": "HC",
-      "tier": "official-conference",
-      "title": "Holy Cross 2, Bentley 0 - Oct. 30, 2026",
-      "url": "https://www.youtube.com/watch?v=EVytEWqcX5U"
-    },
-    {
-      "away": "UAA",
-      "date": "2026-10-24",
-      "home": "MIA",
-      "tier": "official-conference",
-      "title": "10-24-26 Alaska Anchorage at Miami Highlights",
-      "url": "https://www.youtube.com/watch?v=12zm8oV1Q0Q"
-    },
-    {
-      "away": "STO",
-      "date": "2026-10-24",
-      "home": "MASS",
-      "tier": "official-conference",
-      "title": "Stonehill at MASSACHUSETTS | Men's Game Highlights | 10.24.2026",
-      "url": "https://www.youtube.com/watch?v=_EF2hCP3SRw"
-    },
-    {
-      "away": "STMN",
-      "date": "2026-10-24",
-      "home": "MNST",
-      "tier": "official-conference",
-      "title": "St. Thomas at Minnesota State Highlights 10/24/2026",
-      "url": "https://www.youtube.com/watch?v=rRyned2k0EU"
-    },
-    {
-      "away": "MSU",
-      "date": "2026-10-24",
-      "home": "UNH",
+      "date": "2026-11-12",
+      "home": "AF",
       "tier": "official",
-      "title": "UNH Men's Hockey vs Michigan State Highlights 10-24-26",
-      "url": "https://www.youtube.com/watch?v=emh4c8dNXwo"
-    },
-    {
-      "away": "MRMK",
-      "date": "2026-10-24",
-      "home": "ND",
-      "tier": "official-conference",
-      "title": "Merrimack at Notre Dame | Highlights | Big Ten Hockey | 10/24/2026",
-      "url": "https://www.youtube.com/watch?v=VHGvD-DfVnc"
-    },
-    {
-      "away": "CONN",
-      "date": "2026-10-24",
-      "home": "BU",
-      "tier": "official-conference",
-      "title": "UCONN at BOSTON UNIVERSITY | Men's Game Highlights | 10.24.2026",
-      "url": "https://www.youtube.com/watch?v=_TaPNp4Ee9Y"
-    },
-    {
-      "away": "UNNY",
-      "date": "2026-10-23",
-      "home": "NIA",
-      "tier": "official-conference",
-      "title": "Union at Niagara | NCAA Men\u2019s Ice Hockey | Highlights - October 23, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=KyHpEfa8PnA"
-    },
-    {
-      "away": "RPI",
-      "date": "2026-10-23",
-      "home": "RIT",
-      "tier": "official-conference",
-      "title": "RPI at RIT | NCAA Men\u2019s Ice Hockey | Highlights - October 23, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=E_bL4YekNK4"
-    },
-    {
-      "away": "MNST",
-      "date": "2026-10-23",
-      "home": "STMN",
-      "tier": "official-conference",
-      "title": "10-23-26 Minnesota State at St. Thomas Highlights",
-      "url": "https://www.youtube.com/watch?v=7UyY7sJypNM"
-    },
-    {
-      "away": "CAN",
-      "date": "2026-10-23",
-      "home": "PSU",
-      "tier": "official-conference",
-      "title": "Canisius at Penn State | Extended Highlights | Big Ten Hockey | 10/23/2026",
-      "url": "https://www.youtube.com/watch?v=WfrfnuqDJcY"
-    },
-    {
-      "away": "BC",
-      "date": "2026-10-23",
-      "home": "DEN",
-      "tier": "official-conference",
-      "title": "10-23-26 Boston College at Denver Highlights",
-      "url": "https://www.youtube.com/watch?v=uRyMr-vYGWI"
-    },
-    {
-      "away": "STO",
-      "date": "2026-10-17",
-      "home": "NMI",
-      "tier": "official-conference",
-      "title": "Stonehill at Northern Michigan Highlights 10/17/2026",
-      "url": "https://www.youtube.com/watch?v=BJIQcX2sbWs"
-    },
-    {
-      "away": "UNH",
-      "date": "2026-10-02",
-      "home": "QUIN",
-      "tier": "official-conference",
-      "title": "New Hampshire at Quinnipiac | NCAA Men\u2019s Ice Hockey | Highlights - October 2, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=PrcfiZ5oqqk"
-    },
-    {
-      "away": "RMU",
-      "date": "2026-10-02",
-      "home": "WIS",
-      "tier": "official-conference",
-      "title": "Robert Morris vs. Wisconsin | Extended Highlights | Big Ten Hockey | 10/02/26",
-      "url": "https://www.youtube.com/watch?v=HN7ly6HcyT4"
-    },
-    {
-      "away": "MIA",
-      "date": "2026-10-02",
-      "home": "NMI",
-      "tier": "official-conference",
-      "title": "Miami (OH) at Northern Michigan Highlights 10/2/2026",
-      "url": "https://www.youtube.com/watch?v=b_8UNFeof1o"
-    },
-    {
-      "away": "ME",
-      "date": "2026-10-02",
-      "home": "HC",
-      "tier": "official-conference",
-      "title": "Maine 4, Holy Cross 1 - Oct. 2, 2026",
-      "url": "https://www.youtube.com/watch?v=Ybw2BQMWAAI"
-    },
-    {
-      "away": "MASS",
-      "date": "2026-10-02",
-      "home": "CC",
-      "tier": "official-conference",
-      "title": "10/2/26 - UMass at Colorado College Highlights",
-      "url": "https://www.youtube.com/watch?v=v963CO1Y-bY"
-    },
-    {
-      "away": "LIU",
-      "date": "2026-10-02",
-      "home": "UMD",
-      "tier": "official-conference",
-      "title": "10-2-26 Long Island at Minnesota Duluth Highlights",
-      "url": "https://www.youtube.com/watch?v=sbEh9afDZyo"
-    },
-    {
-      "away": "DEN",
-      "date": "2026-10-02",
-      "home": "UAA",
-      "tier": "aggregator",
-      "title": "Alaska Anchorage vs Denver | NCAA College Hockey | Highlights - October 02, 2026",
-      "url": "https://www.youtube.com/watch?v=KP4hP_bfhD8"
-    },
-    {
-      "away": "BU",
-      "date": "2026-10-02",
-      "home": "UAF",
-      "tier": "aggregator",
-      "title": "Alaska Fairbanks vs Boston University | NCAA College Hockey | Highlights - October 02, 2026",
-      "url": "https://www.youtube.com/watch?v=PQ3y_nNI6eI"
-    },
-    {
-      "away": "BGSU",
-      "date": "2026-10-02",
-      "home": "MICH",
-      "tier": "official-conference",
-      "title": "Bowling Green vs. Michigan | Extended Highlights | Big Ten Men's Hockey | 10/02/26",
-      "url": "https://www.youtube.com/watch?v=QfXRQTf81cE"
-    },
-    {
-      "away": "ASU",
-      "date": "2026-10-02",
-      "home": "LIN",
-      "tier": "aggregator",
-      "title": "Lindenwood vs Arizona State | NCAA College Hockey | Highlights - October 02, 2026",
-      "url": "https://www.youtube.com/watch?v=uwmR2iRYOPE"
-    },
-    {
-      "away": "UNNY",
-      "date": "2026-10-03",
-      "home": "ARMY",
-      "tier": "official-conference",
-      "title": "Union at Army West Point | NCAA Men\u2019s Ice Hockey | Highlights - October 3, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=BwL_sB6-KhE"
-    },
-    {
-      "away": "SCSU",
-      "date": "2026-10-03",
-      "home": "BEM",
-      "tier": "official-conference",
-      "title": "St. Cloud State at Bemidji State Highlights 10/3/2026",
-      "url": "https://www.youtube.com/watch?v=aZ4r5szjAXQ"
-    },
-    {
-      "away": "RMU",
-      "date": "2026-10-03",
-      "home": "WIS",
-      "tier": "official-conference",
-      "title": "Robert Morris vs. Wisconsin | Extended Highlights | Big Ten Hockey | 10/03/26",
-      "url": "https://www.youtube.com/watch?v=op8MOHccDr0"
-    },
-    {
-      "away": "NIA",
-      "date": "2026-10-03",
-      "home": "RIT",
-      "tier": "official",
-      "title": "Men's Hockey: RIT vs Niagara 10.3.26",
-      "url": "https://www.youtube.com/watch?v=FZcicalTevs"
-    },
-    {
-      "away": "MRMK",
-      "date": "2026-10-03",
-      "home": "QUIN",
-      "tier": "official-conference",
-      "title": "Merrimack at Quinnipiac | NCAA Men\u2019s Ice Hockey | Highlights - October 3, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=-eRug7mhBaA"
-    },
-    {
-      "away": "MINN",
-      "date": "2026-10-03",
-      "home": "MTU",
-      "tier": "official-conference",
-      "title": "Minnesota at Michigan Tech Highlights 10/3/2026",
-      "url": "https://www.youtube.com/watch?v=sY4qnbIL3sQ"
-    },
-    {
-      "away": "MICH",
-      "date": "2026-10-03",
-      "home": "BGSU",
-      "tier": "official-conference",
-      "title": "Michigan at Bowling Green Highlights 10/3/2026",
-      "url": "https://www.youtube.com/watch?v=zWwdXcYpOj8"
-    },
-    {
-      "away": "MIA",
-      "date": "2026-10-03",
-      "home": "NMI",
-      "tier": "official-conference",
-      "title": "Miami (OH) at Northern Michigan Highlights 10/3/2026",
-      "url": "https://www.youtube.com/watch?v=bgpgK85TJco"
-    },
-    {
-      "away": "MASS",
-      "date": "2026-10-03",
-      "home": "CC",
-      "tier": "official-conference",
-      "title": "10/3/26 - UMass at Colorado College Highlights",
-      "url": "https://www.youtube.com/watch?v=T4qbmc-KWgo"
-    },
-    {
-      "away": "LIU",
-      "date": "2026-10-03",
-      "home": "UMD",
-      "tier": "official-conference",
-      "title": "10-3-26 Long Island at Minnesota Duluth Highlights",
-      "url": "https://www.youtube.com/watch?v=jcl6QDLDU5w"
-    },
-    {
-      "away": "FSU",
-      "date": "2026-10-03",
-      "home": "CAN",
-      "tier": "official-conference",
-      "title": "Ferris State at Canisius Highlights 10/3/2026",
-      "url": "https://www.youtube.com/watch?v=egn8KwJy0vo"
-    },
-    {
-      "away": "DEN",
-      "date": "2026-10-03",
-      "home": "UAA",
-      "tier": "aggregator",
-      "title": "Alaska Anchorage vs Denver | NCAA College Hockey | Highlights - October 03, 2026",
-      "url": "https://www.youtube.com/watch?v=tLAhFdYcDSQ"
-    },
-    {
-      "away": "BU",
-      "date": "2026-10-03",
-      "home": "UAF",
-      "tier": "aggregator",
-      "title": "Alaska Fairbanks vs Boston University | NCAA College Hockey | Highlights - October 03, 2026",
-      "url": "https://www.youtube.com/watch?v=gETTyJ_ZWRQ"
-    },
-    {
-      "away": "MINN",
-      "date": "2026-10-04",
-      "home": "MTU",
-      "tier": "official-conference",
-      "title": "Minnesota at Michigan Tech Highlights 10/4/2026",
-      "url": "https://www.youtube.com/watch?v=hIpSf9jehU8"
-    },
-    {
-      "away": "FSU",
-      "date": "2026-10-08",
-      "home": "WMU",
-      "tier": "official-conference",
-      "title": "10/8/26 - Ferris State at Western Michigan Highlights",
-      "url": "https://www.youtube.com/watch?v=kM089prqagM"
-    },
-    {
-      "away": "UNH",
-      "date": "2026-10-08",
-      "home": "MRMK",
-      "tier": "official-conference",
-      "title": "NEW HAMPSHIRE at MERRIMACK | Men's Game Highlights | 10.8.2026",
-      "url": "https://www.youtube.com/watch?v=fFooXKFx3zs"
-    },
-    {
-      "away": "WIS",
-      "date": "2026-10-10",
-      "home": "MNST",
-      "tier": "official-conference",
-      "title": "Wisconsin at Minnesota State Highlights 10/10/26",
-      "url": "https://www.youtube.com/watch?v=q5dRbyrmUFA"
-    },
-    {
-      "away": "SLU",
-      "date": "2026-10-10",
-      "home": "UML",
-      "tier": "official-conference",
-      "title": "St. Lawrence at UMass Lowell | NCAA Men\u2019s Ice Hockey | Highlights - October 10, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=YoCAtiv3cc4"
-    },
-    {
-      "away": "OSU",
-      "date": "2026-10-10",
-      "home": "RPI",
-      "tier": "official-conference",
-      "title": "Ohio State at RPI | NCAA Men\u2019s Ice Hockey | Highlights - October 10, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=l1UIuloB4xQ"
-    },
-    {
-      "away": "NE",
-      "date": "2026-10-10",
-      "home": "BENT",
-      "tier": "official-conference",
-      "title": "Northeastern 5, Bentley 1 - Oct. 10, 2026",
-      "url": "https://www.youtube.com/watch?v=vG0JlW1u2y0"
-    },
-    {
-      "away": "COLG",
-      "date": "2026-10-10",
-      "home": "STO",
-      "tier": "official-conference",
-      "title": "Colgate at Stonehill | NCAA Men\u2019s Ice Hockey | Highlights - October 10, 2026 | #ECACHockey",
-      "url": "https://www.youtube.com/watch?v=tpXb4vXCzmo"
-    },
-    {
-      "away": "BEM",
-      "date": "2026-10-10",
-      "home": "UND",
-      "tier": "official-conference",
-      "title": "10-10-26 Bemidji State at North Dakota Highlights",
-      "url": "https://www.youtube.com/watch?v=mt3fFy2Ej7o"
+      "title": "Air Force Shocks Bentley with 3 Third Period Goals then wins in OT",
+      "url": "https://www.youtube.com/watch?v=loMaTo6Itpo"
     },
     {
       "away": "MSU",
@@ -2065,6 +2089,6 @@
       "url": "https://www.youtube.com/watch?v=lnq24g0RFto"
     }
   ],
-  "updated": "2026-11-13T03:51:56Z",
+  "updated": "2026-11-13T09:53:50Z",
   "version": 1
 }
