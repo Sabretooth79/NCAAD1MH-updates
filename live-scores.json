@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14T04:30:09Z",
+ "updated": "2026-11-14T04:35:41Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -667,7 +667,7 @@
         "displayName": "Denver Pioneers",
         "abbreviation": "DEN"
        },
-       "score": "5"
+       "score": "6"
       },
       {
        "homeAway": "away",
@@ -676,7 +676,7 @@
         "displayName": "Lindenwood Lions",
         "abbreviation": "LIN"
        },
-       "score": "2"
+       "score": "3"
       }
      ]
     }
