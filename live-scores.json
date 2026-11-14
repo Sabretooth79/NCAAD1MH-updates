@@ -1,47 +1,8 @@
 {
  "version": 1,
- "updated": "2026-11-14T20:54:23Z",
+ "updated": "2026-11-14T21:11:26Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
-  {
-   "id": "uscho-1222",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T21:05:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Tsongas Center"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2349",
-        "displayName": "UMass Lowell  River Hawks",
-        "abbreviation": "UML"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2528",
-        "displayName": "Rensselaer Engineers",
-        "abbreviation": "RPI"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
   {
    "id": "uscho-310",
    "league": "Mens College Hockey",
@@ -271,6 +232,45 @@
         "abbreviation": "COLC"
        },
        "score": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-1222",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Tsongas Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2349",
+        "displayName": "UMass Lowell  River Hawks",
+        "abbreviation": "UML"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2528",
+        "displayName": "Rensselaer Engineers",
+        "abbreviation": "RPI"
+       },
+       "score": "0"
       }
      ]
     }
