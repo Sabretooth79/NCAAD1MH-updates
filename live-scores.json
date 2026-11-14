@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14T02:10:49Z",
+ "updated": "2026-11-14T02:15:17Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -324,7 +324,7 @@
     "type": {
      "state": "in"
     },
-    "period": 3
+    "period": 4
    },
    "competitions": [
     {
@@ -348,7 +348,7 @@
         "displayName": "Rensselaer Engineers",
         "abbreviation": "RPI"
        },
-       "score": "3"
+       "score": "4"
       }
      ]
     }
@@ -573,7 +573,7 @@
         "displayName": "Providence Friars",
         "abbreviation": "PROV"
        },
-       "score": "3"
+       "score": "4"
       },
       {
        "homeAway": "away",
