@@ -1,47 +1,8 @@
 {
  "version": 1,
- "updated": "2026-11-14T14:30:12Z",
+ "updated": "2026-11-14T20:24:35Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
-  {
-   "id": "uscho-309",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T20:00:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Toscano Family Ice Forum"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "41",
-        "displayName": "UConn Huskies",
-        "abbreviation": "CONN"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "111",
-        "displayName": "Northeastern Huskies",
-        "abbreviation": "NE"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
   {
    "id": "uscho-1222",
    "league": "Mens College Hockey",
@@ -232,6 +193,45 @@
         "abbreviation": "COLG"
        },
        "score": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-309",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Toscano Family Ice Forum"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "41",
+        "displayName": "UConn Huskies",
+        "abbreviation": "CONN"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "111",
+        "displayName": "Northeastern Huskies",
+        "abbreviation": "NE"
+       },
+       "score": "1"
       }
      ]
     }
