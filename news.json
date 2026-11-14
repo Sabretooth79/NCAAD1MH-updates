@@ -820,6 +820,12 @@
   ],
   "HAR": [
    {
+    "title": "Morden Nets OT Game-Winner at Princeton",
+    "source": "Harvard Athletics",
+    "date": "2026-11-13",
+    "url": "https://gocrimson.com/news/2026/11/13/mens-ice-hockey-harvard-princeton-recap.aspx"
+   },
+   {
     "title": "Harvard Knocks Off No. 13/12 BU in Wild Tuesday Tilt",
     "source": "Harvard Athletics",
     "date": "2026-11-11",
@@ -860,12 +866,6 @@
     "source": "Harvard Athletics",
     "date": "2026-11-05",
     "url": "https://gocrimson.com/news/2026/11/5/mens-ice-hockey-ecac-slate-opens-for-harvard-with-brown-and-yale.aspx"
-   },
-   {
-    "title": "Men's Hockey Splits Season-Opening Series with UMass",
-    "source": "Harvard Athletics",
-    "date": "2026-10-31",
-    "url": "https://gocrimson.com/news/2026/10/30/mens-ice-hockey-harvard-umass-friday-recap.aspx"
    }
   ],
   "HC": [
@@ -1642,6 +1642,12 @@
   ],
   "NMI": [
    {
+    "title": "Wildcats score three unanswered in third to knock off Falcons 4-3",
+    "source": "Northern Michigan Athletics",
+    "date": "2026-11-13",
+    "url": "https://nmuwildcats.com/news/2026/11/13/hockey-wildcats-score-three-unanswered-in-third-to-knock-off-falcons-4-3.aspx"
+   },
+   {
     "title": "Mavericks blank Wildcats on Saturday",
     "source": "Northern Michigan Athletics",
     "date": "2026-11-07",
@@ -1682,12 +1688,6 @@
     "source": "Northern Michigan Athletics",
     "date": "2026-10-11",
     "url": "https://nmuwildcats.com/news/2026/10/11/hockey-wildcats-close-out-weekend-against-3-michigan-state.aspx"
-   },
-   {
-    "title": "Penalties Plague Wildcats Against #3 Spartans",
-    "source": "Northern Michigan Athletics",
-    "date": "2026-10-09",
-    "url": "https://nmuwildcats.com/news/2026/10/9/hockey-penalties-plague-wildcats-against-3-spartans.aspx"
    }
   ],
   "OMA": [
@@ -2624,6 +2624,12 @@
   ],
   "UNH": [
    {
+    "title": "Men\u2019s Hockey Takes the Overtime Win Over RPI, 5-4",
+    "source": "New Hampshire Athletics",
+    "date": "2026-11-13",
+    "url": "https://unhwildcats.com/news/2026/11/13/mens-ice-hockey-mens-hockey-takes-the-overtime-win-over-rpi-5-4"
+   },
+   {
     "title": "Men\u2019s Hockey Defeats UMass Lowell, 5-4, in OT",
     "source": "New Hampshire Athletics",
     "date": "2026-11-07",
@@ -2899,6 +2905,6 @@
    }
   ]
  },
- "updated": "2026-11-14T10:00:04Z",
+ "updated": "2026-11-14T14:05:20Z",
  "version": 1
 }
