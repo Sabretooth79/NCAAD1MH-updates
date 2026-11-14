@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14T00:55:10Z",
+ "updated": "2026-11-14T01:09:58Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -12,7 +12,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -66,7 +66,7 @@
         "displayName": "Army Black Knights",
         "abbreviation": "ARMY"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -82,15 +82,54 @@
    ]
   },
   {
+   "id": "uscho-275",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-13T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Midco Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2043",
+        "displayName": "Augustana (SD) Vikings",
+        "abbreviation": "AUSD"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2222",
+        "displayName": "Ferris State Bulldogs",
+        "abbreviation": "FRST"
+       },
+       "score": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "uscho-276",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
    "date": "2026-11-13T23:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1
    },
    "competitions": [
     {
@@ -105,7 +144,7 @@
         "displayName": "Bemidji State Beavers",
         "abbreviation": "BST"
        },
-       "score": null
+       "score": "0"
       },
       {
        "homeAway": "away",
@@ -114,10 +153,9 @@
         "displayName": "Minnesota State Mavericks",
         "abbreviation": "MNST"
        },
-       "score": null
+       "score": "1"
       }
-     ],
-     "timeValid": false
+     ]
     }
    ]
   },
@@ -184,7 +222,7 @@
         "displayName": "Northern Michigan Wildcats",
         "abbreviation": "NMI"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -232,7 +270,7 @@
         "displayName": "Dartmouth Big Green",
         "abbreviation": "DART"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
@@ -301,7 +339,7 @@
         "displayName": "Brown Bears",
         "abbreviation": "BRWN"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -403,7 +441,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -520,7 +558,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -543,6 +581,84 @@
         "id": "311",
         "displayName": "Maine Black Bears",
         "abbreviation": "ME"
+       },
+       "score": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-290",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-13T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Herb Brooks National Hockey Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2594",
+        "displayName": "St. Cloud State Huskies",
+        "abbreviation": "SCSU"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "134",
+        "displayName": "Minnesota Duluth Bulldogs",
+        "abbreviation": "UMD"
+       },
+       "score": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-291",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-13T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Lee & Penny Anderson Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2900",
+        "displayName": "St. Thomas Tommies",
+        "abbreviation": "STMN"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "155",
+        "displayName": "North Dakota Fighting Hawks",
+        "abbreviation": "UND"
        },
        "score": "0"
       }
@@ -574,7 +690,7 @@
         "displayName": "Western Michigan Broncos",
         "abbreviation": "WMU"
        },
-       "score": "0"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -598,7 +714,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -623,6 +739,45 @@
         "abbreviation": "OMA"
        },
        "score": "2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-294",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-13T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "3M Arena at Mariucci"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "135",
+        "displayName": "Minnesota Golden Gophers",
+        "abbreviation": "MINN"
+       },
+       "score": "2"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "1",
+        "displayName": "Alaska Anchorage Seawolves",
+        "abbreviation": "UAA"
+       },
+       "score": "0"
       }
      ]
     }
@@ -746,132 +901,15 @@
    ]
   },
   {
-   "id": "uscho-290",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T01:00:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Herb Brooks National Hockey Center"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2594",
-        "displayName": "St. Cloud State Huskies",
-        "abbreviation": "SCSU"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "134",
-        "displayName": "Minnesota Duluth Bulldogs",
-        "abbreviation": "UMD"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-291",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T01:00:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Lee & Penny Anderson Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2900",
-        "displayName": "St. Thomas Tommies",
-        "abbreviation": "STMN"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "155",
-        "displayName": "North Dakota Fighting Hawks",
-        "abbreviation": "UND"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-294",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T01:00:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "3M Arena at Mariucci"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "135",
-        "displayName": "Minnesota Golden Gophers",
-        "abbreviation": "MINN"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "1",
-        "displayName": "Alaska Anchorage Seawolves",
-        "abbreviation": "UAA"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
-  {
    "id": "uscho-1607",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
-   "date": "2026-11-14T01:00:00Z",
+   "date": "2026-11-13T23:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1
    },
    "competitions": [
     {
@@ -886,7 +924,7 @@
         "displayName": "Wisconsin Badgers",
         "abbreviation": "WISC"
        },
-       "score": null
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -895,46 +933,7 @@
         "displayName": "Ohio State Buckeyes",
         "abbreviation": "OSU"
        },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-275",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T01:07:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Midco Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2043",
-        "displayName": "Augustana (SD) Vikings",
-        "abbreviation": "AUSD"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2222",
-        "displayName": "Ferris State Bulldogs",
-        "abbreviation": "FRST"
-       },
-       "score": null
+       "score": "0"
       }
      ]
     }
