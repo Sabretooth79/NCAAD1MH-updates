@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14T01:09:58Z",
+ "updated": "2026-11-14T01:27:25Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -153,7 +153,7 @@
         "displayName": "Minnesota State Mavericks",
         "abbreviation": "MNST"
        },
-       "score": "1"
+       "score": "3"
       }
      ]
     }
@@ -231,7 +231,7 @@
         "displayName": "Bowling Green Falcons",
         "abbreviation": "BGSU"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
@@ -261,7 +261,7 @@
         "displayName": "Quinnipiac Bobcats",
         "abbreviation": "QUIN"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -339,7 +339,7 @@
         "displayName": "Brown Bears",
         "abbreviation": "BRWN"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -426,7 +426,7 @@
         "displayName": "Harvard Crimson",
         "abbreviation": "HARV"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
@@ -465,7 +465,7 @@
         "displayName": "Boston College Eagles",
         "abbreviation": "BC"
        },
-       "score": "1"
+       "score": "3"
       }
      ]
     }
@@ -504,7 +504,7 @@
         "displayName": "Northeastern Huskies",
         "abbreviation": "NE"
        },
-       "score": "2"
+       "score": "4"
       }
      ]
     }
@@ -543,7 +543,7 @@
         "displayName": "Merrimack Warriors",
         "abbreviation": "MRMK"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
@@ -660,7 +660,7 @@
         "displayName": "North Dakota Fighting Hawks",
         "abbreviation": "UND"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
@@ -690,7 +690,7 @@
         "displayName": "Western Michigan Broncos",
         "abbreviation": "WMU"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -729,7 +729,7 @@
         "displayName": "Miami (OH) RedHawks",
         "abbreviation": "M-OH"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -738,7 +738,7 @@
         "displayName": "Omaha Mavericks",
         "abbreviation": "OMA"
        },
-       "score": "2"
+       "score": "4"
       }
      ]
     }
@@ -768,7 +768,7 @@
         "displayName": "Minnesota Golden Gophers",
         "abbreviation": "MINN"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -777,7 +777,7 @@
         "displayName": "Alaska Anchorage Seawolves",
         "abbreviation": "UAA"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
@@ -807,7 +807,7 @@
         "displayName": "UMass Lowell  River Hawks",
         "abbreviation": "UML"
        },
-       "score": "1"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -885,7 +885,7 @@
         "displayName": "Michigan Wolverines",
         "abbreviation": "MICH"
        },
-       "score": "3"
+       "score": "4"
       },
       {
        "homeAway": "away",
@@ -924,7 +924,7 @@
         "displayName": "Wisconsin Badgers",
         "abbreviation": "WISC"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
