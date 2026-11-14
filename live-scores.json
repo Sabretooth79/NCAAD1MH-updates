@@ -1,86 +1,8 @@
 {
  "version": 1,
- "updated": "2026-11-14T21:55:11Z",
+ "updated": "2026-11-14T22:13:34Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
-  {
-   "id": "uscho-310",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T22:00:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Gutterson Fieldhouse"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "261",
-        "displayName": "Vermont Catamounts",
-        "abbreviation": "UVM"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "311",
-        "displayName": "Maine Black Bears",
-        "abbreviation": "ME"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-296",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T22:05:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Gene Polisseni Center"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "178",
-        "displayName": "RIT Tigers",
-        "abbreviation": "RIT"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2099",
-        "displayName": "Canisius Golden Griffins",
-        "abbreviation": "CAN"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
   {
    "id": "uscho-295",
    "league": "Mens College Hockey",
@@ -115,6 +37,45 @@
         "abbreviation": "HC"
        },
        "score": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-296",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Gene Polisseni Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "178",
+        "displayName": "RIT Tigers",
+        "abbreviation": "RIT"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2099",
+        "displayName": "Canisius Golden Griffins",
+        "abbreviation": "CAN"
+       },
+       "score": "0"
       }
      ]
     }
@@ -183,7 +144,7 @@
         "displayName": "UConn Huskies",
         "abbreviation": "CONN"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -193,6 +154,45 @@
         "abbreviation": "NE"
        },
        "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-310",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Gutterson Fieldhouse"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "261",
+        "displayName": "Vermont Catamounts",
+        "abbreviation": "UVM"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "311",
+        "displayName": "Maine Black Bears",
+        "abbreviation": "ME"
+       },
+       "score": "1"
       }
      ]
     }
