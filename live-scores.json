@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14T00:10:04Z",
+ "updated": "2026-11-14T00:25:32Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -644,6 +644,46 @@
    ]
   },
   {
+   "id": "uscho-1221",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-13T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Tsongas Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2349",
+        "displayName": "UMass Lowell  River Hawks",
+        "abbreviation": "UML"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2785",
+        "displayName": "Union Dutchmen",
+        "abbreviation": "UNNY"
+       },
+       "score": null
+      }
+     ],
+     "timeValid": false
+    }
+   ]
+  },
+  {
    "id": "uscho-1605",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -720,45 +760,6 @@
       }
      ],
      "timeValid": false
-    }
-   ]
-  },
-  {
-   "id": "uscho-1221",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T00:15:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Tsongas Center"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2349",
-        "displayName": "UMass Lowell  River Hawks",
-        "abbreviation": "UML"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2785",
-        "displayName": "Union Dutchmen",
-        "abbreviation": "UNNY"
-       },
-       "score": null
-      }
-     ]
     }
    ]
   },
