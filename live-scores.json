@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14T02:46:08Z",
+ "updated": "2026-11-14T02:50:10Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -92,7 +92,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -146,7 +146,7 @@
         "displayName": "Augustana (SD) Vikings",
         "abbreviation": "AUSD"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -688,7 +688,7 @@
     "type": {
      "state": "in"
     },
-    "period": 2
+    "period": 3
    },
    "competitions": [
     {
@@ -830,7 +830,7 @@
         "displayName": "Omaha Mavericks",
         "abbreviation": "OMA"
        },
-       "score": "5"
+       "score": "6"
       }
      ]
     }
