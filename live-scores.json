@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14T22:57:20Z",
+ "updated": "2026-11-14T23:04:55Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -38,7 +38,8 @@
        },
        "score": null
       }
-     ]
+     ],
+     "timeValid": false
     }
    ]
   },
@@ -234,46 +235,8 @@
        },
        "score": null
       }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-1222",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-14T23:00:00Z",
-   "status": {
-    "type": {
-     "state": "in"
-    },
-    "period": 3
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Tsongas Center"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2349",
-        "displayName": "UMass Lowell  River Hawks",
-        "abbreviation": "UML"
-       },
-       "score": "1"
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2528",
-        "displayName": "Rensselaer Engineers",
-        "abbreviation": "RPI"
-       },
-       "score": "1"
-      }
-     ]
+     ],
+     "timeValid": false
     }
    ]
   },
@@ -281,7 +244,7 @@
    "id": "uscho-316",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
-   "date": "2026-11-14T23:05:00Z",
+   "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
      "state": "pre"
@@ -311,6 +274,46 @@
         "abbreviation": "OMA"
        },
        "score": null
+      }
+     ],
+     "timeValid": false
+    }
+   ]
+  },
+  {
+   "id": "uscho-1222",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Tsongas Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2349",
+        "displayName": "UMass Lowell  River Hawks",
+        "abbreviation": "UML"
+       },
+       "score": "2"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2528",
+        "displayName": "Rensselaer Engineers",
+        "abbreviation": "RPI"
+       },
+       "score": "1"
       }
      ]
     }
