@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14T00:50:44Z",
+ "updated": "2026-11-14T00:55:10Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -66,7 +66,7 @@
         "displayName": "Army Black Knights",
         "abbreviation": "ARMY"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -130,7 +130,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -208,7 +208,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -349,7 +349,7 @@
         "displayName": "Colgate Raiders",
         "abbreviation": "COLG"
        },
-       "score": "3"
+       "score": "4"
       }
      ]
     }
@@ -364,7 +364,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -496,7 +496,7 @@
         "displayName": "Providence Friars",
         "abbreviation": "PROV"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -559,7 +559,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -637,7 +637,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -676,7 +676,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -739,7 +739,7 @@
         "displayName": "Penn State Nittany Lions",
         "abbreviation": "PSU"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
