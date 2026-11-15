@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T01:50:10Z",
+ "updated": "2026-11-15T01:55:10Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -194,7 +194,7 @@
         "displayName": "Minnesota State Mavericks",
         "abbreviation": "MNST"
        },
-       "score": "3"
+       "score": "4"
       }
      ]
     }
@@ -247,9 +247,10 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 0
+    "displayClock": "0:00",
+    "period": 3
    },
    "competitions": [
     {
@@ -972,7 +973,7 @@
         "displayName": "Wisconsin Badgers",
         "abbreviation": "WISC"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
