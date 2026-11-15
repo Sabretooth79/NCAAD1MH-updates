@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T01:30:15Z",
+ "updated": "2026-11-15T01:35:15Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -27,7 +27,7 @@
         "displayName": "Niagara Purple Eagles",
         "abbreviation": "NIA"
        },
-       "score": "3"
+       "score": "4"
       },
       {
        "homeAway": "away",
@@ -263,7 +263,7 @@
         "displayName": "Northern Michigan Wildcats",
         "abbreviation": "NMI"
        },
-       "score": "4"
+       "score": "5"
       },
       {
        "homeAway": "away",
@@ -272,7 +272,7 @@
         "displayName": "Bowling Green Falcons",
         "abbreviation": "BGSU"
        },
-       "score": "2"
+       "score": "3"
       }
      ]
     }
@@ -381,7 +381,7 @@
         "displayName": "Princeton Tigers",
         "abbreviation": "PRIN"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -444,7 +444,7 @@
     "type": {
      "state": "in"
     },
-    "period": 2
+    "period": 3
    },
    "competitions": [
     {
@@ -704,7 +704,7 @@
         "displayName": "Minnesota Duluth Bulldogs",
         "abbreviation": "UMD"
        },
-       "score": "2"
+       "score": "3"
       }
      ]
     }
@@ -743,7 +743,7 @@
         "displayName": "North Dakota Fighting Hawks",
         "abbreviation": "UND"
        },
-       "score": "3"
+       "score": "4"
       }
      ]
     }
@@ -941,7 +941,7 @@
         "displayName": "Penn State Nittany Lions",
         "abbreviation": "PSU"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
@@ -956,7 +956,7 @@
     "type": {
      "state": "in"
     },
-    "period": 2
+    "period": 3
    },
    "competitions": [
     {
