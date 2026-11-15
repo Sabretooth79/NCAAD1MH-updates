@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T00:05:15Z",
+ "updated": "2026-11-15T00:10:12Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -88,9 +88,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1
    },
    "competitions": [
     {
@@ -105,7 +105,7 @@
         "displayName": "Army Black Knights",
         "abbreviation": "ARMY"
        },
-       "score": null
+       "score": "0"
       },
       {
        "homeAway": "away",
@@ -114,10 +114,87 @@
         "displayName": "Sacred Heart Pioneers",
         "abbreviation": "SHU"
        },
-       "score": null
+       "score": "0"
       }
-     ],
-     "timeValid": false
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-298",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Midco Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2043",
+        "displayName": "Augustana (SD) Vikings",
+        "abbreviation": "AUSD"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2222",
+        "displayName": "Ferris State Bulldogs",
+        "abbreviation": "FRST"
+       },
+       "score": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-299",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Sanford Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "132",
+        "displayName": "Bemidji State Beavers",
+        "abbreviation": "BST"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2364",
+        "displayName": "Minnesota State Mavericks",
+        "abbreviation": "MNST"
+       },
+       "score": "0"
+      }
+     ]
     }
    ]
   },
@@ -301,7 +378,7 @@
         "displayName": "Princeton Tigers",
         "abbreviation": "PRIN"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -401,9 +478,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1
    },
    "competitions": [
     {
@@ -418,7 +495,7 @@
         "displayName": "Merrimack Warriors",
         "abbreviation": "MRMK"
        },
-       "score": null
+       "score": "0"
       },
       {
        "homeAway": "away",
@@ -427,10 +504,9 @@
         "displayName": "Providence Friars",
         "abbreviation": "PROV"
        },
-       "score": null
+       "score": "0"
       }
-     ],
-     "timeValid": false
+     ]
     }
    ]
   },
@@ -520,9 +596,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1
    },
    "competitions": [
     {
@@ -537,7 +613,7 @@
         "displayName": "Boston College Eagles",
         "abbreviation": "BC"
        },
-       "score": null
+       "score": "0"
       },
       {
        "homeAway": "away",
@@ -546,10 +622,9 @@
         "displayName": "Massachusetts Minutemen",
         "abbreviation": "MASS"
        },
-       "score": null
+       "score": "0"
       }
-     ],
-     "timeValid": false
+     ]
     }
    ]
   },
@@ -861,84 +936,6 @@
         "id": "155",
         "displayName": "North Dakota Fighting Hawks",
         "abbreviation": "UND"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-298",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-15T00:07:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Midco Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2043",
-        "displayName": "Augustana (SD) Vikings",
-        "abbreviation": "AUSD"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2222",
-        "displayName": "Ferris State Bulldogs",
-        "abbreviation": "FRST"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-299",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-15T00:07:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Sanford Center"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "132",
-        "displayName": "Bemidji State Beavers",
-        "abbreviation": "BST"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2364",
-        "displayName": "Minnesota State Mavericks",
-        "abbreviation": "MNST"
        },
        "score": null
       }
