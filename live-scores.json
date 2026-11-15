@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T01:55:10Z",
+ "updated": "2026-11-15T02:26:14Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -107,7 +107,7 @@
         "displayName": "Army Black Knights",
         "abbreviation": "ARMY"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -129,8 +129,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 3
    },
    "competitions": [
@@ -170,7 +171,7 @@
     "type": {
      "state": "in"
     },
-    "period": 3
+    "period": 5
    },
    "competitions": [
     {
@@ -185,7 +186,7 @@
         "displayName": "Bemidji State Beavers",
         "abbreviation": "BST"
        },
-       "score": "1"
+       "score": "4"
       },
       {
        "homeAway": "away",
@@ -287,8 +288,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 3
    },
    "competitions": [
@@ -304,7 +306,7 @@
         "displayName": "Quinnipiac Bobcats",
         "abbreviation": "QUIN"
        },
-       "score": "3"
+       "score": "5"
       },
       {
        "homeAway": "away",
@@ -392,7 +394,7 @@
         "displayName": "Dartmouth Big Green",
         "abbreviation": "DART"
        },
-       "score": "3"
+       "score": "4"
       }
      ]
     }
@@ -405,8 +407,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 3
    },
    "competitions": [
@@ -422,7 +425,7 @@
         "displayName": "Yale Bulldogs",
         "abbreviation": "YALE"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -444,8 +447,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 3
    },
    "competitions": [
@@ -461,7 +465,7 @@
         "displayName": "New Hampshire Wildcats",
         "abbreviation": "UNH"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -470,7 +474,7 @@
         "displayName": "Union Dutchmen",
         "abbreviation": "UNNY"
        },
-       "score": "3"
+       "score": "4"
       }
      ]
     }
@@ -483,8 +487,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 3
    },
    "competitions": [
@@ -509,7 +514,7 @@
         "displayName": "Providence Friars",
         "abbreviation": "PROV"
        },
-       "score": "3"
+       "score": "5"
       }
      ]
     }
@@ -628,7 +633,7 @@
         "displayName": "Massachusetts Minutemen",
         "abbreviation": "MASS"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
@@ -643,7 +648,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -658,7 +663,7 @@
         "displayName": "Denver Pioneers",
         "abbreviation": "DEN"
        },
-       "score": "2"
+       "score": "4"
       },
       {
        "homeAway": "away",
@@ -706,7 +711,7 @@
         "displayName": "Minnesota Duluth Bulldogs",
         "abbreviation": "UMD"
        },
-       "score": "3"
+       "score": "4"
       }
      ]
     }
@@ -736,7 +741,7 @@
         "displayName": "St. Thomas Tommies",
         "abbreviation": "STMN"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -745,7 +750,7 @@
         "displayName": "North Dakota Fighting Hawks",
         "abbreviation": "UND"
        },
-       "score": "4"
+       "score": "5"
       }
      ]
     }
@@ -758,8 +763,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 4
    },
    "competitions": [
@@ -837,9 +843,10 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "post"
     },
-    "period": 0
+    "displayClock": "0:00",
+    "period": 3
    },
    "competitions": [
     {
@@ -854,7 +861,7 @@
         "displayName": "Minnesota Golden Gophers",
         "abbreviation": "MINN"
        },
-       "score": null
+       "score": "4"
       },
       {
        "homeAway": "away",
@@ -863,10 +870,9 @@
         "displayName": "Alaska Anchorage Seawolves",
         "abbreviation": "UAA"
        },
-       "score": null
+       "score": "3"
       }
-     ],
-     "timeValid": false
+     ]
     }
    ]
   },
@@ -917,8 +923,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 3
    },
    "competitions": [
@@ -934,7 +941,7 @@
         "displayName": "Michigan Wolverines",
         "abbreviation": "MICH"
        },
-       "score": "6"
+       "score": "8"
       },
       {
        "homeAway": "away",
@@ -943,7 +950,7 @@
         "displayName": "Penn State Nittany Lions",
         "abbreviation": "PSU"
        },
-       "score": "1"
+       "score": "3"
       }
      ]
     }
@@ -956,8 +963,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 3
    },
    "competitions": [
