@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T00:50:10Z",
+ "updated": "2026-11-15T01:03:40Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -106,7 +106,7 @@
         "displayName": "Army Black Knights",
         "abbreviation": "ARMY"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -130,7 +130,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -145,7 +145,7 @@
         "displayName": "Augustana (SD) Vikings",
         "abbreviation": "AUSD"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -193,7 +193,7 @@
         "displayName": "Minnesota State Mavericks",
         "abbreviation": "MNST"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
@@ -232,7 +232,7 @@
         "displayName": "Lake Superior State Lakers",
         "abbreviation": "LSS"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
@@ -262,7 +262,7 @@
         "displayName": "Northern Michigan Wildcats",
         "abbreviation": "NMI"
        },
-       "score": "3"
+       "score": "4"
       },
       {
        "homeAway": "away",
@@ -301,7 +301,7 @@
         "displayName": "Quinnipiac Bobcats",
         "abbreviation": "QUIN"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -403,7 +403,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -466,7 +466,7 @@
         "displayName": "Union Dutchmen",
         "abbreviation": "UNNY"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
@@ -600,7 +600,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -615,7 +615,7 @@
         "displayName": "Boston College Eagles",
         "abbreviation": "BC"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -639,7 +639,7 @@
     "type": {
      "state": "in"
     },
-    "period": 1
+    "period": 2
    },
    "competitions": [
     {
@@ -678,7 +678,7 @@
     "type": {
      "state": "in"
     },
-    "period": 2
+    "period": 3
    },
    "competitions": [
     {
@@ -851,7 +851,7 @@
         "displayName": "Michigan Wolverines",
         "abbreviation": "MICH"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -899,7 +899,7 @@
         "displayName": "Ohio State Buckeyes",
         "abbreviation": "OSU"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
