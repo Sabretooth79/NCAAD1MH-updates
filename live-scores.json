@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T00:25:09Z",
+ "updated": "2026-11-15T00:36:02Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -49,9 +49,10 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 3
+    "displayClock": "0:00",
+    "period": 4
    },
    "competitions": [
     {
@@ -75,7 +76,7 @@
         "displayName": "Canisius Golden Griffins",
         "abbreviation": "CAN"
        },
-       "score": "4"
+       "score": "5"
       }
      ]
     }
@@ -144,7 +145,7 @@
         "displayName": "Augustana (SD) Vikings",
         "abbreviation": "AUSD"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -261,7 +262,7 @@
         "displayName": "Northern Michigan Wildcats",
         "abbreviation": "NMI"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -300,7 +301,7 @@
         "displayName": "Quinnipiac Bobcats",
         "abbreviation": "QUIN"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -324,7 +325,7 @@
     "type": {
      "state": "in"
     },
-    "period": 2
+    "period": 3
    },
    "competitions": [
     {
@@ -504,7 +505,7 @@
         "displayName": "Providence Friars",
         "abbreviation": "PROV"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
@@ -662,7 +663,7 @@
         "displayName": "Minnesota Duluth Bulldogs",
         "abbreviation": "UMD"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
@@ -692,7 +693,7 @@
         "displayName": "Western Michigan Broncos",
         "abbreviation": "WMU"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -898,7 +899,7 @@
         "displayName": "Ohio State Buckeyes",
         "abbreviation": "OSU"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
