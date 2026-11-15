@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15T01:03:40Z",
+ "updated": "2026-11-15T01:20:30Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only, never a clock (USCHO publishes none); rebuilt from the live page each run",
  "games": [
   {
@@ -27,7 +27,7 @@
         "displayName": "Niagara Purple Eagles",
         "abbreviation": "NIA"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -106,7 +106,7 @@
         "displayName": "Army Black Knights",
         "abbreviation": "ARMY"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -184,7 +184,7 @@
         "displayName": "Bemidji State Beavers",
         "abbreviation": "BST"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -193,7 +193,7 @@
         "displayName": "Minnesota State Mavericks",
         "abbreviation": "MNST"
        },
-       "score": "1"
+       "score": "3"
       }
      ]
     }
@@ -223,7 +223,7 @@
         "displayName": "Michigan Tech Huskies",
         "abbreviation": "MTU"
        },
-       "score": "4"
+       "score": "5"
       },
       {
        "homeAway": "away",
@@ -323,8 +323,9 @@
    "date": "2026-11-14T23:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
+    "displayClock": "0:00",
     "period": 3
    },
    "competitions": [
@@ -340,7 +341,7 @@
         "displayName": "Brown Bears",
         "abbreviation": "BRWN"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -466,7 +467,7 @@
         "displayName": "Union Dutchmen",
         "abbreviation": "UNNY"
        },
-       "score": "2"
+       "score": "3"
       }
      ]
     }
@@ -505,7 +506,7 @@
         "displayName": "Providence Friars",
         "abbreviation": "PROV"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
@@ -615,7 +616,7 @@
         "displayName": "Boston College Eagles",
         "abbreviation": "BC"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -623,6 +624,45 @@
         "id": "113",
         "displayName": "Massachusetts Minutemen",
         "abbreviation": "MASS"
+       },
+       "score": "1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-312",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Magness Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2172",
+        "displayName": "Denver Pioneers",
+        "abbreviation": "DEN"
+       },
+       "score": "1"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2815",
+        "displayName": "Lindenwood Lions",
+        "abbreviation": "LIN"
        },
        "score": "0"
       }
@@ -662,6 +702,45 @@
         "id": "134",
         "displayName": "Minnesota Duluth Bulldogs",
         "abbreviation": "UMD"
+       },
+       "score": "1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-314",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-14T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 1
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Lee & Penny Anderson Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2900",
+        "displayName": "St. Thomas Tommies",
+        "abbreviation": "STMN"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "155",
+        "displayName": "North Dakota Fighting Hawks",
+        "abbreviation": "UND"
        },
        "score": "1"
       }
@@ -732,7 +811,7 @@
         "displayName": "Miami (OH) RedHawks",
         "abbreviation": "M-OH"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -851,7 +930,7 @@
         "displayName": "Michigan Wolverines",
         "abbreviation": "MICH"
        },
-       "score": "3"
+       "score": "4"
       },
       {
        "homeAway": "away",
@@ -900,84 +979,6 @@
         "abbreviation": "OSU"
        },
        "score": "2"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-314",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-15T00:00:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Lee & Penny Anderson Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2900",
-        "displayName": "St. Thomas Tommies",
-        "abbreviation": "STMN"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "155",
-        "displayName": "North Dakota Fighting Hawks",
-        "abbreviation": "UND"
-       },
-       "score": null
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-312",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-15T01:00:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Magness Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2172",
-        "displayName": "Denver Pioneers",
-        "abbreviation": "DEN"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2815",
-        "displayName": "Lindenwood Lions",
-        "abbreviation": "LIN"
-       },
-       "score": null
       }
      ]
     }
