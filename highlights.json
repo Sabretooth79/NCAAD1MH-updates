@@ -2463,8 +2463,48 @@
       "tier": "official",
       "title": "UNH Men's Hockey vs Union Highlights 11-14-2026",
       "url": "https://www.youtube.com/watch?v=GpUT4P0R6D4"
+    },
+    {
+      "away": "LIN",
+      "date": "2026-11-14",
+      "home": "DEN",
+      "tier": "official",
+      "title": "HKY v Lindenwood (14 NOV 26) - Highlights",
+      "url": "https://www.youtube.com/watch?v=Nkv6Nv1-3sA"
+    },
+    {
+      "away": "UND",
+      "date": "2026-11-14",
+      "home": "STMN",
+      "tier": "official",
+      "title": "UND Hockey | Highlights at St. Thomas | 11.14.26",
+      "url": "https://www.youtube.com/watch?v=7JVHpg-6Lg4"
+    },
+    {
+      "away": "DART",
+      "date": "2026-11-14",
+      "home": "PRIN",
+      "tier": "official-conference",
+      "title": "Dartmouth at Princeton | NCAA Men’s Ice Hockey | Highlights - November 14, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=pvm-swcsONM"
+    },
+    {
+      "away": "MASS",
+      "date": "2026-11-14",
+      "home": "BC",
+      "tier": "official-conference",
+      "title": "MASSACHUSETTS at BOSTON COLLEGE | Men's Game Highlights | 11.14.2026",
+      "url": "https://www.youtube.com/watch?v=-JFhgMhgSQ0"
+    },
+    {
+      "away": "PROV",
+      "date": "2026-11-14",
+      "home": "MRMK",
+      "tier": "official-conference",
+      "title": "PROVIDENCE at MERRIMACK | Men's Game Highlights | 11.14.2026",
+      "url": "https://www.youtube.com/watch?v=0Lwm5m3N3JU"
     }
   ],
-  "updated": "2026-11-15T03:57:02Z",
+  "updated": "2026-11-15T17:06:08Z",
   "version": 1
 }
