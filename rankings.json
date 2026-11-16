@@ -1,146 +1,145 @@
 {
- "date": "Nov 9, 2026",
- "ranks": [
-  {
-   "key": "WIS",
-   "pollRec": "7-0-1",
-   "pts": 992,
-   "rank": 1,
-   "fpv": 44
-  },
-  {
-   "key": "MICH",
-   "pollRec": "8-1-0",
-   "pts": 946,
-   "rank": 2,
-   "fpv": 6
-  },
-  {
-   "key": "DEN",
-   "pollRec": "7-2-1",
-   "pts": 859,
-   "rank": 3
-  },
-  {
-   "key": "MSU",
-   "pollRec": "6-2-0",
-   "pts": 838,
-   "rank": 4
-  },
-  {
-   "key": "QUIN",
-   "pollRec": "7-2-0",
-   "pts": 751,
-   "rank": 5
-  },
-  {
-   "key": "WMU",
-   "pollRec": "6-2-1",
-   "pts": 706,
-   "rank": 6
-  },
-  {
-   "key": "UMD",
-   "pollRec": "7-3-2",
-   "pts": 651,
-   "rank": 7
-  },
-  {
-   "key": "UND",
-   "pollRec": "5-3-1",
-   "pts": 630,
-   "rank": 8
-  },
-  {
-   "key": "AUG",
-   "pollRec": "7-0-3",
-   "pts": 583,
-   "rank": 9
-  },
-  {
-   "key": "PROV",
-   "pollRec": "6-2-0",
-   "pts": 522,
-   "rank": 10
-  },
-  {
-   "key": "DART",
-   "pollRec": "4-0-0",
-   "pts": 518,
-   "rank": 11
-  },
-  {
-   "key": "CC",
-   "pollRec": "7-2-1",
-   "pts": 494,
-   "rank": 12
-  },
-  {
-   "key": "BU",
-   "pollRec": "7-3-0",
-   "pts": 485,
-   "rank": 13
-  },
-  {
-   "key": "MTU",
-   "pollRec": "6-2-2",
-   "pts": 376,
-   "rank": 14
-  },
-  {
-   "key": "MRMK",
-   "pollRec": "6-1-2",
-   "pts": 341,
-   "rank": 15
-  },
-  {
-   "key": "COR",
-   "pollRec": "2-2-0",
-   "pts": 156,
-   "rank": 16
-  },
-  {
-   "key": "MIA",
-   "pollRec": "7-3-0",
-   "pts": 155,
-   "rank": 17
-  },
-  {
-   "key": "ARMY",
-   "pollRec": "6-2-0",
-   "pts": 117,
-   "rank": 18
-  },
-  {
-   "key": "NE",
-   "pollRec": "4-2-0",
-   "pts": 114,
-   "rank": 19
-  },
-  {
-   "key": "UVM",
-   "pollRec": "5-3-1",
-   "pts": 65,
-   "rank": 20
-  }
- ],
- "receivingVotes": [
-  "CONN",
-  "MINN",
-  "BGSU",
-  "ME",
-  "MASS",
-  "UNNY",
-  "SHU",
-  "UNH",
-  "OSU",
-  "HAR",
-  "NIA",
-  "ASU",
-  "YALE"
- ],
- "source": "USCHO Men's Poll",
- "updated": "2026-11-09",
- "version": 1,
- "week": "Week 7"
+    "date": "Nov 16, 2026",
+    "ranks": [
+        {
+            "rank": 1,
+            "key": "MICH",
+            "fpv": 39,
+            "pollRec": "10-1-0",
+            "pts": 987
+        },
+        {
+            "rank": 2,
+            "key": "WIS",
+            "fpv": 9,
+            "pollRec": "8-1-1",
+            "pts": 941
+        },
+        {
+            "rank": 3,
+            "key": "DEN",
+            "pollRec": "9-2-1",
+            "pts": 873
+        },
+        {
+            "rank": 4,
+            "key": "WMU",
+            "pollRec": "8-2-1",
+            "pts": 805
+        },
+        {
+            "rank": 5,
+            "key": "UMD",
+            "pollRec": "9-3-2",
+            "pts": 728
+        },
+        {
+            "rank": 6,
+            "key": "DART",
+            "fpv": 2,
+            "pollRec": "6-0-0",
+            "pts": 677
+        },
+        {
+            "rank": 7,
+            "key": "UND",
+            "pollRec": "7-3-1",
+            "pts": 658
+        },
+        {
+            "rank": 8,
+            "key": "QUIN",
+            "pollRec": "8-3-0",
+            "pts": 652
+        },
+        {
+            "rank": 9,
+            "key": "MSU",
+            "pollRec": "6-3-1",
+            "pts": 640
+        },
+        {
+            "rank": 10,
+            "key": "AUG",
+            "pollRec": "9-0-3",
+            "pts": 626
+        },
+        {
+            "rank": 11,
+            "key": "PROV",
+            "pollRec": "8-2-0",
+            "pts": 607
+        },
+        {
+            "rank": 12,
+            "key": "CC",
+            "pollRec": "7-4-1",
+            "pts": 405
+        },
+        {
+            "rank": 13,
+            "key": "BU",
+            "pollRec": "7-4-0",
+            "pts": 324
+        },
+        {
+            "rank": 13,
+            "key": "NE",
+            "pollRec": "6-2-0",
+            "pts": 324
+        },
+        {
+            "rank": 15,
+            "key": "MTU",
+            "pollRec": "7-3-2",
+            "pts": 320
+        },
+        {
+            "rank": 16,
+            "key": "ARMY",
+            "pollRec": "8-2-0",
+            "pts": 281
+        },
+        {
+            "rank": 17,
+            "key": "MRMK",
+            "pollRec": "6-3-2",
+            "pts": 203
+        },
+        {
+            "rank": 18,
+            "key": "MIA",
+            "pollRec": "8-4-0",
+            "pts": 160
+        },
+        {
+            "rank": 19,
+            "key": "MINN",
+            "pollRec": "5-4-3",
+            "pts": 72
+        },
+        {
+            "rank": 20,
+            "key": "ME",
+            "pollRec": "6-5-1",
+            "pts": 68
+        }
+    ],
+    "receivingVotes": [
+        "OSU",
+        "UVM",
+        "HAR",
+        "UNNY",
+        "ND",
+        "COR",
+        "BC",
+        "BENT",
+        "BGSU",
+        "ASU",
+        "NIA"
+    ],
+    "source": "USCHO Men's Poll",
+    "updated": "2026-11-16",
+    "version": 1,
+    "week": "Week 8"
 }
