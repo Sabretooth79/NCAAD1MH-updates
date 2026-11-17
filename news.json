@@ -2,6 +2,12 @@
  "news": {
   "AF": [
    {
+    "title": "Falcons travel to Princeton, Nov. 21-22",
+    "source": "Air Force Athletics",
+    "date": "2026-11-17",
+    "url": "https://goairforcefalcons.com/news/2026/11/17/mens-ice-hockey-air-force-hockey-travels-to-princeton-nov-21-22"
+   },
+   {
     "title": "Air Force falls to Bentley, 3-0, in series finale",
     "source": "Air Force Athletics",
     "date": "2026-11-13",
@@ -45,6 +51,12 @@
    }
   ],
   "ARMY": [
+   {
+    "title": "Hockey\u2019s Cataldo and Forselius Named AHA Players of the Week",
+    "source": "Army Athletics",
+    "date": "2026-11-17",
+    "url": "https://goarmywestpoint.com/news/2026/11/17/hockeys-cataldo-and-forselius-named-aha-players-of-the-week"
+   },
    {
     "title": "No. 18 Hockey Uses Two Shorthanded Goals to Sweep Sacred Heart",
     "source": "Army Athletics",
@@ -465,6 +477,12 @@
    }
   ],
   "CAN": [
+   {
+    "title": "Brunelle, Buteau Recognized with AHA Weekly Awards",
+    "source": "Canisius Athletics",
+    "date": "2026-11-17",
+    "url": "https://gogriffs.com/news/2026/11/17/ice-hockey-brunelle-buteau-recognized-with-aha-weekly-awards.aspx"
+   },
    {
     "title": "The Price is Right for Hockey in Overtime Victory at RIT",
     "source": "Canisius Athletics",
@@ -1294,6 +1312,12 @@
   ],
   "MINN": [
    {
+    "title": "Ziemer's Offensive Outburst Lands B1G Star of the Week Award",
+    "source": "Minnesota Athletics",
+    "date": "2026-11-17",
+    "url": "https://gophersports.com/news/2026/11/17/mens-hockey-ziemers-offensive-outburst-lands-b1g-star-of-the-week-award"
+   },
+   {
     "title": "Gophers Use Third-Period Surge to Down UAA",
     "source": "Minnesota Athletics",
     "date": "2026-11-14",
@@ -1334,12 +1358,6 @@
     "source": "Minnesota Athletics",
     "date": "2026-10-31",
     "url": "https://gophersports.com/news/2026/10/31/mens-hockey-mooney-nets-ot-winner-for-u-saturday"
-   },
-   {
-    "title": "Gophers, Nittany Lions Battle to 1-1 Tie Friday",
-    "source": "Minnesota Athletics",
-    "date": "2026-10-30",
-    "url": "https://gophersports.com/news/2026/10/30/mens-hockey-gophers-nittany-lions-battle-to-1-1-tie-friday"
    }
   ],
   "MNST": [
@@ -1514,6 +1532,12 @@
   ],
   "MTU": [
    {
+    "title": "Michigan Tech Hockey Radio Show",
+    "source": "Michigan Tech Athletics",
+    "date": "2026-11-17",
+    "url": "https://michigantechhuskies.com/news/2026/11/17/mens-ice-hockey-hockey-radio-show.aspx"
+   },
+   {
     "title": "Bartoszkiewicz named CCHA Goaltender of the Week",
     "source": "Michigan Tech Athletics",
     "date": "2026-11-16",
@@ -1554,12 +1578,6 @@
     "source": "Michigan Tech Athletics",
     "date": "2026-11-13",
     "url": "https://michigantechhuskies.com/news/2026/11/13/mens-ice-hockey-tech-hockey-bill-muckalt-lssu-postgame-11-13-26.aspx"
-   },
-   {
-    "title": "#14 Huskies fall to Lakers on Friday at home",
-    "source": "Michigan Tech Athletics",
-    "date": "2026-11-13",
-    "url": "https://michigantechhuskies.com/news/2026/11/13/mens-ice-hockey-14-huskies-fall-to-lakers-on-friday-at-home.aspx"
    }
   ],
   "ND": [
@@ -1914,6 +1932,12 @@
   ],
   "PROV": [
    {
+    "title": "The Nate Leaman Radio Show To Air On Tuesday, November 17",
+    "source": "Providence Athletics",
+    "date": "2026-11-17",
+    "url": "https://friars.com/news/2026/11/17/mens-ice-hockey-the-nate-leaman-radio-show-to-air-on-tuesday-november-17"
+   },
+   {
     "title": "Parsons, Christenson Earn Weekly Hockey East Honors",
     "source": "Providence Athletics",
     "date": "2026-11-16",
@@ -1954,12 +1978,6 @@
     "source": "Providence Athletics",
     "date": "2026-11-05",
     "url": "https://friars.com/news/2026/11/5/mens-ice-hockey-no-9-8-mens-hockey-edged-by-no-20-uconn-6-5"
-   },
-   {
-    "title": "Jack Parsons Named Stop It Goaltending Hockey East Goaltender Of The Month For October",
-    "source": "Providence Athletics",
-    "date": "2026-11-05",
-    "url": "https://friars.com/news/2026/11/5/mens-ice-hockey-jack-parsons-named-stop-it-goaltending-hockey-east-goaltender-of-the-month-for-october"
    }
   ],
   "PSU": [
@@ -2558,6 +2576,12 @@
   ],
   "UMD": [
    {
+    "title": "Zam Plante and Carl Axelsson Collar NCHC Weekly Awards",
+    "source": "Minnesota Duluth Athletics",
+    "date": "2026-11-17",
+    "url": "https://umdbulldogs.com/news/2026/11/17/mens-hockey-zam-plante-and-carl-axelsson-collar-nchc-weekly-awards.aspx"
+   },
+   {
     "title": "Plante Scores Twice, Axelsson Earns Second Shutout of Series in No. 7 Bulldogs with 4-0 Win Over St. Cloud State",
     "source": "Minnesota Duluth Athletics",
     "date": "2026-11-14",
@@ -2598,12 +2622,6 @@
     "source": "Minnesota Duluth Athletics",
     "date": "2026-11-07",
     "url": "https://umdbulldogs.com/news/2026/11/6/mens-hockey-late-comeback-not-enough-for-no-6-7-bulldogs-to-catch-miami-in-3-2-setback.aspx"
-   },
-   {
-    "title": "Hanson Named HCA National Defenseman of the Month of October",
-    "source": "Minnesota Duluth Athletics",
-    "date": "2026-11-06",
-    "url": "https://umdbulldogs.com/news/2026/11/6/mens-hockey-hanson-named-hca-national-defenseman-of-the-month-of-october.aspx"
    }
   ],
   "UML": [
@@ -3007,6 +3025,6 @@
    }
   ]
  },
- "updated": "2026-11-17T14:35:03Z",
+ "updated": "2026-11-17T18:00:09Z",
  "version": 1
 }
