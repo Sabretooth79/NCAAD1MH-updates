@@ -5,7 +5,8 @@
 // source page. A null renders the clean text chip with the conference
 // name — never a drawn or borrowed fake logo.
 //
-// Provenance (verified 2026-10-31, v32.47 build research):
+// Provenance (verified 2026-10-31, v32.47 build research;
+// NCHC and Hockey East added 2026-11-16, v32.113 research):
 // - "Big Ten": conf-B1G.png — Big Ten Conference logo via Wikimedia,
 //   verified in v32.46's conference-patch research and shipped in
 //   1.78 as Michigan's jersey conference patch.
@@ -17,24 +18,33 @@
 //   Association logo; the infobox image of the CCHA article on
 //   Wikipedia (file Central_Collegiate_Hockey_Association_logo.svg;
 //   the 330px PNG render was downloaded and visually confirmed).
-// - "Hockey East": null — TEXT CHIP. The Association's "Circle
-//   Sticks" logo is documented in the conference's own 2023-08-30
-//   press release, but no verifiable logo file could be fetched
-//   from the conference's site or its Wikipedia file pages in this
-//   build's research (the current article infobox carries no logo).
-// - "NCHC": null — TEXT CHIP. The primary shield logo is documented
-//   by the conference, but no verifiable logo file could be fetched
-//   from the conference's site or Wikipedia in this research pass.
-// - "AHA": null — TEXT CHIP. The Atlantic Hockey America logo is
-//   documented in the conference's 2024-04-30 rebrand announcement,
-//   but no verifiable logo file could be fetched in this pass.
+// - "Hockey East": conf-HockeyEast.png — the Association's "Circle
+//   Sticks" logo; the infobox image of the Hockey East article on
+//   Wikipedia (file Hockey_East_Association_logo.svg; the 250px PNG
+//   render was downloaded and visually confirmed as the conference's
+//   logo: blue disc, three white sticks, HOCKEY EAST wordmark).
+// - "NCHC": conf-NCHC.png — the primary shield logo; the conference's
+//   own site header mark (nchchockey.com, logo_main.svg on the
+//   conference CDN), rasterized to a 250px transparent PNG and
+//   visually confirmed as the 2013 primary shield (red/white/blue,
+//   NCHC letters, eight stars, hockey stick). The 2025 "National"
+//   secondary mark is NOT used.
+// - "AHA": null — TEXT CHIP, FAIL-CLOSED (v32.113 research 2026-11-16).
+//   The conference's own site serves only a white-text lockup SVG
+//   (logo_white_text.svg: white "ATLANTIC HOCKEY AMERICA" lettering,
+//   readable only on dark backgrounds; recoloring the official mark
+//   would alter it, so it was not used); the Wikipedia article
+//   carries no infobox logo, no Commons file exists, member-site
+//   graphics are school-specific, and no media/brand guide was
+//   found. AHA teams render no patch until a verifiable color mark
+//   is sourced.
 // - "Independent": null — TEXT CHIP by rule: independents have no
 //   conference and no conference logo (prep Part B rule 2).
 var CONF_LOGOS = {
   "Big Ten": "conf-B1G.png",
-  "NCHC": null,
+  "NCHC": "conf-NCHC.png",
   "CCHA": "conf-CCHA.png",
-  "Hockey East": null,
+  "Hockey East": "conf-HockeyEast.png",
   "ECAC": "conf-ECAC.png",
   "AHA": null,
   "Independent": null

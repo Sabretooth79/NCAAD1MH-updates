@@ -3,12 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>NCAAD1MH — NCAA D1 Men's Hockey App</title>
-<meta property="og:type" content="website">
-<meta property="og:title" content="NCAAD1MH — NCAA D1 Men's Hockey App">
-<meta property="og:description" content="Live scores, schedules, rosters and news for all 63 NCAA Division 1 men's hockey teams. Open it free in your browser — Android users can also download the app.">
-<meta property="og:url" content="https://sabretooth79.github.io/NCAAD1MH-updates/">
-<meta property="og:image" content="https://sabretooth79.github.io/NCAAD1MH-updates/puck-512.png">
+<title>NCAAD1MH</title>
 <style>
 *{box-sizing:border-box}
 /* v32.51: ONE fabric tile constant — every jersey-fabric reference
@@ -514,28 +509,6 @@ body.radio-on #avatar{bottom:84px}
 #avatar.celebrate #goal-burst{display:block}
 #avatar img{box-shadow:0 6px 16px rgba(0,0,0,.45)}
 #avatar-tag{box-shadow:0 2px 8px rgba(0,0,0,.4)}
-/* in-app video window: large / minimized floating / fullscreen states */
-#videowin{position:fixed;z-index:70;background:#1a1a1a;border:2px solid #ffffff;overflow:hidden}
-#videowin[hidden]{display:none}
-#videowin.vw-large{left:12px;right:12px;top:64px;height:260px}
-#videowin.vw-min{left:14px;right:auto;bottom:96px;top:auto;width:210px;height:156px}
-#videowin.vw-fs{left:0;right:0;top:0;bottom:0;width:auto;height:auto}
-.vw-bar{display:flex;gap:6px;align-items:center;background:#262626;padding:6px 8px;height:40px;box-sizing:border-box}
-.vw-bar button{background:#ffffff;color:#262626;border:0;border-radius:999px;padding:5px 8px;font-size:12px;font-weight:700;cursor:pointer;flex-shrink:0}
-#vw-title{color:#fff;font-weight:700;flex:1;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
-#vw-body{height:calc(100% - 40px)}
-#videowin iframe,#videowin video{width:100%;height:100%;border:0;display:block;background:#1a1a1a}
-
-#vw-note{position:absolute;left:0;right:0;bottom:0;background:#262626;color:#fff;font-size:13px;padding:10px}
-#vw-note a{color:#ffffff}
-#vw-ext{color:#ffffff;font-size:12px;flex-shrink:0}
-/* v9 fit: in the minimized floating window only Max + Close stay — the
-   full control set cannot fit a 170-210px bar, so the rest hide rather
-   than clip; expanding restores every control. */
-#videowin.vw-min #vw-ext,#videowin.vw-min #vw-min,#videowin.vw-min #vw-full{display:none}
-#videowin.vw-min #vw-ytlink{display:none}
-#vw-ytlink{background:#262626;padding:8px 10px;text-align:center;font-size:13px}
-#vw-ytlink a{color:#ffffff}
 /* avatar */
 @keyframes jump{0%{transform:translateY(0)}30%{transform:translateY(-22px) rotate(-4deg)}60%{transform:translateY(0) rotate(3deg)}100%{transform:translateY(0)}}
 @keyframes glow{0%{box-shadow:0 0 0 0 rgba(255,255,255,.9)}100%{box-shadow:0 0 0 26px rgba(255,255,255,0)}}
@@ -563,13 +536,8 @@ html,body{line-height:1.55}
 .title .sub{margin-top:6px;line-height:1.5}
 .dir-row{padding:12px 4px}
 #radiobar{box-shadow:0 -3px 12px rgba(0,0,0,.4)}
-#videowin{box-shadow:0 10px 30px rgba(0,0,0,.5)}
 .tv-back,.tv-music-btn{box-shadow:0 3px 10px rgba(0,0,0,.3)}
 .logo-btn,.logo-btn-head{box-shadow:0 2px 8px rgba(0,0,0,.3)}
-/* v9 no-overlap: on very narrow screens (<=360px) the minimized floating
-   video (left, 210px wide) and the fixed avatar (right, 92px wide) could
-   touch — shrink the minimized window so the two can never collide. */
-@media (max-width:360px){#videowin.vw-min{width:170px;height:128px}}
 /* v9 TV/D-pad: a visible focus ring on every interactive element, so
    remote navigation always shows where focus is. Team views use their
    own accent color, never Michigan maize; conference views use white. */
@@ -671,7 +639,7 @@ body.teamtheme #gamedetail .vc-in,body.teamtheme #venuecard .vc-in,body.teamthem
 body.teamtheme #teamview .ban{background:rgba(0,0,0,0);backdrop-filter:none;-webkit-backdrop-filter:none;border-color:var(--tc2);box-shadow:inset 0 0 24px rgba(255,255,255,0.12),inset 0 1px 0 rgba(255,255,255,0.25)}
 .dir-confs{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
 .dir-confs button{background:#333333;color:#fff;border:1px solid #555555;border-radius:4px;padding:9px 4px;cursor:pointer;font-size:13px;min-height:44px}
-.tv-back,.tv-music-btn,.vc-in button,#radiobar button,.vw-bar button,.addlink button,.extras-body button,.extras-toggle,.btn,.chip,.conf-btn{border-radius:4px}
+.tv-back,.tv-music-btn,.vc-in button,#radiobar button,.addlink button,.extras-body button,.extras-toggle,.btn,.chip,.conf-btn{border-radius:4px}
 .row-head{padding:11px 12px}
 .spot{margin:8px 12px;padding:10px 12px;border-radius:6px}
 .post,.boxscore,.vc-in{border-radius:6px}
@@ -1005,7 +973,7 @@ body.themejersey #teamview .tv.themed,body.themejersey #playerview .pp{min-heigh
 <div id="directory">
   <h2>NCAA TEAMS DIRECTORY</h2>
   <div class="dir-search"><input id="dir-search" type="search" placeholder="Search teams and players&hellip;"></div>
-  <div class="dir-confs conf-chips"><button class="conf-chip" data-dir-conf="All" type="button" aria-pressed="false" aria-label="Show all 63 teams"><span class="conf-chip-logo conf-chip-textonly">ALL</span><span class="conf-chip-name">All</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Big Ten" type="button" aria-pressed="false" aria-label="Show Big Ten"><span class="conf-chip-logo"><img src="conf-B1G.png" alt=""></span><span class="conf-chip-name">Big Ten</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="NCHC" type="button" aria-pressed="false" aria-label="Show NCHC"><span class="conf-chip-logo conf-chip-textonly">NCHC</span><span class="conf-chip-name">NCHC</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="CCHA" type="button" aria-pressed="false" aria-label="Show CCHA"><span class="conf-chip-logo"><img src="conf-CCHA.png" alt=""></span><span class="conf-chip-name">CCHA</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Hockey East" type="button" aria-pressed="false" aria-label="Show Hockey East"><span class="conf-chip-logo conf-chip-textonly">Hockey East</span><span class="conf-chip-name">Hockey East</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="ECAC" type="button" aria-pressed="false" aria-label="Show ECAC"><span class="conf-chip-logo"><img src="conf-ECAC.png" alt=""></span><span class="conf-chip-name">ECAC</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="AHA" type="button" aria-pressed="false" aria-label="Show AHA"><span class="conf-chip-logo conf-chip-textonly">AHA</span><span class="conf-chip-name">AHA</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Independent" type="button" aria-pressed="false" aria-label="Show Independent"><span class="conf-chip-logo conf-chip-textonly">Independent</span><span class="conf-chip-name">Independent</span><span class="conf-chip-n"></span></button></div>
+  <div class="dir-confs conf-chips"><button class="conf-chip" data-dir-conf="All" type="button" aria-pressed="false" aria-label="Show all 63 teams"><span class="conf-chip-logo conf-chip-textonly">ALL</span><span class="conf-chip-name">All</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Big Ten" type="button" aria-pressed="false" aria-label="Show Big Ten"><span class="conf-chip-logo"><img src="conf-B1G.png" alt=""></span><span class="conf-chip-name">Big Ten</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="NCHC" type="button" aria-pressed="false" aria-label="Show NCHC"><span class="conf-chip-logo"><img src="conf-NCHC.png" alt=""></span><span class="conf-chip-name">NCHC</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="CCHA" type="button" aria-pressed="false" aria-label="Show CCHA"><span class="conf-chip-logo"><img src="conf-CCHA.png" alt=""></span><span class="conf-chip-name">CCHA</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Hockey East" type="button" aria-pressed="false" aria-label="Show Hockey East"><span class="conf-chip-logo"><img src="conf-HockeyEast.png" alt=""></span><span class="conf-chip-name">Hockey East</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="ECAC" type="button" aria-pressed="false" aria-label="Show ECAC"><span class="conf-chip-logo"><img src="conf-ECAC.png" alt=""></span><span class="conf-chip-name">ECAC</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="AHA" type="button" aria-pressed="false" aria-label="Show AHA"><span class="conf-chip-logo conf-chip-textonly">AHA</span><span class="conf-chip-name">AHA</span><span class="conf-chip-n"></span></button><button class="conf-chip" data-dir-conf="Independent" type="button" aria-pressed="false" aria-label="Show Independent"><span class="conf-chip-logo conf-chip-textonly">Independent</span><span class="conf-chip-name">Independent</span><span class="conf-chip-n"></span></button></div>
   <div id="dir-results"></div>
   <div id="dir-list"></div>
   <div class="tv-note">63 NCAA Division I men&rsquo;s programs, 2026&ndash;27 season (Wikipedia Division I list). Mercyhurst dropped its program after 2025&ndash;26; Maryville joined. Tap any team for its full view; your phone Back button returns you.</div>
@@ -1028,18 +996,6 @@ body.themejersey #teamview .tv.themed,body.themejersey #playerview .pp{min-heigh
   <a id="radio-yt" href="https://www.youtube.com/@WCBNSports">WCBN Sports on YouTube</a>
   <button id="radio-close" type="button">Stop</button>
 </div>
-<div id="videowin" hidden>
-  <div class="vw-bar"><span id="vw-title">Video</span>
-    <a id="vw-ext" href="#">External</a>
-    <button id="vw-min" type="button" title="Minimize">Min</button>
-    <button id="vw-expand" type="button" title="Expand">Max</button>
-    <button id="vw-full" type="button" title="Fullscreen">Full</button>
-    <button id="vw-close" type="button" title="Close">Close</button>
-  </div>
-  <div id="vw-body"></div>
-  <div id="vw-ytlink" hidden><a id="vw-ytlink-a" href="#">Open on YouTube — if the player shows an error, tap here</a></div>
-  <div id="vw-note" hidden></div>
-</div>
 <script src="data.js"></script>
 <script src="teams.js"></script>
 <script src="players.js"></script>
@@ -1054,17 +1010,5 @@ body.themejersey #teamview .tv.themed,body.themejersey #playerview .pp{min-heigh
 <script src="goal-files.js"></script>
 <script src="app.js"></script>
 <input type="file" id="backup-file-input" accept=".json,application/json" style="display:none">
-<script>
-/* NCAAD1MH web-usage counter (web copy only, added 2026-11-04, rev 2): counts this browser at most once per 24 hours via the free CountAPI service (no signup, no cookies, nothing displayed in the app). Silent on failure so a counter outage can never affect the app. Key: ncaad1mh-web-opens-2026-sabretooth79 - read with GET /api/v1/get/<key>, never hit it to check. NOTE for republishes: this block and the og: tags in <head> live only in this web copy and must be re-added if index.html is regenerated from the app build. */
-(function(){try{
-  var KEY='ncaad1mh-web-opens-2026-sabretooth79', LS='ncaad1mh-web-counted-at';
-  var now=Date.now(), last=0;
-  try{ last=parseInt(localStorage.getItem(LS)||'0',10)||0; }catch(e){}
-  if(now-last>86400000){
-    try{ localStorage.setItem(LS,String(now)); }catch(e){}
-    fetch('https://countapi.mileshilliard.com/api/v1/hit/'+KEY).catch(function(){});
-  }
-}catch(e){}})();
-</script>
 </body>
 </html>
