@@ -801,6 +801,14 @@
       "url": "https://ecachockey.com/watch/default.aspx?Archive=1400&path=conf"
     },
     {
+      "away": "LSS",
+      "date": "2026-10-17",
+      "home": "UAA",
+      "tier": "full-game-fallback",
+      "title": "HKY: Lake Superior State at Alaska Anchorage",
+      "url": "https://www.youtube.com/watch?v=rRdb7C_KaLI"
+    },
+    {
       "away": "MIA",
       "date": "2026-10-17",
       "home": "RMU",
@@ -2545,6 +2553,6 @@
       "url": "https://www.youtube.com/watch?v=GpUT4P0R6D4"
     }
   ],
-  "updated": "2026-11-16T08:17:44Z",
+  "updated": "2026-11-16T23:59:46Z",
   "version": 1
 }
