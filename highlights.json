@@ -2329,14 +2329,6 @@
       "url": "https://www.youtube.com/watch?v=FY4czqyEiQ4"
     },
     {
-      "away": "SHU",
-      "date": "2026-11-13",
-      "home": "ARMY",
-      "tier": "official",
-      "title": "Army vs. SHU Hockey Series Highlights",
-      "url": "https://www.youtube.com/watch?v=XAa-hrH7GFk"
-    },
-    {
       "away": "UAA",
       "date": "2026-11-13",
       "home": "MINN",
@@ -2569,6 +2561,6 @@
       "url": "https://www.youtube.com/watch?v=XAa-hrH7GFk"
     }
   ],
-  "updated": "2026-11-18T08:16:40Z",
+  "updated": "2026-11-18T13:27:33Z",
   "version": 1
 }
