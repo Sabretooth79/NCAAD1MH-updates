@@ -1641,6 +1641,14 @@
    "url": "https://www.youtube.com/watch?v=IvqrIuzujVo"
   },
   {
+   "away": "STO",
+   "date": "2026-10-31",
+   "home": "MIA",
+   "tier": "official-conference",
+   "title": "10/31/26 - St. Thomas at Miami Highlights",
+   "url": "https://www.youtube.com/watch?v=IvqrIuzujVo"
+  },
+  {
    "away": "UAF",
    "date": "2026-10-31",
    "home": "DART",
@@ -2353,6 +2361,14 @@
    "url": "https://www.youtube.com/watch?v=EPxqeICZ-Ys"
   },
   {
+   "away": "UND",
+   "date": "2026-11-13",
+   "home": "STO",
+   "tier": "aggregator",
+   "title": "St Thomas vs North Dakota | NCAA College Hockey | Highlights - November 13, 2026",
+   "url": "https://www.youtube.com/watch?v=EPxqeICZ-Ys"
+  },
+  {
    "away": "UNNY",
    "date": "2026-11-13",
    "home": "UML",
@@ -2521,6 +2537,14 @@
    "url": "https://www.youtube.com/watch?v=EHRKaaICyTw"
   },
   {
+   "away": "SHU",
+   "date": "2026-11-14",
+   "home": "ARMY",
+   "tier": "official",
+   "title": "Army vs. SHU Hockey Series Highlights",
+   "url": "https://www.youtube.com/watch?v=XAa-hrH7GFk"
+  },
+  {
    "away": "UAA",
    "date": "2026-11-14",
    "home": "MINN",
@@ -2545,20 +2569,20 @@
    "url": "https://www.youtube.com/watch?v=7JVHpg-6Lg4"
   },
   {
+   "away": "UND",
+   "date": "2026-11-14",
+   "home": "STO",
+   "tier": "official",
+   "title": "UND Hockey | Highlights at St. Thomas | 11.14.26",
+   "url": "https://www.youtube.com/watch?v=7JVHpg-6Lg4"
+  },
+  {
    "away": "UNNY",
    "date": "2026-11-14",
    "home": "UNH",
    "tier": "official",
    "title": "UNH Men's Hockey vs Union Highlights 11-14-2026",
    "url": "https://www.youtube.com/watch?v=GpUT4P0R6D4"
-  },
-  {
-   "away": "SHU",
-   "date": "2026-11-14",
-   "home": "ARMY",
-   "tier": "official",
-   "title": "Army vs. SHU Hockey Series Highlights",
-   "url": "https://www.youtube.com/watch?v=XAa-hrH7GFk"
   },
   {
    "away": "QUIN",
@@ -2569,6 +2593,6 @@
    "url": "https://www.youtube.com/watch?v=u57WzmnBo8k"
   }
  ],
- "updated": "2026-11-19T02:44:14Z",
+ "updated": "2026-11-19T23:12:07Z",
  "version": 1
 }
