@@ -296,6 +296,12 @@
   ],
   "BENT": [
    {
+    "title": "NESN to air Bentley\u2019s November 24 game at Harvard",
+    "source": "Bentley Athletics",
+    "date": "2026-11-20",
+    "url": "https://bentleyfalcons.com/news/2026/11/20/mens-ice-hockey-nesn-to-air-bentleys-november-24-game-at-harvard.aspx"
+   },
+   {
     "title": "Doyle and Bevilacqua lead Bentley to 3-0 win at Air Force",
     "source": "Bentley Athletics",
     "date": "2026-11-13",
@@ -336,12 +342,6 @@
     "source": "Bentley Athletics",
     "date": "2026-11-01",
     "url": "https://bentleyfalcons.com/news/2026/10/31/mens-ice-hockey-bentley-earns-series-split-with-4-3-win-over-holy-cross.aspx"
-   },
-   {
-    "title": "Bentley drops series opener to Holy Cross 2-0",
-    "source": "Bentley Athletics",
-    "date": "2026-10-31",
-    "url": "https://bentleyfalcons.com/news/2026/10/30/mens-ice-hockey-bentley-drops-series-opener-to-holy-cross-2-0.aspx"
    }
   ],
   "BGSU": [
@@ -595,6 +595,12 @@
    }
   ],
   "CLAR": [
+   {
+    "title": "Golden Knights Take 2-0 ECAC Start to Cornell Friday Night",
+    "source": "Clarkson Athletics",
+    "date": "2026-11-20",
+    "url": "https://clarksonathletics.com/news/2026/11/20/mens-hockey-golden-knights-take-2-0-ecac-start-to-cornell-friday-night.aspx"
+   },
    {
     "title": "Soderwall Shines in Knights' Shutout Win Over RPI, 4-0",
     "source": "Clarkson Athletics",
@@ -1924,6 +1930,12 @@
   ],
   "PRIN": [
    {
+    "title": "Men's Ice Hockey Hosts Air Force For Pair Of Games",
+    "source": "Princeton Athletics",
+    "date": "2026-11-20",
+    "url": "https://goprincetontigers.com/news/2026/11/20/mens-ice-hockey-hosts-air-force-for-pair-of-games"
+   },
+   {
     "title": "Read Now",
     "source": "Princeton Athletics",
     "date": "2026-11-14",
@@ -1964,12 +1976,6 @@
     "source": "Princeton Athletics",
     "date": "2026-10-31",
     "url": "https://goprincetontigers.com/news/2026/10/31/mens-ice-hockey-mens-hockey-completes-sweep-of-stonehill-3-2"
-   },
-   {
-    "title": "Men's Hockey Dials Up A 3-0 Shutout At Stonehill To Open 2026-27",
-    "source": "Princeton Athletics",
-    "date": "2026-10-30",
-    "url": "https://goprincetontigers.com/news/2026/10/30/mens-ice-hockey-mens-hockey-dials-up-a-3-0-shutout-at-stonehill-to-open-2026-27"
    }
   ],
   "PROV": [
@@ -2724,6 +2730,12 @@
   ],
   "UND": [
    {
+    "title": "Hawk-ey Talk with Virg Foss: Coming Into Focus",
+    "source": "North Dakota Athletics",
+    "date": "2026-11-20",
+    "url": "https://fightinghawks.com/news/2026/11/20/mens-hockey-hawk-ey-talk-with-virg-foss-coming-into-focus.aspx"
+   },
+   {
     "title": "NOTES: No. 7/6 UND returns home to battle St. Cloud State",
     "source": "North Dakota Athletics",
     "date": "2026-11-19",
@@ -2764,12 +2776,6 @@
     "source": "North Dakota Athletics",
     "date": "2026-11-07",
     "url": "https://fightinghawks.com/news/2026/11/7/mens-hockey-no-10-und-rolls-no-5-western-michigan-4-1-to-cap-unbeaten-weekend.aspx"
-   },
-   {
-    "title": "No. 10 North Dakota opens NCHC play with 2-2 tie against No. 5 Broncos",
-    "source": "North Dakota Athletics",
-    "date": "2026-11-07",
-    "url": "https://fightinghawks.com/news/2026/11/6/mens-hockey-no-10-north-dakota-opens-nchc-play-with-2-2-tie-against-no-5-broncos.aspx"
    }
   ],
   "UNH": [
@@ -3073,6 +3079,6 @@
    }
   ]
  },
- "updated": "2026-11-20T13:59:48Z",
+ "updated": "2026-11-20T17:58:27Z",
  "version": 1
 }
