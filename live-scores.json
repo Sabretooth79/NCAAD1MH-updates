@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-20T00:24:50Z",
+ "updated": "2026-11-20T00:30:22Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only unless a verified clock was attached (USCHO publishes none); live rows with a clock carry the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox, fetched once per run for live games only); rebuilt from the live page each run",
  "games": [
   {
@@ -13,7 +13,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "13:51"
+    "displayClock": "03:17"
    },
    "competitions": [
     {
@@ -44,7 +44,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/providence-vs-massachusetts/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:24:50Z"
+   "clockAt": "2026-11-20T00:30:22Z"
   },
   {
    "id": "uscho-320",
@@ -56,7 +56,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "04:19"
+    "displayClock": "01:42"
    },
    "competitions": [
     {
@@ -80,14 +80,14 @@
         "displayName": "Northeastern Huskies",
         "abbreviation": "NE"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/northeastern-vs-stonehill/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:24:50Z"
+   "clockAt": "2026-11-20T00:30:22Z"
   },
   {
    "id": "uscho-1481",
@@ -99,7 +99,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "09:28"
+    "displayClock": "05:58"
    },
    "competitions": [
     {
@@ -123,14 +123,14 @@
         "displayName": "New Hampshire Wildcats",
         "abbreviation": "UNH"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/new-hampshire-vs-connecticut/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:24:50Z"
+   "clockAt": "2026-11-20T00:30:22Z"
   }
  ]
 }
