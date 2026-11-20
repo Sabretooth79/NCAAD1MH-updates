@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-20T01:31:20Z",
+ "updated": "2026-11-20T01:46:06Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only unless a verified clock was attached (USCHO publishes none); live rows with a clock carry the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox, fetched once per run for live games only); rebuilt from the live page each run",
  "games": [
   {
@@ -53,7 +53,8 @@
     "type": {
      "state": "in"
     },
-    "period": 3
+    "period": 3,
+    "displayClock": "14:02"
    },
    "competitions": [
     {
@@ -82,7 +83,9 @@
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/northeastern-vs-stonehill/"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/northeastern-vs-stonehill/",
+   "clockSrc": "chn-livebox",
+   "clockAt": "2026-11-20T01:46:06Z"
   },
   {
    "id": "uscho-1481",
@@ -93,8 +96,7 @@
     "type": {
      "state": "in"
     },
-    "period": 2,
-    "displayClock": "01:55"
+    "period": 3
    },
    "competitions": [
     {
@@ -123,9 +125,7 @@
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/new-hampshire-vs-connecticut/",
-   "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T01:31:20Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/new-hampshire-vs-connecticut/"
   }
  ]
 }
