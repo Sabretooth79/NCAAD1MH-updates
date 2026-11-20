@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-20T01:46:06Z",
+ "updated": "2026-11-20T02:03:09Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only unless a verified clock was attached (USCHO publishes none); live rows with a clock carry the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox, fetched once per run for live games only); rebuilt from the live page each run",
  "games": [
   {
@@ -54,7 +54,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "14:02"
+    "displayClock": "03:59"
    },
    "competitions": [
     {
@@ -69,7 +69,7 @@
         "displayName": "Stonehill Stonehill",
         "abbreviation": "STONEHILL"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -78,14 +78,14 @@
         "displayName": "Northeastern Huskies",
         "abbreviation": "NE"
        },
-       "score": "7"
+       "score": "8"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/northeastern-vs-stonehill/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T01:46:06Z"
+   "clockAt": "2026-11-20T02:03:09Z"
   },
   {
    "id": "uscho-1481",
@@ -96,7 +96,8 @@
     "type": {
      "state": "in"
     },
-    "period": 3
+    "period": 3,
+    "displayClock": "10:50"
    },
    "competitions": [
     {
@@ -120,12 +121,14 @@
         "displayName": "New Hampshire Wildcats",
         "abbreviation": "UNH"
        },
-       "score": "4"
+       "score": "5"
       }
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/new-hampshire-vs-connecticut/"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/new-hampshire-vs-connecticut/",
+   "clockSrc": "chn-livebox",
+   "clockAt": "2026-11-20T02:03:09Z"
   }
  ]
 }
