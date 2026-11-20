@@ -1721,14 +1721,6 @@
    "url": "https://www.youtube.com/watch?v=WOwDht-hMXo"
   },
   {
-   "away": "ARMY",
-   "date": "2026-11-06",
-   "home": "AFA",
-   "tier": "official-conference",
-   "title": "Army West Point 4, Air Force 1 - Nov. 6, 2026",
-   "url": "https://www.youtube.com/watch?v=WOwDht-hMXo"
-  },
-  {
    "away": "AUG",
    "date": "2026-11-06",
    "home": "MTU",
@@ -1935,14 +1927,6 @@
    "tier": "aggregator",
    "title": "Air Force vs Army | NCAA College Hockey | Highlights - November 07, 2026",
    "url": "https://www.youtube.com/watch?v=umf9ycXsV-U"
-  },
-  {
-   "away": "ARMY",
-   "date": "2026-11-07",
-   "home": "AFA",
-   "tier": "official-conference",
-   "title": "Air Force 2, Army West Point 0 - Nov. 7, 2026",
-   "url": "https://www.youtube.com/watch?v=rhdCBhhXJjA"
   },
   {
    "away": "AUG",
@@ -2169,14 +2153,6 @@
    "url": "https://www.youtube.com/watch?v=loMaTo6Itpo"
   },
   {
-   "away": "BENT",
-   "date": "2026-11-12",
-   "home": "AFA",
-   "tier": "official-conference",
-   "title": "Air Force 4, Bentley 3 OT - Nov. 12, 2026",
-   "url": "https://www.youtube.com/watch?v=0fQ-vpjz4e8"
-  },
-  {
    "away": "MSU",
    "date": "2026-11-12",
    "home": "ND",
@@ -2199,14 +2175,6 @@
    "tier": "official",
    "title": "Falcons fall to Bentley on Friday night",
    "url": "https://www.youtube.com/watch?v=NUqDYNe5Ehs"
-  },
-  {
-   "away": "BENT",
-   "date": "2026-11-13",
-   "home": "AFA",
-   "tier": "official-conference",
-   "title": "Bentley 3, Air Force 0 - Nov. 13, 2026",
-   "url": "https://www.youtube.com/watch?v=P0Z-LTAxpUY"
   },
   {
    "away": "BGSU",
@@ -2617,6 +2585,6 @@
    "url": "https://www.youtube.com/watch?v=6kxIrFApT-E"
   }
  ],
- "updated": "2026-11-20T08:06:59Z",
+ "updated": "2026-11-20T13:03:11Z",
  "version": 1
 }
