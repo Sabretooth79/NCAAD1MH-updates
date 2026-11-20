@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-20T00:10:20Z",
+ "updated": "2026-11-20T00:15:24Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only unless a verified clock was attached (USCHO publishes none); live rows with a clock carry the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox, fetched once per run for live games only); rebuilt from the live page each run",
  "games": [
   {
@@ -44,7 +44,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/providence-vs-massachusetts/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:10:20Z"
+   "clockAt": "2026-11-20T00:15:24Z"
   },
   {
    "id": "uscho-320",
@@ -56,7 +56,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "14:12"
+    "displayClock": "08:54"
    },
    "competitions": [
     {
@@ -87,7 +87,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/northeastern-vs-stonehill/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:10:20Z"
+   "clockAt": "2026-11-20T00:15:24Z"
   },
   {
    "id": "uscho-1481",
@@ -99,7 +99,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "16:53"
+    "displayClock": "15:39"
    },
    "competitions": [
     {
@@ -114,7 +114,7 @@
         "displayName": "UConn Huskies",
         "abbreviation": "CONN"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -123,14 +123,14 @@
         "displayName": "New Hampshire Wildcats",
         "abbreviation": "UNH"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/new-hampshire-vs-connecticut/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:10:20Z"
+   "clockAt": "2026-11-20T00:15:24Z"
   }
  ]
 }
