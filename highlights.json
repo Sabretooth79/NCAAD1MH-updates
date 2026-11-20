@@ -2583,8 +2583,16 @@
    "tier": "aggregator",
    "title": "New Hampshire vs UConn | NCAA College Hockey Highlights | November 19, 2026",
    "url": "https://www.youtube.com/watch?v=6kxIrFApT-E"
+  },
+  {
+   "away": "NE",
+   "date": "2026-11-19",
+   "home": "STO",
+   "tier": "full-game-fallback",
+   "title": "Northeastern at Stonehill",
+   "url": "https://necfrontrow.com/game/16768"
   }
  ],
- "updated": "2026-11-20T13:03:11Z",
+ "updated": "2026-11-20T14:33:46Z",
  "version": 1
 }
