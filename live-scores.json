@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-20T00:34:35Z",
+ "updated": "2026-11-20T01:01:17Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; today's games only; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry period only unless a verified clock was attached (USCHO publishes none); live rows with a clock carry the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox, fetched once per run for live games only); rebuilt from the live page each run",
  "games": [
   {
@@ -12,8 +12,8 @@
     "type": {
      "state": "in"
     },
-    "period": 2,
-    "displayClock": "00:18"
+    "period": 3,
+    "displayClock": "13:10"
    },
    "competitions": [
     {
@@ -37,14 +37,14 @@
         "displayName": "Providence Friars",
         "abbreviation": "PROV"
        },
-       "score": "2"
+       "score": "3"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/providence-vs-massachusetts/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:34:35Z"
+   "clockAt": "2026-11-20T01:01:17Z"
   },
   {
    "id": "uscho-320",
@@ -55,8 +55,8 @@
     "type": {
      "state": "in"
     },
-    "period": 1,
-    "displayClock": "00:00"
+    "period": 2,
+    "displayClock": "11:49"
    },
    "competitions": [
     {
@@ -80,14 +80,14 @@
         "displayName": "Northeastern Huskies",
         "abbreviation": "NE"
        },
-       "score": "3"
+       "score": "5"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/northeastern-vs-stonehill/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:34:35Z"
+   "clockAt": "2026-11-20T01:01:17Z"
   },
   {
    "id": "uscho-1481",
@@ -98,8 +98,8 @@
     "type": {
      "state": "in"
     },
-    "period": 1,
-    "displayClock": "02:11"
+    "period": 2,
+    "displayClock": "15:43"
    },
    "competitions": [
     {
@@ -123,14 +123,14 @@
         "displayName": "New Hampshire Wildcats",
         "abbreviation": "UNH"
        },
-       "score": "2"
+       "score": "3"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-19/new-hampshire-vs-connecticut/",
    "clockSrc": "chn-livebox",
-   "clockAt": "2026-11-20T00:34:35Z"
+   "clockAt": "2026-11-20T01:01:17Z"
   }
  ]
 }
