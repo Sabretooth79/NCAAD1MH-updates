@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-21T02:56:21Z",
+ "updated": "2026-11-21T03:00:11Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -628,7 +628,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "8:05"
+    "displayClock": "6:43"
    },
    "competitions": [
     {
@@ -659,7 +659,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/penn-state-vs-wisconsin/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T02:56:21Z"
+   "clockAt": "2026-11-21T03:00:11Z"
   },
   {
    "id": "uscho-335",
@@ -702,7 +702,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/liu-vs-lindenwood/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T02:56:21Z"
+   "clockAt": "2026-11-21T03:00:11Z"
   },
   {
    "id": "uscho-336",
@@ -713,8 +713,8 @@
     "type": {
      "state": "in"
     },
-    "period": 2,
-    "displayClock": "0:00"
+    "period": 3,
+    "displayClock": "20:00"
    },
    "competitions": [
     {
@@ -745,7 +745,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/western-michigan-vs-omaha/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T02:56:21Z"
+   "clockAt": "2026-11-21T03:00:11Z"
   },
   {
    "id": "uscho-339",
@@ -772,7 +772,7 @@
         "displayName": "Minnesota Duluth Bulldogs",
         "abbreviation": "UMD"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -788,7 +788,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/arizona-state-vs-minnesota-duluth/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T02:56:21Z"
+   "clockAt": "2026-11-21T03:00:11Z"
   },
   {
    "id": "uscho-323",
@@ -800,7 +800,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "15:12"
+    "displayClock": "12:18"
    },
    "competitions": [
     {
@@ -831,7 +831,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/michigan-tech-vs-minnesota-state/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T02:56:21Z"
+   "clockAt": "2026-11-21T03:00:11Z"
   },
   {
    "id": "uscho-340",
@@ -843,7 +843,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "19:08"
+    "displayClock": "15:40"
    },
    "competitions": [
     {
@@ -874,7 +874,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/st-cloud-state-vs-north-dakota/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T02:56:21Z"
+   "clockAt": "2026-11-21T03:00:11Z"
   },
   {
    "id": "uscho-337",
@@ -917,7 +917,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/miami-vs-colorado-college/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T02:56:21Z"
+   "clockAt": "2026-11-21T03:00:11Z"
   },
   {
    "id": "uscho-338",
@@ -928,8 +928,8 @@
     "type": {
      "state": "in"
     },
-    "period": 1,
-    "displayClock": "0:00"
+    "period": 2,
+    "displayClock": "19:43"
    },
    "competitions": [
     {
@@ -960,7 +960,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/st-thomas-vs-denver/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T02:56:21Z"
+   "clockAt": "2026-11-21T03:00:11Z"
   },
   {
    "id": "uscho-341",
