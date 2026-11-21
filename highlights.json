@@ -2596,9 +2596,9 @@
    "away": "NE",
    "date": "2026-11-19",
    "home": "STO",
-   "tier": "full-game-fallback",
-   "title": "Northeastern at Stonehill",
-   "url": "https://necfrontrow.com/game/16768"
+   "tier": "official-conference",
+   "title": "NORTHEASTERN at Stonehill | Men's Game Highlights | 11.19.2026",
+   "url": "https://www.youtube.com/watch?v=53kYpXmtQDE"
   },
   {
    "away": "ND",
@@ -2623,8 +2623,72 @@
    "tier": "aggregator",
    "title": "Wisconsin vs Penn State | NCAA College Hockey | Highlights - November 20, 2026",
    "url": "https://www.youtube.com/watch?v=Nuu9Zgk6qWQ"
+  },
+  {
+   "away": "SCSU",
+   "date": "2026-11-20",
+   "home": "UND",
+   "tier": "aggregator",
+   "title": "North Dakota vs St Cloud State | NCAA College Hockey | Highlights - November 20, 2026",
+   "url": "https://www.youtube.com/watch?v=rsfzXrw8hqw"
+  },
+  {
+   "away": "WMU",
+   "date": "2026-11-20",
+   "home": "OMA",
+   "tier": "aggregator",
+   "title": "Omaha vs Western Michigan | NCAA College Hockey | Highlights - November 20, 2026",
+   "url": "https://www.youtube.com/watch?v=OgMWRXdoWk0"
+  },
+  {
+   "away": "SLU",
+   "date": "2026-11-20",
+   "home": "COLG",
+   "tier": "official",
+   "title": "Game Highlights | Colgate Men's Hockey vs. St. Lawrence | 11.20.26",
+   "url": "https://www.youtube.com/watch?v=WuOQNOMl1eU"
+  },
+  {
+   "away": "CLAR",
+   "date": "2026-11-20",
+   "home": "COR",
+   "tier": "official",
+   "title": "Highlights: Cornell Men's Ice Hockey vs Clarkson - 11/20/2026",
+   "url": "https://www.youtube.com/watch?v=-RtN03QL-3A"
+  },
+  {
+   "away": "UVM",
+   "date": "2026-11-20",
+   "home": "UML",
+   "tier": "official",
+   "title": "Ice Hockey | UMass Lowell vs Vermont Highlights (11.20.26)",
+   "url": "https://www.youtube.com/watch?v=lVjHimJGz1g"
+  },
+  {
+   "away": "BEM",
+   "date": "2026-11-20",
+   "home": "LSS",
+   "tier": "official-conference",
+   "title": "Bemidji State at Lake Superior State Highlights 11/20/2026",
+   "url": "https://www.youtube.com/watch?v=bX1CQTxzOfQ"
+  },
+  {
+   "away": "ASU",
+   "date": "2026-11-20",
+   "home": "UMD",
+   "tier": "official",
+   "title": "11.20.26 HIGHLIGHTS: UMD Men's Hockey, 5. Arizona State, 1.",
+   "url": "https://www.youtube.com/watch?v=VUwRcwFq6fY"
+  },
+  {
+   "away": "MTU",
+   "date": "2026-11-20",
+   "home": "MNST",
+   "tier": "official-conference",
+   "title": "Michigan Tech at Minnesota State Highlights 11/20/2026",
+   "url": "https://www.youtube.com/watch?v=dJULGE4AOOQ"
   }
  ],
- "updated": "2026-11-21T03:37:04Z",
+ "updated": "2026-11-21T04:08:16Z",
  "version": 1
 }
