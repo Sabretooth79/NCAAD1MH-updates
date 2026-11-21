@@ -1,88 +1,8 @@
 {
  "version": 1,
- "updated": "2026-11-21T05:32:38Z",
+ "updated": "2026-11-21T07:32:31Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); rebuilt from the live page each run",
  "finals": [
-  {
-   "id": "uscho-271",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-12T23:00:00Z",
-   "status": {
-    "type": {
-     "state": "post"
-    },
-    "displayClock": "0:00",
-    "period": 4
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Cadet Ice Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2005",
-        "displayName": "Air Force Falcons",
-        "abbreviation": "AFA"
-       },
-       "score": "4"
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2060",
-        "displayName": "Bentley Falcons",
-        "abbreviation": "BENT"
-       },
-       "score": "3"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "uscho-1604",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-12T23:00:00Z",
-   "status": {
-    "type": {
-     "state": "post"
-    },
-    "displayClock": "0:00",
-    "period": 4
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Compton Family Ice Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "87",
-        "displayName": "Notre Dame Fighting Irish",
-        "abbreviation": "ND"
-       },
-       "score": "3"
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "127",
-        "displayName": "Michigan State Spartans",
-        "abbreviation": "MSU"
-       },
-       "score": "2"
-      }
-     ]
-    }
-   ]
-  },
   {
    "id": "uscho-272",
    "league": "Mens College Hockey",
@@ -2998,6 +2918,46 @@
         "abbreviation": "SCSU"
        },
        "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-341",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-20T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Carlson Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "298",
+        "displayName": "Alaska Bulldogs",
+        "abbreviation": "AKFB"
+       },
+       "score": "7"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "1",
+        "displayName": "Alaska Anchorage Seawolves",
+        "abbreviation": "UAA"
+       },
+       "score": "4"
       }
      ]
     }
