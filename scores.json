@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-21T07:32:31Z",
+ "updated": "2026-11-21T23:32:40Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); rebuilt from the live page each run",
  "finals": [
   {
@@ -3156,6 +3156,46 @@
         "id": "261",
         "displayName": "Vermont Catamounts",
         "abbreviation": "UVM"
+       },
+       "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-344",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "M&T Bank Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2514",
+        "displayName": "Quinnipiac Bobcats",
+        "abbreviation": "QUIN"
+       },
+       "score": "9"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "107",
+        "displayName": "Holy Cross Crusaders",
+        "abbreviation": "HC"
        },
        "score": "3"
       }
