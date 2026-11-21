@@ -846,6 +846,12 @@
   ],
   "DEN": [
    {
+    "title": "No. 3 Denver Ties St. Thomas 1-1 in Series Opener",
+    "source": "Denver Athletics",
+    "date": "2026-11-20",
+    "url": "https://denverpioneers.com/news/2026/11/20/du-pioneers-hockey-st-thomas-recap-2026-november-20"
+   },
+   {
     "title": "PREVIEW: No. 3 Denver Set For First Matchup vs. St. Thomas",
     "source": "Denver Athletics",
     "date": "2026-11-19",
@@ -886,12 +892,6 @@
     "source": "Denver Athletics",
     "date": "2026-11-10",
     "url": "https://denverpioneers.com/news/2026/11/10/du-pioneers-hockey-daxon-rudolph-johnny-hicks-named-nchc-players-of-the-week"
-   },
-   {
-    "title": "Denver Moves Up to No. 3 in National Polls",
-    "source": "Denver Athletics",
-    "date": "2026-11-09",
-    "url": "https://denverpioneers.com/news/2026/11/9/denver-pioneers-hockey-moves-up-to-no-3-in-national-polls"
    }
   ],
   "FSU": [
@@ -2548,6 +2548,12 @@
   ],
   "UAA": [
    {
+    "title": "UAF wins first game of Alaska Airlines Governor's Cup",
+    "source": "Alaska Anchorage Athletics",
+    "date": "2026-11-20",
+    "url": "https://goseawolves.com/news/2026/11/20/mens-ice-hockey-uaf-wins-first-game-of-alaska-airlines-governors-cup.aspx"
+   },
+   {
     "title": "Hockey heads North for Alaska Airlines Governor's Cup",
     "source": "Alaska Anchorage Athletics",
     "date": "2026-11-18",
@@ -2588,15 +2594,15 @@
     "source": "Alaska Anchorage Athletics",
     "date": "2026-11-08",
     "url": "https://goseawolves.com/news/2026/11/7/mens-ice-hockey-warrener-and-terpstra-combine-for-four-goals-in-loss.aspx"
-   },
-   {
-    "title": "Helgeson scores first goal in St. Paul",
-    "source": "Alaska Anchorage Athletics",
-    "date": "2026-11-07",
-    "url": "https://goseawolves.com/news/2026/11/6/mens-ice-hockey-helgeson-scores-first-goal-in-st-paul.aspx"
    }
   ],
   "UAF": [
+   {
+    "title": "Nanooks Score Seven in Alaska Airlines Governor's Cup Game One Win",
+    "source": "University of Alaska Fairbanks Athletics",
+    "date": "2026-11-20",
+    "url": "https://alaskananooks.com/news/2026/11/20/mens-ice-hockey-nanooks-score-seven-in-alaska-airlines-governors-cup-game-one-win.aspx"
+   },
    {
     "title": "Hockey Welcomes Alaska Anchorage for First Games of Alaska Airlines Governor's Cup Series",
     "source": "University of Alaska Fairbanks Athletics",
@@ -2638,12 +2644,6 @@
     "source": "Alaska Fairbanks Athletics",
     "date": "2026-11-01",
     "url": "https://alaskananooks.com/news/2026/11/1/mens-ice-hockey-nanooks-fall-to-dartmouth-in-series-finale.aspx"
-   },
-   {
-    "title": "Hockey Falls in Game One at No. 12/12 Dartmouth",
-    "source": "Alaska Fairbanks Athletics",
-    "date": "2026-11-01",
-    "url": "https://alaskananooks.com/news/2026/10/31/mens-ice-hockey-hockey-falls-in-game-one-at-no-12-12-dartmouth.aspx"
    }
   ],
   "UMD": [
@@ -3097,6 +3097,6 @@
    }
   ]
  },
- "updated": "2026-11-21T05:57:58Z",
+ "updated": "2026-11-21T09:57:39Z",
  "version": 1
 }
