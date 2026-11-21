@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-21T04:35:14Z",
+ "updated": "2026-11-21T04:50:51Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -871,10 +871,10 @@
    "date": "2026-11-21T02:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 3,
-    "displayClock": "0:00"
+    "displayClock": "0:00",
+    "period": 3
    },
    "competitions": [
     {
@@ -903,9 +903,7 @@
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/miami-vs-colorado-college/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-21T04:35:14Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/miami-vs-colorado-college/"
   },
   {
    "id": "uscho-338",
@@ -914,10 +912,10 @@
    "date": "2026-11-21T02:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 3,
-    "displayClock": "0:00"
+    "displayClock": "0:00",
+    "period": 4
    },
    "competitions": [
     {
@@ -946,9 +944,7 @@
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/st-thomas-vs-denver/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-21T04:35:14Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/st-thomas-vs-denver/"
   },
   {
    "id": "uscho-341",
@@ -960,7 +956,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "6:09"
+    "displayClock": "10:45"
    },
    "competitions": [
     {
@@ -984,14 +980,14 @@
         "displayName": "Alaska Anchorage Seawolves",
         "abbreviation": "UAA"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-20/alaska-anchorage-vs-alaska/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-21T04:35:14Z"
+   "clockAt": "2026-11-21T04:50:51Z"
   }
  ]
 }
