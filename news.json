@@ -1084,7 +1084,7 @@
     "url": "https://liuathletics.com/news/2026/11/20/mens-ice-hockey-liu-mens-hockey-to-host-empire-state-holiday-invitational-at-ubs-arena.aspx"
    },
    {
-    "title": "LIU Men's Hockey Takes Opener in Weekend Series Against Lindenwood",
+    "title": "Men's Hockey Takes Opener in Weekend Series Against Lindenwood",
     "source": "Long Island Athletics",
     "date": "2026-11-20",
     "url": "https://liuathletics.com/news/2026/11/20/mens-ice-hockey-liu-mens-hockey-takes-opener-in-weekend-series-against-lindenwood.aspx"
@@ -2748,6 +2748,12 @@
   ],
   "UND": [
    {
+    "title": "NOTES: No. 7/6 North Dakota goes for fifth straight win, sweep over Huskies",
+    "source": "North Dakota Athletics",
+    "date": "2026-11-21",
+    "url": "https://fightinghawks.com/news/2026/11/21/mens-hockey-notes-no-7-6-north-dakota-goes-for-fifth-straight-win-sweep-over-huskies.aspx"
+   },
+   {
     "title": "Hawk-ey Talk with Virg Foss: Coming Into Focus",
     "source": "North Dakota Athletics",
     "date": "2026-11-20",
@@ -2788,15 +2794,15 @@
     "source": "North Dakota Athletics",
     "date": "2026-11-13",
     "url": "https://fightinghawks.com/news/2026/11/13/mens-hockey-hawk-ey-talk-with-virg-foss-grow-some-whiskers.aspx"
-   },
-   {
-    "title": "NOTES: No. 8/7 UND heads to St. Paul for NCHC battle at St. Thomas",
-    "source": "North Dakota Athletics",
-    "date": "2026-11-12",
-    "url": "https://fightinghawks.com/news/2026/11/12/mens-hockey-notes-no-8-7-und-heads-to-st-paul-for-nchc-battle-at-st-thomas.aspx"
    }
   ],
   "UNH": [
+   {
+    "title": "UNH & UConn to Square Off in Saturday Afternoon Game at the Whitt (Nov. 21)",
+    "source": "New Hampshire Athletics",
+    "date": "2026-11-21",
+    "url": "https://unhwildcats.com/news/2026/11/21/mens-ice-hockey-unh-uconn-to-square-off-in-saturday-afternoon-game-at-the-whitt-nov-21"
+   },
    {
     "title": "Men\u2019s Hockey Earns 6-3 Win at UConn",
     "source": "New Hampshire Athletics",
@@ -2838,12 +2844,6 @@
     "source": "New Hampshire Athletics",
     "date": "2026-10-31",
     "url": "https://unhwildcats.com/news/2026/10/31/mens-ice-hockey-mens-hockey-falls-to-vermont-3-2-in-ot"
-   },
-   {
-    "title": "Men\u2019s Hockey Defeated by Vermont, 3-2",
-    "source": "New Hampshire Athletics",
-    "date": "2026-10-30",
-    "url": "https://unhwildcats.com/news/2026/10/30/mens-ice-hockey-mens-hockey-defeated-by-vermont-3-2"
    }
   ],
   "UNNY": [
@@ -3097,6 +3097,6 @@
    }
   ]
  },
- "updated": "2026-11-21T09:57:39Z",
+ "updated": "2026-11-21T17:59:32Z",
  "version": 1
 }
