@@ -1,13 +1,13 @@
 {
  "version": 1,
- "updated": "2026-11-21T06:00:15Z",
+ "updated": "2026-11-21T20:30:12Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
    "id": "uscho-344",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
-   "date": "2026-11-21T21:00:00Z",
+   "date": "2026-11-21T20:30:00Z",
    "status": {
     "type": {
      "state": "pre"
