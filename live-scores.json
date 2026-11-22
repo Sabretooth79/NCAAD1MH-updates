@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22T02:48:59Z",
+ "updated": "2026-11-22T02:50:15Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -742,47 +742,6 @@
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-lawrence-vs-cornell/"
   },
   {
-   "id": "uscho-353",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-22T00:00:00Z",
-   "status": {
-    "type": {
-     "state": "post"
-    },
-    "displayClock": "0:00",
-    "period": 3
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Class of 1965 Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2142",
-        "displayName": "Colgate Raiders",
-        "abbreviation": "COLG"
-       },
-       "score": "6"
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "2137",
-        "displayName": "Clarkson Golden Knights",
-        "abbreviation": "CLAR"
-       },
-       "score": "3"
-      }
-     ]
-    }
-   ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/clarkson-vs-colgate/"
-  },
-  {
    "id": "uscho-356",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -906,6 +865,47 @@
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-cloud-state-vs-north-dakota/"
   },
   {
+   "id": "uscho-353",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-22T00:30:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Class of 1965 Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2142",
+        "displayName": "Colgate Raiders",
+        "abbreviation": "COLG"
+       },
+       "score": "6"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2137",
+        "displayName": "Clarkson Golden Knights",
+        "abbreviation": "CLAR"
+       },
+       "score": "3"
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/clarkson-vs-colgate/"
+  },
+  {
    "id": "uscho-358",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -915,7 +915,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "16:09"
+    "displayClock": "16:03"
    },
    "competitions": [
     {
@@ -946,7 +946,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/liu-vs-lindenwood/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:48:59Z"
+   "clockAt": "2026-11-22T02:50:15Z"
   },
   {
    "id": "uscho-360",
@@ -989,7 +989,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/miami-vs-colorado-college/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:48:59Z"
+   "clockAt": "2026-11-22T02:50:15Z"
   },
   {
    "id": "uscho-361",
@@ -1032,7 +1032,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-thomas-vs-denver/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:48:59Z"
+   "clockAt": "2026-11-22T02:50:15Z"
   },
   {
    "id": "uscho-363",
@@ -1075,7 +1075,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/western-michigan-vs-omaha/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:48:59Z"
+   "clockAt": "2026-11-22T02:50:15Z"
   },
   {
    "id": "uscho-364",
