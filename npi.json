@@ -1,56 +1,56 @@
 {
  "version": 1,
  "source": "College Hockey News NPI",
- "updated": "2026-11-22T07:56:46Z",
+ "updated": "2026-11-22T23:57:23Z",
  "asOf": "2026-11-22",
  "teams": [
   {
    "key": "DART",
    "rank": 1,
-   "npi": 64.17,
+   "npi": 64.41,
    "record": "6-0-0",
    "wtWinPct": 1.0,
-   "qwb": 0.826
+   "qwb": 0.837
   },
   {
    "key": "MICH",
    "rank": 2,
-   "npi": 59.82,
+   "npi": 59.81,
    "record": "11-2-0",
    "wtWinPct": 0.837,
-   "qwb": 0.651
+   "qwb": 0.648
   },
   {
    "key": "WIS",
    "rank": 3,
-   "npi": 59.42,
+   "npi": 59.4,
    "record": "10-1-1",
    "wtWinPct": 0.86,
-   "qwb": 0.156
+   "qwb": 0.155
   },
   {
    "key": "AUG",
    "rank": 4,
-   "npi": 59.32,
+   "npi": 59.31,
    "record": "11-0-3",
    "wtWinPct": 0.783,
-   "qwb": 0.526
+   "qwb": 0.523
   },
   {
    "key": "PROV",
    "rank": 5,
-   "npi": 58.01,
+   "npi": 58.02,
    "record": "10-2-0",
    "wtWinPct": 0.803,
-   "qwb": 0.247
+   "qwb": 0.248
   },
   {
    "key": "QUIN",
    "rank": 6,
-   "npi": 57.75,
+   "npi": 57.8,
    "record": "9-3-1",
    "wtWinPct": 0.73,
-   "qwb": 0.834
+   "qwb": 0.841
   },
   {
    "key": "MSU",
@@ -63,50 +63,50 @@
   {
    "key": "UMD",
    "rank": 8,
-   "npi": 57.4,
+   "npi": 57.38,
    "record": "11-3-2",
    "wtWinPct": 0.744,
-   "qwb": 0.517
+   "qwb": 0.513
   },
   {
    "key": "UND",
    "rank": 9,
-   "npi": 56.3,
+   "npi": 56.27,
    "record": "9-3-1",
    "wtWinPct": 0.733,
-   "qwb": 0.188
+   "qwb": 0.187
   },
   {
    "key": "ARMY",
    "rank": 10,
-   "npi": 56.21,
+   "npi": 56.13,
    "record": "8-2-0",
    "wtWinPct": 0.763,
-   "qwb": 0.344
+   "qwb": 0.347
   },
   {
    "key": "MIA",
    "rank": 11,
-   "npi": 55.89,
+   "npi": 55.84,
    "record": "10-4-0",
    "wtWinPct": 0.685,
-   "qwb": 0.408
+   "qwb": 0.403
   },
   {
    "key": "WMU",
    "rank": 12,
-   "npi": 55.51,
+   "npi": 55.49,
    "record": "8-4-1",
    "wtWinPct": 0.648,
-   "qwb": 0.382
+   "qwb": 0.377
   },
   {
    "key": "NE",
    "rank": 13,
-   "npi": 55.1,
+   "npi": 55.14,
    "record": "7-3-0",
    "wtWinPct": 0.74,
-   "qwb": 0.047
+   "qwb": 0.048
   },
   {
    "key": "MTU",
@@ -114,63 +114,63 @@
    "npi": 55.02,
    "record": "9-3-2",
    "wtWinPct": 0.678,
-   "qwb": 0.351
+   "qwb": 0.35
   },
   {
    "key": "UNNY",
    "rank": 15,
-   "npi": 54.78,
+   "npi": 54.79,
    "record": "7-6-0",
    "wtWinPct": 0.66,
-   "qwb": 0.601
+   "qwb": 0.602
   },
   {
    "key": "DEN",
    "rank": 16,
-   "npi": 54.65,
+   "npi": 54.63,
    "record": "9-3-2",
    "wtWinPct": 0.671,
-   "qwb": 0.155
+   "qwb": 0.154
   },
   {
    "key": "OMA",
    "rank": 17,
-   "npi": 54.34,
+   "npi": 54.31,
    "record": "6-5-1",
    "wtWinPct": 0.564,
-   "qwb": 0.805
+   "qwb": 0.802
   },
   {
    "key": "BU",
    "rank": 18,
-   "npi": 54.25,
+   "npi": 54.28,
    "record": "8-5-1",
    "wtWinPct": 0.564,
-   "qwb": 0.686
-  },
-  {
-   "key": "UVM",
-   "rank": 19,
-   "npi": 53.65,
-   "record": "7-4-2",
-   "wtWinPct": 0.609,
-   "qwb": 0.202
+   "qwb": 0.689
   },
   {
    "key": "HAR",
-   "rank": 20,
-   "npi": 53.59,
+   "rank": 19,
+   "npi": 53.76,
    "record": "4-3-0",
    "wtWinPct": 0.594,
-   "qwb": 0.449
+   "qwb": 0.458
+  },
+  {
+   "key": "UVM",
+   "rank": 20,
+   "npi": 53.67,
+   "record": "7-4-2",
+   "wtWinPct": 0.609,
+   "qwb": 0.205
   },
   {
    "key": "YALE",
    "rank": 21,
-   "npi": 53.5,
+   "npi": 53.58,
    "record": "5-2-0",
    "wtWinPct": 0.612,
-   "qwb": 0.468
+   "qwb": 0.482
   },
   {
    "key": "MRMK",
@@ -178,20 +178,20 @@
    "npi": 53.05,
    "record": "7-4-2",
    "wtWinPct": 0.533,
-   "qwb": 0.225
+   "qwb": 0.226
   },
   {
    "key": "CC",
    "rank": 23,
-   "npi": 52.85,
+   "npi": 52.77,
    "record": "7-6-1",
    "wtWinPct": 0.562,
-   "qwb": 0.395
+   "qwb": 0.394
   },
   {
    "key": "ND",
    "rank": 24,
-   "npi": 52.71,
+   "npi": 52.7,
    "record": "7-6-1",
    "wtWinPct": 0.509,
    "qwb": 0.33
@@ -199,18 +199,18 @@
   {
    "key": "MINN",
    "rank": 25,
-   "npi": 52.09,
+   "npi": 52.08,
    "record": "5-4-3",
    "wtWinPct": 0.474,
-   "qwb": 0.931
+   "qwb": 0.928
   },
   {
    "key": "BC",
    "rank": 26,
-   "npi": 52.0,
+   "npi": 52.01,
    "record": "6-5-2",
    "wtWinPct": 0.518,
-   "qwb": 0.401
+   "qwb": 0.402
   },
   {
    "key": "OSU",
@@ -218,124 +218,124 @@
    "npi": 51.75,
    "record": "4-8-0",
    "wtWinPct": 0.406,
-   "qwb": 1.031
+   "qwb": 1.029
   },
   {
    "key": "ME",
    "rank": 28,
-   "npi": 51.49,
+   "npi": 51.51,
    "record": "6-7-1",
    "wtWinPct": 0.504,
-   "qwb": 0.446
+   "qwb": 0.449
   },
   {
    "key": "UNH",
    "rank": 29,
-   "npi": 51.43,
+   "npi": 51.45,
    "record": "7-6-1",
    "wtWinPct": 0.522,
-   "qwb": 0.376
+   "qwb": 0.377
   },
   {
    "key": "CLAR",
    "rank": 30,
-   "npi": 50.57,
+   "npi": 50.59,
    "record": "6-5-1",
    "wtWinPct": 0.53,
-   "qwb": 0.282
-  },
-  {
-   "key": "RMU",
-   "rank": 31,
-   "npi": 50.21,
-   "record": "6-7-0",
-   "wtWinPct": 0.515,
-   "qwb": 0.0
+   "qwb": 0.283
   },
   {
    "key": "BGSU",
-   "rank": 32,
-   "npi": 50.2,
+   "rank": 31,
+   "npi": 50.19,
    "record": "6-8-0",
    "wtWinPct": 0.46,
    "qwb": 0.0
   },
   {
+   "key": "RMU",
+   "rank": 32,
+   "npi": 50.13,
+   "record": "6-7-0",
+   "wtWinPct": 0.515,
+   "qwb": 0.0
+  },
+  {
    "key": "NMI",
    "rank": 33,
-   "npi": 50.06,
+   "npi": 50.08,
    "record": "6-7-1",
    "wtWinPct": 0.444,
-   "qwb": 0.194
+   "qwb": 0.192
   },
   {
    "key": "NIA",
    "rank": 34,
-   "npi": 50.06,
+   "npi": 50.05,
    "record": "7-5-2",
    "wtWinPct": 0.501,
    "qwb": 0.137
   },
   {
-   "key": "BENT",
+   "key": "PRIN",
    "rank": 35,
-   "npi": 49.86,
+   "npi": 49.95,
+   "record": "4-4-0",
+   "wtWinPct": 0.505,
+   "qwb": 0.173
+  },
+  {
+   "key": "BENT",
+   "rank": 36,
+   "npi": 49.76,
    "record": "6-6-0",
    "wtWinPct": 0.482,
    "qwb": 0.119
   },
   {
    "key": "ASU",
-   "rank": 36,
-   "npi": 49.55,
+   "rank": 37,
+   "npi": 49.53,
    "record": "5-7-0",
    "wtWinPct": 0.486,
-   "qwb": 0.399
+   "qwb": 0.397
   },
   {
    "key": "MNST",
-   "rank": 37,
-   "npi": 49.22,
+   "rank": 38,
+   "npi": 49.21,
    "record": "4-7-3",
    "wtWinPct": 0.424,
    "qwb": 0.069
   },
   {
    "key": "CONN",
-   "rank": 38,
-   "npi": 49.2,
+   "rank": 39,
+   "npi": 49.21,
    "record": "5-8-1",
    "wtWinPct": 0.349,
-   "qwb": 0.631
-  },
-  {
-   "key": "STMN",
-   "rank": 39,
-   "npi": 49.11,
-   "record": "5-6-1",
-   "wtWinPct": 0.407,
-   "qwb": 0.356
+   "qwb": 0.632
   },
   {
    "key": "UAF",
    "rank": 40,
-   "npi": 49.08,
+   "npi": 49.14,
    "record": "4-8-0",
    "wtWinPct": 0.393,
-   "qwb": 0.193
+   "qwb": 0.195
   },
   {
-   "key": "PRIN",
+   "key": "STMN",
    "rank": 41,
-   "npi": 48.75,
-   "record": "3-4-0",
-   "wtWinPct": 0.45,
-   "qwb": 0.18
+   "npi": 49.02,
+   "record": "5-6-1",
+   "wtWinPct": 0.407,
+   "qwb": 0.353
   },
   {
    "key": "SCSU",
    "rank": 42,
-   "npi": 48.62,
+   "npi": 48.61,
    "record": "3-9-1",
    "wtWinPct": 0.333,
    "qwb": 0.331
@@ -343,15 +343,15 @@
   {
    "key": "MASS",
    "rank": 43,
-   "npi": 48.31,
+   "npi": 48.34,
    "record": "5-9-1",
    "wtWinPct": 0.348,
-   "qwb": 0.26
+   "qwb": 0.268
   },
   {
    "key": "LSS",
    "rank": 44,
-   "npi": 48.15,
+   "npi": 48.13,
    "record": "4-5-3",
    "wtWinPct": 0.492,
    "qwb": 0.165
@@ -359,55 +359,55 @@
   {
    "key": "RPI",
    "rank": 45,
-   "npi": 47.69,
+   "npi": 47.7,
    "record": "5-8-1",
    "wtWinPct": 0.415,
    "qwb": 0.045
   },
   {
-   "key": "AF",
-   "rank": 46,
-   "npi": 47.34,
-   "record": "5-8-0",
-   "wtWinPct": 0.379,
-   "qwb": 0.197
-  },
-  {
    "key": "HC",
-   "rank": 47,
-   "npi": 47.31,
+   "rank": 46,
+   "npi": 47.3,
    "record": "5-10-0",
    "wtWinPct": 0.338,
    "qwb": 0.017
   },
   {
    "key": "RIT",
-   "rank": 48,
-   "npi": 47.18,
+   "rank": 47,
+   "npi": 47.16,
    "record": "3-8-1",
    "wtWinPct": 0.368,
    "qwb": 0.0
   },
   {
    "key": "SHU",
-   "rank": 49,
-   "npi": 46.82,
+   "rank": 48,
+   "npi": 46.81,
    "record": "6-8-0",
    "wtWinPct": 0.394,
-   "qwb": 0.029
+   "qwb": 0.028
+  },
+  {
+   "key": "AF",
+   "rank": 49,
+   "npi": 46.79,
+   "record": "5-9-0",
+   "wtWinPct": 0.357,
+   "qwb": 0.183
   },
   {
    "key": "UML",
    "rank": 50,
-   "npi": 46.71,
+   "npi": 46.73,
    "record": "4-10-0",
    "wtWinPct": 0.334,
-   "qwb": 0.235
+   "qwb": 0.237
   },
   {
    "key": "CAN",
    "rank": 51,
-   "npi": 46.2,
+   "npi": 46.19,
    "record": "4-7-2",
    "wtWinPct": 0.427,
    "qwb": 0.0
@@ -421,33 +421,33 @@
    "qwb": 0.541
   },
   {
-   "key": "BRWN",
+   "key": "STO",
    "rank": 53,
-   "npi": 45.79,
+   "npi": 45.85,
+   "record": "5-6-0",
+   "wtWinPct": 0.333,
+   "qwb": 0.191
+  },
+  {
+   "key": "BRWN",
+   "rank": 54,
+   "npi": 45.85,
    "record": "2-5-0",
    "wtWinPct": 0.286,
    "qwb": 0.0
   },
   {
    "key": "SLU",
-   "rank": 54,
-   "npi": 45.68,
+   "rank": 55,
+   "npi": 45.7,
    "record": "2-4-1",
    "wtWinPct": 0.364,
-   "qwb": 0.286
-  },
-  {
-   "key": "STO",
-   "rank": 55,
-   "npi": 45.62,
-   "record": "5-6-0",
-   "wtWinPct": 0.333,
-   "qwb": 0.19
+   "qwb": 0.287
   },
   {
    "key": "LIU",
    "rank": 56,
-   "npi": 45.57,
+   "npi": 45.54,
    "record": "4-9-0",
    "wtWinPct": 0.344,
    "qwb": 0.0
@@ -455,7 +455,7 @@
   {
    "key": "COR",
    "rank": 57,
-   "npi": 45.26,
+   "npi": 45.37,
    "record": "3-5-0",
    "wtWinPct": 0.316,
    "qwb": 0.0
@@ -463,31 +463,31 @@
   {
    "key": "PSU",
    "rank": 58,
-   "npi": 45.02,
+   "npi": 45.01,
    "record": "2-11-1",
    "wtWinPct": 0.206,
-   "qwb": 0.106
+   "qwb": 0.105
   },
   {
    "key": "COLG",
    "rank": 59,
-   "npi": 44.8,
+   "npi": 44.9,
    "record": "4-10-0",
    "wtWinPct": 0.299,
-   "qwb": 0.335
+   "qwb": 0.34
   },
   {
    "key": "LIN",
    "rank": 60,
-   "npi": 44.3,
+   "npi": 44.22,
    "record": "3-10-1",
    "wtWinPct": 0.266,
-   "qwb": 0.185
+   "qwb": 0.181
   },
   {
    "key": "BEM",
    "rank": 61,
-   "npi": 43.85,
+   "npi": 43.84,
    "record": "2-8-3",
    "wtWinPct": 0.219,
    "qwb": 0.0
@@ -495,7 +495,7 @@
   {
    "key": "UAA",
    "rank": 62,
-   "npi": 41.76,
+   "npi": 41.74,
    "record": "1-13-0",
    "wtWinPct": 0.102,
    "qwb": 0.0
