@@ -852,6 +852,12 @@
   ],
   "DEN": [
    {
+    "title": "No. 3 Pioneers Fall in Overtime to Tommies",
+    "source": "Denver Athletics",
+    "date": "2026-11-21",
+    "url": "https://denverpioneers.com/news/2026/11/21/du-pioneers-hockey-st-thomas-recap-2026-november-21"
+   },
+   {
     "title": "No. 3 Denver Ties St. Thomas 1-1 in Series Opener",
     "source": "Denver Athletics",
     "date": "2026-11-20",
@@ -892,12 +898,6 @@
     "source": "Denver Athletics",
     "date": "2026-11-12",
     "url": "https://denverpioneers.com/news/2026/11/12/preview-no-3-du-pioneers-hockey-hosts-lindenwood-on-military-appreciation-weekend"
-   },
-   {
-    "title": "Rudolph, Hicks Named NCHC Players of the Week",
-    "source": "Denver Athletics",
-    "date": "2026-11-10",
-    "url": "https://denverpioneers.com/news/2026/11/10/du-pioneers-hockey-daxon-rudolph-johnny-hicks-named-nchc-players-of-the-week"
    }
   ],
   "FSU": [
@@ -2060,6 +2060,12 @@
   ],
   "PSU": [
    {
+    "title": "Men's Hockey Falls Late to No. 2 Wisconsin, 3-2",
+    "source": "Penn State Athletics",
+    "date": "2026-11-21",
+    "url": "https://gopsusports.com/news/2026/11/21/mens-hockey-falls-late-to-no-2-wisconsin-3-2"
+   },
+   {
     "title": "Men's Hockey Drops Series Opener at No. 2 Wisconsin, 2-1",
     "source": "Penn State Athletics",
     "date": "2026-11-20",
@@ -2100,12 +2106,6 @@
     "source": "Penn State Athletics",
     "date": "2026-11-07",
     "url": "https://gopsusports.com/news/2026/11/07/mens-hockey-postgame-press-conference-notre-dame-11-6-26-1"
-   },
-   {
-    "title": "Men's Hockey Falls to Notre Dame on Teddy Toss Night, 4-2",
-    "source": "Penn State Athletics",
-    "date": "2026-11-07",
-    "url": "https://gopsusports.com/news/2026/11/07/mens-hockey-falls-to-notre-dame-on-teddy-toss-night-4-2"
    }
   ],
   "QUIN": [
@@ -2560,6 +2560,12 @@
   ],
   "UAA": [
    {
+    "title": "Seawolves shutout in Alaska Airlines Governor's Cup",
+    "source": "Alaska Anchorage Athletics",
+    "date": "2026-11-21",
+    "url": "https://goseawolves.com/news/2026/11/21/mens-ice-hockey-seawolves-shutout-in-alaska-airlines-governors-cup.aspx"
+   },
+   {
     "title": "UAF wins first game of Alaska Airlines Governor's Cup",
     "source": "Alaska Anchorage Athletics",
     "date": "2026-11-20",
@@ -2600,12 +2606,6 @@
     "source": "Alaska Anchorage Athletics",
     "date": "2026-11-10",
     "url": "https://goseawolves.com/news/2026/11/10/mens-ice-hockey-hockey-faces-tough-road-series-at-minnesota.aspx"
-   },
-   {
-    "title": "Warrener and Terpstra combine for four goals in loss",
-    "source": "Alaska Anchorage Athletics",
-    "date": "2026-11-08",
-    "url": "https://goseawolves.com/news/2026/11/7/mens-ice-hockey-warrener-and-terpstra-combine-for-four-goals-in-loss.aspx"
    }
   ],
   "UAF": [
@@ -3109,6 +3109,6 @@
    }
   ]
  },
- "updated": "2026-11-22T05:59:41Z",
+ "updated": "2026-11-22T09:58:36Z",
  "version": 1
 }
