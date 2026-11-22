@@ -2927,8 +2927,24 @@
       "tier": "official-conference",
       "title": "Northern Michigan at Ferris State Highlights 11/21/2026",
       "url": "https://www.youtube.com/watch?v=Q3SLkcxIlog"
+    },
+    {
+      "away": "WMU",
+      "date": "2026-11-21",
+      "home": "OMA",
+      "tier": "aggregator",
+      "title": "Omaha vs Western Michigan | What a Comeback | NCAA College Hockey | Highlights - November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=YQagw4H8VkY"
+    },
+    {
+      "away": "STMN",
+      "date": "2026-11-21",
+      "home": "DEN",
+      "tier": "aggregator",
+      "title": "Denver vs St Thomas | What a Game | NCAA College Hockey | Highlights - November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=zk7IjpMg-js"
     }
   ],
-  "updated": "2026-11-22T04:08:52Z",
+  "updated": "2026-11-22T04:45:57Z",
   "version": 1
 }
