@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22T02:40:08Z",
+ "updated": "2026-11-22T02:48:59Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -420,10 +420,10 @@
    "date": "2026-11-21T23:07:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 4,
-    "displayClock": "0:00"
+    "displayClock": "0:00",
+    "period": 4
    },
    "competitions": [
     {
@@ -438,7 +438,7 @@
         "displayName": "Ferris State Bulldogs",
         "abbreviation": "FRST"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -447,14 +447,12 @@
         "displayName": "Northern Michigan Wildcats",
         "abbreviation": "NMI"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/northern-michigan-vs-ferris-state/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:40:08Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/northern-michigan-vs-ferris-state/"
   },
   {
    "id": "uscho-359",
@@ -545,10 +543,10 @@
    "date": "2026-11-22T00:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 4,
-    "displayClock": "0:00"
+    "displayClock": "0:00",
+    "period": 4
    },
    "competitions": [
     {
@@ -577,9 +575,7 @@
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/niagara-vs-canisius/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:40:08Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/niagara-vs-canisius/"
   },
   {
    "id": "uscho-345",
@@ -918,8 +914,8 @@
     "type": {
      "state": "in"
     },
-    "period": 2,
-    "displayClock": "0:00"
+    "period": 3,
+    "displayClock": "16:09"
    },
    "competitions": [
     {
@@ -950,7 +946,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/liu-vs-lindenwood/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:40:08Z"
+   "clockAt": "2026-11-22T02:48:59Z"
   },
   {
    "id": "uscho-360",
@@ -962,7 +958,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "2:55"
+    "displayClock": "0:00"
    },
    "competitions": [
     {
@@ -993,7 +989,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/miami-vs-colorado-college/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:40:08Z"
+   "clockAt": "2026-11-22T02:48:59Z"
   },
   {
    "id": "uscho-361",
@@ -1005,7 +1001,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "6:31"
+    "displayClock": "0:00"
    },
    "competitions": [
     {
@@ -1036,7 +1032,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-thomas-vs-denver/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:40:08Z"
+   "clockAt": "2026-11-22T02:48:59Z"
   },
   {
    "id": "uscho-363",
@@ -1048,7 +1044,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "0:46"
+    "displayClock": "0:00"
    },
    "competitions": [
     {
@@ -1079,7 +1075,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/western-michigan-vs-omaha/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:40:08Z"
+   "clockAt": "2026-11-22T02:48:59Z"
   },
   {
    "id": "uscho-364",
