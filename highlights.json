@@ -2577,6 +2577,14 @@
       "url": "https://www.youtube.com/watch?v=u57WzmnBo8k"
     },
     {
+      "away": "NE",
+      "date": "2026-11-19",
+      "home": "STO",
+      "tier": "official-conference",
+      "title": "NORTHEASTERN at Stonehill | Men's Game Highlights | 11.19.2026",
+      "url": "https://www.youtube.com/watch?v=53kYpXmtQDE"
+    },
+    {
       "away": "PROV",
       "date": "2026-11-19",
       "home": "MASS",
@@ -2593,124 +2601,12 @@
       "url": "https://www.youtube.com/watch?v=6kxIrFApT-E"
     },
     {
-      "away": "NE",
-      "date": "2026-11-19",
-      "home": "STO",
-      "tier": "official-conference",
-      "title": "NORTHEASTERN at Stonehill | Men's Game Highlights | 11.19.2026",
-      "url": "https://www.youtube.com/watch?v=53kYpXmtQDE"
-    },
-    {
-      "away": "ND",
-      "date": "2026-11-20",
-      "home": "OSU",
-      "tier": "official-conference",
-      "title": "Notre Dame at Ohio State | Extended Highlights | Big Ten Hockey | 11/20/2026",
-      "url": "https://www.youtube.com/watch?v=--iKklGO3Kk"
-    },
-    {
-      "away": "MSU",
-      "date": "2026-11-20",
-      "home": "MICH",
-      "tier": "official-conference",
-      "title": "Michigan State at Michigan | Extended Highlights | Big Ten Hockey | 11/20/2026",
-      "url": "https://www.youtube.com/watch?v=YHIeSSypuHg"
-    },
-    {
-      "away": "PSU",
-      "date": "2026-11-20",
-      "home": "WIS",
-      "tier": "aggregator",
-      "title": "Wisconsin vs Penn State | NCAA College Hockey | Highlights - November 20, 2026",
-      "url": "https://www.youtube.com/watch?v=Nuu9Zgk6qWQ"
-    },
-    {
-      "away": "SCSU",
-      "date": "2026-11-20",
-      "home": "UND",
-      "tier": "aggregator",
-      "title": "North Dakota vs St Cloud State | NCAA College Hockey | Highlights - November 20, 2026",
-      "url": "https://www.youtube.com/watch?v=rsfzXrw8hqw"
-    },
-    {
-      "away": "WMU",
-      "date": "2026-11-20",
-      "home": "OMA",
-      "tier": "aggregator",
-      "title": "Omaha vs Western Michigan | NCAA College Hockey | Highlights - November 20, 2026",
-      "url": "https://www.youtube.com/watch?v=OgMWRXdoWk0"
-    },
-    {
-      "away": "SLU",
-      "date": "2026-11-20",
-      "home": "COLG",
-      "tier": "official",
-      "title": "Game Highlights | Colgate Men's Hockey vs. St. Lawrence | 11.20.26",
-      "url": "https://www.youtube.com/watch?v=WuOQNOMl1eU"
-    },
-    {
-      "away": "CLAR",
-      "date": "2026-11-20",
-      "home": "COR",
-      "tier": "official",
-      "title": "Highlights: Cornell Men's Ice Hockey vs Clarkson - 11/20/2026",
-      "url": "https://www.youtube.com/watch?v=-RtN03QL-3A"
-    },
-    {
-      "away": "UVM",
-      "date": "2026-11-20",
-      "home": "UML",
-      "tier": "official",
-      "title": "Ice Hockey | UMass Lowell vs Vermont Highlights (11.20.26)",
-      "url": "https://www.youtube.com/watch?v=lVjHimJGz1g"
-    },
-    {
-      "away": "BEM",
-      "date": "2026-11-20",
-      "home": "LSS",
-      "tier": "official-conference",
-      "title": "Bemidji State at Lake Superior State Highlights 11/20/2026",
-      "url": "https://www.youtube.com/watch?v=bX1CQTxzOfQ"
-    },
-    {
       "away": "ASU",
       "date": "2026-11-20",
       "home": "UMD",
       "tier": "official",
       "title": "11.20.26 HIGHLIGHTS: UMD Men's Hockey, 5. Arizona State, 1.",
       "url": "https://www.youtube.com/watch?v=VUwRcwFq6fY"
-    },
-    {
-      "away": "MTU",
-      "date": "2026-11-20",
-      "home": "MNST",
-      "tier": "official-conference",
-      "title": "Michigan Tech at Minnesota State Highlights 11/20/2026",
-      "url": "https://www.youtube.com/watch?v=dJULGE4AOOQ"
-    },
-    {
-      "away": "BC",
-      "date": "2026-11-20",
-      "home": "ME",
-      "tier": "aggregator",
-      "title": "Boston College vs Maine | NCAA College Hockey Highlights | November 20, 2026",
-      "url": "https://www.youtube.com/watch?v=LEhSfQEw9aI"
-    },
-    {
-      "away": "BU",
-      "date": "2026-11-20",
-      "home": "MRMK",
-      "tier": "aggregator",
-      "title": "Boston University vs Merrimack | NCAA College Hockey Highlights | November 20, 2026",
-      "url": "https://www.youtube.com/watch?v=MmynJyuKWBc"
-    },
-    {
-      "away": "NMI",
-      "date": "2026-11-20",
-      "home": "FSU",
-      "tier": "official-conference",
-      "title": "Northern Michigan at Ferris State Highlights 11/20/2026",
-      "url": "https://www.youtube.com/watch?v=HVpHJLVcDsA"
     },
     {
       "away": "AUG",
@@ -2721,20 +2617,20 @@
       "url": "https://www.youtube.com/watch?v=cr1BwFQmtZM"
     },
     {
-      "away": "STMN",
+      "away": "BC",
       "date": "2026-11-20",
-      "home": "DEN",
+      "home": "ME",
       "tier": "aggregator",
-      "title": "Denver vs St Thomas | NCAA College Hockey | Highlights - November 20, 2026",
-      "url": "https://www.youtube.com/watch?v=t3WTu29Gpdo"
+      "title": "Boston College vs Maine | NCAA College Hockey Highlights | November 20, 2026",
+      "url": "https://www.youtube.com/watch?v=LEhSfQEw9aI"
     },
     {
-      "away": "MIA",
+      "away": "BEM",
       "date": "2026-11-20",
-      "home": "CC",
-      "tier": "official",
-      "title": "Highlights: Miami Hockey at Colorado College 11-20",
-      "url": "https://www.youtube.com/watch?v=bpZad2v7Vdg"
+      "home": "LSS",
+      "tier": "official-conference",
+      "title": "Bemidji State at Lake Superior State Highlights 11/20/2026",
+      "url": "https://www.youtube.com/watch?v=bX1CQTxzOfQ"
     },
     {
       "away": "BRWN",
@@ -2745,12 +2641,12 @@
       "url": "https://www.youtube.com/watch?v=w09dgaXNcEA"
     },
     {
-      "away": "UAA",
+      "away": "BU",
       "date": "2026-11-20",
-      "home": "UAF",
+      "home": "MRMK",
       "tier": "aggregator",
-      "title": "Alaska Fairbanks vs Alaska Anchorage | NCAA College Hockey | Highlights - November 20, 2026",
-      "url": "https://www.youtube.com/watch?v=GUpWPrgCFSY"
+      "title": "Boston University vs Merrimack | NCAA College Hockey Highlights | November 20, 2026",
+      "url": "https://www.youtube.com/watch?v=MmynJyuKWBc"
     },
     {
       "away": "CAN",
@@ -2761,6 +2657,62 @@
       "url": "https://www.youtube.com/watch?v=l_C0oV2dSJE"
     },
     {
+      "away": "CLAR",
+      "date": "2026-11-20",
+      "home": "COR",
+      "tier": "official",
+      "title": "Highlights: Cornell Men's Ice Hockey vs Clarkson - 11/20/2026",
+      "url": "https://www.youtube.com/watch?v=-RtN03QL-3A"
+    },
+    {
+      "away": "MIA",
+      "date": "2026-11-20",
+      "home": "CC",
+      "tier": "official",
+      "title": "Highlights: Miami Hockey at Colorado College 11-20",
+      "url": "https://www.youtube.com/watch?v=bpZad2v7Vdg"
+    },
+    {
+      "away": "MSU",
+      "date": "2026-11-20",
+      "home": "MICH",
+      "tier": "official-conference",
+      "title": "Michigan State at Michigan | Extended Highlights | Big Ten Hockey | 11/20/2026",
+      "url": "https://www.youtube.com/watch?v=YHIeSSypuHg"
+    },
+    {
+      "away": "MTU",
+      "date": "2026-11-20",
+      "home": "MNST",
+      "tier": "official-conference",
+      "title": "Michigan Tech at Minnesota State Highlights 11/20/2026",
+      "url": "https://www.youtube.com/watch?v=dJULGE4AOOQ"
+    },
+    {
+      "away": "ND",
+      "date": "2026-11-20",
+      "home": "OSU",
+      "tier": "official-conference",
+      "title": "Notre Dame at Ohio State | Extended Highlights | Big Ten Hockey | 11/20/2026",
+      "url": "https://www.youtube.com/watch?v=--iKklGO3Kk"
+    },
+    {
+      "away": "NMI",
+      "date": "2026-11-20",
+      "home": "FSU",
+      "tier": "official-conference",
+      "title": "Northern Michigan at Ferris State Highlights 11/20/2026",
+      "url": "https://www.youtube.com/watch?v=HVpHJLVcDsA"
+    },
+    {
+      "away": "PSU",
+      "date": "2026-11-20",
+      "home": "WIS",
+      "tier": "aggregator",
+      "title": "Wisconsin vs Penn State | NCAA College Hockey | Highlights - November 20, 2026",
+      "url": "https://www.youtube.com/watch?v=Nuu9Zgk6qWQ"
+    },
+    {
       "away": "RMU",
       "date": "2026-11-20",
       "home": "SHU",
@@ -2769,52 +2721,52 @@
       "url": "https://www.youtube.com/watch?v=N3_LQ7aNV20"
     },
     {
-      "away": "HC",
-      "date": "2026-11-21",
-      "home": "QUIN",
+      "away": "SCSU",
+      "date": "2026-11-20",
+      "home": "UND",
       "tier": "aggregator",
-      "title": "Title:Quinnipiac vs Holy Cross | NCAA College Hockey Highlights | November 21, 2026",
-      "url": "https://www.youtube.com/watch?v=60UfJ50F9Zc"
+      "title": "North Dakota vs St Cloud State | NCAA College Hockey | Highlights - November 20, 2026",
+      "url": "https://www.youtube.com/watch?v=rsfzXrw8hqw"
     },
     {
-      "away": "ND",
-      "date": "2026-11-21",
-      "home": "OSU",
-      "tier": "aggregator",
-      "title": "Ohio State vs Notre Dame | NCAA College Hockey | Highlights - November 21, 2026",
-      "url": "https://www.youtube.com/watch?v=qV-1KySGn_A"
-    },
-    {
-      "away": "CONN",
-      "date": "2026-11-21",
-      "home": "UNH",
+      "away": "SLU",
+      "date": "2026-11-20",
+      "home": "COLG",
       "tier": "official",
-      "title": "UNH Men's Hockey vs UConn Highlights 11-21-2026",
-      "url": "https://www.youtube.com/watch?v=jnjmAc9nejg"
+      "title": "Game Highlights | Colgate Men's Hockey vs. St. Lawrence | 11.20.26",
+      "url": "https://www.youtube.com/watch?v=WuOQNOMl1eU"
     },
     {
-      "away": "MICH",
-      "date": "2026-11-21",
-      "home": "MSU",
+      "away": "STMN",
+      "date": "2026-11-20",
+      "home": "DEN",
       "tier": "aggregator",
-      "title": "Michigan State vs Michigan | NCAA College Hockey | Highlights - November 21, 2026",
-      "url": "https://www.youtube.com/watch?v=DH09mPjpulc"
+      "title": "Denver vs St Thomas | NCAA College Hockey | Highlights - November 20, 2026",
+      "url": "https://www.youtube.com/watch?v=t3WTu29Gpdo"
     },
     {
-      "away": "MASS",
-      "date": "2026-11-21",
-      "home": "PROV",
+      "away": "UAA",
+      "date": "2026-11-20",
+      "home": "UAF",
       "tier": "aggregator",
-      "title": "Providence vs Massachusetts | NCAA College Hockey Highlights | November 21, 2026",
-      "url": "https://www.youtube.com/watch?v=oVrK6LWt7gg"
+      "title": "Alaska Fairbanks vs Alaska Anchorage | NCAA College Hockey | Highlights - November 20, 2026",
+      "url": "https://www.youtube.com/watch?v=GUpWPrgCFSY"
     },
     {
-      "away": "MRMK",
-      "date": "2026-11-21",
-      "home": "BU",
+      "away": "UVM",
+      "date": "2026-11-20",
+      "home": "UML",
       "tier": "official",
-      "title": "Highlights: Men's Ice Hockey vs. Merrimack (11/21/26)",
-      "url": "https://www.youtube.com/watch?v=F2SbjrTxTS8"
+      "title": "Ice Hockey | UMass Lowell vs Vermont Highlights (11.20.26)",
+      "url": "https://www.youtube.com/watch?v=lVjHimJGz1g"
+    },
+    {
+      "away": "WMU",
+      "date": "2026-11-20",
+      "home": "OMA",
+      "tier": "aggregator",
+      "title": "Omaha vs Western Michigan | NCAA College Hockey | Highlights - November 20, 2026",
+      "url": "https://www.youtube.com/watch?v=OgMWRXdoWk0"
     },
     {
       "away": "ASU",
@@ -2831,8 +2783,72 @@
       "tier": "official",
       "title": "Bemidji State Men's Hockey Game Highlights | Nov. 21, 2026",
       "url": "https://www.youtube.com/watch?v=F-a2XnEfxgE"
+    },
+    {
+      "away": "CONN",
+      "date": "2026-11-21",
+      "home": "UNH",
+      "tier": "official",
+      "title": "UNH Men's Hockey vs UConn Highlights 11-21-2026",
+      "url": "https://www.youtube.com/watch?v=jnjmAc9nejg"
+    },
+    {
+      "away": "HC",
+      "date": "2026-11-21",
+      "home": "QUIN",
+      "tier": "aggregator",
+      "title": "Title:Quinnipiac vs Holy Cross | NCAA College Hockey Highlights | November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=60UfJ50F9Zc"
+    },
+    {
+      "away": "MASS",
+      "date": "2026-11-21",
+      "home": "PROV",
+      "tier": "aggregator",
+      "title": "Providence vs Massachusetts | NCAA College Hockey Highlights | November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=oVrK6LWt7gg"
+    },
+    {
+      "away": "MICH",
+      "date": "2026-11-21",
+      "home": "MSU",
+      "tier": "aggregator",
+      "title": "Michigan State vs Michigan | NCAA College Hockey | Highlights - November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=DH09mPjpulc"
+    },
+    {
+      "away": "MRMK",
+      "date": "2026-11-21",
+      "home": "BU",
+      "tier": "official",
+      "title": "Highlights: Men's Ice Hockey vs. Merrimack (11/21/26)",
+      "url": "https://www.youtube.com/watch?v=F2SbjrTxTS8"
+    },
+    {
+      "away": "ND",
+      "date": "2026-11-21",
+      "home": "OSU",
+      "tier": "aggregator",
+      "title": "Ohio State vs Notre Dame | NCAA College Hockey | Highlights - November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=qV-1KySGn_A"
+    },
+    {
+      "away": "PSU",
+      "date": "2026-11-21",
+      "home": "WIS",
+      "tier": "aggregator",
+      "title": "Wisconsin vs Penn State | NCAA College Hockey | Highlights - November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=rrmnPM5sj6w"
+    },
+    {
+      "away": "UVM",
+      "date": "2026-11-21",
+      "home": "UML",
+      "tier": "official",
+      "title": "Ice Hockey | UMass Lowell vs Vermont (11.21.26)",
+      "url": "https://www.youtube.com/watch?v=PKzXfj9HYtw"
     }
   ],
-  "updated": "2026-11-22T02:07:57Z",
+  "updated": "2026-11-22T02:41:10Z",
   "version": 1
 }
