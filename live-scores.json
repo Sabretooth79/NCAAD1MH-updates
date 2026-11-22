@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22T01:00:09Z",
+ "updated": "2026-11-22T01:05:14Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -218,7 +218,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "8:35"
+    "displayClock": "6:26"
    },
    "competitions": [
     {
@@ -249,7 +249,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/merrimack-vs-boston-university/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-1613",
@@ -261,7 +261,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "8:56"
+    "displayClock": "5:58"
    },
    "competitions": [
     {
@@ -292,7 +292,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/michigan-vs-michigan-state/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-1675",
@@ -304,7 +304,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "10:31"
+    "displayClock": "8:50"
    },
    "competitions": [
     {
@@ -335,7 +335,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/vermont-vs-umass-lowell/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-347",
@@ -347,7 +347,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "13:04"
+    "displayClock": "11:18"
    },
    "competitions": [
     {
@@ -378,7 +378,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/augustana-vs-bowling-green/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-348",
@@ -390,7 +390,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "12:28"
+    "displayClock": "9:04"
    },
    "competitions": [
     {
@@ -421,7 +421,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/bemidji-state-vs-lake-superior/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-359",
@@ -433,7 +433,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "11:39"
+    "displayClock": "8:05"
    },
    "competitions": [
     {
@@ -464,7 +464,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/arizona-state-vs-minnesota-duluth/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-1615",
@@ -476,7 +476,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "13:53"
+    "displayClock": "11:22"
    },
    "competitions": [
     {
@@ -507,7 +507,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/penn-state-vs-wisconsin/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-342",
@@ -519,7 +519,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "17:33"
+    "displayClock": "15:13"
    },
    "competitions": [
     {
@@ -550,7 +550,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/niagara-vs-canisius/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-345",
@@ -562,7 +562,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "16:27"
+    "displayClock": "13:22"
    },
    "competitions": [
     {
@@ -593,7 +593,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/air-force-vs-princeton/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-350",
@@ -605,7 +605,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "16:20"
+    "displayClock": "13:40"
    },
    "competitions": [
     {
@@ -629,14 +629,14 @@
         "displayName": "Yale Bulldogs",
         "abbreviation": "YALE"
        },
-       "score": "2"
+       "score": "4"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/yale-vs-rensselaer/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-351",
@@ -648,7 +648,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "17:41"
+    "displayClock": "15:32"
    },
    "competitions": [
     {
@@ -663,7 +663,7 @@
         "displayName": "Union Dutchmen",
         "abbreviation": "UNNY"
        },
-       "score": "2"
+       "score": "4"
       },
       {
        "homeAway": "away",
@@ -679,7 +679,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/brown-vs-union/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-352",
@@ -722,7 +722,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-lawrence-vs-cornell/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-353",
@@ -734,7 +734,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "13:07"
+    "displayClock": "10:18"
    },
    "competitions": [
     {
@@ -765,7 +765,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/clarkson-vs-colgate/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-356",
@@ -808,7 +808,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/boston-college-vs-maine/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-346",
@@ -820,7 +820,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "17:08"
+    "displayClock": "15:08"
    },
    "competitions": [
     {
@@ -851,7 +851,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/michigan-tech-vs-minnesota-state/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-349",
@@ -863,7 +863,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "18:16"
+    "displayClock": "15:16"
    },
    "competitions": [
     {
@@ -878,7 +878,7 @@
         "displayName": "Ferris State Bulldogs",
         "abbreviation": "FRST"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -894,7 +894,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/northern-michigan-vs-ferris-state/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-362",
@@ -906,7 +906,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "19:33"
+    "displayClock": "17:55"
    },
    "competitions": [
     {
@@ -937,7 +937,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-cloud-state-vs-north-dakota/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-358",
@@ -949,7 +949,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "19:34"
+    "displayClock": "16:39"
    },
    "competitions": [
     {
@@ -980,7 +980,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/liu-vs-lindenwood/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T01:00:09Z"
+   "clockAt": "2026-11-22T01:05:14Z"
   },
   {
    "id": "uscho-360",
