@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22T02:35:11Z",
+ "updated": "2026-11-22T02:40:08Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -414,6 +414,49 @@
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/bemidji-state-vs-lake-superior/"
   },
   {
+   "id": "uscho-349",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:07:00Z",
+   "status": {
+    "type": {
+     "state": "in"
+    },
+    "period": 4,
+    "displayClock": "0:00"
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Robert L. Ewigleben Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2222",
+        "displayName": "Ferris State Bulldogs",
+        "abbreviation": "FRST"
+       },
+       "score": "0"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "128",
+        "displayName": "Northern Michigan Wildcats",
+        "abbreviation": "NMI"
+       },
+       "score": "0"
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/northern-michigan-vs-ferris-state/",
+   "clockSrc": "espn",
+   "clockAt": "2026-11-22T02:40:08Z"
+  },
+  {
    "id": "uscho-359",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -536,7 +579,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/niagara-vs-canisius/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:35:11Z"
+   "clockAt": "2026-11-22T02:40:08Z"
   },
   {
    "id": "uscho-345",
@@ -709,10 +752,10 @@
    "date": "2026-11-22T00:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 3,
-    "displayClock": "0:00"
+    "displayClock": "0:00",
+    "period": 3
    },
    "competitions": [
     {
@@ -741,9 +784,7 @@
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/clarkson-vs-colgate/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:35:11Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/clarkson-vs-colgate/"
   },
   {
    "id": "uscho-356",
@@ -828,59 +869,16 @@
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/michigan-tech-vs-minnesota-state/"
   },
   {
-   "id": "uscho-349",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-22T00:07:00Z",
-   "status": {
-    "type": {
-     "state": "in"
-    },
-    "period": 4,
-    "displayClock": "0:00"
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Robert L. Ewigleben Ice Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2222",
-        "displayName": "Ferris State Bulldogs",
-        "abbreviation": "FRST"
-       },
-       "score": "2"
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "128",
-        "displayName": "Northern Michigan Wildcats",
-        "abbreviation": "NMI"
-       },
-       "score": "1"
-      }
-     ]
-    }
-   ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/northern-michigan-vs-ferris-state/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:35:11Z"
-  },
-  {
    "id": "uscho-362",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
    "date": "2026-11-22T00:07:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 3,
-    "displayClock": "2:11"
+    "displayClock": "0:00",
+    "period": 3
    },
    "competitions": [
     {
@@ -909,9 +907,7 @@
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-cloud-state-vs-north-dakota/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:35:11Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-cloud-state-vs-north-dakota/"
   },
   {
    "id": "uscho-358",
@@ -954,7 +950,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/liu-vs-lindenwood/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:35:11Z"
+   "clockAt": "2026-11-22T02:40:08Z"
   },
   {
    "id": "uscho-360",
@@ -966,7 +962,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "5:21"
+    "displayClock": "2:55"
    },
    "competitions": [
     {
@@ -981,7 +977,7 @@
         "displayName": "Colorado College Tigers",
         "abbreviation": "COLC"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -997,7 +993,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/miami-vs-colorado-college/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:35:11Z"
+   "clockAt": "2026-11-22T02:40:08Z"
   },
   {
    "id": "uscho-361",
@@ -1009,7 +1005,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "6:32"
+    "displayClock": "6:31"
    },
    "competitions": [
     {
@@ -1024,7 +1020,7 @@
         "displayName": "Denver Pioneers",
         "abbreviation": "DEN"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -1040,7 +1036,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-thomas-vs-denver/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:35:11Z"
+   "clockAt": "2026-11-22T02:40:08Z"
   },
   {
    "id": "uscho-363",
@@ -1052,7 +1048,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "2:53"
+    "displayClock": "0:46"
    },
    "competitions": [
     {
@@ -1083,7 +1079,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/western-michigan-vs-omaha/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T02:35:11Z"
+   "clockAt": "2026-11-22T02:40:08Z"
   },
   {
    "id": "uscho-364",
