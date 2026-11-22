@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-21T23:32:40Z",
+ "updated": "2026-11-22T01:32:34Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); rebuilt from the live page each run",
  "finals": [
   {
@@ -3164,6 +3164,46 @@
    ]
   },
   {
+   "id": "uscho-343",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Martire Family Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2529",
+        "displayName": "Sacred Heart Pioneers",
+        "abbreviation": "SHU"
+       },
+       "score": "1"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2523",
+        "displayName": "Robert Morris Colonials",
+        "abbreviation": "RMU"
+       },
+       "score": "2"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "uscho-344",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -3198,6 +3238,326 @@
         "abbreviation": "HC"
        },
        "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-348",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Taffy Abel Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "285",
+        "displayName": "Lake Superior State Lakers",
+        "abbreviation": "LSS"
+       },
+       "score": "4"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "132",
+        "displayName": "Bemidji State Beavers",
+        "abbreviation": "BST"
+       },
+       "score": "1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-354",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Schneider Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2507",
+        "displayName": "Providence Friars",
+        "abbreviation": "PROV"
+       },
+       "score": "9"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "113",
+        "displayName": "Massachusetts Minutemen",
+        "abbreviation": "MASS"
+       },
+       "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-357",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Whittemore Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "160",
+        "displayName": "New Hampshire Wildcats",
+        "abbreviation": "UNH"
+       },
+       "score": "1"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "41",
+        "displayName": "UConn Huskies",
+        "abbreviation": "CONN"
+       },
+       "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-359",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 4
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "AMSOIL Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "134",
+        "displayName": "Minnesota Duluth Bulldogs",
+        "abbreviation": "UMD"
+       },
+       "score": "4"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "9",
+        "displayName": "Arizona State Sun Devils",
+        "abbreviation": "ASU"
+       },
+       "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-1272",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Agganis Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "104",
+        "displayName": "Boston University Terriers",
+        "abbreviation": "BU"
+       },
+       "score": "5"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2771",
+        "displayName": "Merrimack Warriors",
+        "abbreviation": "MRMK"
+       },
+       "score": "1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-1613",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Munn Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "127",
+        "displayName": "Michigan State Spartans",
+        "abbreviation": "MSU"
+       },
+       "score": "2"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "130",
+        "displayName": "Michigan Wolverines",
+        "abbreviation": "MICH"
+       },
+       "score": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-1614",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Value City Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "194",
+        "displayName": "Ohio State Buckeyes",
+        "abbreviation": "OSU"
+       },
+       "score": "2"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "87",
+        "displayName": "Notre Dame Fighting Irish",
+        "abbreviation": "ND"
+       },
+       "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-1675",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 4
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Tsongas Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2349",
+        "displayName": "UMass Lowell  River Hawks",
+        "abbreviation": "UML"
+       },
+       "score": "1"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "261",
+        "displayName": "Vermont Catamounts",
+        "abbreviation": "UVM"
+       },
+       "score": "2"
       }
      ]
     }
