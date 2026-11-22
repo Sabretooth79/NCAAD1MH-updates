@@ -2697,6 +2697,14 @@
    "url": "https://www.youtube.com/watch?v=--iKklGO3Kk"
   },
   {
+   "away": "NE",
+   "date": "2026-11-20",
+   "home": "STO",
+   "tier": "full-game-fallback",
+   "title": "Northeastern at Stonehill",
+   "url": "https://necfrontrow.com/game/16769"
+  },
+  {
    "away": "NMI",
    "date": "2026-11-20",
    "home": "FSU",
@@ -2969,6 +2977,6 @@
    "url": "https://www.youtube.com/watch?v=BP8ZTxLuI_k"
   }
  ],
- "updated": "2026-11-22T08:45:35Z",
+ "updated": "2026-11-22T19:46:29Z",
  "version": 1
 }
