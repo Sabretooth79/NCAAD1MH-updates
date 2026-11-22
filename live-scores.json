@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22T03:30:41Z",
+ "updated": "2026-11-22T03:42:35Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -289,6 +289,47 @@
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/michigan-vs-michigan-state/"
+  },
+  {
+   "id": "uscho-358",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-21T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Centene Community Ice Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2815",
+        "displayName": "Lindenwood Lions",
+        "abbreviation": "LIN"
+       },
+       "score": "4"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "110133",
+        "displayName": "Long Island University Long Island University",
+        "abbreviation": "LIU"
+       },
+       "score": "6"
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/liu-vs-lindenwood/"
   },
   {
    "id": "uscho-1675",
@@ -906,59 +947,16 @@
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/clarkson-vs-colgate/"
   },
   {
-   "id": "uscho-358",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-22T01:00:00Z",
-   "status": {
-    "type": {
-     "state": "in"
-    },
-    "period": 3,
-    "displayClock": "0:00"
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Centene Community Ice Center"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "2815",
-        "displayName": "Lindenwood Lions",
-        "abbreviation": "LIN"
-       },
-       "score": "4"
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "110133",
-        "displayName": "Long Island University Long Island University",
-        "abbreviation": "LIU"
-       },
-       "score": "6"
-      }
-     ]
-    }
-   ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/liu-vs-lindenwood/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-22T03:30:41Z"
-  },
-  {
    "id": "uscho-360",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
    "date": "2026-11-22T01:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 3,
-    "displayClock": "4:54"
+    "displayClock": "0:00",
+    "period": 3
    },
    "competitions": [
     {
@@ -987,9 +985,7 @@
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/miami-vs-colorado-college/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-22T03:30:41Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/miami-vs-colorado-college/"
   },
   {
    "id": "uscho-361",
@@ -1001,7 +997,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "5:45"
+    "displayClock": "1:12"
    },
    "competitions": [
     {
@@ -1025,14 +1021,14 @@
         "displayName": "St. Thomas Tommies",
         "abbreviation": "STMN"
        },
-       "score": "2"
+       "score": "4"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/st-thomas-vs-denver/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T03:30:41Z"
+   "clockAt": "2026-11-22T03:42:35Z"
   },
   {
    "id": "uscho-363",
@@ -1044,7 +1040,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "7:01"
+    "displayClock": "0:28"
    },
    "competitions": [
     {
@@ -1075,7 +1071,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/western-michigan-vs-omaha/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T03:30:41Z"
+   "clockAt": "2026-11-22T03:42:35Z"
   },
   {
    "id": "uscho-364",
