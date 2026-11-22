@@ -2777,12 +2777,28 @@
       "url": "https://www.youtube.com/watch?v=-1frcEOBilw"
     },
     {
+      "away": "BC",
+      "date": "2026-11-21",
+      "home": "ME",
+      "tier": "official",
+      "title": "Maine Men's Hockey | Highlights vs Boston College (11.21.26)",
+      "url": "https://www.youtube.com/watch?v=e7uekVszw2w"
+    },
+    {
       "away": "BEM",
       "date": "2026-11-21",
       "home": "LSS",
       "tier": "official",
       "title": "Bemidji State Men's Hockey Game Highlights | Nov. 21, 2026",
       "url": "https://www.youtube.com/watch?v=F-a2XnEfxgE"
+    },
+    {
+      "away": "CLAR",
+      "date": "2026-11-21",
+      "home": "COLG",
+      "tier": "official",
+      "title": "Game Highlights | Colgate Men's Hockey vs. Clarkson | 11.21.26",
+      "url": "https://www.youtube.com/watch?v=o38Vauz-4jU"
     },
     {
       "away": "CONN",
@@ -2825,6 +2841,14 @@
       "url": "https://www.youtube.com/watch?v=F2SbjrTxTS8"
     },
     {
+      "away": "MTU",
+      "date": "2026-11-21",
+      "home": "MNST",
+      "tier": "official",
+      "title": "Tech Hockey | Minnesota State Highlights | 11.21.26",
+      "url": "https://www.youtube.com/watch?v=XKiTkncA3vs"
+    },
+    {
       "away": "ND",
       "date": "2026-11-21",
       "home": "OSU",
@@ -2841,6 +2865,14 @@
       "url": "https://www.youtube.com/watch?v=rrmnPM5sj6w"
     },
     {
+      "away": "SCSU",
+      "date": "2026-11-21",
+      "home": "UND",
+      "tier": "aggregator",
+      "title": "North Dakota vs St Cloud State | NCAA College Hockey | Highlights - November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=3wNzOLjJ3lE"
+    },
+    {
       "away": "UVM",
       "date": "2026-11-21",
       "home": "UML",
@@ -2849,6 +2881,6 @@
       "url": "https://www.youtube.com/watch?v=PKzXfj9HYtw"
     }
   ],
-  "updated": "2026-11-22T02:41:10Z",
+  "updated": "2026-11-22T03:09:53Z",
   "version": 1
 }
