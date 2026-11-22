@@ -2799,8 +2799,40 @@
       "tier": "aggregator",
       "title": "Michigan State vs Michigan | NCAA College Hockey | Highlights - November 21, 2026",
       "url": "https://www.youtube.com/watch?v=DH09mPjpulc"
+    },
+    {
+      "away": "MASS",
+      "date": "2026-11-21",
+      "home": "PROV",
+      "tier": "aggregator",
+      "title": "Providence vs Massachusetts | NCAA College Hockey Highlights | November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=oVrK6LWt7gg"
+    },
+    {
+      "away": "MRMK",
+      "date": "2026-11-21",
+      "home": "BU",
+      "tier": "official",
+      "title": "Highlights: Men's Ice Hockey vs. Merrimack (11/21/26)",
+      "url": "https://www.youtube.com/watch?v=F2SbjrTxTS8"
+    },
+    {
+      "away": "ASU",
+      "date": "2026-11-21",
+      "home": "UMD",
+      "tier": "aggregator",
+      "title": "Minnesota Duluth vs Arizona State | NCAA College Hockey | Highlights - November 21, 2026",
+      "url": "https://www.youtube.com/watch?v=-1frcEOBilw"
+    },
+    {
+      "away": "BEM",
+      "date": "2026-11-21",
+      "home": "LSS",
+      "tier": "official",
+      "title": "Bemidji State Men's Hockey Game Highlights | Nov. 21, 2026",
+      "url": "https://www.youtube.com/watch?v=F-a2XnEfxgE"
     }
   ],
-  "updated": "2026-11-22T01:37:10Z",
+  "updated": "2026-11-22T02:07:57Z",
   "version": 1
 }
