@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-22T04:28:05Z",
+ "updated": "2026-11-22T04:30:56Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -1079,7 +1079,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "8:45"
+    "displayClock": "6:35"
    },
    "competitions": [
     {
@@ -1110,7 +1110,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-21/alaska-anchorage-vs-alaska/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-22T04:28:05Z"
+   "clockAt": "2026-11-22T04:30:56Z"
   }
  ]
 }
