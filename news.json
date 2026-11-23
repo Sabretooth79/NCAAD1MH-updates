@@ -52,6 +52,12 @@
   ],
   "ARMY": [
    {
+    "title": "From Florida Rinks to West Point: JJ Cataldo's Rise Between the Pipes",
+    "source": "Army Athletics",
+    "date": "2026-11-23",
+    "url": "https://goarmywestpoint.com/news/2026/11/23/hockey-from-florida-rinks-to-west-point-jj-cataldos-rise-between-the-pipes"
+   },
+   {
     "title": "Cataldo Named to U.S. Collegiate Selects for 2026 Spengler Cup",
     "source": "Army Athletics",
     "date": "2026-11-19",
@@ -92,12 +98,6 @@
     "source": "Army Athletics",
     "date": "2026-11-07",
     "url": "https://goarmywestpoint.com/news/2026/11/7/no-19-hockey-splits-series-with-air-force"
-   },
-   {
-    "title": "No. 19 Hockey to Faceoff against Air Force in Colorado",
-    "source": "Army Athletics",
-    "date": "2026-11-05",
-    "url": "https://goarmywestpoint.com/news/2026/11/5/no-19-hockey-to-faceoff-against-air-force-in-colorado"
    }
   ],
   "ASU": [
@@ -302,6 +302,12 @@
   ],
   "BENT": [
    {
+    "title": "Bentley visits Harvard Tuesday night on NESN, followed by home series vs. LIU",
+    "source": "Bentley Athletics",
+    "date": "2026-11-23",
+    "url": "https://bentleyfalcons.com/news/2026/11/23/mens-ice-hockey-bentley-visits-harvard-tuesday-night-on-nesn-followed-by-home-series-vs-liu.aspx"
+   },
+   {
     "title": "NESN to air Bentley\u2019s November 24 game at Harvard",
     "source": "Bentley Athletics",
     "date": "2026-11-20",
@@ -342,12 +348,6 @@
     "source": "Bentley Athletics",
     "date": "2026-11-05",
     "url": "https://bentleyfalcons.com/news/2026/11/5/mens-ice-hockey-home-series-vs-rit-up-next-for-falcons.aspx"
-   },
-   {
-    "title": "Bentley earns series split with 4-3 win over Holy Cross",
-    "source": "Bentley Athletics",
-    "date": "2026-11-01",
-    "url": "https://bentleyfalcons.com/news/2026/10/31/mens-ice-hockey-bentley-earns-series-split-with-4-3-win-over-holy-cross.aspx"
    }
   ],
   "BGSU": [
@@ -752,6 +752,12 @@
   ],
   "COR": [
    {
+    "title": "Men's Hockey's Randle Named ECAC Hockey Rookie of the Week",
+    "source": "Cornell Athletics",
+    "date": "2026-11-23",
+    "url": "https://cornellbigred.com/news/2026/11/23/mens-ice-hockey-randle-rookie-of-the-week-release.aspx"
+   },
+   {
     "title": "Arend, Devlin Lead Men's Hockey Past St. Lawrence With Four-Goal First Period",
     "source": "Cornell Athletics",
     "date": "2026-11-21",
@@ -792,12 +798,6 @@
     "source": "Cornell Athletics",
     "date": "2026-11-11",
     "url": "https://cornellbigred.com/news/2026/11/11/mens-ice-hockey-brown-yale-preview.aspx"
-   },
-   {
-    "title": "Kraft Scores Twice as No. 16 Men\u2019s Hockey Rallies Past Princeton",
-    "source": "Cornell Athletics",
-    "date": "2026-11-07",
-    "url": "https://cornellbigred.com/news/2026/11/7/mens-ice-hockey-princeton-recap.aspx"
    }
   ],
   "DART": [
@@ -952,6 +952,12 @@
   ],
   "HAR": [
    {
+    "title": "Thanksgiving Week Starts With Harvard vs. Bentley",
+    "source": "Harvard Athletics",
+    "date": "2026-11-23",
+    "url": "https://gocrimson.com/news/2026/11/23/mens-ice-hockey-thanksgiving-week-starts-with-harvard-vs-bentley.aspx"
+   },
+   {
     "title": "Harvard Shut Out at No. 5 Quinnipiac",
     "source": "Harvard Athletics",
     "date": "2026-11-15",
@@ -992,12 +998,6 @@
     "source": "Harvard Athletics",
     "date": "2026-11-07",
     "url": "https://gocrimson.com/news/2026/11/7/mens-ice-hockey-harvard-yale-hockey-recap.aspx"
-   },
-   {
-    "title": "Harvard Opens ECAC Play With Win Over Brown",
-    "source": "Harvard Athletics",
-    "date": "2026-11-06",
-    "url": "https://gocrimson.com/news/2026/11/6/mens-ice-hockey-harvard-brown-recap.aspx"
    }
   ],
   "HC": [
@@ -3066,6 +3066,12 @@
   ],
   "YALE": [
    {
+    "title": "Pak Earns ECAC Hockey Goalie of the Week Honors",
+    "source": "Yale Athletics",
+    "date": "2026-11-23",
+    "url": "https://yalebulldogs.com/news/2026/11/23/mens-ice-hockey-pak-earns-ecac-hockey-goalie-of-the-week-honors.aspx"
+   },
+   {
     "title": "Bulldogs Earn Dominant Road Victory Over RPI",
     "source": "Yale Athletics",
     "date": "2026-11-21",
@@ -3106,15 +3112,9 @@
     "source": "Yale Athletics",
     "date": "2026-10-30",
     "url": "https://yalebulldogs.com/news/2026/10/30/mens-ice-hockey-bulldogs-open-hamilton-era-with-2-1-win-over-brown.aspx"
-   },
-   {
-    "title": "Men\u2019s Hockey Opens 2026-27 Campaign Against Brown",
-    "source": "Yale Athletics",
-    "date": "2026-10-29",
-    "url": "https://yalebulldogs.com/news/2026/10/29/mens-ice-hockey-mens-hockey-opens-2026-27-campaign-against-brown.aspx"
    }
   ]
  },
- "updated": "2026-11-23T13:59:33Z",
+ "updated": "2026-11-23T18:02:55Z",
  "version": 1
 }
