@@ -2,6 +2,12 @@
  "news": {
   "AF": [
    {
+    "title": "Princeton defeats Air Force, 4-0",
+    "source": "Air Force Athletics",
+    "date": "2026-11-22",
+    "url": "https://goairforcefalcons.com/news/2026/11/22/mens-ice-hockey-princeton-defeats-air-force-4-0"
+   },
+   {
     "title": "Princeton rallies for 4-3 overtime win over Air Force",
     "source": "Air Force Athletics",
     "date": "2026-11-21",
@@ -20,7 +26,7 @@
     "url": "https://goairforcefalcons.com/news/2026/11/13/mens-ice-hockey-air-force-falls-to-bentley-3-0-in-series-finale"
    },
    {
-    "title": "Sajevic’s overtime winner gives Air Force 4-3 win over Bentley",
+    "title": "Sajevic\u2019s overtime winner gives Air Force 4-3 win over Bentley",
     "source": "Air Force Athletics",
     "date": "2026-11-12",
     "url": "https://goairforcefalcons.com/news/2026/11/12/mens-ice-hockey-sajevics-overtime-winner-gives-air-force-4-3-win-over-bentley"
@@ -42,12 +48,6 @@
     "source": "Air Force Athletics",
     "date": "2026-11-07",
     "url": "https://goairforcefalcons.com/news/2026/11/7/mens-ice-hockey-wasik-blanks-no-19-army-in-2-0-victory-in-series-finale"
-   },
-   {
-    "title": "Air Force Falls to No. 19 Army, 4-1",
-    "source": "Air Force Athletics",
-    "date": "2026-11-06",
-    "url": "https://goairforcefalcons.com/news/2026/11/6/mens-ice-hockey-air-force-falls-to-no-19-army-4-1"
    }
   ],
   "ARMY": [
@@ -58,7 +58,7 @@
     "url": "https://goarmywestpoint.com/news/2026/11/19/hockey-cataldo-named-to-us-collegiate-selects-for-2026-spengler-cup"
    },
    {
-    "title": "Hockey’s Cataldo and Forselius Named AHA Players of the Week",
+    "title": "Hockey\u2019s Cataldo and Forselius Named AHA Players of the Week",
     "source": "Army Athletics",
     "date": "2026-11-17",
     "url": "https://goarmywestpoint.com/news/2026/11/17/hockeys-cataldo-and-forselius-named-aha-players-of-the-week"
@@ -202,7 +202,7 @@
   ],
   "BC": [
    {
-    "title": "Men’s Hockey Defeats No. 20 Maine, 4-3, for Fourth-Straight Win",
+    "title": "Men\u2019s Hockey Defeats No. 20 Maine, 4-3, for Fourth-Straight Win",
     "source": "Boston College Athletics",
     "date": "2026-11-21",
     "url": "https://bceagles.com/news/2026/11/21/mens-hockey-defeats-no-20-maine-4-3-for-fourth-straight-win"
@@ -214,37 +214,37 @@
     "url": "https://bceagles.com/news/2026/11/20/mens-hockey-eagles-blank-no-20-maine-4-0"
    },
    {
-    "title": "Men’s Hockey Travels to Maine for Two Games",
+    "title": "Men\u2019s Hockey Travels to Maine for Two Games",
     "source": "Boston College Athletics",
     "date": "2026-11-19",
     "url": "https://bceagles.com/news/2026/11/19/mens-hockey-travels-to-maine-for-two-games"
    },
    {
-    "title": "Boston College Announces Johnny Gaudreau’s Number 13 to be Retired",
+    "title": "Boston College Announces Johnny Gaudreau\u2019s Number 13 to be Retired",
     "source": "Boston College Athletics",
     "date": "2026-11-18",
     "url": "https://bceagles.com/news/2026/11/18/mens-hockey-boston-college-announces-johnny-gaudreaus-number-13-to-be-retired"
    },
    {
-    "title": "Men’s Hockey Sweeps the Weekend with 4-2 Win over UMass on Saturday",
+    "title": "Men\u2019s Hockey Sweeps the Weekend with 4-2 Win over UMass on Saturday",
     "source": "Boston College Athletics",
     "date": "2026-11-14",
     "url": "https://bceagles.com/news/2026/11/14/mens-hockey-sweeps-the-weekend-with-4-2-win-over-umass-on-saturday"
    },
    {
-    "title": "Men’s Hockey Bounces Back with Win over UMass",
+    "title": "Men\u2019s Hockey Bounces Back with Win over UMass",
     "source": "Boston College Athletics",
     "date": "2026-11-13",
     "url": "https://bceagles.com/news/2026/11/13/mens-hockey-bounces-back-with-win-over-umass"
    },
    {
-    "title": "Men’s Hockey Set for Home-and-Home Weekend Series Against UMass",
+    "title": "Men\u2019s Hockey Set for Home-and-Home Weekend Series Against UMass",
     "source": "Boston College Athletics",
     "date": "2026-11-12",
     "url": "https://bceagles.com/news/2026/11/12/mens-hockey-set-for-home-and-home-weekend-series-against-umass"
    },
    {
-    "title": "Men’s Hockey to Play UConn on ESPNU at Kelley Rink",
+    "title": "Men\u2019s Hockey to Play UConn on ESPNU at Kelley Rink",
     "source": "Boston College Athletics",
     "date": "2026-11-11",
     "url": "https://bceagles.com/news/2026/11/11/mens-hockey-to-play-uconn-on-espnu-at-kelley-rink"
@@ -288,13 +288,13 @@
     "url": "https://bsubeavers.com/news/2026/11/13/mens-ice-hockey-beavers-fall-to-rv-mavericks-in-series-opener-friday.aspx"
    },
    {
-    "title": "Klíma earns CCHA Rookie of the Week after three-goal, four-point weekend",
+    "title": "Kl\u00edma earns CCHA Rookie of the Week after three-goal, four-point weekend",
     "source": "Bemidji State Athletics",
     "date": "2026-11-09",
     "url": "https://bsubeavers.com/news/2026/11/9/mens-ice-hockey-kl-ma-earns-ccha-rookie-of-the-week-after-three-goal-four-point-weekend.aspx"
    },
    {
-    "title": "Third-period rally falls short in Beavers’ 5-3 loss at Bowling Green",
+    "title": "Third-period rally falls short in Beavers\u2019 5-3 loss at Bowling Green",
     "source": "Bemidji State Athletics",
     "date": "2026-11-07",
     "url": "https://bsubeavers.com/news/2026/11/7/mens-ice-hockey-third-period-rally-falls-short-in-beavers-5-3-loss-at-bowling-green.aspx"
@@ -302,7 +302,7 @@
   ],
   "BENT": [
    {
-    "title": "NESN to air Bentley’s November 24 game at Harvard",
+    "title": "NESN to air Bentley\u2019s November 24 game at Harvard",
     "source": "Bentley Athletics",
     "date": "2026-11-20",
     "url": "https://bentleyfalcons.com/news/2026/11/20/mens-ice-hockey-nesn-to-air-bentleys-november-24-game-at-harvard.aspx"
@@ -332,7 +332,7 @@
     "url": "https://bentleyfalcons.com/news/2026/11/7/mens-ice-hockey-late-goals-push-rit-past-bentley-3-0.aspx"
    },
    {
-    "title": "Tess’ overtime goal gives Bentley 4-3 win over RIT",
+    "title": "Tess\u2019 overtime goal gives Bentley 4-3 win over RIT",
     "source": "Bentley Athletics",
     "date": "2026-11-06",
     "url": "https://bentleyfalcons.com/news/2026/11/6/mens-ice-hockey-tess-overtime-goal-gives-bentley-4-3-win-over-rit.aspx"
@@ -364,7 +364,7 @@
     "url": "https://bgsufalcons.com/news/2026/11/20/bulans"
    },
    {
-    "title": "Brandon Whynott Earns “A” For Remainder Of Season",
+    "title": "Brandon Whynott Earns \u201cA\u201d For Remainder Of Season",
     "source": "Bowling Green Athletics",
     "date": "2026-11-18",
     "url": "https://bgsufalcons.com/news/2026/11/18/ice-hockey-brandon-whynott-earns-a-for-remainder-of-season"
@@ -382,7 +382,7 @@
     "url": "https://bgsufalcons.com/news/2026/11/14/ice-hockey-falcons-conclude-weekend-series-against-northern-michigan"
    },
    {
-    "title": "Bowling Green’s Undefeated Conference Start Comes To Close Against Northern Michigan",
+    "title": "Bowling Green\u2019s Undefeated Conference Start Comes To Close Against Northern Michigan",
     "source": "Bowling Green Athletics",
     "date": "2026-11-13",
     "url": "https://bgsufalcons.com/news/2026/11/13/ice-hockey-bowling-greens-undefeated-conference-starts-comes-to-close-against-northern-michigan"
@@ -402,7 +402,7 @@
   ],
   "BRWN": [
    {
-    "title": "Men’s Hockey Drops ECAC Matchup at Union, 5-2",
+    "title": "Men\u2019s Hockey Drops ECAC Matchup at Union, 5-2",
     "source": "Brown Athletics",
     "date": "2026-11-21",
     "url": "https://brownbears.com/news/2026/11/21/mens-ice-hockey-mens-hockey-drops-ecac-matchup-at-union-5-2"
@@ -426,7 +426,7 @@
     "url": "https://brownbears.com/news/2026/11/16/mens-ice-hockey-pulver-named-ecac-mac-goaltending-goalie-of-the-week"
    },
    {
-    "title": "Men’s Hockey Completes Weekend Sweep with 3-1 Win Over Colgate",
+    "title": "Men\u2019s Hockey Completes Weekend Sweep with 3-1 Win Over Colgate",
     "source": "Brown Athletics",
     "date": "2026-11-14",
     "url": "https://brownbears.com/news/2026/11/14/mens-ice-hockey-mens-hockey-completes-weekend-sweep-with-3-1-win-over-colgate"
@@ -438,13 +438,13 @@
     "url": "https://brownbears.com/news/2026/11/13/mens-ice-hockey-mens-hockey-upsets-no-16-16-cornell-3-1-for-first-win-of-the-season"
    },
    {
-    "title": "Men’s Hockey Set for Home-Opening Weekend Against No. 16/16 Cornell and Colgate",
+    "title": "Men\u2019s Hockey Set for Home-Opening Weekend Against No. 16/16 Cornell and Colgate",
     "source": "Brown Athletics",
     "date": "2026-11-12",
     "url": "https://brownbears.com/news/2026/11/12/mens-ice-hockey-mens-hockey-set-for-home-opening-weekend-against-no-16-16-cornell-and-colgate"
    },
    {
-    "title": "Men’s Hockey Comes Up Short at Dartmouth",
+    "title": "Men\u2019s Hockey Comes Up Short at Dartmouth",
     "source": "Brown Athletics",
     "date": "2026-11-07",
     "url": "https://brownbears.com/news/2026/11/7/mens-ice-hockey-mens-hockey-comes-up-short-at-dartmouth"
@@ -594,7 +594,7 @@
     "url": "https://cctigers.com/news/2026/11/7/mens-ice-hockey-no-11-tiges-and-lindenwood-skate-to-2-2-draw.aspx"
    },
    {
-    "title": "Björck's Four Assists Leads No. 11 Tigers Past Lindenwood",
+    "title": "Bj\u00f6rck's Four Assists Leads No. 11 Tigers Past Lindenwood",
     "source": "Colorado College Athletics",
     "date": "2026-11-07",
     "url": "https://cctigers.com/news/2026/11/6/mens-ice-hockey-bj-rcks-four-assists-leads-no-11-tigers-past-lindenwood.aspx"
@@ -758,31 +758,31 @@
     "url": "https://cornellbigred.com/news/2026/11/21/mens-ice-hockey-st-lawrence-recap.aspx"
    },
    {
-    "title": "Third-Period Push Not Enough as Men’s Hockey Falls to Clarkson",
+    "title": "Third-Period Push Not Enough as Men\u2019s Hockey Falls to Clarkson",
     "source": "Cornell Athletics",
     "date": "2026-11-20",
     "url": "https://cornellbigred.com/news/2026/11/20/mens-ice-hockey-clarkson-recap.aspx"
    },
    {
-    "title": "Men’s Hockey Looks to Rebound at Home Against Clarkson, St. Lawrence",
+    "title": "Men\u2019s Hockey Looks to Rebound at Home Against Clarkson, St. Lawrence",
     "source": "Cornell Athletics",
     "date": "2026-11-18",
     "url": "https://cornellbigred.com/news/2026/11/18/mens-ice-hockey-clarkson-st-lawrence-preview.aspx"
    },
    {
-    "title": "Men’s Hockey Alum Castagna Scores First Two NHL Goals in Flames’ Win at San Jose",
+    "title": "Men\u2019s Hockey Alum Castagna Scores First Two NHL Goals in Flames\u2019 Win at San Jose",
     "source": "Cornell Athletics",
     "date": "2026-11-18",
     "url": "https://cornellbigred.com/news/2026/11/18/mens-ice-hockey-castagna-first-nhl-goal-release.aspx"
    },
    {
-    "title": "Yale Ends Series Drought With Win Over No. 16 Men’s Hockey",
+    "title": "Yale Ends Series Drought With Win Over No. 16 Men\u2019s Hockey",
     "source": "Cornell Athletics",
     "date": "2026-11-14",
     "url": "https://cornellbigred.com/news/2026/11/14/mens-ice-hockey-yale-recap.aspx"
    },
    {
-    "title": "Zadvernyuk Scores Against Former Team as No. 16 Men’s Hockey Falls at Brown",
+    "title": "Zadvernyuk Scores Against Former Team as No. 16 Men\u2019s Hockey Falls at Brown",
     "source": "Cornell Athletics",
     "date": "2026-11-13",
     "url": "https://cornellbigred.com/news/2026/11/13/mens-ice-hockey-brown-recap.aspx"
@@ -794,7 +794,7 @@
     "url": "https://cornellbigred.com/news/2026/11/11/mens-ice-hockey-brown-yale-preview.aspx"
    },
    {
-    "title": "Kraft Scores Twice as No. 16 Men’s Hockey Rallies Past Princeton",
+    "title": "Kraft Scores Twice as No. 16 Men\u2019s Hockey Rallies Past Princeton",
     "source": "Cornell Athletics",
     "date": "2026-11-07",
     "url": "https://cornellbigred.com/news/2026/11/7/mens-ice-hockey-princeton-recap.aspx"
@@ -802,19 +802,19 @@
   ],
   "DART": [
    {
-    "title": "Özel and Charpentier Named The Richards Group Athletes of the Week",
+    "title": "\u00d6zel and Charpentier Named The Richards Group Athletes of the Week",
     "source": "Dartmouth Athletics",
     "date": "2026-11-17",
     "url": "https://dartmouthsports.com/news/2026/11/17/mens-ice-hockey-zel-and-charpentier-named-the-richards-group-athletes-of-the-week"
    },
    {
-    "title": "Undefeated Dartmouth Men’s Ice Hockey Climbs to Program-Best No. 6 in USCHO.com Poll, Earns First-Ever First-Place Votes",
+    "title": "Undefeated Dartmouth Men\u2019s Ice Hockey Climbs to Program-Best No. 6 in USCHO.com Poll, Earns First-Ever First-Place Votes",
     "source": "Dartmouth Athletics",
     "date": "2026-11-16",
     "url": "https://dartmouthsports.com/news/2026/11/16/mens-ice-hockey-undefeated-dartmouth-mens-ice-hockey-climbs-to-program-best-no-6-in-uscho-com-poll-earns-first-ever-first-place-votes"
    },
    {
-    "title": "Dartmouth’s Eric Charpentier Named ECAC Hockey Defensive Player of the Week",
+    "title": "Dartmouth\u2019s Eric Charpentier Named ECAC Hockey Defensive Player of the Week",
     "source": "Dartmouth Athletics",
     "date": "2026-11-16",
     "url": "https://dartmouthsports.com/news/2026/11/16/mens-ice-hockey-dartmouths-eric-charpentier-named-ecac-hockey-defensive-player-of-the-week"
@@ -826,7 +826,7 @@
     "url": "https://dartmouthsports.com/news/2026/11/15/mens-ice-hockey-no-11-dartmouth-stays-perfect-tops-princeton-5-2-to-move-to-6-0"
    },
    {
-    "title": "#11 Men’s Ice Hockey Downs #5 Quinnipiac, 5-2, for Fifth Straight Win to Begin the Year",
+    "title": "#11 Men\u2019s Ice Hockey Downs #5 Quinnipiac, 5-2, for Fifth Straight Win to Begin the Year",
     "source": "Dartmouth Athletics",
     "date": "2026-11-14",
     "url": "https://dartmouthsports.com/news/2026/11/14/mens-ice-hockey-11-mens-ice-hockey-downs-5-quinnipiac-5-2-for-fifth-straight-win-to-begin-the-year"
@@ -838,13 +838,13 @@
     "url": "https://dartmouthsports.com/news/2026/11/9/mens-ice-hockey-stewart-named-ecac-hockey-rookie-of-the-week-after-three-goal-weekend"
    },
    {
-    "title": "Stewart’s Pair, Power Play Lift Men’s Hockey Past Yale, 3-2",
+    "title": "Stewart\u2019s Pair, Power Play Lift Men\u2019s Hockey Past Yale, 3-2",
     "source": "Dartmouth Athletics",
     "date": "2026-11-07",
     "url": "https://dartmouthsports.com/news/2026/11/7/mens-ice-hockey-stewarts-pair-power-play-lift-mens-hockey-past-yale-3-2"
    },
    {
-    "title": "No. 12 Dartmouth Men’s Hockey Tops Brown, 3-1; Captures Second Straight Weekend Sweep at Home",
+    "title": "No. 12 Dartmouth Men\u2019s Hockey Tops Brown, 3-1; Captures Second Straight Weekend Sweep at Home",
     "source": "Dartmouth Athletics",
     "date": "2026-11-07",
     "url": "https://dartmouthsports.com/news/2026/11/7/mens-ice-hockey-no-12-dartmouth-mens-hockey-tops-brown-3-1-captures-second-straight-weekend-sweep-at-home"
@@ -1002,13 +1002,13 @@
   ],
   "HC": [
    {
-    "title": "Men’s ice hockey bested by no. 8 Quinnipiac",
+    "title": "Men\u2019s ice hockey bested by no. 8 Quinnipiac",
     "source": "Holy Cross Athletics",
     "date": "2026-11-21",
     "url": "https://goholycross.com/news/2026/11/21/mens-ice-hockey-mens-ice-hockey-bested-by-no-8-quinnipiac.aspx"
    },
    {
-    "title": "Men’s ice hockey to face no. 8 Quinnipiac",
+    "title": "Men\u2019s ice hockey to face no. 8 Quinnipiac",
     "source": "Holy Cross Athletics",
     "date": "2026-11-19",
     "url": "https://goholycross.com/news/2026/11/19/mens-ice-hockey-mens-ice-hockey-to-face-no-8-quinnipiac.aspx"
@@ -1020,31 +1020,31 @@
     "url": "https://goholycross.com/news/2026/11/14/mens-ice-hockey-mens-ice-hockey-plays-to-weekend-split-with-niagara.aspx"
    },
    {
-    "title": "Men’s ice hockey mounts comeback against Niagara",
+    "title": "Men\u2019s ice hockey mounts comeback against Niagara",
     "source": "Holy Cross Athletics",
     "date": "2026-11-14",
     "url": "https://goholycross.com/news/2026/11/13/mens-ice-hockey-mens-ice-hockey-mounts-comeback-against-niagara.aspx"
    },
    {
-    "title": "Men’s ice hockey to travel to Niagara for two-game set",
+    "title": "Men\u2019s ice hockey to travel to Niagara for two-game set",
     "source": "Holy Cross Athletics",
     "date": "2026-11-12",
     "url": "https://goholycross.com/news/2026/11/12/mens-ice-hockey-mens-ice-hockey-to-travel-to-niagara-for-two-game-set.aspx"
    },
    {
-    "title": "Men’s ice hockey bested by Northeastern",
+    "title": "Men\u2019s ice hockey bested by Northeastern",
     "source": "Holy Cross Athletics",
     "date": "2026-11-08",
     "url": "https://goholycross.com/news/2026/11/7/mens-ice-hockey-mens-ice-hockey-bested-by-northeastern.aspx"
    },
    {
-    "title": "Men’s ice hockey falls at no. 15 Merrimack",
+    "title": "Men\u2019s ice hockey falls at no. 15 Merrimack",
     "source": "Holy Cross Athletics",
     "date": "2026-11-07",
     "url": "https://goholycross.com/news/2026/11/6/mens-ice-hockey-mens-ice-hockey-falls-at-no-15-merrimack.aspx"
    },
    {
-    "title": "Men’s ice hockey set to face no. 15 Merrimack, Northeastern over the weekend",
+    "title": "Men\u2019s ice hockey set to face no. 15 Merrimack, Northeastern over the weekend",
     "source": "Holy Cross Athletics",
     "date": "2026-11-05",
     "url": "https://goholycross.com/news/2026/11/5/mens-ice-hockey-mens-ice-hockey-set-to-face-no-15-merrimack-northeastern-over-the-weekend.aspx"
@@ -1102,7 +1102,7 @@
     "url": "https://liuathletics.com/news/2026/11/21/mens-ice-hockey-six-sharks-score-mens-hockey-completes-sweep-of-lindenwood.aspx"
    },
    {
-    "title": "Men’s Hockey Opens Holiday Invitational Against Army at UBS Arena",
+    "title": "Men\u2019s Hockey Opens Holiday Invitational Against Army at UBS Arena",
     "source": "Long Island Athletics",
     "date": "2026-11-20",
     "url": "https://liuathletics.com/news/2026/11/20/mens-ice-hockey-liu-mens-hockey-to-host-empire-state-holiday-invitational-at-ubs-arena.aspx"
@@ -1120,25 +1120,25 @@
     "url": "https://www.liuathletics.com/news/2026/11/6/womens-ice-hockey-four-games-two-days-liu-hockey-takes-over-northwell-health-ice-center.aspx"
    },
    {
-    "title": "Sixten Jennersjö Named NCAA Division I Independent Player of the Month",
+    "title": "Sixten Jennersj\u00f6 Named NCAA Division I Independent Player of the Month",
     "source": "Long Island Athletics",
     "date": "2026-11-05",
     "url": "https://www.liuathletics.com/news/2026/11/5/mens-ice-hockey-sixten-jennersj-named-ncaa-division-i-independent-player-of-the-month.aspx"
    },
    {
-    "title": "LIU Men’s Hockey Announces Seven Corporate Sponsors",
+    "title": "LIU Men\u2019s Hockey Announces Seven Corporate Sponsors",
     "source": "Long Island Athletics",
     "date": "2026-11-03",
     "url": "https://www.liuathletics.com/news/2026/11/3/mens-ice-hockey-liu-mens-hockey-announces-seven-corporate-sponsors.aspx"
    },
    {
-    "title": "Men’s Hockey Carries Momentum into Western Michigan Series",
+    "title": "Men\u2019s Hockey Carries Momentum into Western Michigan Series",
     "source": "Long Island Athletics",
     "date": "2026-10-28",
     "url": "https://www.liuathletics.com/news/2026/10/28/mens-hockey-carries-momentum-into-western-michigan-series.aspx"
    },
    {
-    "title": "Men's Hockey Head Coach Earns SGA President’s Leadership Award",
+    "title": "Men's Hockey Head Coach Earns SGA President\u2019s Leadership Award",
     "source": "Long Island Athletics",
     "date": "2026-10-26",
     "url": "https://www.liuathletics.com/news/2026/10/26/mens-ice-hockey-mens-hockey-head-coach-earns-sga-presidents-leadership-award.aspx"
@@ -1496,7 +1496,7 @@
   ],
   "MRMK": [
    {
-    "title": "No. 17 Men’s Hockey Splits Series vs. No. 13 Boston University",
+    "title": "No. 17 Men\u2019s Hockey Splits Series vs. No. 13 Boston University",
     "source": "Merrimack Athletics",
     "date": "2026-11-21",
     "url": "https://merrimackathletics.com/news/2026/11/21/mens-ice-hockey-no-17-mens-hockey-splits-series-vs-no-13-boston-university.aspx"
@@ -1514,7 +1514,7 @@
     "url": "https://merrimackathletics.com/news/2026/11/19/mens-ice-hockey-mens-hockey-ready-for-home-and-home-with-boston-university.aspx"
    },
    {
-    "title": "Men’s Hockey Defeated by Providence",
+    "title": "Men\u2019s Hockey Defeated by Providence",
     "source": "Merrimack Athletics",
     "date": "2026-11-15",
     "url": "https://merrimackathletics.com/news/2026/11/15/mens-ice-hockey-mens-hockey-defeated-by-providence.aspx"
@@ -1590,7 +1590,7 @@
     "url": "https://msuspartans.com/news/2026/11/13/mens-ice-hockey-no-4-hockey-skates-to-1-1-tie-in-series-finale-at-notre-dame"
    },
    {
-    "title": "Vansaghi’s Two Goals Lead No. 4 Hockey in B1G Opener at Notre Dame",
+    "title": "Vansaghi\u2019s Two Goals Lead No. 4 Hockey in B1G Opener at Notre Dame",
     "source": "Michigan State Athletics",
     "date": "2026-11-12",
     "url": "https://msuspartans.com/news/2026/11/12/mens-ice-hockey-vansaghis-two-goals-lead-no-4-hockey-in-b1g-opener-at-notre-dame"
@@ -1602,7 +1602,7 @@
     "url": "https://msuspartans.com/news/2026/11/11/mens-ice-hockey-no-4-hockey-opens-b1g-action-at-notre-dame"
    },
    {
-    "title": "Hockey’s Cayden Lindstrom Named B1G Third Star of the Week",
+    "title": "Hockey\u2019s Cayden Lindstrom Named B1G Third Star of the Week",
     "source": "Michigan State Athletics",
     "date": "2026-11-10",
     "url": "https://msuspartans.com/news/2026/11/10/mens-ice-hockey-hockeys-cayden-lindstrom-named-b1g-third-star-of-the-week"
@@ -1822,7 +1822,7 @@
     "url": "https://nmuwildcats.com/news/2026/11/21/hockey-wildcats-earn-two-points-in-shootout.aspx"
    },
    {
-    "title": "Second time’s the charm: Darik Olson calls game in overtime",
+    "title": "Second time\u2019s the charm: Darik Olson calls game in overtime",
     "source": "Northern Michigan Athletics",
     "date": "2026-11-20",
     "url": "https://nmuwildcats.com/news/2026/11/20/hockey-second-times-the-charm-darik-olson-calls-game-in-overtime.aspx"
@@ -1872,7 +1872,7 @@
     "url": "https://omahamavs.com/news/2026/11/21/omaha-hockey-erases-three-goal-deficit-sweeps-no-4-western-michigan"
    },
    {
-    "title": "Nguyen’s Hat Trick Lifts Omaha Past No. 4 Western Michigan",
+    "title": "Nguyen\u2019s Hat Trick Lifts Omaha Past No. 4 Western Michigan",
     "source": "Omaha Athletics",
     "date": "2026-11-20",
     "url": "https://omahamavs.com/news/2026/11/20/hockey-nguyens-hat-trick-lifts-omaha-past-no-4-western-michigan"
@@ -1966,6 +1966,12 @@
   ],
   "PRIN": [
    {
+    "title": "Men's Hockey Shuts Out Air Force, 4-0, To Complete Weekend Sweep",
+    "source": "Princeton Athletics",
+    "date": "2026-11-22",
+    "url": "https://goprincetontigers.com/news/2026/11/22/mens-ice-hockey-mens-hockey-shuts-out-air-force-4-0-to-complete-weekend-sweep"
+   },
+   {
     "title": "Kai Greaves Caps Four-Point Night With OT Winner To Knock Off Air Force",
     "source": "Princeton Athletics",
     "date": "2026-11-21",
@@ -2006,12 +2012,6 @@
     "source": "Princeton Athletics",
     "date": "2026-11-06",
     "url": "https://goprincetontigers.com/news/2026/11/6/mens-ice-hockey-falls-at-colgate-in-ecac-opener"
-   },
-   {
-    "title": "Men's Ice Hockey Opens ECAC Play With Colgate/Cornell Trip",
-    "source": "Princeton Athletics",
-    "date": "2026-11-05",
-    "url": "https://goprincetontigers.com/news/2026/11/5/mens-ice-hockey-opens-ecac-play-with-colgate-cornell-trip"
    }
   ],
   "PROV": [
@@ -2166,6 +2166,12 @@
   ],
   "RIT": [
    {
+    "title": "Hockey teams to participate in annual community event at Dick's House of Sport",
+    "source": "RIT Athletics",
+    "date": "2026-11-19",
+    "url": "https://ritathletics.com/news/2026/11/19/mens-hockey-hockey-teams-to-participate-in-annual-community-event-at-dicks-house-of-sport.aspx"
+   },
+   {
     "title": "Men's Hockey signs Team IMPACT member Bentley Vega",
     "source": "RIT Athletics",
     "date": "2026-11-18",
@@ -2206,23 +2212,17 @@
     "source": "RIT Athletics",
     "date": "2026-11-05",
     "url": "https://ritathletics.com/news/2026/11/5/mens-hockey-heads-to-bentley-for-aha-doubleheader.aspx"
-   },
-   {
-    "title": "Men's Hockey falls, 3-0, at Army",
-    "source": "RIT Athletics",
-    "date": "2026-11-01",
-    "url": "https://ritathletics.com/news/2026/10/31/mens-hockey-falls-3-0-at-army.aspx"
    }
   ],
   "RMU": [
    {
-    "title": "RMU Men’s Hockey Continues Win Streak, Sweeps Sacred Heart",
+    "title": "RMU Men\u2019s Hockey Continues Win Streak, Sweeps Sacred Heart",
     "source": "Robert Morris Athletics",
     "date": "2026-11-21",
     "url": "https://rmucolonials.com/news/2026/11/21/mens-hockey-rmu-mens-hockey-continues-win-streak-sweeps-sacred-heart.aspx"
    },
    {
-    "title": "RMU Men’s Hockey Wins Fourth Straight Behind McDonald’s Four-Point Night",
+    "title": "RMU Men\u2019s Hockey Wins Fourth Straight Behind McDonald\u2019s Four-Point Night",
     "source": "Robert Morris Athletics",
     "date": "2026-11-20",
     "url": "https://rmucolonials.com/news/2026/11/20/mens-hockey-rmu-mens-hockey-wins-fourth-straight-behind-mcdonalds-four-point-night.aspx"
@@ -2246,7 +2246,7 @@
     "url": "https://rmucolonials.com/news/2026/11/10/mens-hockey-schenkel-named-aha-goaltender-of-the-week.aspx"
    },
    {
-    "title": "Schenkel’s Shutout Leads RMU to Series Sweep",
+    "title": "Schenkel\u2019s Shutout Leads RMU to Series Sweep",
     "source": "Robert Morris Athletics",
     "date": "2026-11-07",
     "url": "https://rmucolonials.com/news/2026/11/7/mens-hockey-schenkels-shutout-leads-rmu-to-series-sweep.aspx"
@@ -2284,7 +2284,7 @@
     "url": "https://rpiathletics.com/news/2026/11/14/mens-hockey-concludes-non-conference-road-trip-at-umass-lowell.aspx"
    },
    {
-    "title": "Men’s Hockey Quiet at Clarkson",
+    "title": "Men\u2019s Hockey Quiet at Clarkson",
     "source": "Rensselaer Athletics",
     "date": "2026-11-07",
     "url": "https://rpiathletics.com/news/2026/11/7/mens-hockey-quiet-at-clarkson.aspx"
@@ -2302,7 +2302,7 @@
     "url": "https://rpiathletics.com/news/2026/10/31/mens-hockey-finishes-weekend-versus-union.aspx"
    },
    {
-    "title": "Men’s Hockey Unable to Overcome Early Hole Against Union",
+    "title": "Men\u2019s Hockey Unable to Overcome Early Hole Against Union",
     "source": "Rensselaer Athletics",
     "date": "2026-10-30",
     "url": "https://rpiathletics.com/news/2026/10/30/mens-hockey-unable-to-overcome-early-hole-against-union.aspx"
@@ -2316,13 +2316,13 @@
   ],
   "SCSU": [
    {
-    "title": "St. Cloud State Men’s Hockey Falls to North Dakota on the Road",
+    "title": "St. Cloud State Men\u2019s Hockey Falls to North Dakota on the Road",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-21",
     "url": "https://scsuhuskies.com/news/2026/11/21/mens-hockey-st-cloud-state-mens-hockey-falls-to-north-dakota-on-the-road"
    },
    {
-    "title": "Pilgrim Nets Two Goals in St. Cloud State Men’s Hockey’s Series Opening Defeat to No. 7/6 North Dakota",
+    "title": "Pilgrim Nets Two Goals in St. Cloud State Men\u2019s Hockey\u2019s Series Opening Defeat to No. 7/6 North Dakota",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-20",
     "url": "https://scsuhuskies.com/news/2026/11/20/mens-hockey-pilgrim-nets-two-goals-in-st-cloud-state-mens-hockeys-series-opening-defeat-to-no-7-6-north-dakota"
@@ -2334,13 +2334,13 @@
     "url": "https://scsuhuskies.com/news/2026/11/19/st-cloud-state-mens-hockey-travels-to-no-7-6-north-dakota-for-lone-series-of-regular-season"
    },
    {
-    "title": "St. Cloud State Men’s Hockey Drops Series Finale, Swept by No. 7 Minnesota Duluth",
+    "title": "St. Cloud State Men\u2019s Hockey Drops Series Finale, Swept by No. 7 Minnesota Duluth",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-15",
     "url": "https://scsuhuskies.com/news/2026/11/15/mens-hockey-st-cloud-state-mens-hockey-drops-series-finale-swept-by-no-7-minnesota-duluth"
    },
    {
-    "title": "St. Cloud State Men’s Hockey Falls to No. 7 Minnesota Duluth",
+    "title": "St. Cloud State Men\u2019s Hockey Falls to No. 7 Minnesota Duluth",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-14",
     "url": "https://scsuhuskies.com/news/2026/11/14/mens-hockey-st-cloud-state-mens-hockey-falls-to-no-7-minnesota-duluth"
@@ -2358,7 +2358,7 @@
     "url": "https://scsuhuskies.com/news/2026/11/10/mens-hockey-the-nick-oliver-show-nov-9-2026-head-coach-nick-oliver-nolan-stevenson-noah-urness"
    },
    {
-    "title": "St. Cloud State Men’s Hockey and Kwik Trip Team Up for Military Appreciation Weekend",
+    "title": "St. Cloud State Men\u2019s Hockey and Kwik Trip Team Up for Military Appreciation Weekend",
     "source": "St. Cloud State Athletics",
     "date": "2026-11-10",
     "url": "https://scsuhuskies.com/news/2026/11/10/mens-hockey-st-cloud-state-mens-hockey-and-kwik-trip-team-up-for-military-appreciation-weekend"
@@ -2366,7 +2366,7 @@
   ],
   "SHU": [
    {
-    "title": "Men’s Ice Hockey Falls in Finale to RMU, 2-1",
+    "title": "Men\u2019s Ice Hockey Falls in Finale to RMU, 2-1",
     "source": "Sacred Heart Athletics",
     "date": "2026-11-21",
     "url": "https://sacredheartpioneers.com/news/2026/11/21/mens-ice-hockey-mens-ice-hockey-falls-in-finale-to-rmu-2-1"
@@ -2384,13 +2384,13 @@
     "url": "https://sacredheartpioneers.com/news/2026/11/19/mens-ice-hockey-welcomes-robert-morris-for-last-games-before-thanksgiving"
    },
    {
-    "title": "Men’s Ice Hockey Falls in Finale at No. 18 Army",
+    "title": "Men\u2019s Ice Hockey Falls in Finale at No. 18 Army",
     "source": "Sacred Heart Athletics",
     "date": "2026-11-14",
     "url": "https://sacredheartpioneers.com/news/2026/11/14/mens-ice-hockey-mens-ice-hockey-falls-in-finale-at-no-18-army"
    },
    {
-    "title": "Men’s Hockey Drops Opener at No. 18 Army",
+    "title": "Men\u2019s Hockey Drops Opener at No. 18 Army",
     "source": "Sacred Heart Athletics",
     "date": "2026-11-13",
     "url": "https://sacredheartpioneers.com/news/2026/11/13/mens-ice-hockey-mens-hockey-drops-opener-at-army"
@@ -2408,7 +2408,7 @@
     "url": "https://sacredheartpioneers.com/news/2026/11/10/mens-ice-hockey-vanrooyan-vermette-win-aha-weekly-awards"
    },
    {
-    "title": "Men’s Ice Hockey Completes Sweep of Canisius with Saturday 5-2 Win",
+    "title": "Men\u2019s Ice Hockey Completes Sweep of Canisius with Saturday 5-2 Win",
     "source": "Sacred Heart Athletics",
     "date": "2026-11-07",
     "url": "https://sacredheartpioneers.com/news/2026/11/7/mens-ice-hockey-mens-ice-hockey-completes-sweep-of-canisius-with-saturday-5-2-win"
@@ -2466,19 +2466,19 @@
   ],
   "STMN": [
    {
-    "title": "Lucas Van Vliet’s natural hat trick leads Tommies to series win over No. 3 Denver",
+    "title": "Lucas Van Vliet\u2019s natural hat trick leads Tommies to series win over No. 3 Denver",
     "source": "St. Thomas Athletics",
     "date": "2026-11-21",
     "url": "https://tommiesports.com/news/2026/11/21/mens-hockey-lucas-van-vliets-natural-hat-trick-leads-tommies-to-series-win-over-no-3-denver"
    },
    {
-    "title": "Men’s Hockey takes two points from No. 3 Denver in shootout",
+    "title": "Men\u2019s Hockey takes two points from No. 3 Denver in shootout",
     "source": "St. Thomas Athletics",
     "date": "2026-11-20",
     "url": "https://tommiesports.com/news/2026/11/20/mens-hockey-mens-hockey-takes-two-points-from-no-3-denver-in-shootout"
    },
    {
-    "title": "Men’s hockey heads to Denver for series with reigning national champs",
+    "title": "Men\u2019s hockey heads to Denver for series with reigning national champs",
     "source": "St. Thomas Athletics",
     "date": "2026-11-19",
     "url": "https://tommiesports.com/news/2026/11/19/mens-hockey-mens-hockey-heads-to-denver-for-series-with-reigning-national-champs"
@@ -2490,13 +2490,13 @@
     "url": "https://tommiesports.com/news/2026/11/14/mens-hockey-van-vliet-scores-ninth-and-10th-goals-of-season"
    },
    {
-    "title": "Men’s hockey suffers setback in NCHC home opener",
+    "title": "Men\u2019s hockey suffers setback in NCHC home opener",
     "source": "St. Thomas Athletics",
     "date": "2026-11-13",
     "url": "https://tommiesports.com/news/2026/11/13/mens-hockey-mens-hockey-suffers-setback-in-nchc-home-opener"
    },
    {
-    "title": "Men’s Hockey hosts No. 8 North Dakota in NCHC home opener",
+    "title": "Men\u2019s Hockey hosts No. 8 North Dakota in NCHC home opener",
     "source": "St. Thomas Athletics",
     "date": "2026-11-12",
     "url": "https://tommiesports.com/news/2026/11/12/mens-hockey-mens-hockey-hosts-no-8-north-dakota-in-nchc-home-opener"
@@ -2822,13 +2822,13 @@
     "url": "https://unhwildcats.com/news/2026/11/21/mens-ice-hockey-unh-uconn-to-square-off-in-saturday-afternoon-game-at-the-whitt-nov-21"
    },
    {
-    "title": "Men’s Hockey Drops Game to UConn, 3-1",
+    "title": "Men\u2019s Hockey Drops Game to UConn, 3-1",
     "source": "New Hampshire Athletics",
     "date": "2026-11-21",
     "url": "https://unhwildcats.com/news/2026/11/21/mens-ice-hockey-mens-hockey-drops-game-to-uconn-3-1"
    },
    {
-    "title": "Men’s Hockey Earns 6-3 Win at UConn",
+    "title": "Men\u2019s Hockey Earns 6-3 Win at UConn",
     "source": "New Hampshire Athletics",
     "date": "2026-11-19",
     "url": "https://unhwildcats.com/news/2026/11/19/mens-ice-hockey-mens-hockey-earns-6-3-win-at-uconn"
@@ -2840,25 +2840,25 @@
     "url": "https://unhwildcats.com/news/2026/11/14/mens-ice-hockey-unh-set-for-saturday-evening-matchup-with-union-at-the-whitt-nov-14"
    },
    {
-    "title": "Men’s Hockey Falls to Union, 4-1",
+    "title": "Men\u2019s Hockey Falls to Union, 4-1",
     "source": "New Hampshire Athletics",
     "date": "2026-11-14",
     "url": "https://unhwildcats.com/news/2026/11/14/mens-ice-hockey-mens-hockey-falls-to-union-4-1"
    },
    {
-    "title": "Men’s Hockey Takes the Overtime Win Over RPI, 5-4",
+    "title": "Men\u2019s Hockey Takes the Overtime Win Over RPI, 5-4",
     "source": "New Hampshire Athletics",
     "date": "2026-11-13",
     "url": "https://unhwildcats.com/news/2026/11/13/mens-ice-hockey-mens-hockey-takes-the-overtime-win-over-rpi-5-4"
    },
    {
-    "title": "Men’s Hockey Defeats UMass Lowell, 5-4, in OT",
+    "title": "Men\u2019s Hockey Defeats UMass Lowell, 5-4, in OT",
     "source": "New Hampshire Athletics",
     "date": "2026-11-07",
     "url": "https://unhwildcats.com/news/2026/11/7/mens-ice-hockey-mens-hockey-defeats-umass-lowell-5-4-in-ot"
    },
    {
-    "title": "Men’s Hockey Shuts Out UMass Lowell, 3-0",
+    "title": "Men\u2019s Hockey Shuts Out UMass Lowell, 3-0",
     "source": "New Hampshire Athletics",
     "date": "2026-11-06",
     "url": "https://unhwildcats.com/news/2026/11/6/mens-ice-hockey-mens-hockey-shuts-out-umass-lowell-3-0"
@@ -2984,7 +2984,7 @@
     "url": "https://uwbadgers.com/news/2026/11/19/mens-hockey-quick-six-no-2-badgers-host-penn-state"
    },
    {
-    "title": "Wisconsin Hockey Hour live on Tuesday at Buck & Honey’s in Waunakee Weekly show airs live this week at 7 p.m. with Mike Hastings, Mark Johnson November 15, 2026 / MHOCKEY 3d",
+    "title": "Wisconsin Hockey Hour live on Tuesday at Buck & Honey\u2019s in Waunakee Weekly show airs live this week at 7 p.m. with Mike Hastings, Mark Johnson November 15, 2026 / MHOCKEY 3d",
     "source": "Wisconsin Athletics",
     "date": "2026-11-15",
     "url": "https://uwbadgers.com/news/2026/11/15/mens-hockey-wisconsin-hockey-hour-live-on-tuesday-at-buck-honeys-in-waunakee"
@@ -3040,7 +3040,7 @@
     "url": "https://wmubroncos.com/news/2026/11/16/mens-ice-hockey-hockey-rises-4-4-in-national-polls.aspx"
    },
    {
-    "title": "#6/6 Hockey Sweeps #12/13 Colorado College on Väisänen's Overtime Winner",
+    "title": "#6/6 Hockey Sweeps #12/13 Colorado College on V\u00e4is\u00e4nen's Overtime Winner",
     "source": "Western Michigan Athletics",
     "date": "2026-11-14",
     "url": "https://wmubroncos.com/news/2026/11/14/mens-ice-hockey-6-6-hockey-sweeps-12-13-colorado-college-on-v-is-nens-overtime-winner.aspx"
@@ -3052,7 +3052,7 @@
     "url": "https://wmubroncos.com/news/2026/11/13/mens-ice-hockey-broncos-blank-12-13-colorado-college-for-program-win-no-950.aspx"
    },
    {
-    "title": "U.S. Collegiate Selects adds Väisänen for 2026 Spengler Cup",
+    "title": "U.S. Collegiate Selects adds V\u00e4is\u00e4nen for 2026 Spengler Cup",
     "source": "Western Michigan Athletics",
     "date": "2026-11-12",
     "url": "https://wmubroncos.com/news/2026/11/12/mens-ice-hockey-us-collegiate-selects-adds-v-is-nen-for-2026-spengler-cup.aspx"
@@ -3072,13 +3072,13 @@
     "url": "https://yalebulldogs.com/news/2026/11/21/mens-ice-hockey-bulldogs-earn-dominant-road-victory-over-rpi.aspx"
    },
    {
-    "title": "Andreychuk, O’Donnell Power Yale to Overtime Win at Union",
+    "title": "Andreychuk, O\u2019Donnell Power Yale to Overtime Win at Union",
     "source": "Yale Athletics",
     "date": "2026-11-20",
     "url": "https://yalebulldogs.com/news/2026/11/20/mens-ice-hockey-andreychuk-o-donnell-power-yale-to-overtime-win-at-union.aspx"
    },
    {
-    "title": "O’Leary Buries Winner as Yale Knocks Off No. 16 Cornell",
+    "title": "O\u2019Leary Buries Winner as Yale Knocks Off No. 16 Cornell",
     "source": "Yale Athletics",
     "date": "2026-11-14",
     "url": "https://yalebulldogs.com/news/2026/11/14/mens-ice-hockey-o-leary-buries-winner-as-yale-knocks-off-no-16-cornell.aspx"
@@ -3090,7 +3090,7 @@
     "url": "https://yalebulldogs.com/news/2026/11/13/mens-ice-hockey-mens-hockey-falls-to-colgate.aspx"
    },
    {
-    "title": "O’Donnell Delivers in Overtime as Bulldogs Beat Harvard",
+    "title": "O\u2019Donnell Delivers in Overtime as Bulldogs Beat Harvard",
     "source": "Yale Athletics",
     "date": "2026-11-08",
     "url": "https://yalebulldogs.com/news/2026/11/8/mens-ice-hockey-o-donnell-delivers-in-overtime-as-bulldogs-beat-harvard.aspx"
@@ -3108,13 +3108,13 @@
     "url": "https://yalebulldogs.com/news/2026/10/30/mens-ice-hockey-bulldogs-open-hamilton-era-with-2-1-win-over-brown.aspx"
    },
    {
-    "title": "Men’s Hockey Opens 2026-27 Campaign Against Brown",
+    "title": "Men\u2019s Hockey Opens 2026-27 Campaign Against Brown",
     "source": "Yale Athletics",
     "date": "2026-10-29",
     "url": "https://yalebulldogs.com/news/2026/10/29/mens-ice-hockey-mens-hockey-opens-2026-27-campaign-against-brown.aspx"
    }
   ]
  },
- "updated": "2026-11-22T18:00:57Z",
+ "updated": "2026-11-23T02:02:22Z",
  "version": 1
 }
