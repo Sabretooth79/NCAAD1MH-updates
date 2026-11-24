@@ -2,6 +2,12 @@
  "news": {
   "AF": [
    {
+    "title": "Air Force travels to Holy Cross, Nov. 27-28",
+    "source": "Air Force Athletics",
+    "date": "2026-11-24",
+    "url": "https://goairforcefalcons.com/news/2026/11/24/mens-ice-hockey-air-force-travels-to-holy-cross-nov-27-28"
+   },
+   {
     "title": "Princeton defeats Air Force, 4-0",
     "source": "Air Force Athletics",
     "date": "2026-11-22",
@@ -42,12 +48,6 @@
     "source": "Air Force Athletics",
     "date": "2026-11-10",
     "url": "https://goairforcefalcons.com/news/2026/11/10/mens-ice-hockey-falcons-host-bentley-nov-12-13"
-   },
-   {
-    "title": "Wasik blanks No. 19 Army in 2-0 victory in series finale",
-    "source": "Air Force Athletics",
-    "date": "2026-11-07",
-    "url": "https://goairforcefalcons.com/news/2026/11/7/mens-ice-hockey-wasik-blanks-no-19-army-in-2-0-victory-in-series-finale"
    }
   ],
   "ARMY": [
@@ -252,6 +252,12 @@
   ],
   "BEM": [
    {
+    "title": "Beavers renew series with Tommies with split-site series beginning Wednesday",
+    "source": "Bemidji State Athletics",
+    "date": "2026-11-24",
+    "url": "https://bsubeavers.com/news/2026/11/24/mens-ice-hockey-beavers-renew-series-with-tommies-with-split-site-series-beginning-wednesday.aspx"
+   },
+   {
     "title": "Late empty-net Goals Lift Lake Superior State Past Beavers, 4-1",
     "source": "Bemidji State Athletics",
     "date": "2026-11-21",
@@ -292,12 +298,6 @@
     "source": "Bemidji State Athletics",
     "date": "2026-11-09",
     "url": "https://bsubeavers.com/news/2026/11/9/mens-ice-hockey-kl-ma-earns-ccha-rookie-of-the-week-after-three-goal-four-point-weekend.aspx"
-   },
-   {
-    "title": "Third-period rally falls short in Beavers\u2019 5-3 loss at Bowling Green",
-    "source": "Bemidji State Athletics",
-    "date": "2026-11-07",
-    "url": "https://bsubeavers.com/news/2026/11/7/mens-ice-hockey-third-period-rally-falls-short-in-beavers-5-3-loss-at-bowling-green.aspx"
    }
   ],
   "BENT": [
@@ -802,6 +802,12 @@
   ],
   "DART": [
    {
+    "title": "Emmett Croteau Selected to U.S. Collegiate Selects Team",
+    "source": "Dartmouth Athletics",
+    "date": "2026-11-23",
+    "url": "https://dartmouthsports.com/news/2026/11/23/mens-ice-hockey-emmett-croteau-selected-to-us-collegiate-selects-team"
+   },
+   {
     "title": "\u00d6zel and Charpentier Named The Richards Group Athletes of the Week",
     "source": "Dartmouth Athletics",
     "date": "2026-11-17",
@@ -842,12 +848,6 @@
     "source": "Dartmouth Athletics",
     "date": "2026-11-07",
     "url": "https://dartmouthsports.com/news/2026/11/7/mens-ice-hockey-stewarts-pair-power-play-lift-mens-hockey-past-yale-3-2"
-   },
-   {
-    "title": "No. 12 Dartmouth Men\u2019s Hockey Tops Brown, 3-1; Captures Second Straight Weekend Sweep at Home",
-    "source": "Dartmouth Athletics",
-    "date": "2026-11-07",
-    "url": "https://dartmouthsports.com/news/2026/11/7/mens-ice-hockey-no-12-dartmouth-mens-hockey-tops-brown-3-1-captures-second-straight-weekend-sweep-at-home"
    }
   ],
   "DEN": [
@@ -1566,7 +1566,7 @@
   ],
   "MSU": [
    {
-    "title": "No. 8/9 Hockey Shuts Out Top-Ranked Rival Michigan, 2-0",
+    "title": "Story Recap",
     "source": "Michigan State Athletics",
     "date": "2026-11-21",
     "url": "https://msuspartans.com/news/2026/11/21/mens-ice-hockey-no-8-9-hockey-shuts-out-top-ranked-rival-michigan-2-0"
@@ -1584,7 +1584,7 @@
     "url": "https://msuspartans.com/news/2026/11/19/mens-ice-hockey-no-8-9-hockey-set-for-home-and-home-with-no-1-michigan"
    },
    {
-    "title": "Story Recap",
+    "title": "No. 4 Hockey Skates to 1-1 Tie in Series Finale at Notre Dame",
     "source": "Michigan State Athletics",
     "date": "2026-11-13",
     "url": "https://msuspartans.com/news/2026/11/13/mens-ice-hockey-no-4-hockey-skates-to-1-1-tie-in-series-finale-at-notre-dame"
@@ -1615,6 +1615,12 @@
    }
   ],
   "MTU": [
+   {
+    "title": "Tech Hockey | Bill Muckalt Press Conference | 11.24.26",
+    "source": "Michigan Tech Athletics",
+    "date": "2026-11-24",
+    "url": "https://michigantechhuskies.com/news/2026/11/24/mens-ice-hockey-tech-hockey-bill-muckalt-press-conference-11-24-26.aspx"
+   },
    {
     "title": "Michigan Tech Hockey Radio Show",
     "source": "Michigan Tech Athletics",
@@ -1656,12 +1662,6 @@
     "source": "Michigan Tech Athletics",
     "date": "2026-11-14",
     "url": "https://michigantechhuskies.com/news/2026/11/14/mens-ice-hockey-tech-hockey-tristan-delisle-lssu-postgame-11-13-26.aspx"
-   },
-   {
-    "title": "Tech Hockey | LSSU Highlights | 11.14.26",
-    "source": "Michigan Tech Athletics",
-    "date": "2026-11-14",
-    "url": "https://michigantechhuskies.com/news/2026/11/14/mens-ice-hockey-tech-hockey-lssu-highlights-11-14-26.aspx"
    }
   ],
   "ND": [
@@ -2466,6 +2466,12 @@
   ],
   "STMN": [
    {
+    "title": "Men\u2019s Hockey takes on Bemidji State in split home-and-home",
+    "source": "St. Thomas Athletics",
+    "date": "2026-11-24",
+    "url": "https://tommiesports.com/news/2026/11/24/mens-hockey-mens-hockey-takes-on-bemidji-state-in-split-home-and-home"
+   },
+   {
     "title": "Lucas Van Vliet and Chase Cheslock earn NCHC weekly honors",
     "source": "St. Thomas Athletics",
     "date": "2026-11-24",
@@ -2506,12 +2512,6 @@
     "source": "St. Thomas Athletics",
     "date": "2026-11-12",
     "url": "https://tommiesports.com/news/2026/11/12/mens-hockey-mens-hockey-hosts-no-8-north-dakota-in-nchc-home-opener"
-   },
-   {
-    "title": "Lucas Van Vliet earns NCHC Forward of the Week",
-    "source": "St. Thomas Athletics",
-    "date": "2026-11-10",
-    "url": "https://tommiesports.com/news/2026/11/10/mens-hockey-lucas-van-vliet-earns-nchc-forward-of-the-week"
    }
   ],
   "STO": [
@@ -2566,6 +2566,12 @@
   ],
   "UAA": [
    {
+    "title": "Hockey heads to desert to tangle with Sun Devils",
+    "source": "Alaska Anchorage Athletics",
+    "date": "2026-11-24",
+    "url": "https://goseawolves.com/news/2026/11/24/mens-ice-hockey-hockey-heads-to-desert-to-tangle-with-sun-devils.aspx"
+   },
+   {
     "title": "Seawolves shutout in Alaska Airlines Governor's Cup",
     "source": "Alaska Anchorage Athletics",
     "date": "2026-11-21",
@@ -2606,12 +2612,6 @@
     "source": "Alaska Anchorage Athletics",
     "date": "2026-11-13",
     "url": "https://goseawolves.com/news/2026/11/13/mens-ice-hockey-penalties-plague-seawolves-in-minneapolis.aspx"
-   },
-   {
-    "title": "Hockey faces tough road series at Minnesota",
-    "source": "Alaska Anchorage Athletics",
-    "date": "2026-11-10",
-    "url": "https://goseawolves.com/news/2026/11/10/mens-ice-hockey-hockey-faces-tough-road-series-at-minnesota.aspx"
    }
   ],
   "UAF": [
@@ -2866,6 +2866,12 @@
   ],
   "UNNY": [
    {
+    "title": "Men's Hockey Hosts Ohio State",
+    "source": "Union Athletics",
+    "date": "2026-11-24",
+    "url": "https://unionathletics.com/news/2026/11/24/mens-hockey-hosts-ohio-state.aspx"
+   },
+   {
     "title": "Men's Hockey Races Past Brown, 5-2",
     "source": "Union Athletics",
     "date": "2026-11-21",
@@ -2906,12 +2912,6 @@
     "source": "Union Athletics",
     "date": "2026-11-13",
     "url": "https://unionathletics.com/news/2026/11/13/mens-hockeys-comeback-attempt-falls-short.aspx"
-   },
-   {
-    "title": "Men's Hockey Wraps Up Road Trip Against UMass Lowell & UNH",
-    "source": "Union Athletics",
-    "date": "2026-11-12",
-    "url": "https://unionathletics.com/news/2026/11/12/mens-hockey-wraps-up-road-trip-against-umass-lowell-unh.aspx"
    }
   ],
   "UVM": [
@@ -3115,6 +3115,6 @@
    }
   ]
  },
- "updated": "2026-11-24T17:59:33Z",
+ "updated": "2026-11-24T21:59:29Z",
  "version": 1
 }
