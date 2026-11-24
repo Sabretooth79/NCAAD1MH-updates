@@ -502,6 +502,12 @@
   ],
   "CAN": [
    {
+    "title": "Lisson Tabbed AHA Rookie of the Week",
+    "source": "Canisius Athletics",
+    "date": "2026-11-24",
+    "url": "https://gogriffs.com/news/2026/11/24/ice-hockey-lisson-tabbed-aha-rookie-of-the-week.aspx"
+   },
+   {
     "title": "Hockey Finishes Three-Game Set Against Niagara Tuesday",
     "source": "Canisius Athletics",
     "date": "2026-11-23",
@@ -542,12 +548,6 @@
     "source": "Canisius Athletics",
     "date": "2026-11-13",
     "url": "https://gogriffs.com/news/2026/11/13/ice-hockey-hockey-continues-road-swing-with-visit-to-rit-saturday.aspx"
-   },
-   {
-    "title": "Hockey Goes Down in Defeat at Sacred Heart",
-    "source": "Canisius Athletics",
-    "date": "2026-11-07",
-    "url": "https://gogriffs.com/news/2026/11/7/hockey-goes-down-in-defeat-at-sacred-heart.aspx"
    }
   ],
   "CC": [
@@ -1296,6 +1296,12 @@
   ],
   "MIA": [
    {
+    "title": "Drobac Named NCHC Goaltender of the Week",
+    "source": "Miami Athletics",
+    "date": "2026-11-24",
+    "url": "https://miamiredhawks.com/news/2026/11/24/hockey-drobac-named-nchc-goaltender-of-the-week"
+   },
+   {
     "title": "No. 14 RedHawks Grab Highest National Ranking Since 2015",
     "source": "Miami Athletics",
     "date": "2026-11-23",
@@ -1336,12 +1342,6 @@
     "source": "Miami Athletics",
     "date": "2026-11-11",
     "url": "https://miamiredhawks.com/news/2026/11/11/hockey-no-17-miami-welcomes-omaha-for-weekend-series"
-   },
-   {
-    "title": "Miami Hockey Moves into National Rankings at No. 17",
-    "source": "Miami Athletics",
-    "date": "2026-11-09",
-    "url": "https://miamiredhawks.com/news/2026/11/9/miami-hockey-moves-into-national-rankings"
    }
   ],
   "MICH": [
@@ -1616,6 +1616,12 @@
   ],
   "MTU": [
    {
+    "title": "Michigan Tech Hockey Radio Show",
+    "source": "Michigan Tech Athletics",
+    "date": "2026-11-24",
+    "url": "https://michigantechhuskies.com/news/2026/11/24/mens-ice-hockey-hockey-radio-show.aspx"
+   },
+   {
     "title": "Bartoszkiewicz named CCHA Goaltender of the Week",
     "source": "Michigan Tech Athletics",
     "date": "2026-11-23",
@@ -1644,12 +1650,6 @@
     "source": "Michigan Tech Athletics",
     "date": "2026-11-17",
     "url": "https://michigantechhuskies.com/news/2026/11/17/mens-ice-hockey-tech-hockey-bill-muckalt-press-conference-11-17-26.aspx"
-   },
-   {
-    "title": "Michigan Tech Hockey Radio Show",
-    "source": "Michigan Tech Athletics",
-    "date": "2026-11-17",
-    "url": "https://michigantechhuskies.com/news/2026/11/17/mens-ice-hockey-hockey-radio-show.aspx"
    },
    {
     "title": "Tech Hockey | Tristan Delisle LSSU Postgame | 11.14.26",
@@ -2216,6 +2216,12 @@
   ],
   "RMU": [
    {
+    "title": "McDonald, Babcock and Schenkel Earn Weekly Honors",
+    "source": "Robert Morris Athletics",
+    "date": "2026-11-24",
+    "url": "https://rmucolonials.com/news/2026/11/24/mens-hockey-mcdonald-babcock-and-schenkel-earn-weekly-honors.aspx"
+   },
+   {
     "title": "RMU Men\u2019s Hockey Continues Win Streak, Sweeps Sacred Heart",
     "source": "Robert Morris Athletics",
     "date": "2026-11-21",
@@ -2256,12 +2262,6 @@
     "source": "Robert Morris Athletics",
     "date": "2026-11-07",
     "url": "https://rmucolonials.com/news/2026/11/7/mens-hockey-five-different-goal-scorers-lead-rmu-to-victory-at-liu.aspx"
-   },
-   {
-    "title": "RMU Travels to LIU for Final Non-Conference Series of 2026",
-    "source": "Robert Morris Athletics",
-    "date": "2026-11-05",
-    "url": "https://rmucolonials.com/news/2026/11/5/mens-hockey-rmu-travels-to-liu-for-final-non-conference-series-of-2026.aspx"
    }
   ],
   "RPI": [
@@ -2466,6 +2466,12 @@
   ],
   "STMN": [
    {
+    "title": "Lucas Van Vliet and Chase Cheslock earn NCHC weekly honors",
+    "source": "St. Thomas Athletics",
+    "date": "2026-11-24",
+    "url": "https://tommiesports.com/news/2026/11/24/mens-hockey-lucas-van-vliet-and-chase-cheslock-earn-nchc-weekly-honors"
+   },
+   {
     "title": "Lucas Van Vliet\u2019s natural hat trick leads Tommies to series win over No. 3 Denver",
     "source": "St. Thomas Athletics",
     "date": "2026-11-21",
@@ -2506,12 +2512,6 @@
     "source": "St. Thomas Athletics",
     "date": "2026-11-10",
     "url": "https://tommiesports.com/news/2026/11/10/mens-hockey-lucas-van-vliet-earns-nchc-forward-of-the-week"
-   },
-   {
-    "title": "Van Vliet scores fourth and fifth goals of weekend in sweep of Alaska Anchorage",
-    "source": "St. Thomas Athletics",
-    "date": "2026-11-07",
-    "url": "https://tommiesports.com/news/2026/11/7/mens-hockey-van-vliet-scores-fourth-and-fifth-goals-of-weekend-in-sweep-of-alaska-anchorage"
    }
   ],
   "STO": [
@@ -3115,6 +3115,6 @@
    }
   ]
  },
- "updated": "2026-11-24T05:58:23Z",
+ "updated": "2026-11-24T17:59:33Z",
  "version": 1
 }
