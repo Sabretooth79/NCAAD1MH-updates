@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-25T00:02:01Z",
+ "updated": "2026-11-25T00:08:40Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -13,7 +13,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "4:32"
+    "displayClock": "1:20"
    },
    "competitions": [
     {
@@ -28,7 +28,7 @@
         "displayName": "Notre Dame Fighting Irish",
         "abbreviation": "ND"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -37,14 +37,14 @@
         "displayName": "Bowling Green Falcons",
         "abbreviation": "BGSU"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-24/bowling-green-vs-notre-dame/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-25T00:02:01Z"
+   "clockAt": "2026-11-25T00:08:40Z"
   },
   {
    "id": "uscho-366",
@@ -53,9 +53,10 @@
    "date": "2026-11-25T00:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1,
+    "displayClock": "16:15"
    },
    "competitions": [
     {
@@ -70,7 +71,7 @@
         "displayName": "Harvard Crimson",
         "abbreviation": "HARV"
        },
-       "score": null
+       "score": "0"
       },
       {
        "homeAway": "away",
@@ -79,12 +80,14 @@
         "displayName": "Bentley Falcons",
         "abbreviation": "BENT"
        },
-       "score": null
+       "score": "0"
       }
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-24/bentley-vs-harvard/"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-24/bentley-vs-harvard/",
+   "clockSrc": "espn",
+   "clockAt": "2026-11-25T00:08:40Z"
   },
   {
    "id": "uscho-367",
@@ -93,9 +96,10 @@
    "date": "2026-11-25T00:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1,
+    "displayClock": "18:25"
    },
    "competitions": [
     {
@@ -110,7 +114,7 @@
         "displayName": "Niagara Purple Eagles",
         "abbreviation": "NIA"
        },
-       "score": null
+       "score": "0"
       },
       {
        "homeAway": "away",
@@ -119,12 +123,14 @@
         "displayName": "Canisius Golden Griffins",
         "abbreviation": "CAN"
        },
-       "score": null
+       "score": "0"
       }
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-24/canisius-vs-niagara/"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-24/canisius-vs-niagara/",
+   "clockSrc": "espn",
+   "clockAt": "2026-11-25T00:08:40Z"
   },
   {
    "id": "uscho-368",
@@ -133,9 +139,10 @@
    "date": "2026-11-25T00:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1,
+    "displayClock": "16:44"
    },
    "competitions": [
     {
@@ -150,7 +157,7 @@
         "displayName": "Brown Bears",
         "abbreviation": "BRWN"
        },
-       "score": null
+       "score": "0"
       },
       {
        "homeAway": "away",
@@ -159,12 +166,14 @@
         "displayName": "Northeastern Huskies",
         "abbreviation": "NE"
        },
-       "score": null
+       "score": "1"
       }
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-24/northeastern-vs-brown/"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-24/northeastern-vs-brown/",
+   "clockSrc": "espn",
+   "clockAt": "2026-11-25T00:08:40Z"
   }
  ]
 }
