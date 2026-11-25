@@ -852,6 +852,12 @@
   ],
   "DEN": [
    {
+    "title": "Pioneers Rank No. 7/6 in Latest National Polls",
+    "source": "Denver Athletics",
+    "date": "2026-11-23",
+    "url": "https://denverpioneers.com/news/2026/11/23/-7-6-ice-hockey-pioneers-rank-no-7-6-in-latest-national-polls"
+   },
+   {
     "title": "No. 3 Pioneers Fall in Overtime to Tommies",
     "source": "Denver Athletics",
     "date": "2026-11-21",
@@ -892,12 +898,6 @@
     "source": "Denver Athletics",
     "date": "2026-11-13",
     "url": "https://denverpioneers.com/news/2026/11/13/no-3-du-pioneers-hockey-wins-6-3-over-lindenwood"
-   },
-   {
-    "title": "PREVIEW: No. 3 Pioneers Host Lindenwood on Military Appreciation Weekend",
-    "source": "Denver Athletics",
-    "date": "2026-11-12",
-    "url": "https://denverpioneers.com/news/2026/11/12/preview-no-3-du-pioneers-hockey-hosts-lindenwood-on-military-appreciation-weekend"
    }
   ],
   "FSU": [
@@ -1916,13 +1916,13 @@
   ],
   "OSU": [
    {
-    "title": "Buckeyes Drop Game to Notre Dame, 3-2",
+    "title": "View More About Buckeyes Drop Game to Notre Dame, 3-2",
     "source": "Ohio State Athletics",
     "date": "2026-11-21",
     "url": "https://ohiostatebuckeyes.com/news/2026/11/21/mens-ice-hockey-buckeyes-drop-game-to-notre-dame-3-2"
    },
    {
-    "title": "Buckeyes Fall to Irish in Series Opener",
+    "title": "View More About Buckeyes Fall to Irish in Series Opener",
     "source": "Ohio State Athletics",
     "date": "2026-11-20",
     "url": "https://ohiostatebuckeyes.com/news/2026/11/20/mens-ice-hockey-buckeyes-fall-to-irish-in-series-opener"
@@ -3115,6 +3115,6 @@
    }
   ]
  },
- "updated": "2026-11-24T21:59:29Z",
+ "updated": "2026-11-25T01:57:35Z",
  "version": 1
 }
