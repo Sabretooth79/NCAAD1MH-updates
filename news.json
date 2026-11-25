@@ -1916,6 +1916,12 @@
   ],
   "OSU": [
    {
+    "title": "Buckeyes Set for Thanksgiving Weekend Series at Union",
+    "source": "Ohio State Athletics",
+    "date": "2026-11-25",
+    "url": "https://ohiostatebuckeyes.com/news/2026/11/25/mens-ice-hockey-buckeyes-set-for-thanksgiving-weekend-series-at-union"
+   },
+   {
     "title": "View More About Buckeyes Drop Game to Notre Dame, 3-2",
     "source": "Ohio State Athletics",
     "date": "2026-11-21",
@@ -1956,15 +1962,15 @@
     "source": "Ohio State Athletics",
     "date": "2026-11-01",
     "url": "https://ohiostatebuckeyes.com/news/2026/11/1/mens-ice-hockey-buckeyes-battle-fall-in-ot-to-no-1-wolverines-5-4"
-   },
-   {
-    "title": "View More About Buckeyes Down No. 1 Wolverines, 5-2",
-    "source": "Ohio State Athletics",
-    "date": "2026-10-31",
-    "url": "https://ohiostatebuckeyes.com/news/2026/10/31/mens-ice-hockey-buckeyes-down-no-1-wolverines-5-2"
    }
   ],
   "PRIN": [
+   {
+    "title": "Men's Ice Hockey Heads To Penn State, Hosts Quinnipiac Over Thanksgiving Break",
+    "source": "Princeton Athletics",
+    "date": "2026-11-25",
+    "url": "https://goprincetontigers.com/news/2026/11/25/mens-ice-hockey-heads-to-penn-state-hosts-quinnipiac-over-thanksgiving-break"
+   },
    {
     "title": "Read Now",
     "source": "Princeton Athletics",
@@ -2006,12 +2012,6 @@
     "source": "Princeton Athletics",
     "date": "2026-11-07",
     "url": "https://goprincetontigers.com/news/2026/11/7/mens-ice-hockey-mens-hockey-edged-by-no-16-cornell-3-2"
-   },
-   {
-    "title": "Men's Ice Hockey Falls At Colgate In ECAC Opener",
-    "source": "Princeton Athletics",
-    "date": "2026-11-06",
-    "url": "https://goprincetontigers.com/news/2026/11/6/mens-ice-hockey-falls-at-colgate-in-ecac-opener"
    }
   ],
   "PROV": [
@@ -3115,6 +3115,6 @@
    }
   ]
  },
- "updated": "2026-11-25T05:57:23Z",
+ "updated": "2026-11-25T14:00:34Z",
  "version": 1
 }
