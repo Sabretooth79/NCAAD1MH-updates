@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-25T03:32:51Z",
+ "updated": "2026-11-26T03:32:36Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); rebuilt from the live page each run",
  "finals": [
   {
@@ -2398,6 +2398,46 @@
         "abbreviation": "BGSU"
        },
        "score": "3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-369",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-25T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Sanford Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "132",
+        "displayName": "Bemidji State Beavers",
+        "abbreviation": "BST"
+       },
+       "score": "2"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2900",
+        "displayName": "St. Thomas Tommies",
+        "abbreviation": "STMN"
+       },
+       "score": "4"
       }
      ]
     }
