@@ -52,6 +52,12 @@
   ],
   "ARMY": [
    {
+    "title": "Hockey Begins Two-Game Series at RPI Friday at 7",
+    "source": "Army Athletics",
+    "date": "2026-11-27",
+    "url": "https://goarmywestpoint.com/news/2026/11/27/hockey-begins-two-games-series-at-rpi-friday-at-7"
+   },
+   {
     "title": "From Florida Rinks to West Point: JJ Cataldo's Rise Between the Pipes",
     "source": "Army Athletics",
     "date": "2026-11-23",
@@ -92,12 +98,6 @@
     "source": "Army Athletics",
     "date": "2026-11-07",
     "url": "https://goarmywestpoint.com/news/2026/11/7/no-19-hockey-takes-game-one-at-air-force"
-   },
-   {
-    "title": "No. 19 Hockey Splits Series with Air Force",
-    "source": "Army Athletics",
-    "date": "2026-11-07",
-    "url": "https://goarmywestpoint.com/news/2026/11/7/no-19-hockey-splits-series-with-air-force"
    }
   ],
   "ASU": [
@@ -602,6 +602,12 @@
   ],
   "CLAR": [
    {
+    "title": "Clarkson Faces RIT to Open Adirondack Winter Invitational",
+    "source": "Clarkson Athletics",
+    "date": "2026-11-27",
+    "url": "https://clarksonathletics.com/news/2026/11/27/mens-hockey-clarkson-faces-rit-to-open-adirondack-winter-invitational.aspx"
+   },
+   {
     "title": "Colgate Ends Knights Unbeaten Run in ECAC Play, 6-3",
     "source": "Clarkson Athletics",
     "date": "2026-11-21",
@@ -642,12 +648,6 @@
     "source": "Clarkson Athletics",
     "date": "2026-10-31",
     "url": "https://clarksonathletics.com/news/2026/10/31/mens-hockey-knights-suffer-6-2-defeat-to-niagara.aspx"
-   },
-   {
-    "title": "Knights Record Tie in First of Two Games Versus Niagara",
-    "source": "Clarkson Athletics",
-    "date": "2026-10-30",
-    "url": "https://clarksonathletics.com/news/2026/10/30/mens-hockey-knights-record-tie-in-first-of-two-games-versus-niagara.aspx"
    }
   ],
   "COLG": [
@@ -3121,6 +3121,6 @@
    }
   ]
  },
- "updated": "2026-11-27T09:57:59Z",
+ "updated": "2026-11-27T13:59:38Z",
  "version": 1
 }
