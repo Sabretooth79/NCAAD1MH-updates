@@ -1,6 +1,767 @@
 {
  "version": 1,
- "updated": "2026-11-26T06:00:11Z",
+ "updated": "2026-11-27T06:10:14Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
- "games": []
+ "games": [
+  {
+   "id": "uscho-379",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T14:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "SSE Arena Belfast"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2507",
+        "displayName": "Providence Friars",
+        "abbreviation": "PROV"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "134",
+        "displayName": "Minnesota Duluth Bulldogs",
+        "abbreviation": "UMD"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/providence-vs-minnesota-duluth/"
+  },
+  {
+   "id": "uscho-943",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T19:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "SSE Arena Belfast"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2142",
+        "displayName": "Colgate Raiders",
+        "abbreviation": "COLG"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "41",
+        "displayName": "UConn Huskies",
+        "abbreviation": "CONN"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/connecticut-vs-colgate/"
+  },
+  {
+   "id": "uscho-381",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T20:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Compton Family Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "87",
+        "displayName": "Notre Dame Fighting Irish",
+        "abbreviation": "ND"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "103",
+        "displayName": "Boston College Eagles",
+        "abbreviation": "BC"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/boston-college-vs-notre-dame/"
+  },
+  {
+   "id": "uscho-376",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T22:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "3M Arena at Mariucci"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "135",
+        "displayName": "Minnesota Golden Gophers",
+        "abbreviation": "MINN"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2364",
+        "displayName": "Minnesota State Mavericks",
+        "abbreviation": "MNST"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/minnesota-state-vs-minnesota/"
+  },
+  {
+   "id": "uscho-380",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Agganis Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "104",
+        "displayName": "Boston University Terriers",
+        "abbreviation": "BU"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2172",
+        "displayName": "Denver Pioneers",
+        "abbreviation": "DEN"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/denver-vs-boston-university/"
+  },
+  {
+   "id": "uscho-1249",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Pegula Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "213",
+        "displayName": "Penn State Nittany Lions",
+        "abbreviation": "PSU"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "163",
+        "displayName": "Princeton Tigers",
+        "abbreviation": "PRIN"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/princeton-vs-penn-state/"
+  },
+  {
+   "id": "uscho-371",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Clearview Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2523",
+        "displayName": "Robert Morris Colonials",
+        "abbreviation": "RMU"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "315",
+        "displayName": "Niagara Purple Eagles",
+        "abbreviation": "NIA"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/niagara-vs-robert-morris/"
+  },
+  {
+   "id": "uscho-372",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Hart Recreation Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "107",
+        "displayName": "Holy Cross Crusaders",
+        "abbreviation": "HC"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2005",
+        "displayName": "Air Force Falcons",
+        "abbreviation": "AFA"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/air-force-vs-holy-cross/"
+  },
+  {
+   "id": "uscho-373",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Houston Fieldhouse"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2528",
+        "displayName": "Rensselaer Engineers",
+        "abbreviation": "RPI"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "349",
+        "displayName": "Army Black Knights",
+        "abbreviation": "ARMY"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/army-vs-rensselaer/"
+  },
+  {
+   "id": "uscho-374",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Yost Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "130",
+        "displayName": "Michigan Wolverines",
+        "abbreviation": "MICH"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2222",
+        "displayName": "Ferris State Bulldogs",
+        "abbreviation": "FRST"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/ferris-state-vs-michigan/"
+  },
+  {
+   "id": "uscho-377",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "M&T Bank Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2785",
+        "displayName": "Union Dutchmen",
+        "abbreviation": "UNNY"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "194",
+        "displayName": "Ohio State Buckeyes",
+        "abbreviation": "OSU"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/ohio-state-vs-union/"
+  },
+  {
+   "id": "uscho-383",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Warrior Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "284",
+        "displayName": "Stonehill Stonehill",
+        "abbreviation": "STONEHILL"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "193",
+        "displayName": "Miami (OH) RedHawks",
+        "abbreviation": "M-OH"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/miami-vs-stonehill/"
+  },
+  {
+   "id": "uscho-385",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Baxter Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2437",
+        "displayName": "Omaha Mavericks",
+        "abbreviation": "OMA"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "43",
+        "displayName": "Yale Bulldogs",
+        "abbreviation": "YALE"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/yale-vs-omaha/"
+  },
+  {
+   "id": "uscho-386",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Gutterson Fieldhouse"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "261",
+        "displayName": "Vermont Catamounts",
+        "abbreviation": "UVM"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2594",
+        "displayName": "St. Cloud State Huskies",
+        "abbreviation": "SCSU"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/st-cloud-state-vs-vermont/"
+  },
+  {
+   "id": "uscho-1577",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:30:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Herb Brooks Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "178",
+        "displayName": "RIT Tigers",
+        "abbreviation": "RIT"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2137",
+        "displayName": "Clarkson Golden Knights",
+        "abbreviation": "CLAR"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/clarkson-vs-rit/"
+  },
+  {
+   "id": "uscho-378",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:30:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Bright-Landry Hockey Center"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "108",
+        "displayName": "Harvard Crimson",
+        "abbreviation": "HARV"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "159",
+        "displayName": "Dartmouth Big Green",
+        "abbreviation": "DART"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/dartmouth-vs-harvard/"
+  },
+  {
+   "id": "uscho-382",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T01:07:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Ralph Engelstad Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "155",
+        "displayName": "North Dakota Fighting Hawks",
+        "abbreviation": "UND"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2815",
+        "displayName": "Lindenwood Lions",
+        "abbreviation": "LIN"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/lindenwood-vs-north-dakota/"
+  },
+  {
+   "id": "uscho-384",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T02:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Mullett Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "9",
+        "displayName": "Arizona State Sun Devils",
+        "abbreviation": "ASU"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "1",
+        "displayName": "Alaska Anchorage Seawolves",
+        "abbreviation": "UAA"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/alaska-anchorage-vs-arizona-state/"
+  },
+  {
+   "id": "uscho-387",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T02:00:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Ed Robson Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2144",
+        "displayName": "Colorado College Tigers",
+        "abbreviation": "COLC"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "298",
+        "displayName": "Alaska Bulldogs",
+        "abbreviation": "AKFB"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/alaska-vs-colorado-college/"
+  }
+ ]
 }
