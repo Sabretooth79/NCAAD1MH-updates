@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T22:55:20Z",
+ "updated": "2026-11-27T23:40:49Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; ESPN-only games (no USCHO counterpart) emitted with a null boxlink; live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -133,10 +133,10 @@
    "date": "2026-11-27T21:00:00Z",
    "status": {
     "type": {
-     "state": "in"
+     "state": "post"
     },
-    "period": 3,
-    "displayClock": "10:18"
+    "displayClock": "0:00",
+    "period": 3
    },
    "competitions": [
     {
@@ -160,14 +160,12 @@
         "displayName": "Merrimack Warriors",
         "abbreviation": "MRMK"
        },
-       "score": "1"
+       "score": "5"
       }
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/st-lawrence-vs-merrimack/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-27T22:55:20Z"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/st-lawrence-vs-merrimack/"
   },
   {
    "id": "uscho-1249",
@@ -178,8 +176,8 @@
     "type": {
      "state": "in"
     },
-    "period": 2,
-    "displayClock": "18:13"
+    "period": 3,
+    "displayClock": "19:37"
    },
    "competitions": [
     {
@@ -210,7 +208,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/princeton-vs-penn-state/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-27T22:55:20Z"
+   "clockAt": "2026-11-27T23:40:49Z"
   },
   {
    "id": "uscho-376",
@@ -221,8 +219,8 @@
     "type": {
      "state": "in"
     },
-    "period": 2,
-    "displayClock": "15:02"
+    "period": 3,
+    "displayClock": "16:34"
    },
    "competitions": [
     {
@@ -253,47 +251,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/minnesota-state-vs-minnesota/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-27T22:55:20Z"
-  },
-  {
-   "id": "uscho-375",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-27T23:00:00Z",
-   "status": {
-    "type": {
-     "state": "pre"
-    },
-    "period": 0
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Slater Family Ice Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "189",
-        "displayName": "Bowling Green Falcons",
-        "abbreviation": "BGSU"
-       },
-       "score": null
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "132633",
-        "displayName": "Maryville (Mo) Saints",
-        "abbreviation": "MAR"
-       },
-       "score": null
-      }
-     ]
-    }
-   ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/maryville-vs-bowling-green/"
+   "clockAt": "2026-11-27T23:40:49Z"
   },
   {
    "id": "uscho-380",
@@ -302,9 +260,10 @@
    "date": "2026-11-27T23:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1,
+    "displayClock": "0:00"
    },
    "competitions": [
     {
@@ -319,7 +278,7 @@
         "displayName": "Boston University Terriers",
         "abbreviation": "BU"
        },
-       "score": null
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -328,12 +287,14 @@
         "displayName": "Denver Pioneers",
         "abbreviation": "DEN"
        },
-       "score": null
+       "score": "0"
       }
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/denver-vs-boston-university/"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/denver-vs-boston-university/",
+   "clockSrc": "espn",
+   "clockAt": "2026-11-27T23:40:49Z"
   },
   {
    "id": "uscho-371",
@@ -654,6 +615,46 @@
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/st-cloud-state-vs-vermont/"
+  },
+  {
+   "id": "uscho-375",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:07:00Z",
+   "status": {
+    "type": {
+     "state": "pre"
+    },
+    "period": 0
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Slater Family Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "189",
+        "displayName": "Bowling Green Falcons",
+        "abbreviation": "BGSU"
+       },
+       "score": null
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "132633",
+        "displayName": "Maryville (Mo) Saints",
+        "abbreviation": "MAR"
+       },
+       "score": null
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/maryville-vs-bowling-green/"
   },
   {
    "id": "uscho-1577",
