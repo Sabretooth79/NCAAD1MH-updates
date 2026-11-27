@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-11-27T17:32:36Z",
- "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data; exhibitions excluded; games involving Maryville omitted (no ESPN id in the app directory); rebuilt from the live page each run",
+ "updated": "2026-11-27T19:32:40Z",
+ "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data (primary); ESPN scoreboard fallback for finals USCHO's embed omits entirely; exhibitions excluded; rebuilt from the live sources each run",
  "finals": [
   {
    "id": "uscho-319",
@@ -2424,20 +2424,20 @@
       {
        "homeAway": "home",
        "team": {
-        "id": "134",
-        "displayName": "Minnesota Duluth Bulldogs",
-        "abbreviation": "UMD"
-       },
-       "score": "1"
-      },
-      {
-       "homeAway": "away",
-       "team": {
         "id": "2507",
         "displayName": "Providence Friars",
         "abbreviation": "PROV"
        },
        "score": "4"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "134",
+        "displayName": "Minnesota Duluth Bulldogs",
+        "abbreviation": "UMD"
+       },
+       "score": "1"
       }
      ]
     }
