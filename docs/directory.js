@@ -37,7 +37,7 @@ var DIRECTORY = [
  {key:"LIN",name:"Lindenwood",nick:"Lions",city:"St. Charles, Missouri",conf:"Independent",titles:[],espn:2815,c1:"#000000",c2:"#B5A36A",c3:"#FFFFFF"},
  {key:"LIU",name:"Long Island",nick:"Sharks",city:"Brooklyn & Brookville, New York",conf:"Independent",titles:[],espn:110133,c1:"#69B3E7",c2:"#FFC72C",c3:"#FFFFFF",c4:"#000000"},
  {key:"ME",name:"Maine",nick:"Black Bears",city:"Orono, Maine",conf:"Hockey East",titles:[1993, 1999],espn:311,c1:"#082E58",c2:"#79BDE8",c3:"#FFFFFF"},
- {key:"MRVL",name:"Maryville",nick:"Saints",city:"Town and Country, Missouri",conf:"Independent",titles:[],espn:null,c1:"#A6192E",c2:"#FFFFFF",c3:"#000000"},
+ {key:"MRVL",name:"Maryville",nick:"Saints",city:"Town and Country, Missouri",conf:"Independent",titles:[],espn:132633,c1:"#A6192E",c2:"#FFFFFF",c3:"#000000"},
  {key:"MASS",name:"Massachusetts",nick:"Minutemen",city:"Amherst, Massachusetts",conf:"Hockey East",titles:[2021],espn:113,c1:"#881C1C",c2:"#FFFFFF",c3:"#000000"},
  {key:"UML",name:"UMass Lowell",nick:"River Hawks",city:"Lowell, Massachusetts",conf:"Hockey East",titles:[],espn:2349,c1:"#0067B9",c2:"#C8102E",c3:"#FFFFFF"},
  {key:"MRMK",name:"Merrimack",nick:"Warriors",city:"North Andover, Massachusetts",conf:"Hockey East",titles:[],espn:2771,c1:"#003767",c2:"#FFDD00",c3:"#FFFFFF"},
