@@ -3047,8 +3047,24 @@
       "tier": "official",
       "title": "HIGHLIGHTS: #9 Providence vs #3 Minnesota Duluth | Friendship Four 2026",
       "url": "https://www.flohockey.tv/video/16469459-highlights-9-providence-vs-3-minnesota-duluth-friendship-four-2026"
+    },
+    {
+      "away": "BC",
+      "date": "2026-11-27",
+      "home": "ND",
+      "tier": "aggregator",
+      "title": "Notre Dame vs Boston College | NCAA College Hockey | Highlights - November 27, 2026",
+      "url": "https://www.youtube.com/watch?v=POJ7Tfm6qCU"
+    },
+    {
+      "away": "CONN",
+      "date": "2026-11-27",
+      "home": "COLG",
+      "tier": "aggregator",
+      "title": "UConn vs Colgate | NCAA College Hockey Highlights | November 27, 2026",
+      "url": "https://www.youtube.com/watch?v=wSkP_gRAksg"
     }
   ],
-  "updated": "2026-11-27T21:08:00Z",
+  "updated": "2026-11-27T22:37:14Z",
   "version": 1
 }
