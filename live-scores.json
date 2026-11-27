@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T19:38:34Z",
+ "updated": "2026-11-27T21:09:43Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; ESPN-only games (no USCHO counterpart) emitted with a null boxlink; live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -53,8 +53,8 @@
     "type": {
      "state": "in"
     },
-    "period": 1,
-    "displayClock": "0:00"
+    "period": 3,
+    "displayClock": "8:08"
    },
    "competitions": [
     {
@@ -69,7 +69,7 @@
         "displayName": "Colgate Raiders",
         "abbreviation": "COLG"
        },
-       "score": "0"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -78,14 +78,14 @@
         "displayName": "UConn Huskies",
         "abbreviation": "CONN"
        },
-       "score": "1"
+       "score": "3"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/connecticut-vs-colgate/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-27T19:38:34Z"
+   "clockAt": "2026-11-27T21:09:43Z"
   },
   {
    "id": "uscho-381",
@@ -94,9 +94,10 @@
    "date": "2026-11-27T20:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 2,
+    "displayClock": "11:19"
    },
    "competitions": [
     {
@@ -111,7 +112,7 @@
         "displayName": "Notre Dame Fighting Irish",
         "abbreviation": "ND"
        },
-       "score": null
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -120,12 +121,14 @@
         "displayName": "Boston College Eagles",
         "abbreviation": "BC"
        },
-       "score": null
+       "score": "2"
       }
      ]
     }
    ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/boston-college-vs-notre-dame/"
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/boston-college-vs-notre-dame/",
+   "clockSrc": "espn",
+   "clockAt": "2026-11-27T21:09:43Z"
   },
   {
    "id": "espn-401912412",
@@ -134,9 +137,10 @@
    "date": "2026-11-27T21:00:00Z",
    "status": {
     "type": {
-     "state": "pre"
+     "state": "in"
     },
-    "period": 0
+    "period": 1,
+    "displayClock": "17:55"
    },
    "competitions": [
     {
@@ -151,7 +155,7 @@
         "displayName": "St. Lawrence Saints",
         "abbreviation": "USL"
        },
-       "score": null
+       "score": "0"
       },
       {
        "homeAway": "away",
@@ -160,12 +164,14 @@
         "displayName": "Merrimack Warriors",
         "abbreviation": "MRMK"
        },
-       "score": null
+       "score": "0"
       }
      ]
     }
    ],
-   "boxlink": null
+   "boxlink": null,
+   "clockSrc": "espn",
+   "clockAt": "2026-11-27T21:09:43Z"
   },
   {
    "id": "uscho-376",
