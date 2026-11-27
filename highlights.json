@@ -1049,6 +1049,14 @@
       "url": "https://www.youtube.com/watch?v=HZL05XREKnU"
     },
     {
+      "away": "NE",
+      "date": "2026-10-23",
+      "home": "HAR",
+      "tier": "official-conference",
+      "title": "Northeastern at Harvard | NCAA Men’s Ice Hockey | Highlights - October 23, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=Mlkg96dgzu8"
+    },
+    {
       "away": "PROV",
       "date": "2026-10-23",
       "home": "UML",
@@ -3033,6 +3041,6 @@
       "url": "https://www.youtube.com/watch?v=hXnmaJXCKJ8"
     }
   ],
-  "updated": "2026-11-26T03:14:08Z",
+  "updated": "2026-11-27T04:22:03Z",
   "version": 1
 }
