@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T23:45:11Z",
+ "updated": "2026-11-27T23:54:42Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; ESPN-only games (no USCHO counterpart) emitted with a null boxlink; live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -177,7 +177,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "16:06"
+    "displayClock": "11:07"
    },
    "competitions": [
     {
@@ -208,7 +208,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/princeton-vs-penn-state/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-27T23:45:11Z"
+   "clockAt": "2026-11-27T23:54:42Z"
   },
   {
    "id": "uscho-376",
@@ -220,7 +220,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "12:55"
+    "displayClock": "8:21"
    },
    "competitions": [
     {
@@ -235,7 +235,7 @@
         "displayName": "Minnesota Golden Gophers",
         "abbreviation": "MINN"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -251,7 +251,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/minnesota-state-vs-minnesota/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-27T23:45:11Z"
+   "clockAt": "2026-11-27T23:54:42Z"
   },
   {
    "id": "uscho-380",
@@ -294,7 +294,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/denver-vs-boston-university/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-27T23:45:11Z"
+   "clockAt": "2026-11-27T23:54:42Z"
   },
   {
    "id": "uscho-371",
