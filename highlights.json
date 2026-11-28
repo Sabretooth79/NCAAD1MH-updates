@@ -3135,8 +3135,32 @@
       "tier": "official",
       "title": "Highlights: Miami Hockey vs Stonehill 11-27",
       "url": "https://www.youtube.com/watch?v=5ma63ImhF8k"
+    },
+    {
+      "away": "YALE",
+      "date": "2026-11-27",
+      "home": "OMA",
+      "tier": "official-conference",
+      "title": "11/27/26 - Yale at Omaha Highlights",
+      "url": "https://www.youtube.com/watch?v=xEtcxCGaS0g"
+    },
+    {
+      "away": "UAA",
+      "date": "2026-11-27",
+      "home": "ASU",
+      "tier": "aggregator",
+      "title": "Arizona State vs Alaska Anchorage | NCAA College Hockey | Highlights - November 27, 2026",
+      "url": "https://www.youtube.com/watch?v=re8Xp3_A6vg"
+    },
+    {
+      "away": "ARMY",
+      "date": "2026-11-27",
+      "home": "RPI",
+      "tier": "official-conference",
+      "title": "Army West Point at RPI | NCAA Men\u2019s Ice Hockey | Highlights - November 27, 2026 | #ECACHockey",
+      "url": "https://www.youtube.com/watch?v=MqmjDlS4AdM"
     }
   ],
-  "updated": "2026-11-28T04:38:01Z",
+  "updated": "2026-11-28T05:26:02Z",
   "version": 1
 }
