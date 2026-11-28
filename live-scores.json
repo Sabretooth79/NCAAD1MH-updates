@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T00:53:07Z",
+ "updated": "2026-11-28T00:58:00Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; ESPN-only games (no USCHO counterpart) emitted with a null boxlink; live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -218,7 +218,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "15:36"
+    "displayClock": "11:14"
    },
    "competitions": [
     {
@@ -233,7 +233,7 @@
         "displayName": "Boston University Terriers",
         "abbreviation": "BU"
        },
-       "score": "2"
+       "score": "3"
       },
       {
        "homeAway": "away",
@@ -249,7 +249,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/denver-vs-boston-university/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-1249",
@@ -302,7 +302,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "19:03"
+    "displayClock": "14:16"
    },
    "competitions": [
     {
@@ -333,7 +333,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/niagara-vs-robert-morris/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-373",
@@ -345,7 +345,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "19:40"
+    "displayClock": "15:54"
    },
    "competitions": [
     {
@@ -376,7 +376,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/army-vs-rensselaer/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-374",
@@ -388,7 +388,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "14:58"
+    "displayClock": "12:56"
    },
    "competitions": [
     {
@@ -403,7 +403,7 @@
         "displayName": "Michigan Wolverines",
         "abbreviation": "MICH"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -419,7 +419,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/ferris-state-vs-michigan/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-377",
@@ -431,7 +431,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "18:53"
+    "displayClock": "15:27"
    },
    "competitions": [
     {
@@ -462,7 +462,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/ohio-state-vs-union/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-383",
@@ -474,7 +474,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "13:47"
+    "displayClock": "12:21"
    },
    "competitions": [
     {
@@ -505,7 +505,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/miami-vs-stonehill/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-385",
@@ -517,7 +517,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "0:00"
+    "displayClock": "1:59"
    },
    "competitions": [
     {
@@ -548,7 +548,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/yale-vs-omaha/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-386",
@@ -560,7 +560,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "16:35"
+    "displayClock": "13:26"
    },
    "competitions": [
     {
@@ -591,7 +591,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/st-cloud-state-vs-vermont/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-372",
@@ -603,7 +603,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "20:00"
+    "displayClock": "14:53"
    },
    "competitions": [
     {
@@ -634,7 +634,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/air-force-vs-holy-cross/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-375",
@@ -645,8 +645,8 @@
     "type": {
      "state": "in"
     },
-    "period": 1,
-    "displayClock": "0:00"
+    "period": 2,
+    "displayClock": "17:25"
    },
    "competitions": [
     {
@@ -677,7 +677,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/maryville-vs-bowling-green/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-1577",
@@ -689,7 +689,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "7:02"
+    "displayClock": "4:14"
    },
    "competitions": [
     {
@@ -720,7 +720,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/clarkson-vs-rit/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-378",
@@ -732,7 +732,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "7:46"
+    "displayClock": "4:21"
    },
    "competitions": [
     {
@@ -756,14 +756,14 @@
         "displayName": "Dartmouth Big Green",
         "abbreviation": "DART"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/dartmouth-vs-harvard/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:53:07Z"
+   "clockAt": "2026-11-28T00:58:00Z"
   },
   {
    "id": "uscho-382",
