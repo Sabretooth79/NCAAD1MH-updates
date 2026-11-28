@@ -3087,8 +3087,24 @@
       "tier": "official-conference",
       "title": "Minnesota State at Minnesota | Extended Highlights | Big Ten Hockey | 11/27/2026",
       "url": "https://www.youtube.com/watch?v=u0UzsX-cQeQ"
+    },
+    {
+      "away": "FRST",
+      "date": "2026-11-27",
+      "home": "MICH",
+      "tier": "official-conference",
+      "title": "Ferris State at Michigan | Extended Highlights | Big Ten Hockey | 11/27/2026",
+      "url": "https://www.youtube.com/watch?v=MyLqN719hzI"
+    },
+    {
+      "away": "OSU",
+      "date": "2026-11-27",
+      "home": "UNNY",
+      "tier": "aggregator",
+      "title": "Ohio State vs Union | NCAA College Hockey Highlights | November 27, 2026",
+      "url": "https://www.youtube.com/watch?v=fz4FYjAl6tM"
     }
   ],
-  "updated": "2026-11-28T01:42:48Z",
+  "updated": "2026-11-28T02:36:20Z",
   "version": 1
 }
