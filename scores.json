@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-27T23:32:32Z",
+ "updated": "2026-11-28T01:32:39Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data (primary); ESPN scoreboard fallback for finals USCHO's embed omits entirely; exhibitions excluded; rebuilt from the live sources each run",
  "finals": [
   {
@@ -2444,6 +2444,46 @@
    ]
   },
   {
+   "id": "uscho-1249",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 4
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Pegula Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "213",
+        "displayName": "Penn State Nittany Lions",
+        "abbreviation": "PSU"
+       },
+       "score": "1"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "163",
+        "displayName": "Princeton Tigers",
+        "abbreviation": "PRIN"
+       },
+       "score": "1"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "uscho-1578",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -2484,6 +2524,46 @@
    ]
   },
   {
+   "id": "uscho-376",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "3M Arena at Mariucci"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "135",
+        "displayName": "Minnesota Golden Gophers",
+        "abbreviation": "MINN"
+       },
+       "score": "3"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2364",
+        "displayName": "Minnesota State Mavericks",
+        "abbreviation": "MNST"
+       },
+       "score": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "uscho-379",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -2518,6 +2598,46 @@
         "abbreviation": "UMD"
        },
        "score": "1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-380",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Agganis Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "104",
+        "displayName": "Boston University Terriers",
+        "abbreviation": "BU"
+       },
+       "score": "3"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "2172",
+        "displayName": "Denver Pioneers",
+        "abbreviation": "DEN"
+       },
+       "score": "5"
       }
      ]
     }
