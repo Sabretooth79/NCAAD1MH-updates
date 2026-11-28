@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T03:02:04Z",
+ "updated": "2026-11-28T03:05:52Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; ESPN-only games (no USCHO counterpart) emitted with a null boxlink; live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -669,7 +669,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "4:47"
+    "displayClock": "0:00"
    },
    "competitions": [
     {
@@ -700,7 +700,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/clarkson-vs-rit/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T03:02:04Z"
+   "clockAt": "2026-11-28T03:05:52Z"
   },
   {
    "id": "uscho-378",
@@ -753,7 +753,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "12:05"
+    "displayClock": "10:45"
    },
    "competitions": [
     {
@@ -784,7 +784,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/lindenwood-vs-north-dakota/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T03:02:04Z"
+   "clockAt": "2026-11-28T03:05:52Z"
   },
   {
    "id": "uscho-384",
@@ -795,8 +795,8 @@
     "type": {
      "state": "in"
     },
-    "period": 1,
-    "displayClock": "0:00"
+    "period": 2,
+    "displayClock": "17:56"
    },
    "competitions": [
     {
@@ -827,7 +827,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/alaska-anchorage-vs-arizona-state/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T03:02:04Z"
+   "clockAt": "2026-11-28T03:05:52Z"
   },
   {
    "id": "uscho-387",
@@ -838,8 +838,8 @@
     "type": {
      "state": "in"
     },
-    "period": 1,
-    "displayClock": "0:00"
+    "period": 2,
+    "displayClock": "17:47"
    },
    "competitions": [
     {
@@ -870,7 +870,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/alaska-vs-colorado-college/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T03:02:04Z"
+   "clockAt": "2026-11-28T03:05:52Z"
   }
  ]
 }
