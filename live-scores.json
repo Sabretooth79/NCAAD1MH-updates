@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T00:26:18Z",
+ "updated": "2026-11-28T00:31:01Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; ESPN-only games (no USCHO counterpart) emitted with a null boxlink; live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -168,49 +168,6 @@
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/st-lawrence-vs-merrimack/"
   },
   {
-   "id": "uscho-1249",
-   "league": "Mens College Hockey",
-   "sport": "ice_hockey",
-   "date": "2026-11-27T22:00:00Z",
-   "status": {
-    "type": {
-     "state": "in"
-    },
-    "period": 4,
-    "displayClock": "0:00"
-   },
-   "competitions": [
-    {
-     "venue": {
-      "fullName": "Pegula Ice Arena"
-     },
-     "competitors": [
-      {
-       "homeAway": "home",
-       "team": {
-        "id": "213",
-        "displayName": "Penn State Nittany Lions",
-        "abbreviation": "PSU"
-       },
-       "score": "2"
-      },
-      {
-       "homeAway": "away",
-       "team": {
-        "id": "163",
-        "displayName": "Princeton Tigers",
-        "abbreviation": "PRIN"
-       },
-       "score": "1"
-      }
-     ]
-    }
-   ],
-   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/princeton-vs-penn-state/",
-   "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
-  },
-  {
    "id": "uscho-376",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -261,7 +218,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "2:06"
+    "displayClock": "0:00"
    },
    "competitions": [
     {
@@ -276,7 +233,7 @@
         "displayName": "Boston University Terriers",
         "abbreviation": "BU"
        },
-       "score": "1"
+       "score": "2"
       },
       {
        "homeAway": "away",
@@ -292,7 +249,48 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/denver-vs-boston-university/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
+  },
+  {
+   "id": "uscho-1249",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-28T00:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 4
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Pegula Ice Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "213",
+        "displayName": "Penn State Nittany Lions",
+        "abbreviation": "PSU"
+       },
+       "score": "2"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "163",
+        "displayName": "Princeton Tigers",
+        "abbreviation": "PRIN"
+       },
+       "score": "1"
+      }
+     ]
+    }
+   ],
+   "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/princeton-vs-penn-state/"
   },
   {
    "id": "uscho-371",
@@ -304,7 +302,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "6:16"
+    "displayClock": "2:51"
    },
    "competitions": [
     {
@@ -335,7 +333,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/niagara-vs-robert-morris/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-373",
@@ -347,7 +345,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "6:21"
+    "displayClock": "2:42"
    },
    "competitions": [
     {
@@ -371,14 +369,14 @@
         "displayName": "Army Black Knights",
         "abbreviation": "ARMY"
        },
-       "score": "1"
+       "score": "2"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/army-vs-rensselaer/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-374",
@@ -390,7 +388,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "4:35"
+    "displayClock": "1:01"
    },
    "competitions": [
     {
@@ -414,14 +412,14 @@
         "displayName": "Ferris State Bulldogs",
         "abbreviation": "FRST"
        },
-       "score": "0"
+       "score": "1"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/ferris-state-vs-michigan/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-377",
@@ -433,7 +431,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "7:18"
+    "displayClock": "3:07"
    },
    "competitions": [
     {
@@ -464,7 +462,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/ohio-state-vs-union/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-383",
@@ -476,7 +474,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "0:51"
+    "displayClock": "0:00"
    },
    "competitions": [
     {
@@ -507,7 +505,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/miami-vs-stonehill/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-385",
@@ -519,7 +517,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "8:54"
+    "displayClock": "6:33"
    },
    "competitions": [
     {
@@ -550,7 +548,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/yale-vs-omaha/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-386",
@@ -562,7 +560,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "6:37"
+    "displayClock": "0:52"
    },
    "competitions": [
     {
@@ -593,7 +591,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/st-cloud-state-vs-vermont/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-372",
@@ -605,7 +603,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "5:53"
+    "displayClock": "2:43"
    },
    "competitions": [
     {
@@ -636,7 +634,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/air-force-vs-holy-cross/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-375",
@@ -648,7 +646,7 @@
      "state": "in"
     },
     "period": 1,
-    "displayClock": "6:38"
+    "displayClock": "5:39"
    },
    "competitions": [
     {
@@ -679,7 +677,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/maryville-vs-bowling-green/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T00:26:18Z"
+   "clockAt": "2026-11-28T00:31:01Z"
   },
   {
    "id": "uscho-1577",
@@ -701,18 +699,18 @@
       {
        "homeAway": "home",
        "team": {
-        "id": "178",
-        "displayName": "RIT Tigers",
-        "abbreviation": "RIT"
+        "id": "2137",
+        "displayName": "Clarkson Golden Knights",
+        "abbreviation": "CLAR"
        },
        "score": null
       },
       {
        "homeAway": "away",
        "team": {
-        "id": "2137",
-        "displayName": "Clarkson Golden Knights",
-        "abbreviation": "CLAR"
+        "id": "178",
+        "displayName": "RIT Tigers",
+        "abbreviation": "RIT"
        },
        "score": null
       }
