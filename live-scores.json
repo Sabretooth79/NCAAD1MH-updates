@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T03:20:25Z",
+ "updated": "2026-11-28T03:25:28Z",
  "source": "ESPN site API scoreboard (site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard), score/state/clock source; boxlink + venue + start time from the USCHO Division I men's scoreboard embed (uscho.com/scoreboard/division-i-men/20262027; ESPN event date as start-time fallback - ESPN rounds one pre-game time: ASU@UMD 8:00 PM EST vs true 7:07 PM CT, verified 2026-11-20); exhibitions excluded; ESPN-only games (no USCHO counterpart) emitted with a null boxlink; live rows carry the ESPN game clock (clockSrc espn) when ESPN carries one, else the latest verified game clock from CHN's per-game live box (clockSrc chn-livebox) when one verifies, else period only; rebuilt from the live ESPN feed each run",
  "games": [
   {
@@ -751,7 +751,7 @@
      "state": "in"
     },
     "period": 3,
-    "displayClock": "2:38"
+    "displayClock": "0:56"
    },
    "competitions": [
     {
@@ -775,14 +775,14 @@
         "displayName": "Lindenwood Lions",
         "abbreviation": "LIN"
        },
-       "score": "2"
+       "score": "3"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/lindenwood-vs-north-dakota/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T03:20:25Z"
+   "clockAt": "2026-11-28T03:25:28Z"
   },
   {
    "id": "uscho-384",
@@ -794,7 +794,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "11:17"
+    "displayClock": "8:40"
    },
    "competitions": [
     {
@@ -818,14 +818,14 @@
         "displayName": "Alaska Anchorage Seawolves",
         "abbreviation": "UAA"
        },
-       "score": "4"
+       "score": "5"
       }
      ]
     }
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/alaska-anchorage-vs-arizona-state/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T03:20:25Z"
+   "clockAt": "2026-11-28T03:25:28Z"
   },
   {
    "id": "uscho-387",
@@ -837,7 +837,7 @@
      "state": "in"
     },
     "period": 2,
-    "displayClock": "10:08"
+    "displayClock": "7:25"
    },
    "competitions": [
     {
@@ -852,7 +852,7 @@
         "displayName": "Colorado College Tigers",
         "abbreviation": "COLC"
        },
-       "score": "0"
+       "score": "1"
       },
       {
        "homeAway": "away",
@@ -868,7 +868,7 @@
    ],
    "boxlink": "https://www.uscho.com/gameday/division-i-men/2026-2027/2026-11-27/alaska-vs-colorado-college/",
    "clockSrc": "espn",
-   "clockAt": "2026-11-28T03:20:25Z"
+   "clockAt": "2026-11-28T03:25:28Z"
   }
  ]
 }
