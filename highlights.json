@@ -3063,8 +3063,24 @@
       "tier": "aggregator",
       "title": "UConn vs Colgate | NCAA College Hockey Highlights | November 27, 2026",
       "url": "https://www.youtube.com/watch?v=wSkP_gRAksg"
+    },
+    {
+      "away": "PRIN",
+      "date": "2026-11-27",
+      "home": "PSU",
+      "tier": "official-conference",
+      "title": "Princeton at Penn State | Extended Highlights | Big Ten Hockey | 11/27/2026",
+      "url": "https://www.youtube.com/watch?v=r46rih7VzTU"
+    },
+    {
+      "away": "MNST",
+      "date": "2026-11-27",
+      "home": "MINN",
+      "tier": "official-conference",
+      "title": "Minnesota State at Minnesota | Extended Highlights | Big Ten Hockey | 11/27/2026",
+      "url": "https://www.youtube.com/watch?v=u0UzsX-cQeQ"
     }
   ],
-  "updated": "2026-11-27T22:37:14Z",
+  "updated": "2026-11-28T00:41:22Z",
   "version": 1
 }
