@@ -3119,8 +3119,24 @@
       "tier": "aggregator",
       "title": "North Dakota vs Lindenwood | NCAA College Hockey | Highlights - November 27, 2026",
       "url": "https://www.youtube.com/watch?v=so0uywqLTPM"
+    },
+    {
+      "away": "FSU",
+      "date": "2026-11-27",
+      "home": "MICH",
+      "tier": "official-conference",
+      "title": "Ferris State at Michigan | Highlights | Big Ten Hockey | 11/27/2026",
+      "url": "https://www.youtube.com/watch?v=3IPzJXLlgjg"
+    },
+    {
+      "away": "MIA",
+      "date": "2026-11-27",
+      "home": "STO",
+      "tier": "official",
+      "title": "Highlights: Miami Hockey vs Stonehill 11-27",
+      "url": "https://www.youtube.com/watch?v=5ma63ImhF8k"
     }
   ],
-  "updated": "2026-11-28T04:08:53Z",
+  "updated": "2026-11-28T04:38:01Z",
   "version": 1
 }
