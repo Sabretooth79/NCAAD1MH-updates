@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T04:54:02Z",
+ "updated": "2026-11-28T09:19:16Z",
  "source": "ESPN scoreboard broadcast names + official team schedules (Sidearm) + team previews + conference YouTube channels (RSS) + FloHockey schedule + Denver Altitude schedule + verified recordings library; every carrier verified per game, never guessed; rebuilt each run",
  "games": [
   {
@@ -16,7 +16,7 @@
      "kind": "listen",
      "replay": true,
      "source": "WCBN Sports",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -33,7 +33,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -50,7 +50,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -67,7 +67,7 @@
      "kind": "listen",
      "replay": true,
      "source": "WCBN Sports",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -84,7 +84,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -101,7 +101,7 @@
      "kind": "listen",
      "replay": true,
      "source": "WCBN Sports",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -118,7 +118,7 @@
      "kind": "listen",
      "replay": true,
      "source": "Redhawk Radio (WMSR)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -135,7 +135,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -152,7 +152,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -169,7 +169,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -186,7 +186,7 @@
      "kind": "listen",
      "replay": true,
      "source": "Redhawk Radio (WMSR)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -203,7 +203,7 @@
      "kind": "listen",
      "replay": true,
      "source": "WCBN Sports",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -220,7 +220,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -237,7 +237,7 @@
      "kind": "listen",
      "replay": true,
      "source": "Redhawk Radio (WMSR)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -254,7 +254,7 @@
      "kind": "listen",
      "replay": true,
      "source": "Redhawk Radio (WMSR)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -271,7 +271,7 @@
      "kind": "listen",
      "replay": true,
      "source": "Redhawk Radio (WMSR)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -288,7 +288,7 @@
      "kind": "listen",
      "replay": true,
      "source": "Blaze Sports (Blaze Radio ASU)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -305,7 +305,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -322,335 +322,7 @@
      "kind": "listen",
      "replay": true,
      "source": "BG Falcon Media (Falcon Media Sports Network)",
-     "verifiedAt": "2026-11-28T04:54:02Z"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "HC",
-   "away": "AF",
-   "carriers": [
-    {
-     "outlet": "FloHockey",
-     "url": "https://www.flohockey.tv/events/16215341-2026-air-force-vs-holy-cross-mens",
-     "access": "subscription",
-     "deep": true,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "FloHockey schedule"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "RPI",
-   "away": "ARMY",
-   "carriers": [
-    {
-     "outlet": "YouTube",
-     "url": "https://www.youtube.com/watch?v=MqmjDlS4AdM",
-     "access": "free",
-     "deep": true,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "@ECACHockeyLeague"
-    },
-    {
-     "outlet": "ESPN+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "ASU",
-   "away": "UAA",
-   "carriers": [
-    {
-     "outlet": "NCHC.tv",
-     "url": "https://nchchockey.com/showcase",
-     "access": "subscription",
-     "deep": false,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "goseawolves.com schedule"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "BGSU",
-   "away": "MRVL",
-   "carriers": [
-    {
-     "outlet": "Midco Sports Net",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "BU",
-   "away": "DEN",
-   "carriers": [
-    {
-     "outlet": "ESPN+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "CC",
-   "away": "UAF",
-   "carriers": [
-    {
-     "outlet": "NCHC.tv",
-     "url": "https://nchchockey.com/tv/",
-     "access": "subscription",
-     "deep": false,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "alaskananooks.com schedule"
-    },
-    {
-     "outlet": "SOCO CW",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    },
-    {
-     "outlet": "ksuaradio.com",
-     "url": "https://www.ksuaradio.com",
-     "access": "free",
-     "deep": false,
-     "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "alaskananooks.com schedule"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "CLAR",
-   "away": "RIT",
-   "carriers": [
-    {
-     "outlet": "ESPN+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "COLG",
-   "away": "CONN",
-   "carriers": [
-    {
-     "outlet": "FloHockey",
-     "url": "https://www.flohockey.tv/events/16414702-2026-colgate-vs-uconn",
-     "access": "subscription",
-     "deep": true,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "FloHockey schedule"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "HAR",
-   "away": "DART",
-   "carriers": [
-    {
-     "outlet": "ESPN+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "MICH",
-   "away": "FSU",
-   "carriers": [
-    {
-     "outlet": "B1G+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "UND",
-   "away": "LIN",
-   "carriers": [
-    {
-     "outlet": "Midco Sports Net",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    },
-    {
-     "outlet": "NCHCHockey.com",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "MINN",
-   "away": "MNST",
-   "carriers": [
-    {
-     "outlet": "YouTube",
-     "url": "https://www.youtube.com/watch?v=iZv7ZVCF7Dw",
-     "access": "free",
-     "deep": true,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "@B1GHockey"
-    },
-    {
-     "outlet": "B1G+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "SLU",
-   "away": "MRMK",
-   "carriers": [
-    {
-     "outlet": "ESPN+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "RMU",
-   "away": "NIA",
-   "carriers": [
-    {
-     "outlet": "FloHockey",
-     "url": "https://www.flohockey.tv/events/16215348-2026-niagara-vs-robert-morris-mens",
-     "access": "subscription",
-     "deep": true,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "FloHockey schedule"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "OMA",
-   "away": "YALE",
-   "carriers": [
-    {
-     "outlet": "NCHCHockey.com",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "UNNY",
-   "away": "OSU",
-   "carriers": [
-    {
-     "outlet": "ESPN+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "PSU",
-   "away": "PRIN",
-   "carriers": [
-    {
-     "outlet": "YouTube",
-     "url": "https://www.youtube.com/watch?v=Tol5dqxIWTY",
-     "access": "free",
-     "deep": true,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "@ECACHockeyLeague"
-    },
-    {
-     "outlet": "B1G+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "PROV",
-   "away": "UMD",
-   "carriers": [
-    {
-     "outlet": "FloHockey",
-     "url": "https://www.flohockey.tv/events/16414701-2026-providence-vs-minnesota-duluth",
-     "access": "subscription",
-     "deep": true,
-     "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
-     "source": "FloHockey schedule"
-    }
-   ]
-  },
-  {
-   "date": "2026-11-27",
-   "home": "UVM",
-   "away": "SCSU",
-   "carriers": [
-    {
-     "outlet": "ESPN+",
-     "access": "tv-only",
-     "deep": false,
-     "kind": "watch",
-     "source": "ESPN scoreboard"
+     "verifiedAt": "2026-11-28T09:19:16Z"
     }
    ]
   },
@@ -665,7 +337,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goairforcefalcons.com schedule"
     },
     {
@@ -674,7 +346,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goholycross.com schedule"
     },
     {
@@ -683,7 +355,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "FloHockey schedule"
     },
     {
@@ -692,7 +364,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goairforcefalcons.com schedule"
     }
    ]
@@ -708,7 +380,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goarmywestpoint.com schedule"
     },
     {
@@ -717,7 +389,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "FloHockey schedule"
     },
     {
@@ -726,7 +398,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goarmywestpoint.com schedule"
     },
     {
@@ -735,7 +407,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "rpiathletics.com schedule"
     }
    ]
@@ -749,9 +421,9 @@
      "outlet": "NCHC.tv",
      "url": "https://nchchockey.com/showcase",
      "access": "subscription",
-     "deep": false,
+     "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goseawolves.com schedule"
     }
    ]
@@ -767,7 +439,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bsubeavers.com schedule"
     },
     {
@@ -776,7 +448,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "tommiesports.com schedule"
     },
     {
@@ -785,7 +457,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bsubeavers.com schedule"
     },
     {
@@ -794,7 +466,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "tommiesports.com schedule"
     }
    ]
@@ -810,7 +482,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bentleyfalcons.com schedule"
     }
    ]
@@ -826,7 +498,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "brownbears.com schedule"
     },
     {
@@ -835,7 +507,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "unhwildcats.com schedule"
     },
     {
@@ -844,7 +516,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "unhwildcats.com schedule"
     }
    ]
@@ -860,7 +532,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goterriers.com schedule"
     },
     {
@@ -869,7 +541,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "denverpioneers.com schedule"
     },
     {
@@ -878,7 +550,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goterriers.com schedule"
     },
     {
@@ -887,7 +559,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "denverpioneers.com schedule"
     }
    ]
@@ -903,7 +575,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "gogriffs.com schedule"
     },
     {
@@ -912,7 +584,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "uwbadgers.com schedule"
     }
    ]
@@ -928,7 +600,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "cctigers.com schedule"
     },
     {
@@ -937,7 +609,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "cctigers.com schedule"
     },
     {
@@ -946,7 +618,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "alaskananooks.com schedule"
     }
    ]
@@ -960,9 +632,9 @@
      "outlet": "ecachockey.tv",
      "url": "https://ecachockey.tv/",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "clarksonathletics.com schedule"
     },
     {
@@ -971,7 +643,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "merrimackathletics.com schedule"
     },
     {
@@ -980,7 +652,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "clarksonathletics.com schedule"
     },
     {
@@ -989,7 +661,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "merrimackathletics.com schedule"
     }
    ]
@@ -1005,7 +677,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "colgateathletics.com schedule"
     },
     {
@@ -1014,7 +686,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "umdbulldogs.com schedule"
     },
     {
@@ -1023,7 +695,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "umdbulldogs.com schedule"
     }
    ]
@@ -1039,7 +711,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "friars.com schedule"
     },
     {
@@ -1048,7 +720,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "friars.com schedule"
     }
    ]
@@ -1064,7 +736,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "cornellbigred.com schedule"
     },
     {
@@ -1073,7 +745,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goblackbears.com schedule"
     }
    ]
@@ -1089,7 +761,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "mgoblue.com schedule"
     },
     {
@@ -1098,7 +770,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "mgoblue.com schedule"
     }
    ]
@@ -1114,7 +786,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "fightinghawks.com schedule"
     },
     {
@@ -1130,7 +802,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "fightinghawks.com schedule"
     }
    ]
@@ -1146,16 +818,16 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "miamiredhawks.com schedule"
     },
     {
      "outlet": "stonehillskyhawks.com",
      "url": "https://stonehillskyhawks.com/sports/mens-ice-hockey/necfrontrow.com/sc",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "stonehillskyhawks.com schedule"
     },
     {
@@ -1164,7 +836,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "miamiredhawks.com schedule"
     }
    ]
@@ -1180,7 +852,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "gophersports.com schedule"
     },
     {
@@ -1189,7 +861,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "msumavericks.com schedule"
     },
     {
@@ -1198,7 +870,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "gophersports.com schedule"
     },
     {
@@ -1207,7 +879,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "msumavericks.com schedule"
     }
    ]
@@ -1223,7 +895,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "rmucolonials.com schedule"
     },
     {
@@ -1232,7 +904,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "FloHockey schedule"
     },
     {
@@ -1255,7 +927,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "omavs.com schedule"
     },
     {
@@ -1264,7 +936,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "omavs.com schedule"
     }
    ]
@@ -1280,7 +952,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ohiostatebuckeyes.com schedule"
     },
     {
@@ -1289,7 +961,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "unionathletics.com schedule"
     }
    ]
@@ -1305,7 +977,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ritathletics.com schedule"
     },
     {
@@ -1314,7 +986,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "saintsathletics.com schedule"
     },
     {
@@ -1323,7 +995,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ritathletics.com schedule"
     },
     {
@@ -1332,7 +1004,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "saintsathletics.com schedule"
     }
    ]
@@ -1348,7 +1020,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "scsuhuskies.com schedule"
     },
     {
@@ -1357,16 +1029,16 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "scsuhuskies.com schedule"
     },
     {
      "outlet": "Varsity Network",
      "url": "https://thevarsitynetwork.com/feed/source/oas-378",
      "access": "free",
-     "deep": true,
+     "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "uvmathletics.com schedule"
     }
    ]
@@ -1382,7 +1054,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bceagles.com schedule"
     },
     {
@@ -1391,7 +1063,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bceagles.com schedule"
     }
    ]
@@ -1407,7 +1079,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bentleyfalcons.com schedule"
     }
    ]
@@ -1423,7 +1095,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "gogriffs.com schedule"
     },
     {
@@ -1432,7 +1104,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "uwbadgers.com schedule"
     }
    ]
@@ -1448,7 +1120,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "nuhuskies.com schedule"
     },
     {
@@ -1457,7 +1129,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "nuhuskies.com schedule"
     }
    ]
@@ -1487,7 +1159,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "brownbears.com schedule"
     }
    ]
@@ -1503,7 +1175,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ohiostatebuckeyes.com schedule"
     },
     {
@@ -1512,7 +1184,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "msuspartans.com schedule"
     },
     {
@@ -1521,7 +1193,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ohiostatebuckeyes.com schedule"
     }
    ]
@@ -1537,16 +1209,16 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goairforcefalcons.com schedule"
     },
     {
      "outlet": "FloHockey",
      "url": "https://www.flohockey.tv",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "purpleeagles.com schedule"
     },
     {
@@ -1555,7 +1227,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goairforcefalcons.com schedule"
     }
    ]
@@ -1571,7 +1243,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goarmywestpoint.com schedule"
     },
     {
@@ -1580,7 +1252,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goarmywestpoint.com schedule"
     }
    ]
@@ -1596,7 +1268,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "cctigers.com schedule"
     }
    ]
@@ -1610,18 +1282,18 @@
      "outlet": "Midco Sports",
      "url": "https://midcosportsplus.com/?school=augustana-university",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goaugie.com schedule"
     },
     {
      "outlet": "Midco Sports",
      "url": "https://www.midcosportsplus.com/?school=bemidji-state-university",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bsubeavers.com schedule"
     },
     {
@@ -1630,7 +1302,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bsubeavers.com schedule"
     }
    ]
@@ -1653,7 +1325,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bceagles.com schedule"
     },
     {
@@ -1662,7 +1334,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goriverhawks.com schedule"
     }
    ]
@@ -1676,9 +1348,9 @@
      "outlet": "Midco Sports",
      "url": "https://www.midcosportsplus.com/?school=bowling-green-state-university",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "bgsufalcons.com schedule"
     },
     {
@@ -1687,7 +1359,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "msumavericks.com schedule"
     },
     {
@@ -1696,7 +1368,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "msumavericks.com schedule"
     }
    ]
@@ -1712,7 +1384,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goterriers.com schedule"
     },
     {
@@ -1721,7 +1393,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "cornellbigred.com schedule"
     }
    ]
@@ -1735,9 +1407,9 @@
      "outlet": "FloHockey",
      "url": "https://www.flohockey.tv/collections/12823986-atlantic-hockey-america-men?nav_id=662",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "gogriffs.com schedule"
     },
     {
@@ -1746,7 +1418,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "rmucolonials.com schedule"
     }
    ]
@@ -1760,9 +1432,9 @@
      "outlet": "ESPN+",
      "url": "https://www.espn.com/watch/schedule/_/type/upcoming/categoryId/2512ac76-a335-39cb-af51-b9afffc6571d",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goprincetontigers.com schedule"
     },
     {
@@ -1771,16 +1443,16 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "clarksonathletics.com schedule"
     },
     {
      "outlet": "Ivy League",
      "url": "https://ivyleague.tv/?school=princeton",
      "access": "free",
-     "deep": true,
+     "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goprincetontigers.com schedule"
     }
    ]
@@ -1794,9 +1466,9 @@
      "outlet": "ESPN",
      "url": "https://www.espn.com/search/_/q/colgate/o/watch",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "colgateathletics.com schedule"
     },
     {
@@ -1805,7 +1477,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ritathletics.com schedule"
     },
     {
@@ -1814,7 +1486,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ritathletics.com schedule"
     }
    ]
@@ -1830,7 +1502,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "unionathletics.com schedule"
     },
     {
@@ -1851,9 +1523,9 @@
      "outlet": "NCHC.tv",
      "url": "https://nchchockey.com/tv/schedule/week/2026-11-29",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "denverpioneers.com schedule"
     },
     {
@@ -1862,7 +1534,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "fightinghawks.com schedule"
     },
     {
@@ -1871,7 +1543,7 @@
      "deep": false,
      "kind": "watch",
      "market": "Denver",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "denverpioneers.com"
     },
     {
@@ -1880,7 +1552,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "denverpioneers.com schedule"
     },
     {
@@ -1889,7 +1561,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "fightinghawks.com schedule"
     }
    ]
@@ -1903,18 +1575,18 @@
      "outlet": "Midco Sports",
      "url": "https://www.midcosportsplus.com/page/01J16267QEMBWBCAWYR00B8RZH",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "lssulakers.com schedule"
     },
     {
      "outlet": "Midco Sports",
      "url": "https://www.midcosportsplus.com/page/01J16267QEMBWBCAWYR00B8RZH",
      "access": "free",
-     "deep": true,
+     "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "lssulakers.com schedule"
     }
    ]
@@ -1944,7 +1616,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "liuathletics.com schedule"
     }
    ]
@@ -1958,9 +1630,9 @@
      "outlet": "ESPN+",
      "url": "https://www.espn.com/watch/catalog/56a061bd-b214-4ed2-a63e-1fa71a59c9f3/hockey-east",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "nuhuskies.com schedule"
     },
     {
@@ -1969,7 +1641,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "nuhuskies.com schedule"
     }
    ]
@@ -1985,7 +1657,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goblackbears.com schedule"
     },
     {
@@ -1994,7 +1666,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "unhwildcats.com schedule"
     },
     {
@@ -2003,7 +1675,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goblackbears.com schedule"
     },
     {
@@ -2012,7 +1684,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "unhwildcats.com schedule"
     }
    ]
@@ -2028,7 +1700,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "miamiredhawks.com schedule"
     },
     {
@@ -2037,16 +1709,16 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "miamiredhawks.com schedule"
     },
     {
      "outlet": "wkzo.com",
      "url": "https://wkzo.com/player/?playerID=2830",
      "access": "free",
-     "deep": true,
+     "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "wmubroncos.com schedule"
     }
    ]
@@ -2062,7 +1734,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "mgoblue.com schedule"
     },
     {
@@ -2071,7 +1743,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "mgoblue.com schedule"
     },
     {
@@ -2080,7 +1752,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "uwbadgers.com schedule"
     }
    ]
@@ -2094,9 +1766,9 @@
      "outlet": "Peacock",
      "url": "https://www.peacocktv.com/",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "gophersports.com schedule"
     },
     {
@@ -2105,16 +1777,16 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "gophersports.com schedule"
     },
     {
      "outlet": "Varsity Network",
      "url": "https://thevarsitynetwork.com/audioapplink/source/oas-1469/content/minnesota:allaccess-Live-5962",
      "access": "free",
-     "deep": true,
+     "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "gophersports.com schedule"
     }
    ]
@@ -2130,7 +1802,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ohiostatebuckeyes.com schedule"
     },
     {
@@ -2139,7 +1811,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "msuspartans.com schedule"
     },
     {
@@ -2148,7 +1820,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "ohiostatebuckeyes.com schedule"
     }
    ]
@@ -2162,9 +1834,9 @@
      "outlet": "Midco Sports",
      "url": "https://www.midcosportsplus.com/",
      "access": "subscription",
-     "deep": true,
+     "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "michigantechhuskies.com schedule"
     },
     {
@@ -2173,25 +1845,25 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "nmuwildcats.com schedule"
     },
     {
      "outlet": "mix93.fm",
      "url": "https://mix93.fm/",
      "access": "free",
-     "deep": true,
+     "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "michigantechhuskies.com schedule"
     },
     {
      "outlet": "streamdb7web.securenetsystems.net",
      "url": "https://streamdb7web.securenetsystems.net/cirrusencore/WUPT",
      "access": "free",
-     "deep": true,
+     "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "nmuwildcats.com schedule"
     }
    ]
@@ -2207,7 +1879,7 @@
      "access": "subscription",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "omavs.com schedule"
     },
     {
@@ -2216,7 +1888,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "tommiesports.com schedule"
     },
     {
@@ -2225,7 +1897,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "omavs.com schedule"
     },
     {
@@ -2234,7 +1906,7 @@
      "access": "free",
      "deep": true,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "tommiesports.com schedule"
     }
    ]
@@ -2250,7 +1922,7 @@
      "access": "subscription",
      "deep": false,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "saintsathletics.com schedule"
     },
     {
@@ -2259,7 +1931,7 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "saintsathletics.com schedule"
     }
    ]
@@ -2275,7 +1947,7 @@
      "access": "free",
      "deep": true,
      "kind": "watch",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "goseawolves.com schedule"
     },
     {
@@ -2284,7 +1956,813 @@
      "access": "free",
      "deep": false,
      "kind": "listen",
-     "verifiedAt": "2026-11-28T04:54:02Z",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "alaskananooks.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "AF",
+   "away": "NIA",
+   "carriers": [
+    {
+     "outlet": "FloHockey",
+     "url": "https://go.flohockey.tv/partner/aha?utm_medium=partner&amp;utm_source=multiple&amp;utm_content=signup&amp;utm_term=aha&amp;utm_campaign=atlantic-hockey-america&amp;contract_id=006px00000amnp7yad",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goairforcefalcons.com schedule"
+    },
+    {
+     "outlet": "FloHockey",
+     "url": "https://www.flohockey.tv",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "purpleeagles.com schedule"
+    },
+    {
+     "outlet": "xtrasports1300.com",
+     "url": "https://www.xtrasports1300.com/",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goairforcefalcons.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "ARMY",
+   "away": "BENT",
+   "carriers": [
+    {
+     "outlet": "FloHockey",
+     "url": "https://www.flohockey.tv/events/16215367-2026-bentley-vs-army-mens",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goarmywestpoint.com schedule"
+    },
+    {
+     "outlet": "Varsity Network",
+     "url": "https://thevarsitynetwork.com/audioapplink/source/oas-1047/content/goarmy:allaccess-Live-3458",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goarmywestpoint.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "ASU",
+   "away": "CC",
+   "carriers": [
+    {
+     "outlet": "NCHC.tv",
+     "url": "https://nchchockey.com/tv/",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "cctigers.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "AUG",
+   "away": "BEM",
+   "carriers": [
+    {
+     "outlet": "Midco Sports",
+     "url": "https://midcosportsplus.com/?school=augustana-university",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goaugie.com schedule"
+    },
+    {
+     "outlet": "Midco Sports",
+     "url": "https://www.midcosportsplus.com/?school=bemidji-state-university",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "bsubeavers.com schedule"
+    },
+    {
+     "outlet": "beaverradionetwork.com",
+     "url": "https://beaverradionetwork.com/",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "bsubeavers.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "UML",
+   "away": "BC",
+   "carriers": [
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/catalog/383aeb8b-cbb8-379f-9ef4-8a5c69f60702/ncaa-men-s-hockey#bucketId=7373",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goriverhawks.com schedule"
+    },
+    {
+     "outlet": "audacy.com",
+     "url": "https://www.audacy.com/stations/850weei",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "bceagles.com schedule"
+    },
+    {
+     "outlet": "goriverhawks.com",
+     "url": "https://goriverhawks.com/showcase?Live=560",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goriverhawks.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "MNST",
+   "away": "BGSU",
+   "carriers": [
+    {
+     "outlet": "Midco Sports",
+     "url": "https://www.midcosportsplus.com/?school=bowling-green-state-university",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "bgsufalcons.com schedule"
+    },
+    {
+     "outlet": "Midco Sports",
+     "url": "https://www.midcosportsplus.com/?school=minnesota-state-university-mankato",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "msumavericks.com schedule"
+    },
+    {
+     "outlet": "streamdb9web.securenetsystems.net",
+     "url": "https://streamdb9web.securenetsystems.net/cirrusencore/KTOE",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "msumavericks.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "MRMK",
+   "away": "BRWN",
+   "carriers": [
+    {
+     "outlet": "ESPN",
+     "url": "https://www.espn.com/search/_/q/brown/o/watch/appearance",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "brownbears.com schedule"
+    },
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/catalog/383aeb8b-cbb8-379f-9ef4-8a5c69f60702/ncaa-men-s-hockey#bucketId=7373",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "merrimackathletics.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "COLG",
+   "away": "BU",
+   "carriers": [
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/espnplus/catalog/56a061bd-b214-4ed2-a63e-1fa71a59c9f3/hockey-east#bucketId=29804&sourceCollection=Browse_By_Conference_%28ESPN+%29",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goterriers.com schedule"
+    },
+    {
+     "outlet": "ESPN",
+     "url": "https://www.espn.com/search/_/q/colgate/o/watch",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "colgateathletics.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "CAN",
+   "away": "RMU",
+   "carriers": [
+    {
+     "outlet": "FloHockey",
+     "url": "https://www.flohockey.tv/collections/12823986-atlantic-hockey-america-men?nav_id=662",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "gogriffs.com schedule"
+    },
+    {
+     "outlet": "FloHockey",
+     "url": "https://www.flohockey.tv/",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "rmucolonials.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "QUIN",
+   "away": "CLAR",
+   "carriers": [
+    {
+     "outlet": "ecachockey.tv",
+     "url": "https://ecachockey.tv/",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "clarksonathletics.com schedule"
+    },
+    {
+     "outlet": "ESPN+",
+     "access": "tv-only",
+     "deep": false,
+     "kind": "watch",
+     "source": "ESPN scoreboard"
+    },
+    {
+     "outlet": "ice66.securenetsystems.net",
+     "url": "https://ice66.securenetsystems.net/WSNN",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "clarksonathletics.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "COR",
+   "away": "RIT",
+   "carriers": [
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/player/_/id/2372f701-5e8a-4679-ac5b-43645d17a931",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "cornellbigred.com schedule"
+    },
+    {
+     "outlet": "ESPN",
+     "url": "https://www.espn.com/search/_/appearance/dark/type/upcoming/o/watch/q/cornell",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "ritathletics.com schedule"
+    },
+    {
+     "outlet": "witr.rit.edu",
+     "url": "https://witr.rit.edu/",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "ritathletics.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "RPI",
+   "away": "DART",
+   "carriers": [
+    {
+     "outlet": "ESPN+",
+     "access": "tv-only",
+     "deep": false,
+     "kind": "watch",
+     "source": "ESPN scoreboard"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "DEN",
+   "away": "UND",
+   "carriers": [
+    {
+     "outlet": "NCHC.tv",
+     "url": "https://nchchockey.com/tv/schedule/week/2026-11-29",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "denverpioneers.com schedule"
+    },
+    {
+     "outlet": "NCHC.tv",
+     "url": "https://nchchockey.com/tv/schedule/event/1578",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "fightinghawks.com schedule"
+    },
+    {
+     "outlet": "tuner.bonneville.com",
+     "url": "https://tuner.bonneville.com/live/KKFN-HD3",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "denverpioneers.com schedule"
+    },
+    {
+     "outlet": "iheart.com",
+     "url": "https://www.iheart.com/live/961-the-fox-1681",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "fightinghawks.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "FSU",
+   "away": "LSS",
+   "carriers": [
+    {
+     "outlet": "Midco Sports",
+     "url": "https://www.midcosportsplus.com/page/01J16267QEMBWBCAWYR00B8RZH",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "lssulakers.com schedule"
+    },
+    {
+     "outlet": "Midco Sports",
+     "url": "https://www.midcosportsplus.com/page/01J16267QEMBWBCAWYR00B8RZH",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "lssulakers.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "UNNY",
+   "away": "HAR",
+   "carriers": [
+    {
+     "outlet": "unionathletics.com",
+     "url": "https://unionathletics.com/sports/2018/10/4/union-hockey-video-streaming.aspx",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "unionathletics.com schedule"
+    },
+    {
+     "outlet": "ESPN+",
+     "access": "tv-only",
+     "deep": false,
+     "kind": "watch",
+     "source": "ESPN scoreboard"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "MASS",
+   "away": "NE",
+   "carriers": [
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/catalog/56a061bd-b214-4ed2-a63e-1fa71a59c9f3/hockey-east",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "nuhuskies.com schedule"
+    },
+    {
+     "outlet": "nuhuskies.com",
+     "url": "https://nuhuskies.com/showcase?Live=21",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "nuhuskies.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "UNH",
+   "away": "ME",
+   "carriers": [
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/player/_/id/bc63c7fe-eafa-408d-85c2-5cd4e49784d6",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goblackbears.com schedule"
+    },
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/player/_/eventCalendarId/401904749?gameId=401904749&amp;sourceLang=en&amp;om-navmethod=espn:globalsearch:results",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "unhwildcats.com schedule"
+    },
+    {
+     "outlet": "goblackbears.com",
+     "url": "https://goblackbears.com/showcase?Live=19983",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goblackbears.com schedule"
+    },
+    {
+     "outlet": "Varsity Network",
+     "url": "https://thevarsitynetwork.com/audioapplink/source/oas-1064/content/unh:allaccess-Live-817",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "unhwildcats.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "WMU",
+   "away": "MIA",
+   "carriers": [
+    {
+     "outlet": "NCHC.tv",
+     "url": "https://nchchockey.com/tv/schedule/event/1614",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "miamiredhawks.com schedule"
+    },
+    {
+     "outlet": "miamiredhawks.com",
+     "url": "https://miamiredhawks.com/showcase?Live=684",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "miamiredhawks.com schedule"
+    },
+    {
+     "outlet": "wkzo.com",
+     "url": "https://wkzo.com/player/?playerID=2830",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "wmubroncos.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "MICH",
+   "away": "WIS",
+   "carriers": [
+    {
+     "outlet": "B1G+",
+     "url": "https://www.bigtenplus.com/en-int/livestream/wisconsin-at-michigan/2276110",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "mgoblue.com schedule"
+    },
+    {
+     "outlet": "mgoblue.com",
+     "url": "https://mgoblue.com/showcase?Live=2864",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "mgoblue.com schedule"
+    },
+    {
+     "outlet": "Varsity Network",
+     "url": "https://thevarsitynetwork.com/audioapplink/source/oas-1048/content/wisconsin:allaccess-Live-854",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "uwbadgers.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "ND",
+   "away": "MINN",
+   "carriers": [
+    {
+     "outlet": "Peacock",
+     "url": "https://www.peacocktv.com/",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "gophersports.com schedule"
+    },
+    {
+     "outlet": "gophersports.com",
+     "url": "https://gophersports.com/showcase?Live=5963",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "gophersports.com schedule"
+    },
+    {
+     "outlet": "Varsity Network",
+     "url": "https://thevarsitynetwork.com/audioapplink/source/oas-1469/content/minnesota:allaccess-Live-5962",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "gophersports.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "MTU",
+   "away": "NMI",
+   "carriers": [
+    {
+     "outlet": "Midco Sports",
+     "url": "https://www.midcosportsplus.com/",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "michigantechhuskies.com schedule"
+    },
+    {
+     "outlet": "Midco Sports",
+     "url": "https://www.midcosportsplus.com/watch/2698",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "nmuwildcats.com schedule"
+    },
+    {
+     "outlet": "mix93.fm",
+     "url": "https://mix93.fm/",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "michigantechhuskies.com schedule"
+    },
+    {
+     "outlet": "streamdb7web.securenetsystems.net",
+     "url": "https://streamdb7web.securenetsystems.net/cirrusencore/WUPT",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "nmuwildcats.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "STMN",
+   "away": "OMA",
+   "carriers": [
+    {
+     "outlet": "NCHC.tv",
+     "url": "https://nchchockey.com/tv/schedule/event/1594",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "omavs.com schedule"
+    },
+    {
+     "outlet": "NCHC.tv",
+     "url": "https://nchchockey.com/tv/subscriptions?returnTo=/",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "tommiesports.com schedule"
+    },
+    {
+     "outlet": "Varsity Network",
+     "url": "https://thevarsitynetwork.com/audioapplink/source/oas-1342/content/nebomaha:allaccess-Live-10353",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "omavs.com schedule"
+    },
+    {
+     "outlet": "tommiesports.com",
+     "url": "https://tommiesports.com/showcase?Live=649",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "tommiesports.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "PRIN",
+   "away": "SLU",
+   "carriers": [
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/schedule/_/type/upcoming/categoryId/2512ac76-a335-39cb-af51-b9afffc6571d",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goprincetontigers.com schedule"
+    },
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/catalog/383aeb8b-cbb8-379f-9ef4-8a5c69f60702/ncaa-men-s-hockey#bucketId=7373",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "saintsathletics.com schedule"
+    },
+    {
+     "outlet": "Ivy League",
+     "url": "https://ivyleague.tv/?school=princeton",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goprincetontigers.com schedule"
+    },
+    {
+     "outlet": "cbogdensburg.com",
+     "url": "https://cbogdensburg.com/thewolf/",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "saintsathletics.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "UVM",
+   "away": "PROV",
+   "carriers": [
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/catalog/383aeb8b-cbb8-379f-9ef4-8a5c69f60702/ncaa-men-s-hockey#bucketId=7373",
+     "access": "subscription",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "friars.com schedule"
+    },
+    {
+     "outlet": "ESPN+",
+     "url": "https://www.espn.com/watch/",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "uvmathletics.com schedule"
+    },
+    {
+     "outlet": "friars.com",
+     "url": "https://friars.com/showcase?Live=1044",
+     "access": "free",
+     "deep": true,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "friars.com schedule"
+    },
+    {
+     "outlet": "Varsity Network",
+     "url": "https://thevarsitynetwork.com/feed/source/oas-378",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "uvmathletics.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "STO",
+   "away": "YALE",
+   "carriers": [
+    {
+     "outlet": "stonehillskyhawks.com",
+     "url": "https://stonehillskyhawks.com/sports/mens-ice-hockey/necfrontrow.com/sc",
+     "access": "subscription",
+     "deep": false,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "stonehillskyhawks.com schedule"
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "home": "UAA",
+   "away": "UAF",
+   "carriers": [
+    {
+     "outlet": "YouTube",
+     "url": "https://www.youtube.com/watch?v=GKp9k5TIxLI",
+     "access": "free",
+     "deep": true,
+     "kind": "watch",
+     "verifiedAt": "2026-11-28T09:19:16Z",
+     "source": "goseawolves.com schedule"
+    },
+    {
+     "outlet": "ksuaradio.com",
+     "url": "https://www.ksuaradio.com",
+     "access": "free",
+     "deep": false,
+     "kind": "listen",
+     "verifiedAt": "2026-11-28T09:19:16Z",
      "source": "alaskananooks.com schedule"
     }
    ]
