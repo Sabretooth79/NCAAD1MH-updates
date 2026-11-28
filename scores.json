@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T04:24:16Z",
+ "updated": "2026-11-28T05:32:34Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data (primary); ESPN scoreboard fallback for finals USCHO's embed omits entirely; exhibitions excluded; rebuilt from the live sources each run",
  "finals": [
   {
@@ -3084,6 +3084,46 @@
    ]
   },
   {
+   "id": "uscho-384",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 4
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Mullett Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "9",
+        "displayName": "Arizona State Sun Devils",
+        "abbreviation": "ASU"
+       },
+       "score": "8"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "1",
+        "displayName": "Alaska Anchorage Seawolves",
+        "abbreviation": "UAA"
+       },
+       "score": "7"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "uscho-385",
    "league": "Mens College Hockey",
    "sport": "ice_hockey",
@@ -3156,6 +3196,46 @@
         "id": "2594",
         "displayName": "St. Cloud State Huskies",
         "abbreviation": "SCSU"
+       },
+       "score": "2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uscho-387",
+   "league": "Mens College Hockey",
+   "sport": "ice_hockey",
+   "date": "2026-11-27T23:00:00Z",
+   "status": {
+    "type": {
+     "state": "post"
+    },
+    "displayClock": "0:00",
+    "period": 3
+   },
+   "competitions": [
+    {
+     "venue": {
+      "fullName": "Ed Robson Arena"
+     },
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "id": "2144",
+        "displayName": "Colorado College Tigers",
+        "abbreviation": "COLC"
+       },
+       "score": "1"
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "id": "298",
+        "displayName": "UAF Nanooks",
+        "abbreviation": "AKFB"
        },
        "score": "2"
       }
