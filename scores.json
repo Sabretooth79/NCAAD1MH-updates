@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T03:32:34Z",
+ "updated": "2026-11-28T04:24:16Z",
  "source": "USCHO Division I men's scoreboard (uscho.com/scoreboard/division-i-men/20262027), full-season embedded data (primary); ESPN scoreboard fallback for finals USCHO's embed omits entirely; exhibitions excluded; rebuilt from the live sources each run",
  "finals": [
   {
@@ -105,7 +105,7 @@
        "homeAway": "home",
        "team": {
         "id": "284",
-        "displayName": "Stonehill Stonehill",
+        "displayName": "Stonehill Skyhawks",
         "abbreviation": "STONEHILL"
        },
        "score": "2"
@@ -585,7 +585,7 @@
        "homeAway": "home",
        "team": {
         "id": "2785",
-        "displayName": "Union Dutchmen",
+        "displayName": "Union Garnet Chargers",
         "abbreviation": "UNNY"
        },
        "score": "4"
@@ -785,7 +785,7 @@
        "homeAway": "home",
        "team": {
         "id": "284",
-        "displayName": "Stonehill Stonehill",
+        "displayName": "Stonehill Skyhawks",
         "abbreviation": "STONEHILL"
        },
        "score": "4"
@@ -834,7 +834,7 @@
        "homeAway": "away",
        "team": {
         "id": "110133",
-        "displayName": "Long Island University Long Island University",
+        "displayName": "Long Island Sharks",
         "abbreviation": "LIU"
        },
        "score": "5"
@@ -1065,7 +1065,7 @@
        "homeAway": "home",
        "team": {
         "id": "298",
-        "displayName": "Alaska Bulldogs",
+        "displayName": "UAF Nanooks",
         "abbreviation": "AKFB"
        },
        "score": "7"
@@ -1665,7 +1665,7 @@
        "homeAway": "home",
        "team": {
         "id": "2785",
-        "displayName": "Union Dutchmen",
+        "displayName": "Union Garnet Chargers",
         "abbreviation": "UNNY"
        },
        "score": "5"
@@ -1914,7 +1914,7 @@
        "homeAway": "away",
        "team": {
         "id": "110133",
-        "displayName": "Long Island University Long Island University",
+        "displayName": "Long Island Sharks",
         "abbreviation": "LIU"
        },
        "score": "6"
@@ -2145,7 +2145,7 @@
        "homeAway": "home",
        "team": {
         "id": "298",
-        "displayName": "Alaska Bulldogs",
+        "displayName": "UAF Nanooks",
         "abbreviation": "AKFB"
        },
        "score": "3"
@@ -2825,7 +2825,7 @@
        "homeAway": "home",
        "team": {
         "id": "2785",
-        "displayName": "Union Dutchmen",
+        "displayName": "Union Garnet Chargers",
         "abbreviation": "UNNY"
        },
        "score": "0"
@@ -3065,7 +3065,7 @@
        "homeAway": "home",
        "team": {
         "id": "284",
-        "displayName": "Stonehill Stonehill",
+        "displayName": "Stonehill Skyhawks",
         "abbreviation": "STONEHILL"
        },
        "score": "1"
